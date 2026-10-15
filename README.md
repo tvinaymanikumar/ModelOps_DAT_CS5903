@@ -1,2 +1,2 @@
-# DAT---CS5903-
+# Distributed AI Training - CS5903
 Project - ModelOps
