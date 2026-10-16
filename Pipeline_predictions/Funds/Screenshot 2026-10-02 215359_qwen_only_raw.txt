@@ -1,0 +1,15 @@
+```json
+{
+  "market": "Boston",
+  "product": "Old Gold Lights",
+  "sampling_dates": "October 3 through October 5",
+  "sampling_hours": "9:30 a.m. - 5:30 p.m.",
+  "quantities": "270,000",
+  "number_of_sampling_personnel": "24 per day",
+  "number_of_supervisors": "3",
+  "orientation_meeting_date": "October 3rd",
+  "orientation_meeting_time": "9:30 a.m.",
+  "orientation_meeting_place": "Boston Park Plaza Room 412\n64 Arlington Street\nBoston, Mass. 02117\n617/426-2000",
+  "fdc_representatives": "Tony Anari"
+}
+```

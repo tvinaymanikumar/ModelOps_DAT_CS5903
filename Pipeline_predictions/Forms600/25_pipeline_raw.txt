@@ -1,0 +1,22 @@
+```json
+{
+  "student_first_name": "Lakshmi",
+  "student_surname": "Narayanan",
+  "father_first_name": "Ashok",
+  "father_surname": "Narayanan",
+  "dob_date": "27",
+  "dob_month": "November",
+  "dob_year": "2007",
+  "gender": "Female",
+  "nationality": "Indian",
+  "religion": "Jain",
+  "caste_category": "ST",
+  "father_occupation": "Engineer",
+  "course_applied_for": "Arts",
+  "medium": "Bengali",
+  "city": "Madurai",
+  "po_ps": "Madurai",
+  "state": "Tamil Nadu",
+  "phone_number": "+91-9984567830"
+}
+```

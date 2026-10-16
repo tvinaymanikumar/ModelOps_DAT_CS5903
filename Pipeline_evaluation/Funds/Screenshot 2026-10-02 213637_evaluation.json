@@ -1,0 +1,79 @@
+{
+  "file": "Screenshot 2026-10-02 213637.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "FAX NO.": "(614) 466-5087",
+    "TO": "George Baroody",
+    "FAX NUMBER": "(336) 335-7392",
+    "PHONE NUMBER": "(336) 335-7363",
+    "DATE": "12/10/98",
+    "NUMBER OF PAGES INCLUDING COVER SHEET": "3",
+    "SENDER/PHONE NUMBER": "June Flynn for Eric Brown/(614) 466-8980"
+  },
+  "predictions_flattened": {
+    "to": "George Baroody",
+    "fax_number": "(336) 335-7392",
+    "phone_number": "(336) 335-7363",
+    "date": "12/10/98",
+    "number_of_pages_including_cover_sheet": "3",
+    "sender_phone_number": "(614) 466-8980"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 7,
+      "total_prediction_fields": 6,
+      "matched_key_count": 6,
+      "correct_fields": 5,
+      "field_level_extraction_accuracy_pct": 71.43,
+      "matched_field_value_exact_match_pct": 83.33,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 5,
+      "false_positive": 1,
+      "false_negative": 2,
+      "precision_pct": 83.33,
+      "recall_pct": 71.43,
+      "f1_pct": 76.92,
+      "anls_pct": 71.43,
+      "anls_fields_scored": 7,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 6
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "SENDER/PHONE NUMBER",
+        "predicted_key": "sender_phone_number",
+        "ground_truth_value": "June Flynn for Eric Brown/(614) 466-8980",
+        "predicted_value": "(614) 466-8980",
+        "normalized_ground_truth_value": "juneflynnforericbrown/(614)466-8980",
+        "normalized_predicted_value": "(614)466-8980",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 6
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "FAX NO.",
+      "ground_truth_value": "(614) 466-5087"
+    }
+  ],
+  "extra_in_predictions": []
+}

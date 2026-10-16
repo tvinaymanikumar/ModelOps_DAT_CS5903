@@ -1,0 +1,84 @@
+{
+  "file": "Screenshot 2026-10-02 215141.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "TO": "J. R. Mueller",
+    "DATE": "2/28/84",
+    "FROM": "Mary Anne Kayiatos",
+    "Please make the necessary Field Trip arrangements for": "Ted van de Kamp",
+    "Purpose of trip": "To evaluate Satin's overall performance and results of Special Cities.",
+    "Division(s) to be contacted": "Boston",
+    "Dates of contact": "Tuesday 3/13 and Wednesday, 3/14",
+    "Method of travel": "Air X",
+    "Arrival date and time (include airline and flight no.)": "Monday, 3/12 Evening Shuttle"
+  },
+  "predictions_flattened": {
+    "to": "J. R. Mueller",
+    "date": "2/28/84",
+    "from": "Mary Anne Kayiatos",
+    "purpose_of_trip": "To evaluate Satin's overall performance and results of Special Cities.",
+    "division_to_be_contacted": "Boston",
+    "dates_of_contact": "Tuesday 3/13 and Wednesday, 3/14",
+    "method_of_travel": "Air X",
+    "arrival_date_and_time": "Monday, 3/12"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 9,
+      "total_prediction_fields": 8,
+      "matched_key_count": 7,
+      "correct_fields": 7,
+      "field_level_extraction_accuracy_pct": 77.78,
+      "matched_field_value_exact_match_pct": 100.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 7,
+      "false_positive": 1,
+      "false_negative": 2,
+      "precision_pct": 87.5,
+      "recall_pct": 77.78,
+      "f1_pct": 82.35,
+      "anls_pct": 77.78,
+      "anls_fields_scored": 9,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 6,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [],
+    "key_match_methods": {
+      "normalized_exact": 6,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Please make the necessary Field Trip arrangements for",
+      "ground_truth_value": "Ted van de Kamp"
+    },
+    {
+      "key": "Arrival date and time (include airline and flight no.)",
+      "ground_truth_value": "Monday, 3/12 Evening Shuttle"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "arrival_date_and_time",
+      "predicted_value": "Monday, 3/12"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+NEFT SI Request Form
+
+Branch: HDFC Bank Andrea
+Date: 28/05/2025
+Branch
+Beneficiary Details
+Beneficiary Name
+Rahul Vasma
+Beneficiary Number
+Account
+19389265008
+Beneficiary Account Number
+Account
+19389265008
+Beneficiary Bank
+HDFC Bank
+Beneficiary Account Type
+Current
+Beneficiary Branch Name & Address
+ICICI 0009321
+IFSC Code
+Remitter Details
+Remitter (Applicant) Name
+Snaboni Chatterjee
+Remitter Account Number
+8069889928
+Remitter Email ID
+snaboni.chottenjee@gmail.com
+Remitter Mobile number
+9876593212
+Standing Instruction Details
+Amount (in rupees): 88334
+Amount (in words): 88339 Rupees Only
+Execution date - (DD/MM/YYYY format): 30/05/2025
+Last date - (DD/MM/YYYY) 20/06/2025
+Frequency: Weekly ☐ Bi-Monthly ☐ Monthly ☑ Quarterly ☐ Half-yearly ☐ Yearly ☐ One time

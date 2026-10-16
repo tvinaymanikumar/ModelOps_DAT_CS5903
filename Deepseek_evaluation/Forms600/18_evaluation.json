@@ -1,0 +1,113 @@
+{
+  "file": "18.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Name (in Block Letter)": "SEEMA CHOUDHARY",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Father's Name/ Mother's Name": "Manoj Choudhary",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Department": "English",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Current Designation & Grade": "Associate Professor, Academic",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Date of Last Promotion": "05-10-2021",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Which position and grade pay are YOU an applicant under CAS": "Associate Professor",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Date of eligibility for promotion": "08-07-2024",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Date and Place of Birth": "05-10-1990, Srinagar",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Sex": "Female",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Marital status": "Married",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Nationality": "Indian",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Indicate whether belongs to SC/ST/OBC category": "General",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Address for correspondence (with Pin code)": "House No. 28",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.14..(a)Permanent Address (with Pin code)": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.14..(b) Contact No": "+91 8863041647",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.14..(c) Email": "seema@gmail.com"
+  },
+  "predictions_flattened": {
+    "Name (in Block Letter)": "SEMA CHOUDHARY",
+    "Father's Name/Mother's Name": "Manoj Choudhary",
+    "Department": "English",
+    "Current Designation& Grade Pay": "Associate Professor, Academic",
+    "Date of Last Promotion": "05-10-2021",
+    "Which position and grade pay are you an applicant under CAS?": "Associate Professor",
+    "Date of eligibility for promotion": "08-07-2024",
+    "Date and Place of Birth": "05-10-1990, Srinagar",
+    "Sex": "female",
+    "Marital status": "Married",
+    "Nationality": "Indian",
+    "Indicate whether belongs to SC/ST/OBC category": "General",
+    "Address for correspondence (with Pin code)": "House No. 28",
+    "Permanent Address (with Pin code)": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700035",
+    "Contact No": "91 8869041647",
+    "Email": "seema@gmail.com"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 16,
+      "total_prediction_fields": 16,
+      "matched_key_count": 16,
+      "correct_fields": 13,
+      "field_level_extraction_accuracy_pct": 81.25,
+      "matched_field_value_exact_match_pct": 81.25,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 13,
+      "false_positive": 3,
+      "false_negative": 3,
+      "precision_pct": 81.25,
+      "recall_pct": 81.25,
+      "f1_pct": 81.25,
+      "anls_pct": 98.43,
+      "anls_fields_scored": 16,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "leaf_normalized_exact": 12,
+        "fuzzy_lexical_leaf_fallback": 4
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Name (in Block Letter)",
+        "predicted_key": "Name (in Block Letter)",
+        "ground_truth_value": "SEEMA CHOUDHARY",
+        "predicted_value": "SEMA CHOUDHARY",
+        "normalized_ground_truth_value": "seemachoudhary",
+        "normalized_predicted_value": "semachoudhary",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.14..(a)Permanent Address (with Pin code)",
+        "predicted_key": "Permanent Address (with Pin code)",
+        "ground_truth_value": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+        "predicted_value": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700035",
+        "normalized_ground_truth_value": "houseno.28,deshapriyaparkeast,nearrashbehariavenue,kolkata,westbengal-700029",
+        "normalized_predicted_value": "houseno.28,deshapriyaparkeast,nearrashbehariavenue,kolkata,westbengal-700035",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.14..(b) Contact No",
+        "predicted_key": "Contact No",
+        "ground_truth_value": "+91 8863041647",
+        "predicted_value": "91 8869041647",
+        "normalized_ground_truth_value": "+918863041647",
+        "normalized_predicted_value": "918869041647",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "leaf_normalized_exact": 12,
+      "fuzzy_lexical_leaf_fallback": 4
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": []
+}

@@ -1,0 +1,20 @@
+2 Application for Admission www.jammuuniversity.in
+
+PERSONAL INFORMATION
+1. Name of the Applicant
+(in capital letters) NILADRI SINHA
+2. (a) Father's Name
+(in capital letters) AMIT SINHA
+(b) Designation/Occupation Clerk
+(c) Annual Income of the Father/Guardian 2,00,000
+3. Date of Birth Day [27] Month [01] Year 2001
+4. (a) Address for Correspondence Flat No.12, Sukniti Residency,
+Behala Chowrasta, Koolkata, West Bengal-7000
+(b) Permanent Address Flat No.12, Sukniti Residency, Behala
+Chowrasta, Kolkata, West Bengal-700034
+(c) Contact Tel. No. (R) 019176543221 (M) 08765432210
+5. (v) Tick whichever is applicable: Sex: Male ☑ Female ☐
+6. University from which the Bachelor's Degree completed Jadavpur University
+7. Year of Passing 2017
+8. Nationality Indian
+9. State of Domicile West Bengal

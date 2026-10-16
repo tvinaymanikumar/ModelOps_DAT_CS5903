@@ -1,0 +1,10 @@
+```json
+{
+  "project_code": "BD-FF",
+  "date": "1/4/90",
+  "project_name": "BULL DURHAM Full Flavor King Size Cigarettes",
+  "project_leader": "J. F. Anders/J. E. Mann",
+  "work_requested_by": "Marketing",
+  "project_objective": "Develop 14-mg \"tar\" delivery king size cigarette for generic pricing directed toward young male smokers. Cigarette dimensions - 85 mm x 24.9 mm circumference - 20 mm filter - 24 mm tipping. Offshore tobacco blend with unique flavor formulation. Cork tipping."
+}
+```

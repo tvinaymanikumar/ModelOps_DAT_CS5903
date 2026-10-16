@@ -1,0 +1,200 @@
+{
+  "file": "1.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Personal Information.Name": "Anirban Ghosh",
+    "Personal Information.Address": "Flat 5C, Shantiniketan Residency, 45 Gariahat Road, Ballygange, Kolkata, West Bengal",
+    "Personal Information.ZIP Code": "700019",
+    "Personal Information.Date of Birth": "10-31-1987",
+    "Personal Information.Phone No": "+91-9830011223",
+    "Personal Information.Email": "anirban.ghosh@gmail.com",
+    "Position Applied.Position": "Marketing Manager",
+    "Position Applied.Available for Work": "Within 1 Month",
+    "Educational Background[0].Level of Education": "Bachelor's",
+    "Educational Background[0].Major": "English",
+    "Educational Background[0].Graduate Year": "2021",
+    "Educational Background[1].Level of Education": "",
+    "Educational Background[1].Major": "",
+    "Educational Background[1].Graduate Year": "",
+    "Educational Background[2].Level of Education": "",
+    "Educational Background[2].Major": "",
+    "Educational Background[2].Graduate Year": "",
+    "Work Experience[0].Company Name": "HDFC Bank",
+    "Work Experience[0].Position": "Marketing Manager",
+    "Work Experience[0].Period": "2020-2022",
+    "Work Experience[1].Company Name": "",
+    "Work Experience[1].Position": "",
+    "Work Experience[1].Period": "",
+    "Work Experience[2].Company Name": "",
+    "Work Experience[2].Position": "",
+    "Work Experience[2].Period": "",
+    "Certifications & Additional Training[0].Certification Title": "Digital Marketing",
+    "Certifications & Additional Training[0].Organization": "IIM Bangalore",
+    "Certifications & Additional Training[0].Completion Date": "2023",
+    "Certifications & Additional Training[1].Certification Title": "",
+    "Certifications & Additional Training[1].Organization": "",
+    "Certifications & Additional Training[1].Completion Date": "",
+    "Certifications & Additional Training[2].Certification Title": "",
+    "Certifications & Additional Training[2].Organization": "",
+    "Certifications & Additional Training[2].Completion Date": ""
+  },
+  "predictions_flattened": {
+    "name": "Anirban Ghosh",
+    "address": "Flat 5C, Shantiniketan Residency, 45 Gariahat Road, Ballygunge, Kolkata, West Bengal ZIP Code: 700019",
+    "date_of_birth": "10-31-1987",
+    "phone_no": "+91-9830011223",
+    "email": "anirban.ghosh@gmail.com",
+    "position_applied": "Marketing Manager",
+    "available_for_work": "Within 1 Month",
+    "level_of_education": "Bachelor's",
+    "major": "English",
+    "graduate_year": "2021",
+    "company_name": "HDFC Bank",
+    "position": "Marketing Manager",
+    "period": "2020-2022",
+    "certification_title": "Digital Marketing",
+    "organization": "IIM Bangalore",
+    "completion_date": "2023"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 35,
+      "total_prediction_fields": 16,
+      "matched_key_count": 15,
+      "correct_fields": 14,
+      "field_level_extraction_accuracy_pct": 40.0,
+      "matched_field_value_exact_match_pct": 93.33,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 14,
+      "false_positive": 2,
+      "false_negative": 3,
+      "precision_pct": 87.5,
+      "recall_pct": 82.35,
+      "f1_pct": 84.85,
+      "anls_pct": 87.23,
+      "anls_fields_scored": 17,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "leaf_normalized_exact": 6,
+        "fuzzy_lexical_leaf_fallback": 9
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Personal Information.Address",
+        "predicted_key": "address",
+        "ground_truth_value": "Flat 5C, Shantiniketan Residency, 45 Gariahat Road, Ballygange, Kolkata, West Bengal",
+        "predicted_value": "Flat 5C, Shantiniketan Residency, 45 Gariahat Road, Ballygunge, Kolkata, West Bengal ZIP Code: 700019",
+        "normalized_ground_truth_value": "flat5c,shantiniketanresidency,45gariahatroad,ballygange,kolkata,westbengal",
+        "normalized_predicted_value": "flat5c,shantiniketanresidency,45gariahatroad,ballygunge,kolkata,westbengalzipcode:700019",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "leaf_normalized_exact": 6,
+      "fuzzy_lexical_leaf_fallback": 9
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Personal Information.ZIP Code",
+      "ground_truth_value": "700019"
+    },
+    {
+      "key": "Educational Background[1].Level of Education",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Educational Background[1].Major",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Educational Background[1].Graduate Year",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Educational Background[2].Level of Education",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Educational Background[2].Major",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Educational Background[2].Graduate Year",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Work Experience[0].Position",
+      "ground_truth_value": "Marketing Manager"
+    },
+    {
+      "key": "Work Experience[1].Company Name",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Work Experience[1].Position",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Work Experience[1].Period",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Work Experience[2].Company Name",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Work Experience[2].Position",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Work Experience[2].Period",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Certifications & Additional Training[1].Certification Title",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Certifications & Additional Training[1].Organization",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Certifications & Additional Training[1].Completion Date",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Certifications & Additional Training[2].Certification Title",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Certifications & Additional Training[2].Organization",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Certifications & Additional Training[2].Completion Date",
+      "ground_truth_value": ""
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "position_applied",
+      "predicted_value": "Marketing Manager"
+    }
+  ]
+}

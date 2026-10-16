@@ -1,0 +1,43 @@
+Patient Visit Note
+
+Date: 10/03/2026
+
+Patient! Miss. I.1, 12 years, Female
+
+Accompanied by! Mother
+
+Presenting Complaints: Patient and mother report.
+
+Vomiting and decreased urinary output 2/52
+
+Generalized body swelling and fever 1/52
+
+Lower abdominal pain 2/7
+
+History Of Presenting Complaint:
+
+Patient reports vomiting started 2 weeks ago, it was non-bloody, non-tissue and contained recently ingested food.
+
+Dedicated urination began 2 weeks ago. Straw coloured, average volume is unassociated.
+
+Body swelling followed 1 week after decreased urination, initially in ankle before becoming generalized, worse in early hours of the day.
+
+Fever began simultaneously with body swelling, gradual onset, low grade, no associated chills and rigor.
+
+Abdominal pain began 5 days following fever onset, initially localized to the lower abdominal region but has progressed to involve the left and right flank.
+
+Past Medical and Surgical History!
+
+Not a known DM/TH Patient: Not an epileptic, SCA, asthmatic patient
+
+No history of Surgery or Previous blood transfusions.
+
+Immunization History!
+
+Not adequately immunized for age according to the NPI schedule.
+
+Received a few vaccines which mother could not recall.
+
+Developmental History!
+
+Milestone achieved on time. Good school performance (2552, no concerns). Menarche not yet started. No behavioural issues.

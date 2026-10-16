@@ -1,0 +1,109 @@
+{
+  "file": "Screenshot 2026-10-02 213723.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "From": "Lynnette Stevens",
+    "To": "Kelli Scruggs",
+    "CC": "Vincent Losito, Don Kisling, George Baroody, S. Tesh, C. Hill",
+    "Brand(s) Applicable": "Newport Parent, Lights, & 120's",
+    "Media Type": "Direct Mail",
+    "Media Name": "Competitive 21 - 34 years",
+    "* Issue Frequency / Year": "",
+    "* Space / Color": "",
+    "Coupon Issue Date": "4/14/00",
+    "Coupon Expiration Date": "9/30/00",
+    "Circulation (#)": "APPROX. 600,000",
+    "Geographical Area(s)": "Tiers II & IV AR,AZ,AK,CA,CO,FL,ID,IA,CT,ME,MASS,MN,MT,NE,NV,NM,NY,ND,OK,OR,RI,SD,UT,WA,D.C.,WY",
+    "Coupon Value": "$1.50 OFF",
+    "Pack and / or Carton?": "PACK",
+    "* Advertising Creative Title": "",
+    "Date Initiated": "21-Jan-00"
+  },
+  "predictions_flattened": {
+    "Brand(s) Applicable": "Newport Parent, Lights, & 120's",
+    "Media Type": "Direct Mail",
+    "Media Name": "Competitive 21 - 34 years",
+    "Issue Frequency / Year": "",
+    "Space / Color": "",
+    "Coupon Issue Date": "4/14/00",
+    "Coupon Expiration Date": "9/30/00",
+    "Circulation (#)": "APPROX. 600,000",
+    "Geographical Area(s)": "Tiers II & IV AR, AZ, AK, CA, CO, FL, ID, IA, CT, ME, MASS, MN, MT, NE, NV, NM, NY, ND, OK, OR, RI, SD, UT, WA, DC, WY",
+    "Coupon Value": "$1.50 OFF",
+    "Pack and / or Carton?": "PACK",
+    "Advertising Creative Title": "",
+    "Signature of Initiator": "Lynnette Kaye Stevens",
+    "Date Initiated": "21-Jan-00"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 16,
+      "total_prediction_fields": 14,
+      "matched_key_count": 13,
+      "correct_fields": 12,
+      "field_level_extraction_accuracy_pct": 75.0,
+      "matched_field_value_exact_match_pct": 92.31,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 9,
+      "false_positive": 2,
+      "false_negative": 4,
+      "precision_pct": 81.82,
+      "recall_pct": 69.23,
+      "f1_pct": 75.0,
+      "anls_pct": 76.75,
+      "anls_fields_scored": 13,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 13
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Geographical Area(s)",
+        "predicted_key": "Geographical Area(s)",
+        "ground_truth_value": "Tiers II & IV AR,AZ,AK,CA,CO,FL,ID,IA,CT,ME,MASS,MN,MT,NE,NV,NM,NY,ND,OK,OR,RI,SD,UT,WA,D.C.,WY",
+        "predicted_value": "Tiers II & IV AR, AZ, AK, CA, CO, FL, ID, IA, CT, ME, MASS, MN, MT, NE, NV, NM, NY, ND, OK, OR, RI, SD, UT, WA, DC, WY",
+        "normalized_ground_truth_value": "tiersii&ivar,az,ak,ca,co,fl,id,ia,ct,me,mass,mn,mt,ne,nv,nm,ny,nd,ok,or,ri,sd,ut,wa,d.c.,wy",
+        "normalized_predicted_value": "tiersii&ivar,az,ak,ca,co,fl,id,ia,ct,me,mass,mn,mt,ne,nv,nm,ny,nd,ok,or,ri,sd,ut,wa,dc,wy",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 13
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "From",
+      "ground_truth_value": "Lynnette Stevens"
+    },
+    {
+      "key": "To",
+      "ground_truth_value": "Kelli Scruggs"
+    },
+    {
+      "key": "CC",
+      "ground_truth_value": "Vincent Losito, Don Kisling, George Baroody, S. Tesh, C. Hill"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "Signature of Initiator",
+      "predicted_value": "Lynnette Kaye Stevens"
+    }
+  ]
+}

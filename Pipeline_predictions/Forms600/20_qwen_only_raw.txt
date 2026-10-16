@@ -1,0 +1,33 @@
+```json
+{
+  "customer_id": "CUST844691",
+  "name_first": "Saptarishi",
+  "name_middle": "Praasad",
+  "name_last": "Roy",
+  "type_of_account_held": "Checking",
+  "social_security_no_tax_identification_no_permanent_account_number_pan_indian_citizen": "ABCD E6131F",
+  "employment_details_employed": "",
+  "employment_details_self_employed": "",
+  "employment_details_retired": "",
+  "employment_details_unemployed": "",
+  "occupation_student": "Student",
+  "name_of_employer_in_case_employed_or_name_nature_of_business_in_case_self_employed": "Saptarishi Roy",
+  "home_address_address_line_1": "1",
+  "home_address_address_line_2": "",
+  "home_address_address_line_3": "",
+  "home_address_city": "Kolkata",
+  "home_address_state": "West Bengal",
+  "home_address_country": "India",
+  "home_address_zip_code": "700047",
+  "work_address_address_line_1": "",
+  "work_address_address_line_2": "",
+  "work_address_address_line_3": "",
+  "work_address_city": "",
+  "work_address_state": "",
+  "work_address_country": "",
+  "work_address_zip_code": "",
+  "email": "saptarishi_rooy@gmail.com",
+  "contact_mobile_number_home": "+91-9800456183",
+  "contact_mobile_number_work": "+91-983678424"
+}
+```

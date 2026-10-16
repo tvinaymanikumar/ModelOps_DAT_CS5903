@@ -1,0 +1,28 @@
+```json
+{
+  "branch": "HDFC Bank Andheri",
+  "date": "28/05/2025",
+  "beneficiary_details": {
+    "beneficiary_name": "Rahul Verma",
+    "beneficiary_account_number": "19389265008",
+    "beneficiary_account_number_2": "19389265008",
+    "beneficiary_bank": "HDFC Bank",
+    "beneficiary_account_type": "Current",
+    "beneficiary_branch_name_address": "Andheri, Delhi",
+    "ifsc_code": "ICIC0009321"
+  },
+  "remitter_details": {
+    "remitter_applicant_name": "Snaboni Chattendee",
+    "remitter_account_number": "80698894928",
+    "remitter_email_id": "snaboni.chattenjee@gmail.com",
+    "remitter_mobile_number": "9876593212"
+  },
+  "standing_instruction_details": {
+    "amount_in_rupees": "88339",
+    "amount_in_words": "Eighty Eight Thousand Three Hundred Thirty Nine Rupees Only",
+    "execution_date": "30/05/2025",
+    "last_date": "30/06/2025",
+    "frequency": "Quarterly"
+  }
+}
+```

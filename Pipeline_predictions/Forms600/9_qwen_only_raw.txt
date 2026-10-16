@@ -1,0 +1,22 @@
+```json
+{
+  "branch": "ICICI BANK Andhemi Branch",
+  "date": "21/05/2025",
+  "beneficiary_details_beneficiary_name": "MEERA IYER",
+  "beneficiary_details_beneficiary_account_number": "56439946578",
+  "beneficiary_details_beneficiary_account_number_2": "56439946578",
+  "beneficiary_details_beneficiary_bank": "ICICI Bank",
+  "beneficiary_details_beneficiary_account_type": "NRE",
+  "beneficiary_details_beneficiary_branch_name_address": "Andhemi, Hyderabad",
+  "beneficiary_details_ifsc_code": "PUNB0123456",
+  "remitter_details_remitter_applicant_name": "TIYASHA SAHA",
+  "remitter_details_remitter_account_number": "60439649237",
+  "remitter_details_remitter_email_id": "tiyasha.saha@gmail.com",
+  "remitter_details_remitter_mobile_number": "1019745678912",
+  "standing_instruction_details_amount_in_rupees": "27949",
+  "standing_instruction_details_amount_in_words": "TWENTY SEVEN THOUSAND NINE HUNDRED AND FORTY NINE ONLY",
+  "standing_instruction_details_execution_date": "28/05/2025",
+  "standing_instruction_details_last_date": "30/03/2026",
+  "standing_instruction_details_frequency": "One time"
+}
+```

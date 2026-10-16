@@ -1,0 +1,87 @@
+{
+  "file": "2.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "company": "BOOK TA .K (TAMAN DAYA) SDN BHD",
+    "date": "25/12/2018",
+    "address": "NO.53 55,57 & 59, JALAN SAGU 18, TAMAN DAYA, 81100 JOHOR BAHRU, JOHOR.",
+    "total": "9.00"
+  },
+  "predictions_flattened": {
+    "company": "tan woon yann",
+    "date": "25/12/2018 8:13:39 PM",
+    "address": "NO. 55, 57 & 59, JALAN SAGU 18, TAMAN DAYA, 81100 JOHOR BAHRU, JOHOR.",
+    "total": "9.00"
+  },
+  "evaluation": {
+    "mode": "schema",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": false,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "not used in schema mode",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 4,
+      "total_prediction_fields": 4,
+      "matched_key_count": 4,
+      "correct_fields": 1,
+      "field_level_extraction_accuracy_pct": 25.0,
+      "matched_field_value_exact_match_pct": 25.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 1,
+      "false_positive": 3,
+      "false_negative": 3,
+      "precision_pct": 25.0,
+      "recall_pct": 25.0,
+      "f1_pct": 25.0,
+      "anls_pct": 62.3,
+      "anls_fields_scored": 4,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 4
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "company",
+        "predicted_key": "company",
+        "ground_truth_value": "BOOK TA .K (TAMAN DAYA) SDN BHD",
+        "predicted_value": "tan woon yann",
+        "normalized_ground_truth_value": "bookta.k(tamandaya)sdnbhd",
+        "normalized_predicted_value": "tanwoonyann",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "date",
+        "predicted_key": "date",
+        "ground_truth_value": "25/12/2018",
+        "predicted_value": "25/12/2018 8:13:39 PM",
+        "normalized_ground_truth_value": "25/12/2018",
+        "normalized_predicted_value": "25/12/20188:13:39pm",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "address",
+        "predicted_key": "address",
+        "ground_truth_value": "NO.53 55,57 & 59, JALAN SAGU 18, TAMAN DAYA, 81100 JOHOR BAHRU, JOHOR.",
+        "predicted_value": "NO. 55, 57 & 59, JALAN SAGU 18, TAMAN DAYA, 81100 JOHOR BAHRU, JOHOR.",
+        "normalized_ground_truth_value": "no.5355,57&59,jalansagu18,tamandaya,81100johorbahru,johor.",
+        "normalized_predicted_value": "no.55,57&59,jalansagu18,tamandaya,81100johorbahru,johor.",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 4
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": []
+}

@@ -1,0 +1,100 @@
+{
+  "file": "Screenshot 2026-10-02 215642.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "DATE": "11/4/93",
+    "TIME": "3:28 CST",
+    "PLEASE TRANSMIT THIS DOCUMENT TO.NAME": "Mr. A. J. Giacoio",
+    "PLEASE TRANSMIT THIS DOCUMENT TO.OFFICE": "New York - Sales Planning",
+    "PLEASE TRANSMIT THIS DOCUMENT TO.FAX PHONE NUMBER": "212 545-3299",
+    "THIS DOCUMENT IS FROM.NAME": "R. E. Welsh",
+    "THIS DOCUMENT IS FROM.OFFICE": "Oklahoma City, OK",
+    "THIS DOCUMENT IS FROM.FAX PHONE NUMBER": "(405) 840-0639"
+  },
+  "predictions_flattened": {
+    "date": "11/4/93",
+    "time": "3:28 CST",
+    "pages": "1",
+    "to_name": "Mr. A. J. Giacoio",
+    "to_office": "New York - Sales Planning",
+    "to_fax_phone_number": "212 545-3299",
+    "from_name": "R. E. Walsh",
+    "from_office": "Oklahoma City, OK",
+    "from_fax_phone_number": "(405) 840-0639"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 8,
+      "total_prediction_fields": 9,
+      "matched_key_count": 5,
+      "correct_fields": 5,
+      "field_level_extraction_accuracy_pct": 62.5,
+      "matched_field_value_exact_match_pct": 100.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 5,
+      "false_positive": 4,
+      "false_negative": 3,
+      "precision_pct": 55.56,
+      "recall_pct": 62.5,
+      "f1_pct": 58.82,
+      "anls_pct": 62.5,
+      "anls_fields_scored": 8,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 2,
+        "fuzzy_lexical_leaf_fallback": 3
+      }
+    },
+    "incorrect_values": [],
+    "key_match_methods": {
+      "normalized_exact": 2,
+      "fuzzy_lexical_leaf_fallback": 3
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "PLEASE TRANSMIT THIS DOCUMENT TO.NAME",
+      "ground_truth_value": "Mr. A. J. Giacoio"
+    },
+    {
+      "key": "THIS DOCUMENT IS FROM.NAME",
+      "ground_truth_value": "R. E. Welsh"
+    },
+    {
+      "key": "THIS DOCUMENT IS FROM.OFFICE",
+      "ground_truth_value": "Oklahoma City, OK"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "pages",
+      "predicted_value": "1"
+    },
+    {
+      "key": "to_name",
+      "predicted_value": "Mr. A. J. Giacoio"
+    },
+    {
+      "key": "from_name",
+      "predicted_value": "R. E. Walsh"
+    },
+    {
+      "key": "from_office",
+      "predicted_value": "Oklahoma City, OK"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Nursing Conservation Chart
+Patient name: E. J
+Age / sex: 41 / F
+Hospital number: 2023/BF/057
+Ward: Female medical ward
+Diagnosis: Acute Kidney Injury (AKI)
+Date / Time / Temp [°C] / Pulse (bpm) / Resp. rate (bpm)
+29/12/23 4:00 pm 39.2°C 112 26
+29/12/23 8:00 pm 38.7°C 109 24
+30/12/23 12:00 am 35.2°C 108 23
+30/12/23 8:00 am 37.9°C 100 20
+30/12/23 12:00 pm 37.5°C 97 20

@@ -1,0 +1,179 @@
+{
+  "file": "12.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Name of the Student": "RITIKA BASU",
+    "Father's Name": "Mr. Ashok Basu",
+    "Course of Study": "MBA",
+    "Category.GE": "No",
+    "Category.SC": "Yes",
+    "Category.ST": "No",
+    "Category.OBC": "No",
+    "Category.PH": "No",
+    "Category.DP": "No",
+    "Date of Joining": "17/09/2023",
+    "Hallticket/ Enrol. No": "HT529380",
+    "Date of leaving": "03/04/2025",
+    "Reason(s) for leaving.Joining another University": "No",
+    "Reason(s) for leaving.Course": "",
+    "Reason(s) for leaving.Taking up employment": "No",
+    "Reason(s) for leaving.Financial Problems": "No",
+    "Reason(s) for leaving.Non-availability of Hostel": "No",
+    "Reason(s) for leaving.Personal Problems": "Yes",
+    "Reason(s) for leaving.Any other reason, please specify": "",
+    "Particulars of the fees paid.Tuition and other fees paid on Dt": "06/11/2024",
+    "Particulars of the fees paid.Rs": "5216",
+    "Bank A/c details of the Student (IN BLOCK LETTERS).Bank Name": "STATE BANK OF INDIA",
+    "Bank A/c details of the Student (IN BLOCK LETTERS).Bank Account No": "33619908862",
+    "Bank A/c details of the Student (IN BLOCK LETTERS).Branch Name and IFSC Code": "HITECH CITY, SBIN6762364",
+    "Date": "24/05/2025",
+    "Signature of the Student": "Ritika Basu",
+    "Dean of the School/ Head of the Department/ Centre": "Dr. Iyer"
+  },
+  "predictions_flattened": {
+    "name_of_the_student": "Ritika Basu",
+    "father_s_name": "Mr. Ashok Basu",
+    "course_of_study": "MBA",
+    "category": "SC",
+    "date_of_joining": "17/09/2023",
+    "hallticket_enrol_no": "HT 529380",
+    "date_of_leaving": "03/04/2025",
+    "reason_for_leaving": "Personal Problems",
+    "particulars_of_fees_paid": "Tuition and other fees paid on Dr. 06/11/2024 Rs. 5216",
+    "bank_a_c_details_of_the_student.bank_name": "STATE BANK OF INDIA",
+    "bank_a_c_details_of_the_student.bank_account_no": "33619908862",
+    "bank_a_c_details_of_the_student.branch_name_and_ifsc_code": "HITECH CITY,SBIN6762361",
+    "date": "24/05/2025",
+    "signature_of_the_student": "Ritika Basu",
+    "dean_of_the_school_head_of_the_department_centre": "Dr. Iyer",
+    "date_of_decision": "24/05/2025",
+    "dealing_asst": "A.R. Acad",
+    "jr_registrar_a_e": "",
+    "controller_of_examinations": ""
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 27,
+      "total_prediction_fields": 19,
+      "matched_key_count": 17,
+      "correct_fields": 16,
+      "field_level_extraction_accuracy_pct": 59.26,
+      "matched_field_value_exact_match_pct": 94.12,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 16,
+      "false_positive": 6,
+      "false_negative": 9,
+      "precision_pct": 72.73,
+      "recall_pct": 64.0,
+      "f1_pct": 68.09,
+      "anls_pct": 67.82,
+      "anls_fields_scored": 25,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 14,
+        "leaf_normalized_exact": 3
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Bank A/c details of the Student (IN BLOCK LETTERS).Branch Name and IFSC Code",
+        "predicted_key": "bank_a_c_details_of_the_student.branch_name_and_ifsc_code",
+        "ground_truth_value": "HITECH CITY, SBIN6762364",
+        "predicted_value": "HITECH CITY,SBIN6762361",
+        "normalized_ground_truth_value": "hitechcity,sbin6762364",
+        "normalized_predicted_value": "hitechcity,sbin6762361",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 14,
+      "leaf_normalized_exact": 3
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Hallticket/ Enrol. No",
+      "ground_truth_value": "HT529380"
+    },
+    {
+      "key": "Reason(s) for leaving.Joining another University",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Reason(s) for leaving.Course",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Reason(s) for leaving.Taking up employment",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Reason(s) for leaving.Financial Problems",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Reason(s) for leaving.Non-availability of Hostel",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Reason(s) for leaving.Personal Problems",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Reason(s) for leaving.Any other reason, please specify",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Particulars of the fees paid.Tuition and other fees paid on Dt",
+      "ground_truth_value": "06/11/2024"
+    },
+    {
+      "key": "Particulars of the fees paid.Rs",
+      "ground_truth_value": "5216"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "hallticket_enrol_no",
+      "predicted_value": "HT 529380"
+    },
+    {
+      "key": "reason_for_leaving",
+      "predicted_value": "Personal Problems"
+    },
+    {
+      "key": "particulars_of_fees_paid",
+      "predicted_value": "Tuition and other fees paid on Dr. 06/11/2024 Rs. 5216"
+    },
+    {
+      "key": "date_of_decision",
+      "predicted_value": "24/05/2025"
+    },
+    {
+      "key": "dealing_asst",
+      "predicted_value": "A.R. Acad"
+    },
+    {
+      "key": "jr_registrar_a_e",
+      "predicted_value": ""
+    },
+    {
+      "key": "controller_of_examinations",
+      "predicted_value": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "file": "Screenshot 2026-10-02 215455.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "FROM": "M. BORSINI",
+    "TO": "VINCE LOSITO",
+    "CC": "T. BAYLIES, L. GIORDANO, V. LINDSLEY, J. SCHNEFF, S. RAPISARLDI, N. DISCENZA, E. LUNDBERG",
+    "HEADER": "HARLEY-DAVIDSON DTS CPNS",
+    "BRANDS(S) APPLICABLE": "HARLEY-DAVIDSON",
+    "MEDIA": "COUPON",
+    "ISSUE FREQUENCY/YEAR": "OCT - DEC",
+    "SPACE/COLOR": "",
+    "COUPON ISSUE DATE": "10/11/93",
+    "COUPON EXPIRATION DATE": "6/30/94",
+    "CIRCULATION": "2,852,100 - 47,200",
+    "GEOGRAPHICAL AREA(S)": "NATIONAL",
+    "COUPON VALUE": "$.50",
+    "PACK AND OR/CARTON": "PACK",
+    "ADVERTISING CREATIVE THEME": "",
+    "DATE INITIATED": "8/06/93"
+  },
+  "predictions_flattened": {
+    "from": "M. BORSINI",
+    "to": "VINCE LOSITO",
+    "cc": "T. BAYLIES, L. GIORDANO, V. LINDSLEY, J. SCHNEFF, S. RAPISARLDI, N. DISCENZA, E. LUNDBERG",
+    "brands_s_applicable": "HARLEY-DAVIDSON",
+    "media": "COUPON",
+    "issue_frequency_year": "OCT - DEC",
+    "space_color": "",
+    "coupon_issue_date": "10/11/93",
+    "coupon_expiration_date": "6/30/94",
+    "circulation": "2,852,100 - 47,200",
+    "geographical_area_s": "NATIONAL",
+    "coupon_value": "$.50",
+    "pack_and_or_carton": "PACK",
+    "advertising_creative_theme": "",
+    "signature_of_initiator": "",
+    "date_initiated": "8/06/93"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 16,
+      "total_prediction_fields": 16,
+      "matched_key_count": 15,
+      "correct_fields": 15,
+      "field_level_extraction_accuracy_pct": 93.75,
+      "matched_field_value_exact_match_pct": 100.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 13,
+      "false_positive": 0,
+      "false_negative": 1,
+      "precision_pct": 100.0,
+      "recall_pct": 92.86,
+      "f1_pct": 96.3,
+      "anls_pct": 92.86,
+      "anls_fields_scored": 14,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 15
+      }
+    },
+    "incorrect_values": [],
+    "key_match_methods": {
+      "normalized_exact": 15
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "HEADER",
+      "ground_truth_value": "HARLEY-DAVIDSON DTS CPNS"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "signature_of_initiator",
+      "predicted_value": ""
+    }
+  ]
+}

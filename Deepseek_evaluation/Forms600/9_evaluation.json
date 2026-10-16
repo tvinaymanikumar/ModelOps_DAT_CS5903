@@ -1,0 +1,121 @@
+{
+  "file": "9.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Branch": "ICICI BANK Andheri Branch",
+    "Date": "24/05/2025",
+    "Beneficiary Details.Beneficiary Name": "MEERA IYER",
+    "Beneficiary Details.Beneficiary Account Number": "56439946578",
+    "Beneficiary Details.Beneficiary Bank": "ICICI Bank",
+    "Beneficiary Details.Beneficiary Account Type": "NRE",
+    "Beneficiary Details.Beneficiary Branch Name & Address": "Andheri, Hyderabad",
+    "Beneficiary Details.IFSC Code": "PUNB0123456",
+    "Remitter Details.Remitter (Applicant) Name": "TIYASHA SAHA",
+    "Remitter Details.Remitter Account Number": "60439649237",
+    "Remitter Details.Remitter Email ID": "tiyasha.saha@gmail.com",
+    "Remitter Details.Remitter Mobile number": "+91 9745678912",
+    "Standing Instruction Details.Amount (in rupees)": "27949",
+    "Standing Instruction Details.Amount (in words)": "TWENTY SEVEN THOUSAND NINE HOUNDRED AND FORTY NINE ONLY",
+    "Standing Instruction Details.Execution date (DD/MM/YYYY format)": "28/05/2025",
+    "Standing Instruction Details.Last date (DD/MM/YYYY)": "30/03/2026",
+    "Standing Instruction Details.Frequency.Weekly": "No",
+    "Standing Instruction Details.Frequency.Bi-Monthly": "No",
+    "Standing Instruction Details.Frequency.Monthly": "No",
+    "Standing Instruction Details.Frequency.Quarterly": "No",
+    "Standing Instruction Details.Frequency.Half-yearly": "No",
+    "Standing Instruction Details.Frequency.Yearly": "No",
+    "Standing Instruction Details.Frequency.One time": "Yes"
+  },
+  "predictions_flattened": {
+    "Branch": "ICICI BANK Andheri Branch",
+    "Date": "21/05/2025",
+    "Beneficiary Name": "MEERA IYER",
+    "Beneficiary Account Number": "56439946578",
+    "Beneficiary Bank": "ICICI Bank",
+    "Beneficiary Account Type": "NRE",
+    "Beneficiary Branch Name & Address": "Andheri, Hyderabad",
+    "IFSC Code": "PUNB0123456",
+    "Remitter (Applicant) Name": "TIYASHA SAHA",
+    "Remitter Account Number": "60439649237",
+    "Remitter Email ID": "tiyasha.saha@gmail.com",
+    "Remitter Mobile number": "919745678912",
+    "Amount (in rupees)": "27949",
+    "Amount (in words)": "TWENTY SEVEN THOUSAND NINE HUNDRED AND FORTY NINE ONLY",
+    "Execution date (DD/MM/YYYY format)": "28/05/2025",
+    "Last date (DD/MM/YYYY)": "30/03/2026",
+    "Frequency": "One time"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 23,
+      "total_prediction_fields": 17,
+      "matched_key_count": 23,
+      "correct_fields": 20,
+      "field_level_extraction_accuracy_pct": 86.96,
+      "matched_field_value_exact_match_pct": 86.96,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 20,
+      "false_positive": 3,
+      "false_negative": 3,
+      "precision_pct": 86.96,
+      "recall_pct": 86.96,
+      "f1_pct": 86.96,
+      "anls_pct": 99.14,
+      "anls_fields_scored": 23,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 9,
+        "leaf_normalized_exact": 14
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Date",
+        "predicted_key": "Date",
+        "ground_truth_value": "24/05/2025",
+        "predicted_value": "21/05/2025",
+        "normalized_ground_truth_value": "24/05/2025",
+        "normalized_predicted_value": "21/05/2025",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Remitter Details.Remitter Mobile number",
+        "predicted_key": "Remitter Mobile number",
+        "ground_truth_value": "+91 9745678912",
+        "predicted_value": "919745678912",
+        "normalized_ground_truth_value": "+919745678912",
+        "normalized_predicted_value": "919745678912",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Standing Instruction Details.Amount (in words)",
+        "predicted_key": "Amount (in words)",
+        "ground_truth_value": "TWENTY SEVEN THOUSAND NINE HOUNDRED AND FORTY NINE ONLY",
+        "predicted_value": "TWENTY SEVEN THOUSAND NINE HUNDRED AND FORTY NINE ONLY",
+        "normalized_ground_truth_value": "twentyseventhousandninehoundredandfortynineonly",
+        "normalized_predicted_value": "twentyseventhousandninehundredandfortynineonly",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 9,
+      "leaf_normalized_exact": 14
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": []
+}

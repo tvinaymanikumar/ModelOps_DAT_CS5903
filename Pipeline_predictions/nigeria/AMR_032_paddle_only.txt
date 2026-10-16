@@ -1,0 +1,15 @@
+LAB REQUEST FORM
+Hospital: With Medical Centre
+Date: 15/03/2026
+Patient Info
+Name: Afsha Mohammed
+Age: 22 years
+Sex: Female
+Hospital No: 2026/11/01
+Investigations Requested
+Parasitology
+Malaria Parasite Test (Truck $ than Film)
+Haematology
+Full Body Count (FBCI)
+Clinical Details
+3-day history of fever with dills and rigors, headache, and vomiting.

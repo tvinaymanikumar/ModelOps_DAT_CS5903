@@ -1,0 +1,174 @@
+{
+  "file": "10.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Session": "2023-2024",
+    "Name of the applicant": "ARKA DUTTA",
+    "Deptt": "Zoology",
+    "Class": "B.Sc. 2nd Year",
+    "Roll No": "879",
+    "Father's Name": "Mr. Ashok Dutta",
+    "Mother's Name": "Mrs. Devi Dutta",
+    "Total Family Income (p.a.)": "91157",
+    "Total fee deposited by the candidate Rs.": "7405",
+    "Fee Instalments.1st instalment Rs.": "4262",
+    "Fee Instalments.1st instalment Receipt No": "R21587",
+    "Fee Instalments.1st instalment Date": "23/04/2025",
+    "Fee Instalments.2nd instalment Rs.": "3143",
+    "Fee Instalments.2nd instalment Receipt No": "R21587",
+    "Fee Instalments.2nd instalment Date": "23/04/2025",
+    "Amenities already being availed.Scholarship /Stipend/Financial Assistance (if any)": "Merit Scholarship",
+    "Amenities already being availed.Fee concession (if any)": "None",
+    "CERTIFICATE (To be signed by the student).Signature of the applicant": "Arka Dutta",
+    "CERTIFICATE (To be signed by the student).Recommended Chairperson/Director": "Dr. A. Singh",
+    "CERTIFICATE (To be signed in by the Chairperson/Director of the Deptt.).Signature of the Head of the Deptt With office stamp": "Dr. A. Singh"
+  },
+  "predictions_flattened": {
+    "Name of the applicant": "ARKA DUTTA",
+    "Dept": "Zoology",
+    "Class": "B.Sc 2nd year",
+    "Roll No": "879",
+    "Father's Name": "Mr. Ashok Dutta",
+    "Mother's Name": "Mrs. Devi Dutta",
+    "Total Family Income (p.a.)": "31157",
+    "Total fee deposited by the candidate Rs.": "7405",
+    "1st instalment Rs.": "4262",
+    "Receipt No.": "R21587",
+    "Date": "23/04/2025",
+    "2nd instalment Rs.": "3143",
+    "Amenities already being availed": "Merit scholarship",
+    "Fee concession (if any)": "None",
+    "Signature of the applicant": "ARKA DUTTA",
+    "Signature of the Head of the Deptt.": "Dr. A. Singh",
+    "With office stamp": "Dr. A. Singh"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 20,
+      "total_prediction_fields": 17,
+      "matched_key_count": 12,
+      "correct_fields": 9,
+      "field_level_extraction_accuracy_pct": 45.0,
+      "matched_field_value_exact_match_pct": 75.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 8,
+      "false_positive": 8,
+      "false_negative": 11,
+      "precision_pct": 50.0,
+      "recall_pct": 42.11,
+      "f1_pct": 45.71,
+      "anls_pct": 51.14,
+      "anls_fields_scored": 19,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 7,
+        "leaf_normalized_exact": 2,
+        "fuzzy_lexical_leaf_fallback": 3
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Class",
+        "predicted_key": "Class",
+        "ground_truth_value": "B.Sc. 2nd Year",
+        "predicted_value": "B.Sc 2nd year",
+        "normalized_ground_truth_value": "b.sc.2ndyear",
+        "normalized_predicted_value": "b.sc2ndyear",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Total Family Income (p.a.)",
+        "predicted_key": "Total Family Income (p.a.)",
+        "ground_truth_value": "91157",
+        "predicted_value": "31157",
+        "normalized_ground_truth_value": "91157",
+        "normalized_predicted_value": "31157",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Fee Instalments.2nd instalment Rs.",
+        "predicted_key": "Receipt No.",
+        "ground_truth_value": "3143",
+        "predicted_value": "R21587",
+        "normalized_ground_truth_value": "3143",
+        "normalized_predicted_value": "r21587",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 7,
+      "leaf_normalized_exact": 2,
+      "fuzzy_lexical_leaf_fallback": 3
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Session",
+      "ground_truth_value": "2023-2024"
+    },
+    {
+      "key": "Fee Instalments.1st instalment Receipt No",
+      "ground_truth_value": "R21587"
+    },
+    {
+      "key": "Fee Instalments.1st instalment Date",
+      "ground_truth_value": "23/04/2025"
+    },
+    {
+      "key": "Fee Instalments.2nd instalment Receipt No",
+      "ground_truth_value": "R21587"
+    },
+    {
+      "key": "Fee Instalments.2nd instalment Date",
+      "ground_truth_value": "23/04/2025"
+    },
+    {
+      "key": "Amenities already being availed.Scholarship /Stipend/Financial Assistance (if any)",
+      "ground_truth_value": "Merit Scholarship"
+    },
+    {
+      "key": "CERTIFICATE (To be signed by the student).Recommended Chairperson/Director",
+      "ground_truth_value": "Dr. A. Singh"
+    },
+    {
+      "key": "CERTIFICATE (To be signed in by the Chairperson/Director of the Deptt.).Signature of the Head of the Deptt With office stamp",
+      "ground_truth_value": "Dr. A. Singh"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "Date",
+      "predicted_value": "23/04/2025"
+    },
+    {
+      "key": "2nd instalment Rs.",
+      "predicted_value": "3143"
+    },
+    {
+      "key": "Amenities already being availed",
+      "predicted_value": "Merit scholarship"
+    },
+    {
+      "key": "Signature of the Head of the Deptt.",
+      "predicted_value": "Dr. A. Singh"
+    },
+    {
+      "key": "With office stamp",
+      "predicted_value": "Dr. A. Singh"
+    }
+  ]
+}

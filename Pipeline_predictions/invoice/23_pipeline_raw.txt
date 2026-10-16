@@ -1,0 +1,8 @@
+```json
+{
+  "company": "ADVANCO COMPANY",
+  "date": "23/03/2018",
+  "address": "NO 1&3, Jalan Wangsa Delima 12, Wangsa Link, Wangsa Maju, 53300 Kuala Lumpur",
+  "total": "83.00"
+}
+```

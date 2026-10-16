@@ -1,0 +1,182 @@
+{
+  "file": "14.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Name in Full (Block Letters)": "MAINAK SARKAR",
+    "Father's/Guardian's Name": "Deepak Sarkar",
+    "Permanent (Home) Address": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+    "Present Mailing Address": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+    "Telephone No. (with STD Code)": "+91-9876567890",
+    "M": "9876567890",
+    "Sex.Male": "Yes",
+    "Sex.Female": "No",
+    "Marital Status.Married": "No",
+    "Marital Status.Single": "Yes",
+    "Date of Birth.Date": "05",
+    "Date of Birth.Month": "03",
+    "Date of Birth.Year": "1995",
+    "Academic Record.Examination Passed": "M.Sc.",
+    "Academic Record.Year of Passing": "2017",
+    "Academic Record.Board/ University": "CBSE",
+    "Academic Record.Marks Obtained": "410",
+    "Academic Record.Total Marks": "500",
+    "Academic Record.%age of Marks Obtained": "82.0",
+    "Academic Record.Subjects": "Management"
+  },
+  "predictions_flattened": {
+    "Name in Full": "MAINAK SARKAR",
+    "Father's / Guardian's Name": "Deepak Sarkar",
+    "Permanent (Home) Address": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+    "Present Mailing Address": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+    "Telephone No. (with STD Code)": "91-9876567890",
+    "Sex": "Male",
+    "Marital Status": "Single",
+    "Date of Birth": "05 03 1995",
+    "Presently enrolled in College/Department of University (give complete details including Roll No.)": "",
+    "Academic Record - M.Sc. 2017 CBSE - Year of Passing": "2017",
+    "Academic Record - M.Sc. 2017 CBSE - University of Passing": "CBSE",
+    "Academic Record - M.Sc. 2017 CBSE - Marks Obtained": "410",
+    "Academic Record - M.Sc. 2017 CBSE - Total Marks": "500",
+    "Academic Record - M.Sc. 2017 CBSE - Percentage of Marks Obtained": "82.0",
+    "Academic Record - M.Sc. 2017 CBSE - Subjects": "Management"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 20,
+      "total_prediction_fields": 15,
+      "matched_key_count": 8,
+      "correct_fields": 7,
+      "field_level_extraction_accuracy_pct": 35.0,
+      "matched_field_value_exact_match_pct": 87.5,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 7,
+      "false_positive": 9,
+      "false_negative": 13,
+      "precision_pct": 43.75,
+      "recall_pct": 35.0,
+      "f1_pct": 38.89,
+      "anls_pct": 39.64,
+      "anls_fields_scored": 20,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 8
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Telephone No. (with STD Code)",
+        "predicted_key": "Telephone No. (with STD Code)",
+        "ground_truth_value": "+91-9876567890",
+        "predicted_value": "91-9876567890",
+        "normalized_ground_truth_value": "+91-9876567890",
+        "normalized_predicted_value": "91-9876567890",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 8
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Name in Full (Block Letters)",
+      "ground_truth_value": "MAINAK SARKAR"
+    },
+    {
+      "key": "M",
+      "ground_truth_value": "9876567890"
+    },
+    {
+      "key": "Date of Birth.Date",
+      "ground_truth_value": "05"
+    },
+    {
+      "key": "Date of Birth.Month",
+      "ground_truth_value": "03"
+    },
+    {
+      "key": "Date of Birth.Year",
+      "ground_truth_value": "1995"
+    },
+    {
+      "key": "Academic Record.Examination Passed",
+      "ground_truth_value": "M.Sc."
+    },
+    {
+      "key": "Academic Record.Year of Passing",
+      "ground_truth_value": "2017"
+    },
+    {
+      "key": "Academic Record.Board/ University",
+      "ground_truth_value": "CBSE"
+    },
+    {
+      "key": "Academic Record.Marks Obtained",
+      "ground_truth_value": "410"
+    },
+    {
+      "key": "Academic Record.Total Marks",
+      "ground_truth_value": "500"
+    },
+    {
+      "key": "Academic Record.%age of Marks Obtained",
+      "ground_truth_value": "82.0"
+    },
+    {
+      "key": "Academic Record.Subjects",
+      "ground_truth_value": "Management"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "Name in Full",
+      "predicted_value": "MAINAK SARKAR"
+    },
+    {
+      "key": "Date of Birth",
+      "predicted_value": "05 03 1995"
+    },
+    {
+      "key": "Presently enrolled in College/Department of University (give complete details including Roll No.)",
+      "predicted_value": ""
+    },
+    {
+      "key": "Academic Record - M.Sc. 2017 CBSE - Year of Passing",
+      "predicted_value": "2017"
+    },
+    {
+      "key": "Academic Record - M.Sc. 2017 CBSE - University of Passing",
+      "predicted_value": "CBSE"
+    },
+    {
+      "key": "Academic Record - M.Sc. 2017 CBSE - Marks Obtained",
+      "predicted_value": "410"
+    },
+    {
+      "key": "Academic Record - M.Sc. 2017 CBSE - Total Marks",
+      "predicted_value": "500"
+    },
+    {
+      "key": "Academic Record - M.Sc. 2017 CBSE - Percentage of Marks Obtained",
+      "predicted_value": "82.0"
+    },
+    {
+      "key": "Academic Record - M.Sc. 2017 CBSE - Subjects",
+      "predicted_value": "Management"
+    }
+  ]
+}

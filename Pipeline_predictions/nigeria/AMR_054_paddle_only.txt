@@ -1,0 +1,25 @@
+Drug Prescription Sheet
+
+Name of Patient: Mr. C.Y.
+
+Sex: Male: Age: 20 years Date: 23/3/26
+
+Diagnosis: Severe Malaria
+
+Medications:
+
+1) Atresunate 2.4 mg/kg IV/stat.
+1.2 mg/kg at 12 hour.
+1.2 mg/kg at 24 hour.
+
+2) IV Normal Saline
+1L over 1 hour
+
+3) IV Paracetamol 1g
+IV 6 hourly
+
+4) Tab ACT (Artemether Lumofenthrin)
+80 + 480mg
+1st dose ... zero/no (also 24hr IV)
+2nd dose -- Bupivacaine after first
+3rd to 6th dose 67d.

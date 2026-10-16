@@ -1,0 +1,78 @@
+{
+  "file": "5.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "company": "ABC HO TRADING",
+    "date": "09/01/2019",
+    "address": "NO.2&4, JALAN HARMONI 3/2, TAMAN DESA HARMONI. 81100 JOHOR BAHRU JOHOR",
+    "total": "31.00"
+  },
+  "predictions_flattened": {
+    "company": "tan chay yee",
+    "date": "09/01/2019",
+    "address": "No.284, JALAN HARMONI 3/2, TAMAN DESA HARMONI, 81100 JOHOR BAHRU, JOHOR",
+    "total": "31.00"
+  },
+  "evaluation": {
+    "mode": "schema",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": false,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "not used in schema mode",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 4,
+      "total_prediction_fields": 4,
+      "matched_key_count": 4,
+      "correct_fields": 2,
+      "field_level_extraction_accuracy_pct": 50.0,
+      "matched_field_value_exact_match_pct": 50.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 2,
+      "false_positive": 2,
+      "false_negative": 2,
+      "precision_pct": 50.0,
+      "recall_pct": 50.0,
+      "f1_pct": 50.0,
+      "anls_pct": 73.77,
+      "anls_fields_scored": 4,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 4
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "company",
+        "predicted_key": "company",
+        "ground_truth_value": "ABC HO TRADING",
+        "predicted_value": "tan chay yee",
+        "normalized_ground_truth_value": "abchotrading",
+        "normalized_predicted_value": "tanchayyee",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "address",
+        "predicted_key": "address",
+        "ground_truth_value": "NO.2&4, JALAN HARMONI 3/2, TAMAN DESA HARMONI. 81100 JOHOR BAHRU JOHOR",
+        "predicted_value": "No.284, JALAN HARMONI 3/2, TAMAN DESA HARMONI, 81100 JOHOR BAHRU, JOHOR",
+        "normalized_ground_truth_value": "no.2&4,jalanharmoni3/2,tamandesaharmoni.81100johorbahrujohor",
+        "normalized_predicted_value": "no.284,jalanharmoni3/2,tamandesaharmoni,81100johorbahru,johor",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 4
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": []
+}

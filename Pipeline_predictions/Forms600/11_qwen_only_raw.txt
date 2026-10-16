@@ -1,0 +1,66 @@
+```json
+{
+  "name_of_the_post": "Junior Assistant",
+  "department": "Computer Centre",
+  "advt_no": "PU/69/2024",
+  "name_in_full_mr_mrs_ms": "TIYASHA SAHA",
+  "father_name": "AMITABHA SAHA",
+  "date_of_birth": "19/07/1995",
+  "place_of_birth": "Delhi",
+  "nationality": "Indian",
+  "marital_status": "Divorced",
+  "member_of_scheduled_caste_backward_class": "Yes",
+  "permanent_address": "HOUSE 14, DUM DUM ROAD NEAR NAGERBAZAR, KOLKATA",
+  "present_address": "HOUSE 14, SUBHAS PALLY, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA",
+  "mobile_telephone": "921-9745678912",
+  "email": "tiyasha.saha@gmail.com",
+  "minimum_pay_acceptable": "26260",
+  "joining_time": "47 days",
+  "matric_exam": {
+    "univ_board": "CBSE",
+    "main_subjects": "Eng, Hn, Mth, Sci",
+    "year_of_passing": "2015",
+    "marks_obtained": "496/500",
+    "class_division": "First"
+  },
+  "10_plus_2_pre_med_j_prev_engg_exam": {
+    "univ_board": "CBSE",
+    "main_subjects": "Do",
+    "year_of_passing": "2015",
+    "marks_obtained": "453/500",
+    "class_division": "First"
+  },
+  "b_a_b_sc_com_exam": {
+    "univ_board": "IIT KANPUR",
+    "main_subjects": "Sci",
+    "year_of_passing": "2016",
+    "marks_obtained": "920/1000",
+    "class_division": "First",
+    "merit_prizes_medals_won": "Gold Medal"
+  },
+  "m_a_m_sc_m_com_exam": {
+    "univ_board": "IIT KANPUR",
+    "main_subjects": "Sci",
+    "year_of_passing": "2021",
+    "marks_obtained": "908/1000",
+    "class_division": "First",
+    "merit_prizes_medals_won": "Silver Medal"
+  },
+  "m_phil_exam": {
+    "univ_board": "IIT KANPUR",
+    "main_subjects": "Phy",
+    "year_of_passing": "2022",
+    "marks_obtained": "",
+    "class_division": "",
+    "merit_prizes_medals_won": ""
+  },
+  "ph_d_exam": {
+    "univ_board": "IIT HYDRAULIC",
+    "main_subjects": "Chemistry",
+    "year_of_passing": "2023",
+    "marks_obtained": "",
+    "class_division": "",
+    "merit_prizes_medals_won": ""
+  }
+}
+```

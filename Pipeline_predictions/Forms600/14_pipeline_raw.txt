@@ -1,0 +1,19 @@
+```json
+{
+  "name_in_full": "MATNAK SARKAR",
+  "father_guardian_name": "Deepak Sarkar",
+  "permanent_home_address": "House No. 28, Deschapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+  "present_mailing_address": "House No. 29, Deschapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+  "telephone_no_with_std_code": "91-9876567890",
+  "sex": "Male",
+  "marital_status": "Single",
+  "date_of_birth": "05 03 1995",
+  "academic_record_exam_passed": "M.Sc.",
+  "academic_record_year_passing": "2017",
+  "academic_record_board_university": "CBSE",
+  "academic_record_marks_obtained": "410",
+  "academic_record_total_marks": "500",
+  "academic_record_percentage_marks_obtained": "82.0",
+  "academic_record_subjects": "Management"
+}
+```

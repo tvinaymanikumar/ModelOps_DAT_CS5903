@@ -1,0 +1,69 @@
+{
+  "file": "6.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "company": "SOON HUAT MACHINERY ENTERPRISE",
+    "date": "11/01/2019",
+    "address": "NO.53 JALAN PUTRA 1, TAMAN SRI PUTRA, 81200 JOHOR BAHRU JOHOR",
+    "total": "327.00"
+  },
+  "predictions_flattened": {
+    "company": "SOON HUAT MACHINERY ENTERPRISE",
+    "date": "11/01/2019",
+    "address": "NO.53 JALAN PUTRA 1, TAMAN SRI PUTRA, 81200 JOHOR BAHRU, JOHOR",
+    "total": "327.00"
+  },
+  "evaluation": {
+    "mode": "schema",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": false,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "not used in schema mode",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 4,
+      "total_prediction_fields": 4,
+      "matched_key_count": 4,
+      "correct_fields": 3,
+      "field_level_extraction_accuracy_pct": 75.0,
+      "matched_field_value_exact_match_pct": 75.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 3,
+      "false_positive": 1,
+      "false_negative": 1,
+      "precision_pct": 75.0,
+      "recall_pct": 75.0,
+      "f1_pct": 75.0,
+      "anls_pct": 99.52,
+      "anls_fields_scored": 4,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 4
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "address",
+        "predicted_key": "address",
+        "ground_truth_value": "NO.53 JALAN PUTRA 1, TAMAN SRI PUTRA, 81200 JOHOR BAHRU JOHOR",
+        "predicted_value": "NO.53 JALAN PUTRA 1, TAMAN SRI PUTRA, 81200 JOHOR BAHRU, JOHOR",
+        "normalized_ground_truth_value": "no.53jalanputra1,tamansriputra,81200johorbahrujohor",
+        "normalized_predicted_value": "no.53jalanputra1,tamansriputra,81200johorbahru,johor",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 4
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": []
+}

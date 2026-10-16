@@ -1,0 +1,23 @@
+```json
+{
+  "roll_no": "504375",
+  "name_of_the_student": "Arka Dutta",
+  "name_of_the_hindi": "",
+  "course": "M.Sc.",
+  "subject": "Physics",
+  "dept__centre": "Department of physics",
+  "school": "Osmania University",
+  "date_of_birth": "12-02-1996",
+  "gender_male_female": "Male",
+  "nationality": "Indian",
+  "state_of_domicile": "Telangana",
+  "blood_group": "B+",
+  "father_s_name": "Rajesh Dutta",
+  "mother_s_name": "Sunita Dutta",
+  "date_of_admission_to_the_course": "06-06-2022",
+  "cgpa_or_marks_obtained": "6.44",
+  "division_obtained": "Second",
+  "date_of_declaration_of_result_by_the_ce_s_office": "03-12-2024",
+  "month_and_year_of_award": "May 2025"
+}
+```

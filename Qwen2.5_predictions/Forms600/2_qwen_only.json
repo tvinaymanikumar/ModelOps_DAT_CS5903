@@ -1,0 +1,20 @@
+{
+    "student_first_name": "Ritika",
+    "student_surname": "Basu",
+    "father_first_name": "Sanjay",
+    "father_surname": "Basu",
+    "dob_date": "13",
+    "dob_month": "04",
+    "dob_year": "2010",
+    "gender": "Female",
+    "nationality": "Indian",
+    "religion": "Muslim",
+    "caste_category": "OBC",
+    "father_occupation": "Accountant",
+    "course_applied_for": "Commerce",
+    "medium": "Marathi",
+    "city": "Kolkata",
+    "po_ps": "Kolkata",
+    "state": "West Bengal",
+    "phone_number": "+91-9870012345"
+}

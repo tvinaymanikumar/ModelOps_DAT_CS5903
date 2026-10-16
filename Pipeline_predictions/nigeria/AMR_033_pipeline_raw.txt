@@ -1,0 +1,7 @@
+```json
+{
+  "name": "Abocode Nuplabat",
+  "age": "25 years",
+  "sex": "female"
+}
+```

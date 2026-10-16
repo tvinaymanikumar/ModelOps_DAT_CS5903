@@ -1,0 +1,128 @@
+{
+  "file": "15.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "PERSONAL INFORMATION.Name of the Applicant": "NILADRI SINHA",
+    "PERSONAL INFORMATION.Father's Name": "AMIT SINHA",
+    "PERSONAL INFORMATION.Designation/Occupation": "Clerk",
+    "PERSONAL INFORMATION.Annual Income of the Father/Guardian": "2,00,000",
+    "PERSONAL INFORMATION.Date of Birth.Day": "27",
+    "PERSONAL INFORMATION.Date of Birth.Month": "01",
+    "PERSONAL INFORMATION.Date of Birth.Year": "2001",
+    "PERSONAL INFORMATION.Address for Correspondence": "Flat No. 12, Sukriti Residency, Behala Chowrasta, Kolkata, West Bengal - 7000",
+    "PERSONAL INFORMATION.Permanent Address": "Flat No. 12, Sukriti Residency, Behala Chowrasta, Kolkata, West Bengal - 700034",
+    "PERSONAL INFORMATION.Contact Tel No.(R)": "019176543221",
+    "PERSONAL INFORMATION.Contact Tel No.(M)": "08765432210",
+    "PERSONAL INFORMATION.Sex.Male": "Yes",
+    "PERSONAL INFORMATION.Sex.Female": "No",
+    "PERSONAL INFORMATION.University from which the Bachelor's Degree completed": "Jadavpur University",
+    "PERSONAL INFORMATION.Year of Passing": "2017",
+    "PERSONAL INFORMATION.Nationality": "Indian",
+    "PERSONAL INFORMATION.State of Domicile": "West Bengal"
+  },
+  "predictions_flattened": {
+    "name_of_the_applicant": "NILADRI SINHA",
+    "father_s_name": "AMIT SINHA",
+    "designation_occupation": "Clerk",
+    "annual_income_of_the_father_guardian": "2,00,000",
+    "date_of_birth_day": "27",
+    "date_of_birth_month": "01",
+    "date_of_birth_year": "2001",
+    "address_for_correspondence": "Flat No.12, Sukriti Residency, Behala Chowrasta, Kolkata, West Bengal-7000",
+    "permanent_address": "Flat No.12, Sukriti Residency, Behala Chowrasta, Kolkata, West Bengal-700034",
+    "contact_tel_no_r": "019176543221",
+    "contact_tel_no_m": "08765432210",
+    "sex": "Male",
+    "university_from_which_the_bachelor_s_degree_completed": "Jadavpur University",
+    "year_of_passing": "2017",
+    "nationality": "Indian",
+    "state_of_domicile": "West Bengal"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 17,
+      "total_prediction_fields": 16,
+      "matched_key_count": 12,
+      "correct_fields": 12,
+      "field_level_extraction_accuracy_pct": 70.59,
+      "matched_field_value_exact_match_pct": 100.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 12,
+      "false_positive": 5,
+      "false_negative": 5,
+      "precision_pct": 70.59,
+      "recall_pct": 70.59,
+      "f1_pct": 70.59,
+      "anls_pct": 70.59,
+      "anls_fields_scored": 17,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 2,
+        "leaf_normalized_exact": 10
+      }
+    },
+    "incorrect_values": [],
+    "key_match_methods": {
+      "normalized_exact": 2,
+      "leaf_normalized_exact": 10
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "PERSONAL INFORMATION.Date of Birth.Day",
+      "ground_truth_value": "27"
+    },
+    {
+      "key": "PERSONAL INFORMATION.Date of Birth.Month",
+      "ground_truth_value": "01"
+    },
+    {
+      "key": "PERSONAL INFORMATION.Date of Birth.Year",
+      "ground_truth_value": "2001"
+    },
+    {
+      "key": "PERSONAL INFORMATION.Contact Tel No.(R)",
+      "ground_truth_value": "019176543221"
+    },
+    {
+      "key": "PERSONAL INFORMATION.Contact Tel No.(M)",
+      "ground_truth_value": "08765432210"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "date_of_birth_day",
+      "predicted_value": "27"
+    },
+    {
+      "key": "date_of_birth_month",
+      "predicted_value": "01"
+    },
+    {
+      "key": "date_of_birth_year",
+      "predicted_value": "2001"
+    },
+    {
+      "key": "contact_tel_no_r",
+      "predicted_value": "019176543221"
+    },
+    {
+      "key": "contact_tel_no_m",
+      "predicted_value": "08765432210"
+    }
+  ]
+}

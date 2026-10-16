@@ -1,0 +1,78 @@
+{
+  "file": "19.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "company": "99 SPEED MART S/B",
+    "date": "19-03-18",
+    "address": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1245-DESA SRI HARTAMAS",
+    "total": "11.40"
+  },
+  "predictions_flattened": {
+    "company": "99 SPEED MART S/B (519537-X)",
+    "date": "19-03-18",
+    "address": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY, 41150 KLANG, SELANGOR, 1245-DESA SRI HARTAMAS",
+    "total": "11.40"
+  },
+  "evaluation": {
+    "mode": "schema",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": false,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "not used in schema mode",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 4,
+      "total_prediction_fields": 4,
+      "matched_key_count": 4,
+      "correct_fields": 2,
+      "field_level_extraction_accuracy_pct": 50.0,
+      "matched_field_value_exact_match_pct": 50.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 2,
+      "false_positive": 2,
+      "false_negative": 2,
+      "precision_pct": 50.0,
+      "recall_pct": 50.0,
+      "f1_pct": 50.0,
+      "anls_pct": 88.93,
+      "anls_fields_scored": 4,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 4
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "company",
+        "predicted_key": "company",
+        "ground_truth_value": "99 SPEED MART S/B",
+        "predicted_value": "99 SPEED MART S/B (519537-X)",
+        "normalized_ground_truth_value": "99speedmarts/b",
+        "normalized_predicted_value": "99speedmarts/b(519537-x)",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "address",
+        "predicted_key": "address",
+        "ground_truth_value": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY 41150 KLANG, SELANGOR 1245-DESA SRI HARTAMAS",
+        "predicted_value": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY, 41150 KLANG, SELANGOR, 1245-DESA SRI HARTAMAS",
+        "normalized_ground_truth_value": "lotp.t.2811,jalanangsa,tamanberkeley41150klang,selangor1245-desasrihartamas",
+        "normalized_predicted_value": "lotp.t.2811,jalanangsa,tamanberkeley,41150klang,selangor,1245-desasrihartamas",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 4
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": []
+}

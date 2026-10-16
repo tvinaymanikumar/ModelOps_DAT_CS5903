@@ -1,0 +1,145 @@
+{
+  "file": "21.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Name of the TA": "Anirban Ghosh",
+    "Roll No": "IIITH439969",
+    "Email ID": "anirban.ghosh@gmail.com",
+    "Mobile No": "+91-9830011223",
+    "Subject": "Computer Networks",
+    "Date of assuming as TA/Commencement of tutorial classes": "25/05/2025",
+    "SBI/other bank Personal SB Account No": "35246799677",
+    "TA ship recommended per month (Please Tick).Quarter": "Yes",
+    "TA ship recommended per month (Please Tick).Half": "No",
+    "TA ship recommended per month (Please Tick).Full": "No",
+    "Other assistantships/ Jobs if": "Yes",
+    "If yes give details and get signature of relevant faculty Advisor": "Research Assistant at IIITH",
+    "Date": "28/05/2025",
+    "Signature of the Advisor": "",
+    "Declaration.Date": "28/05/2025",
+    "Declaration.Signature of the Student": "Anirban Ghosh",
+    "Signature of the Chair-TA ship Committee.Date": "28/05/2025",
+    "Signature of the Chair-TA ship Committee.Signature": "Dr. S. Rao",
+    "Signature of the Course Faculty.Date": "28/05/2025",
+    "Signature of the Course Faculty.Signature": "Prof. R. Singh"
+  },
+  "predictions_flattened": {
+    "Name of the TA": "Anirban Ghosh",
+    "Roll No": "IIITH439969",
+    "Email ID": "anirban.ghosh@gmail.com",
+    "Mobile No": "91-9830011223",
+    "Subject": "Computer Networks",
+    "Date of assuming as TA/Commencement of tutorial classes": "25/05/2025",
+    "SBI/other bank Personal SB Account No": "35246799677",
+    "TA ship recommended per month (Please Tick)": "Quarter",
+    "Other assistantships / Jobs if any": "YES",
+    "Signature of the Advisor": "Research Assistant at IIITH",
+    "Signature of the Student": "Anirban Ghosh",
+    "Signature of the Chair-TA ship Committee": "Dr. S. Ras",
+    "Signature of the Course Faculty": "Prof. R. Singh"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 20,
+      "total_prediction_fields": 13,
+      "matched_key_count": 13,
+      "correct_fields": 11,
+      "field_level_extraction_accuracy_pct": 55.0,
+      "matched_field_value_exact_match_pct": 84.62,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 11,
+      "false_positive": 4,
+      "false_negative": 8,
+      "precision_pct": 73.33,
+      "recall_pct": 57.89,
+      "f1_pct": 64.71,
+      "anls_pct": 62.78,
+      "anls_fields_scored": 19,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 11,
+        "leaf_normalized_exact": 1,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Mobile No",
+        "predicted_key": "Mobile No",
+        "ground_truth_value": "+91-9830011223",
+        "predicted_value": "91-9830011223",
+        "normalized_ground_truth_value": "+91-9830011223",
+        "normalized_predicted_value": "91-9830011223",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Signature of the Advisor",
+        "predicted_key": "Signature of the Advisor",
+        "ground_truth_value": "",
+        "predicted_value": "Research Assistant at IIITH",
+        "normalized_ground_truth_value": "",
+        "normalized_predicted_value": "researchassistantatiiith",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 11,
+      "leaf_normalized_exact": 1,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "If yes give details and get signature of relevant faculty Advisor",
+      "ground_truth_value": "Research Assistant at IIITH"
+    },
+    {
+      "key": "Date",
+      "ground_truth_value": "28/05/2025"
+    },
+    {
+      "key": "Declaration.Date",
+      "ground_truth_value": "28/05/2025"
+    },
+    {
+      "key": "Signature of the Chair-TA ship Committee.Date",
+      "ground_truth_value": "28/05/2025"
+    },
+    {
+      "key": "Signature of the Chair-TA ship Committee.Signature",
+      "ground_truth_value": "Dr. S. Rao"
+    },
+    {
+      "key": "Signature of the Course Faculty.Date",
+      "ground_truth_value": "28/05/2025"
+    },
+    {
+      "key": "Signature of the Course Faculty.Signature",
+      "ground_truth_value": "Prof. R. Singh"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "Signature of the Chair-TA ship Committee",
+      "predicted_value": "Dr. S. Ras"
+    },
+    {
+      "key": "Signature of the Course Faculty",
+      "predicted_value": "Prof. R. Singh"
+    }
+  ]
+}

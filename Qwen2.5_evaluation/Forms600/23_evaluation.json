@@ -1,0 +1,320 @@
+{
+  "file": "23.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Account No.": "",
+    "Beneficiary Details.Name in Full": "Ruma Devi Sharma",
+    "Beneficiary Details.Mailing Address": "House No. 456, Panbazar, Near Karmakhya Mandir",
+    "Beneficiary Details.City": "Guwahati",
+    "Beneficiary Details.Country": "India",
+    "Beneficiary Details.State": "Assam",
+    "Beneficiary Details.Postal Code": "781001",
+    "Beneficiary's Bank Details.A/C No.": "29175600773",
+    "Beneficiary's Bank Details.Branch": "Park Street",
+    "Beneficiary's Bank Details.SWIFT/SORT CODE": "SBINUS2699",
+    "Beneficiary's Bank Details.Name of Bank": "State Bank of India",
+    "Beneficiary's Bank Details.City/Country": "Guwahati, India",
+    "Beneficiary's Bank Details.Postal Code": "781001",
+    "Intermediary Bank Details.Name of Bank": "State Bank of India",
+    "Intermediary Bank Details.Address": "947 Frankfurt Ave, Frankfurt",
+    "Intermediary Bank Details.SWIFT/SORT CODE": "SBINUS2699",
+    "Intermediary Bank Details.Branch": "",
+    "Currency": "EUR",
+    "Send official check payable to me on the following address.City": "Guwahati",
+    "Send official check payable to me on the following address.Country": "India",
+    "Send official check payable to me on the following address.State": "Assam",
+    "Send official check payable to me on the following address.Postal Code": "781001",
+    "Other disposal method": "",
+    "Applicants.First Applicant.Signature": "Mary D'Souza",
+    "Applicants.First Applicant.Name": "",
+    "Applicants.Second Applicant.Signature": "Ashish Tiwari",
+    "Applicants.Second Applicant.Name": "",
+    "Applicants.Third Applicant.Signature": "Ruma Devi Sharma",
+    "Applicants.Third Applicant.Name": "",
+    "Applicants.Date": "31/05/2025",
+    "Applicants.Place": "Panaji",
+    "FOR USE OF NEW YORK BRANCH ONLY.Application scrutinized and found in order and modifications made": "No",
+    "FOR USE OF NEW YORK BRANCH ONLY.Deficiencies have been observed and conveyed to the applicant": "No",
+    "FOR USE OF NEW YORK BRANCH ONLY.Associate": "Mr. S. Ghose",
+    "FOR USE OF NEW YORK BRANCH ONLY.Associate Date": "31/05/2025",
+    "FOR USE OF NEW YORK BRANCH ONLY.Authorised Official": "Mr. S. Ghose",
+    "FOR USE OF NEW YORK BRANCH ONLY.Authorised Official Date": "31/05/2025"
+  },
+  "predictions_flattened": {
+    "name_in_full": "Ruma Devi Sharma",
+    "mailing_address": "House No. 456, Panbarzan, Near Kamakhya Mandir.",
+    "city": "Guwahati",
+    "state": "Assam",
+    "country": "India",
+    "postal_code": "781001",
+    "a_c_no": "29175600773",
+    "branch": "Park Street",
+    "swift_sort_code": "SPINUS2699",
+    "currency": "EUR",
+    "name_of_bank": "State Bank of India",
+    "address": "949 Frankfort Ave, Frankfort",
+    "swift_sort_code_intermediary": "SPINUS2699",
+    "city_intermediary": "Guwahati",
+    "state_intermediary": "Assam",
+    "country_intermediary": "India",
+    "postal_code_intermediary": "781001",
+    "first_applicant_name": "Mary D'Souza",
+    "second_applicant_name": "Ashish Tiwari",
+    "third_applicant_name": "Ruma Devi Sharma",
+    "first_applicant_signature": "",
+    "second_applicant_signature": "",
+    "third_applicant_signature": "",
+    "date_first_applicant": "31/05/2025",
+    "place_first_applicant": "Panaji",
+    "associate_signature": "Mr. S. Ghose",
+    "associate_date": "31/05/2025",
+    "authorised_official_signature": "Mr. S. Ghose",
+    "authorised_official_date": "21/07/2025"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 37,
+      "total_prediction_fields": 29,
+      "matched_key_count": 13,
+      "correct_fields": 9,
+      "field_level_extraction_accuracy_pct": 24.32,
+      "matched_field_value_exact_match_pct": 69.23,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 9,
+      "false_positive": 17,
+      "false_negative": 22,
+      "precision_pct": 34.62,
+      "recall_pct": 29.03,
+      "f1_pct": 31.58,
+      "anls_pct": 40.27,
+      "anls_fields_scored": 31,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 1,
+        "leaf_normalized_exact": 5,
+        "fuzzy_lexical_leaf_fallback": 7
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Beneficiary Details.Mailing Address",
+        "predicted_key": "mailing_address",
+        "ground_truth_value": "House No. 456, Panbazar, Near Karmakhya Mandir",
+        "predicted_value": "House No. 456, Panbarzan, Near Kamakhya Mandir.",
+        "normalized_ground_truth_value": "houseno.456,panbazar,nearkarmakhyamandir",
+        "normalized_predicted_value": "houseno.456,panbarzan,nearkamakhyamandir.",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Intermediary Bank Details.Address",
+        "predicted_key": "address",
+        "ground_truth_value": "947 Frankfurt Ave, Frankfurt",
+        "predicted_value": "949 Frankfort Ave, Frankfort",
+        "normalized_ground_truth_value": "947frankfurtave,frankfurt",
+        "normalized_predicted_value": "949frankfortave,frankfort",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "FOR USE OF NEW YORK BRANCH ONLY.Authorised Official Date",
+        "predicted_key": "authorised_official_date",
+        "ground_truth_value": "31/05/2025",
+        "predicted_value": "21/07/2025",
+        "normalized_ground_truth_value": "31/05/2025",
+        "normalized_predicted_value": "21/07/2025",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Beneficiary's Bank Details.SWIFT/SORT CODE",
+        "predicted_key": "swift_sort_code",
+        "ground_truth_value": "SBINUS2699",
+        "predicted_value": "SPINUS2699",
+        "normalized_ground_truth_value": "sbinus2699",
+        "normalized_predicted_value": "spinus2699",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 1,
+      "leaf_normalized_exact": 5,
+      "fuzzy_lexical_leaf_fallback": 7
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Account No.",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Beneficiary's Bank Details.A/C No.",
+      "ground_truth_value": "29175600773"
+    },
+    {
+      "key": "Beneficiary's Bank Details.City/Country",
+      "ground_truth_value": "Guwahati, India"
+    },
+    {
+      "key": "Beneficiary's Bank Details.Postal Code",
+      "ground_truth_value": "781001"
+    },
+    {
+      "key": "Intermediary Bank Details.Name of Bank",
+      "ground_truth_value": "State Bank of India"
+    },
+    {
+      "key": "Intermediary Bank Details.SWIFT/SORT CODE",
+      "ground_truth_value": "SBINUS2699"
+    },
+    {
+      "key": "Intermediary Bank Details.Branch",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Send official check payable to me on the following address.City",
+      "ground_truth_value": "Guwahati"
+    },
+    {
+      "key": "Send official check payable to me on the following address.Country",
+      "ground_truth_value": "India"
+    },
+    {
+      "key": "Send official check payable to me on the following address.State",
+      "ground_truth_value": "Assam"
+    },
+    {
+      "key": "Send official check payable to me on the following address.Postal Code",
+      "ground_truth_value": "781001"
+    },
+    {
+      "key": "Other disposal method",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Applicants.First Applicant.Signature",
+      "ground_truth_value": "Mary D'Souza"
+    },
+    {
+      "key": "Applicants.First Applicant.Name",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Applicants.Second Applicant.Signature",
+      "ground_truth_value": "Ashish Tiwari"
+    },
+    {
+      "key": "Applicants.Second Applicant.Name",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Applicants.Third Applicant.Signature",
+      "ground_truth_value": "Ruma Devi Sharma"
+    },
+    {
+      "key": "Applicants.Third Applicant.Name",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Applicants.Date",
+      "ground_truth_value": "31/05/2025"
+    },
+    {
+      "key": "Applicants.Place",
+      "ground_truth_value": "Panaji"
+    },
+    {
+      "key": "FOR USE OF NEW YORK BRANCH ONLY.Application scrutinized and found in order and modifications made",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "FOR USE OF NEW YORK BRANCH ONLY.Deficiencies have been observed and conveyed to the applicant",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "FOR USE OF NEW YORK BRANCH ONLY.Associate",
+      "ground_truth_value": "Mr. S. Ghose"
+    },
+    {
+      "key": "FOR USE OF NEW YORK BRANCH ONLY.Authorised Official",
+      "ground_truth_value": "Mr. S. Ghose"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "a_c_no",
+      "predicted_value": "29175600773"
+    },
+    {
+      "key": "swift_sort_code_intermediary",
+      "predicted_value": "SPINUS2699"
+    },
+    {
+      "key": "city_intermediary",
+      "predicted_value": "Guwahati"
+    },
+    {
+      "key": "state_intermediary",
+      "predicted_value": "Assam"
+    },
+    {
+      "key": "country_intermediary",
+      "predicted_value": "India"
+    },
+    {
+      "key": "postal_code_intermediary",
+      "predicted_value": "781001"
+    },
+    {
+      "key": "first_applicant_name",
+      "predicted_value": "Mary D'Souza"
+    },
+    {
+      "key": "second_applicant_name",
+      "predicted_value": "Ashish Tiwari"
+    },
+    {
+      "key": "third_applicant_name",
+      "predicted_value": "Ruma Devi Sharma"
+    },
+    {
+      "key": "first_applicant_signature",
+      "predicted_value": ""
+    },
+    {
+      "key": "second_applicant_signature",
+      "predicted_value": ""
+    },
+    {
+      "key": "third_applicant_signature",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_first_applicant",
+      "predicted_value": "31/05/2025"
+    },
+    {
+      "key": "place_first_applicant",
+      "predicted_value": "Panaji"
+    },
+    {
+      "key": "associate_signature",
+      "predicted_value": "Mr. S. Ghose"
+    },
+    {
+      "key": "authorised_official_signature",
+      "predicted_value": "Mr. S. Ghose"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Vital Signs Monetary Chart
+
+Name of Patient: Mrs Q.S.
+Sex: Female  Age: 34 yrs
+Date: 23/3/20
+Diagnosis: Pulmonary Tuberculosis
+BP: 100/70 mmHg
+PR: 110 bpm
+RR: 22.8 mmHg
+Temp: 37.8°C
+SpO₂: 95% in room air

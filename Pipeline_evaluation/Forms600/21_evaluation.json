@@ -1,0 +1,204 @@
+{
+  "file": "21.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Name of the TA": "Anirban Ghosh",
+    "Roll No": "IIITH439969",
+    "Email ID": "anirban.ghosh@gmail.com",
+    "Mobile No": "+91-9830011223",
+    "Subject": "Computer Networks",
+    "Date of assuming as TA/Commencement of tutorial classes": "25/05/2025",
+    "SBI/other bank Personal SB Account No": "35246799677",
+    "TA ship recommended per month (Please Tick).Quarter": "Yes",
+    "TA ship recommended per month (Please Tick).Half": "No",
+    "TA ship recommended per month (Please Tick).Full": "No",
+    "Other assistantships/ Jobs if": "Yes",
+    "If yes give details and get signature of relevant faculty Advisor": "Research Assistant at IIITH",
+    "Date": "28/05/2025",
+    "Signature of the Advisor": "",
+    "Declaration.Date": "28/05/2025",
+    "Declaration.Signature of the Student": "Anirban Ghosh",
+    "Signature of the Chair-TA ship Committee.Date": "28/05/2025",
+    "Signature of the Chair-TA ship Committee.Signature": "Dr. S. Rao",
+    "Signature of the Course Faculty.Date": "28/05/2025",
+    "Signature of the Course Faculty.Signature": "Prof. R. Singh"
+  },
+  "predictions_flattened": {
+    "name_of_the_TA": "Aninban Gihash",
+    "roll_no": "IIITH439969",
+    "email_id": "aninban.ghash@gmail.com",
+    "mobile_no": "+91-9830011223",
+    "subject": "Computer Networks",
+    "date_of_assuming_as_TA": "",
+    "commencement_of_tutorial_classes": "25/05/2025",
+    "sbi_other_bank_personal_SB_account_no": "35296799677",
+    "ta_ship_recommended_per_month": "Quarter",
+    "other_assistantships_jobs_if_any": "YES",
+    "if_yes_give_details_and_get_signature_of_relevant_faculty_advisor": "Research Assistant at IIITH",
+    "date": "28/05/25",
+    "signature_of_the_advisor": "Aninban Gihash",
+    "signature_of_the_student": "Aninban Gihash",
+    "signature_of_the_chair_TA_ship_committee": "Dr. S. Ras",
+    "signature_of_the_course_faculty": "Prof. R. Singh"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 20,
+      "total_prediction_fields": 16,
+      "matched_key_count": 11,
+      "correct_fields": 5,
+      "field_level_extraction_accuracy_pct": 25.0,
+      "matched_field_value_exact_match_pct": 45.45,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 5,
+      "false_positive": 10,
+      "false_negative": 14,
+      "precision_pct": 33.33,
+      "recall_pct": 26.32,
+      "f1_pct": 29.41,
+      "anls_pct": 48.21,
+      "anls_fields_scored": 19,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 9,
+        "leaf_normalized_exact": 1,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Name of the TA",
+        "predicted_key": "name_of_the_TA",
+        "ground_truth_value": "Anirban Ghosh",
+        "predicted_value": "Aninban Gihash",
+        "normalized_ground_truth_value": "anirbanghosh",
+        "normalized_predicted_value": "aninbangihash",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Email ID",
+        "predicted_key": "email_id",
+        "ground_truth_value": "anirban.ghosh@gmail.com",
+        "predicted_value": "aninban.ghash@gmail.com",
+        "normalized_ground_truth_value": "anirban.ghosh@gmail.com",
+        "normalized_predicted_value": "aninban.ghash@gmail.com",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "SBI/other bank Personal SB Account No",
+        "predicted_key": "sbi_other_bank_personal_SB_account_no",
+        "ground_truth_value": "35246799677",
+        "predicted_value": "35296799677",
+        "normalized_ground_truth_value": "35246799677",
+        "normalized_predicted_value": "35296799677",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Date",
+        "predicted_key": "date",
+        "ground_truth_value": "28/05/2025",
+        "predicted_value": "28/05/25",
+        "normalized_ground_truth_value": "28/05/2025",
+        "normalized_predicted_value": "28/05/25",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Signature of the Advisor",
+        "predicted_key": "signature_of_the_advisor",
+        "ground_truth_value": "",
+        "predicted_value": "Aninban Gihash",
+        "normalized_ground_truth_value": "",
+        "normalized_predicted_value": "aninbangihash",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Declaration.Signature of the Student",
+        "predicted_key": "signature_of_the_student",
+        "ground_truth_value": "Anirban Ghosh",
+        "predicted_value": "Aninban Gihash",
+        "normalized_ground_truth_value": "anirbanghosh",
+        "normalized_predicted_value": "aninbangihash",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 9,
+      "leaf_normalized_exact": 1,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Date of assuming as TA/Commencement of tutorial classes",
+      "ground_truth_value": "25/05/2025"
+    },
+    {
+      "key": "TA ship recommended per month (Please Tick).Quarter",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "TA ship recommended per month (Please Tick).Half",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "TA ship recommended per month (Please Tick).Full",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Declaration.Date",
+      "ground_truth_value": "28/05/2025"
+    },
+    {
+      "key": "Signature of the Chair-TA ship Committee.Date",
+      "ground_truth_value": "28/05/2025"
+    },
+    {
+      "key": "Signature of the Chair-TA ship Committee.Signature",
+      "ground_truth_value": "Dr. S. Rao"
+    },
+    {
+      "key": "Signature of the Course Faculty.Date",
+      "ground_truth_value": "28/05/2025"
+    },
+    {
+      "key": "Signature of the Course Faculty.Signature",
+      "ground_truth_value": "Prof. R. Singh"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "date_of_assuming_as_TA",
+      "predicted_value": ""
+    },
+    {
+      "key": "commencement_of_tutorial_classes",
+      "predicted_value": "25/05/2025"
+    },
+    {
+      "key": "ta_ship_recommended_per_month",
+      "predicted_value": "Quarter"
+    },
+    {
+      "key": "signature_of_the_chair_TA_ship_committee",
+      "predicted_value": "Dr. S. Ras"
+    },
+    {
+      "key": "signature_of_the_course_faculty",
+      "predicted_value": "Prof. R. Singh"
+    }
+  ]
+}

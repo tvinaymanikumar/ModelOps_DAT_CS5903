@@ -1,0 +1,26 @@
+PRESCRIPTION NOTE
+
+Hospital Number: 20261HG1001
+
+Patient Name: Arisha Mohammed
+
+Age/sex: 22/f
+
+Date: 15/08/2026
+
+Diagnosis: Uncomplicated maleus.
+
+Ex Medications
+
+1. Tab Artemether-Lunefantine [201120 mg]
+   4 tablets/day, then 4 tablets after 8 hours
+   Then 4 tablets twice daily for 2 days
+
+2. Tab paracetamol 500 mg
+   1 tablet every 8 hours x3 days
+
+3. Tab Meteoropromide 10 mg.
+   1 tablet every 8 hours x2 days (for vomiting)
+
+4. Oral Rehydration Solution FORS2.
+   Drink after each vomiting episode

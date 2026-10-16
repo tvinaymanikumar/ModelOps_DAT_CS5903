@@ -1,0 +1,49 @@
+NEFT SI Request Form
+
+Branch: ICICI BANK
+Date: 21/05/2025
+Andhari Branch
+
+Beneficiary Details
+Beneficiary Name
+MEERA IYER
+
+Beneficiary Number
+Account
+56439946578
+
+Beneficiary Account
+56439946578
+
+Number
+Beneficiary Bank
+ICICI Bank
+
+Beneficiary Account Type
+NRE
+
+Beneficiary Branch Name & Address
+Andheri, Jyderabad
+
+IFSC Code
+PUN B0123456
+
+Remitter Details
+Remitter (Applicant) Name
+TIYASHA SAHA
+
+Remitter Account Number
+60439649237
+
+Remitter Email ID
+tiyasha.saha@gmail.com
+
+Remitter Mobile number
+1019745678912
+
+Standing Instruction Details
+Amount (in rupees): 27949
+Amount (In words): TWENTY SEVEN THOUSAND NINE HUNDRED AND FORTY NINE ONLY
+Execution date – (DD/MM/YYYY format): 28/05/2025
+Last date – (DD/MM/YYYY) 30/03/2026
+Frequency: Weekly □ Bi-Monthly □ Monthly □ Quarterly □ Half-yearly □ Yearly □ One time

@@ -1,0 +1,9 @@
+```json
+{
+  "payee_name": "Padaba D. Pradeep Kumar",
+  "amount_in_words": "Eighty Eight lakhs",
+  "amount": 8800000,
+  "year": "",
+  "account_no": "30002010108841"
+}
+```

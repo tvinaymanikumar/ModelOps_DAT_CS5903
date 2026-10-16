@@ -1,0 +1,277 @@
+{
+  "file": "8.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "First Name": "SOURAV",
+    "Middle Name": "",
+    "Surname": "SEN",
+    "Date of Birth/ Incorporation of declarant": "22/08/2005",
+    "Father's Name (in case of individual)/ First Name": "ARKA",
+    "Father's Middle Name": "",
+    "Father's Surname": "SEN",
+    "Flat/Room No": "",
+    "Floor No": "1st",
+    "Name of premises": "Lake Gardens Housing Complex",
+    "Block Name/No": "D10",
+    "Road/Street/Lane": "Prince Anwar Shah Road",
+    "Area/Locality": "Lake Gardens Housing Complex",
+    "Town/City": "Kolkata",
+    "District": "Kolkata",
+    "State": "West Bengal",
+    "Pin code": "700045",
+    "Telephone Number (wth STD code)": "033-23533997",
+    "Mobile No": "+91 9800011223",
+    "Amount of tansaction (Rs)": "6522",
+    "Date of transaction": "24/05/2025",
+    "In case of transaction in joint names, number of persons involved in the transaction": "3",
+    "Mode of transaction": "Card",
+    "Aadhaar Number issued by UIDAI (if available)": "472646912498",
+    "If applied for PAN and it is not yet generated enter date of application and acknowedgement number": "",
+    "Estimated Total Income.Agricultural income (Rs.)": "9523",
+    "Estimated Total Income.Other than agricultural income (Rs)": "133756",
+    "Details of document being produced in support of identify in Column 1.Document code": "C3",
+    "Details of document being produced in support of identify in Column 1.Document identification number": "DOC23910",
+    "Details of document being produced in support of identify in Column 1.Name and address of the authority issuing the document": "RTO",
+    "Details of document being produced in support of address in Columns 4 to 13.Document code": "C3",
+    "Details of document being produced in support of address in Columns 4 to 13.Document identification number": "DOC23910",
+    "Details of document being produced in support of address in Columns 4 to 13.Name and address of the authority issuing the document": "RTO",
+    "Transaction Type.05- Investment in time deposit": "No",
+    "Transaction Type.06- Deposit in cash": "Yes",
+    "Transaction Type.09- Opening an account (other than savings and time deposit)": "No",
+    "Transaction Type.10- Account with balance exceeding Rs. 50,000": "No",
+    "Transaction Type.11- Purchase of bank drafts or pay orders": "No",
+    "Transaction Type.12- Application for issue of a credit or debit card": "No",
+    "Transaction Type.14- Payment in connection with travel to any foreign country": "No",
+    "Transaction Type.15- Payment for purchase, or remittance outside India": "No",
+    "Transaction Type.22- Not classified above": "No",
+    "Verification.Name": "Sourav Sen",
+    "Verification.Verified today.Date": "24",
+    "Verification.Verified today.Month": "May",
+    "Verification.Verified today.Year": "",
+    "Verification.Place": "Kolkata",
+    "Verification.Signature of Declarant": "Sourav Sen"
+  },
+  "predictions_flattened": {
+    "first_name": "SOURAV",
+    "middle_name": "",
+    "surname": "SEN",
+    "father_name_first_name": "ARKA",
+    "father_name_middle_name": "",
+    "father_name_surname": "SEN",
+    "flat_room_no": "",
+    "floor_no": "1st",
+    "name_of_premises": "Lake Gardens Housing Complex",
+    "road_street_lane": "Prince Anwar Shah Road",
+    "town_city": "Kolkata",
+    "district": "Kolkata",
+    "state": "West Bengal",
+    "pin_code": "700045",
+    "telephone_number": "+91 9333999",
+    "mobile_number": "+91 98000623",
+    "amount_of_transaction": "6522",
+    "date_of_transaction": "24052025",
+    "mode_of_transaction": "Card",
+    "aadhaar_number": "472646912998",
+    "pan_application_date": "",
+    "total_income": "9523",
+    "other_income": "13375",
+    "document_code_1": "C3",
+    "document_identification_number_1": "DOC23910",
+    "document_authority_1": "RTO",
+    "document_code_2": "C3",
+    "document_identification_number_2": "DOC23310",
+    "document_authority_2": "RTO",
+    "transaction_type": "06 - Deposit in cash",
+    "verification_date": "24 May 2021",
+    "signature": "Sourav Sen",
+    "place": "Kolkata"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 48,
+      "total_prediction_fields": 33,
+      "matched_key_count": 29,
+      "correct_fields": 27,
+      "field_level_extraction_accuracy_pct": 56.25,
+      "matched_field_value_exact_match_pct": 93.1,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 24,
+      "false_positive": 12,
+      "false_negative": 19,
+      "precision_pct": 66.67,
+      "recall_pct": 55.81,
+      "f1_pct": 60.76,
+      "anls_pct": 59.71,
+      "anls_fields_scored": 43,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 21,
+        "leaf_normalized_exact": 1,
+        "fuzzy_lexical_leaf_fallback": 7
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Date of transaction",
+        "predicted_key": "date_of_transaction",
+        "ground_truth_value": "24/05/2025",
+        "predicted_value": "24052025",
+        "normalized_ground_truth_value": "24/05/2025",
+        "normalized_predicted_value": "24052025",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Details of document being produced in support of address in Columns 4 to 13.Document identification number",
+        "predicted_key": "document_identification_number_2",
+        "ground_truth_value": "DOC23910",
+        "predicted_value": "DOC23310",
+        "normalized_ground_truth_value": "doc23910",
+        "normalized_predicted_value": "doc23310",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 21,
+      "leaf_normalized_exact": 1,
+      "fuzzy_lexical_leaf_fallback": 7
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Date of Birth/ Incorporation of declarant",
+      "ground_truth_value": "22/08/2005"
+    },
+    {
+      "key": "Father's Name (in case of individual)/ First Name",
+      "ground_truth_value": "ARKA"
+    },
+    {
+      "key": "Block Name/No",
+      "ground_truth_value": "D10"
+    },
+    {
+      "key": "Area/Locality",
+      "ground_truth_value": "Lake Gardens Housing Complex"
+    },
+    {
+      "key": "Telephone Number (wth STD code)",
+      "ground_truth_value": "033-23533997"
+    },
+    {
+      "key": "Mobile No",
+      "ground_truth_value": "+91 9800011223"
+    },
+    {
+      "key": "In case of transaction in joint names, number of persons involved in the transaction",
+      "ground_truth_value": "3"
+    },
+    {
+      "key": "Aadhaar Number issued by UIDAI (if available)",
+      "ground_truth_value": "472646912498"
+    },
+    {
+      "key": "If applied for PAN and it is not yet generated enter date of application and acknowedgement number",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Estimated Total Income.Agricultural income (Rs.)",
+      "ground_truth_value": "9523"
+    },
+    {
+      "key": "Estimated Total Income.Other than agricultural income (Rs)",
+      "ground_truth_value": "133756"
+    },
+    {
+      "key": "Details of document being produced in support of identify in Column 1.Name and address of the authority issuing the document",
+      "ground_truth_value": "RTO"
+    },
+    {
+      "key": "Details of document being produced in support of address in Columns 4 to 13.Name and address of the authority issuing the document",
+      "ground_truth_value": "RTO"
+    },
+    {
+      "key": "Transaction Type.10- Account with balance exceeding Rs. 50,000",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Verification.Name",
+      "ground_truth_value": "Sourav Sen"
+    },
+    {
+      "key": "Verification.Verified today.Date",
+      "ground_truth_value": "24"
+    },
+    {
+      "key": "Verification.Verified today.Month",
+      "ground_truth_value": "May"
+    },
+    {
+      "key": "Verification.Verified today.Year",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Verification.Signature of Declarant",
+      "ground_truth_value": "Sourav Sen"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "father_name_first_name",
+      "predicted_value": "ARKA"
+    },
+    {
+      "key": "telephone_number",
+      "predicted_value": "+91 9333999"
+    },
+    {
+      "key": "mobile_number",
+      "predicted_value": "+91 98000623"
+    },
+    {
+      "key": "aadhaar_number",
+      "predicted_value": "472646912998"
+    },
+    {
+      "key": "pan_application_date",
+      "predicted_value": ""
+    },
+    {
+      "key": "total_income",
+      "predicted_value": "9523"
+    },
+    {
+      "key": "other_income",
+      "predicted_value": "13375"
+    },
+    {
+      "key": "document_authority_1",
+      "predicted_value": "RTO"
+    },
+    {
+      "key": "document_authority_2",
+      "predicted_value": "RTO"
+    },
+    {
+      "key": "verification_date",
+      "predicted_value": "24 May 2021"
+    },
+    {
+      "key": "signature",
+      "predicted_value": "Sourav Sen"
+    }
+  ]
+}

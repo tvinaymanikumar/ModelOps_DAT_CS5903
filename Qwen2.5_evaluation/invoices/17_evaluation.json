@@ -1,0 +1,78 @@
+{
+  "file": "17.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "company": "Geoventure Taste Of The World Sdn Bhd",
+    "date": "5/3/2018",
+    "address": "Lot 38, 39 101 Boulevard, Jalan Kenari 5, Bandar Puchong Jaya, 47170 Puchong, Selangor",
+    "total": "64.15"
+  },
+  "predictions_flattened": {
+    "company": "Taste Of The World Sdn Bhd",
+    "date": "5/3/2018",
+    "address": "Lot 38, 39 101 Boulevard, Jalan Kenari 5, Bandar Puchong Jaya, 47170 Puchong, Selangor",
+    "total": "RM 64.15"
+  },
+  "evaluation": {
+    "mode": "schema",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": false,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "not used in schema mode",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 4,
+      "total_prediction_fields": 4,
+      "matched_key_count": 4,
+      "correct_fields": 2,
+      "field_level_extraction_accuracy_pct": 50.0,
+      "matched_field_value_exact_match_pct": 50.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 2,
+      "false_positive": 2,
+      "false_negative": 2,
+      "precision_pct": 50.0,
+      "recall_pct": 50.0,
+      "f1_pct": 50.0,
+      "anls_pct": 84.79,
+      "anls_fields_scored": 4,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 4
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "company",
+        "predicted_key": "company",
+        "ground_truth_value": "Geoventure Taste Of The World Sdn Bhd",
+        "predicted_value": "Taste Of The World Sdn Bhd",
+        "normalized_ground_truth_value": "geoventuretasteoftheworldsdnbhd",
+        "normalized_predicted_value": "tasteoftheworldsdnbhd",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "total",
+        "predicted_key": "total",
+        "ground_truth_value": "64.15",
+        "predicted_value": "RM 64.15",
+        "normalized_ground_truth_value": "64.15",
+        "normalized_predicted_value": "rm64.15",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 4
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": []
+}

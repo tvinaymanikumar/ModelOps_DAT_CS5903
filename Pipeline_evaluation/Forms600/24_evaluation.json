@@ -1,0 +1,132 @@
+{
+  "file": "24.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Personal Information.Full Name": "DEEPIKA SHAH",
+    "Personal Information.Place Birth": "Surat",
+    "Personal Information.Birth of Date": "31/07/2007",
+    "Personal Information.Full Address": "A-204, Diamond Residency, Ring Road, Near Surat Castle, Surat",
+    "Personal Information.Nationality": "Indian",
+    "Personal Information.city/country": "Surat, India",
+    "Personal Information.Gander": "Female",
+    "Personal Information.Email": "deepika.shah@gmail.com",
+    "Personal Information.Phone Number": "+91-9979123456",
+    "Type Of Membership.Regular (3 month)": "Yes",
+    "Type Of Membership.Gold (6 month)": "No",
+    "Type Of Membership.Platinum (12 month)": "No"
+  },
+  "predictions_flattened": {
+    "full_name": "DEEPITKA SHAH",
+    "place_birth": "Surat",
+    "birth_of_date": "31/07/2007",
+    "full_address": "No-201, Diamond Residency, Ring Road, Penn Sweet Castle Surat",
+    "nationality": "Indian",
+    "city_country": "Surat/India",
+    "gender": "Female",
+    "email": "deepitka.shah@gmail.com",
+    "phone_number": "+91-9979123456",
+    "type_of_membership": "Regular (3 month)",
+    "term_condition": "This membership is valid\nMembership includes the facilities available\nMembership is not automatic",
+    "gander": ""
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 12,
+      "total_prediction_fields": 12,
+      "matched_key_count": 12,
+      "correct_fields": 7,
+      "field_level_extraction_accuracy_pct": 58.33,
+      "matched_field_value_exact_match_pct": 58.33,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 7,
+      "false_positive": 6,
+      "false_negative": 5,
+      "precision_pct": 53.85,
+      "recall_pct": 58.33,
+      "f1_pct": 56.0,
+      "anls_pct": 88.28,
+      "anls_fields_scored": 12,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 3,
+        "leaf_normalized_exact": 9
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Personal Information.Full Name",
+        "predicted_key": "full_name",
+        "ground_truth_value": "DEEPIKA SHAH",
+        "predicted_value": "DEEPITKA SHAH",
+        "normalized_ground_truth_value": "deepikashah",
+        "normalized_predicted_value": "deepitkashah",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Full Address",
+        "predicted_key": "full_address",
+        "ground_truth_value": "A-204, Diamond Residency, Ring Road, Near Surat Castle, Surat",
+        "predicted_value": "No-201, Diamond Residency, Ring Road, Penn Sweet Castle Surat",
+        "normalized_ground_truth_value": "a-204,diamondresidency,ringroad,nearsuratcastle,surat",
+        "normalized_predicted_value": "no-201,diamondresidency,ringroad,pennsweetcastlesurat",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.city/country",
+        "predicted_key": "city_country",
+        "ground_truth_value": "Surat, India",
+        "predicted_value": "Surat/India",
+        "normalized_ground_truth_value": "surat,india",
+        "normalized_predicted_value": "surat/india",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Gander",
+        "predicted_key": "gander",
+        "ground_truth_value": "Female",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "female",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Email",
+        "predicted_key": "email",
+        "ground_truth_value": "deepika.shah@gmail.com",
+        "predicted_value": "deepitka.shah@gmail.com",
+        "normalized_ground_truth_value": "deepika.shah@gmail.com",
+        "normalized_predicted_value": "deepitka.shah@gmail.com",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 3,
+      "leaf_normalized_exact": 9
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": [
+    {
+      "key": "gender",
+      "predicted_value": "Female"
+    },
+    {
+      "key": "term_condition",
+      "predicted_value": "This membership is valid\nMembership includes the facilities available\nMembership is not automatic"
+    }
+  ]
+}

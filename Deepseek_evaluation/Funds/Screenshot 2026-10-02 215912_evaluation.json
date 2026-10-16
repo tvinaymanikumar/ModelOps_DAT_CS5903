@@ -1,0 +1,308 @@
+{
+  "file": "Screenshot 2026-10-02 215912.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Date": "January 14, 1999",
+    "No. of Pages": "37 (including this page)",
+    "From": "Steve W. Berman",
+    "File No.": "1129.01",
+    "Re": "Tobacco - Fee Payment Agreement and Release",
+    "COMMENTS": "",
+    "Recipient(s)[0].Recipient(s)": "Mr. Meyer G. Koplow",
+    "Recipient(s)[0].Company": "Wachtell, Lipton, Rosen & Katz",
+    "Recipient(s)[0].Phone No.": "(212) 403-1000",
+    "Recipient(s)[0].Fax No.": "(212) 403-2000",
+    "Recipient(s)[1].Recipient(s)": "Mr. Arthur F. Golden",
+    "Recipient(s)[1].Company": "Davis, Polk & Wardwell",
+    "Recipient(s)[1].Phone No.": "(212) 450-4000",
+    "Recipient(s)[1].Fax No.": "(212) 450-4800",
+    "Recipient(s)[2].Recipient(s)": "Mr. Martin Barrington",
+    "Recipient(s)[2].Company": "Philip Morris Inc.",
+    "Recipient(s)[2].Phone No.": "",
+    "Recipient(s)[2].Fax No.": "(917) 663-5399",
+    "Recipient(s)[3].Recipient(s)": "Mr. F. Anthony Burke",
+    "Recipient(s)[3].Company": "Brown & Williamson Tobacco Corp.",
+    "Recipient(s)[3].Phone No.": "",
+    "Recipient(s)[3].Fax No.": "(502) 568-7297",
+    "Recipient(s)[4].Recipient(s)": "Mr. Ronald Milstein",
+    "Recipient(s)[4].Company": "Lorillard Tobacco Co.",
+    "Recipient(s)[4].Phone No.": "",
+    "Recipient(s)[4].Fax No.": "(336) 335-7707",
+    "Recipient(s)[5].Recipient(s)": "Mr. Charles A. Blixt",
+    "Recipient(s)[5].Company": "R.J. Reynolds Tobacco Co.",
+    "Recipient(s)[5].Phone No.": "",
+    "Recipient(s)[5].Fax No.": "(336) 741-2998",
+    "Recipient(s)[6].Recipient(s)": "Mr. Stephen R. Patton",
+    "Recipient(s)[6].Company": "Kirkland & Ellis",
+    "Recipient(s)[6].Phone No.": "(312) 861-2000",
+    "Recipient(s)[6].Fax No.": "(312) 861-2200"
+  },
+  "predictions_flattened": {
+    "Date": "January 14, 1999",
+    "No. of Pages": "37 (including this page)",
+    "From": "Steve W. Berman",
+    "File No.": "1129.01",
+    "Re": "Tobacco - Fee Payment Agreement and Release",
+    "COMMENTS": "",
+    "Recipient(s) - Row 1 - Name": "Mr. Meyer G. Koplow",
+    "Recipient(s) - Row 1 - Company": "Wachtell, Lipton, Rosen & Katz",
+    "Recipient(s) - Row 1 - Phone No.": "(212) 403-1000",
+    "Recipient(s) - Row 1 - Fax No.": "(212) 403-2000",
+    "Recipient(s) - Row 2 - Name": "Mr. Arthur F. Golden",
+    "Recipient(s) - Row 2 - Company": "Davis, Polk & Wardwell",
+    "Recipient(s) - Row 2 - Phone No.": "(212) 450-4000",
+    "Recipient(s) - Row 2 - Fax No.": "(212) 450-4800",
+    "Recipient(s) - Row 3 - Name": "Mr. Martin Barrington",
+    "Recipient(s) - Row 3 - Company": "Philip Morris Inc.",
+    "Recipient(s) - Row 3 - Phone No.": "(917) 663-5399",
+    "Recipient(s) - Row 3 - Fax No.": "",
+    "Recipient(s) - Row 4 - Name": "Mr. F. Anthony Burke",
+    "Recipient(s) - Row 4 - Company": "Brown & Williamson Tobacco Corp.",
+    "Recipient(s) - Row 4 - Phone No.": "(502) 568-7297",
+    "Recipient(s) - Row 4 - Fax No.": "",
+    "Recipient(s) - Row 5 - Name": "Mr. Ronald Milstein",
+    "Recipient(s) - Row 5 - Company": "Lorillard Tobacco Co.",
+    "Recipient(s) - Row 5 - Phone No.": "(336) 335-7707",
+    "Recipient(s) - Row 5 - Fax No.": "",
+    "Recipient(s) - Row 6 - Name": "Mr. Charles A. Blixt",
+    "Recipient(s) - Row 6 - Company": "R.J. Reynolds Tobacco Co.",
+    "Recipient(s) - Row 6 - Phone No.": "(336) 741-2998",
+    "Recipient(s) - Row 6 - Fax No.": "",
+    "Recipient(s) - Row 7 - Name": "Mr. Stephen R. Patton",
+    "Recipient(s) - Row 7 - Company": "Kirkland & Ellis",
+    "Recipient(s) - Row 7 - Phone No.": "(312) 861-2000",
+    "Recipient(s) - Row 7 - Fax No.": "(312) 861-2200"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 34,
+      "total_prediction_fields": 34,
+      "matched_key_count": 20,
+      "correct_fields": 12,
+      "field_level_extraction_accuracy_pct": 35.29,
+      "matched_field_value_exact_match_pct": 60.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 11,
+      "false_positive": 18,
+      "false_negative": 18,
+      "precision_pct": 37.93,
+      "recall_pct": 37.93,
+      "f1_pct": 37.93,
+      "anls_pct": 37.93,
+      "anls_fields_scored": 29,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 6,
+        "fuzzy_lexical_leaf_fallback": 14
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Recipient(s)[2].Phone No.",
+        "predicted_key": "Recipient(s) - Row 3 - Phone No.",
+        "ground_truth_value": "",
+        "predicted_value": "(917) 663-5399",
+        "normalized_ground_truth_value": "",
+        "normalized_predicted_value": "(917)663-5399",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Recipient(s)[2].Fax No.",
+        "predicted_key": "Recipient(s) - Row 3 - Fax No.",
+        "ground_truth_value": "(917) 663-5399",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "(917)663-5399",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Recipient(s)[3].Phone No.",
+        "predicted_key": "Recipient(s) - Row 4 - Phone No.",
+        "ground_truth_value": "",
+        "predicted_value": "(502) 568-7297",
+        "normalized_ground_truth_value": "",
+        "normalized_predicted_value": "(502)568-7297",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Recipient(s)[3].Fax No.",
+        "predicted_key": "Recipient(s) - Row 4 - Fax No.",
+        "ground_truth_value": "(502) 568-7297",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "(502)568-7297",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Recipient(s)[4].Phone No.",
+        "predicted_key": "Recipient(s) - Row 5 - Phone No.",
+        "ground_truth_value": "",
+        "predicted_value": "(336) 335-7707",
+        "normalized_ground_truth_value": "",
+        "normalized_predicted_value": "(336)335-7707",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Recipient(s)[4].Fax No.",
+        "predicted_key": "Recipient(s) - Row 5 - Fax No.",
+        "ground_truth_value": "(336) 335-7707",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "(336)335-7707",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Recipient(s)[5].Phone No.",
+        "predicted_key": "Recipient(s) - Row 6 - Phone No.",
+        "ground_truth_value": "",
+        "predicted_value": "(336) 741-2998",
+        "normalized_ground_truth_value": "",
+        "normalized_predicted_value": "(336)741-2998",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Recipient(s)[5].Fax No.",
+        "predicted_key": "Recipient(s) - Row 6 - Fax No.",
+        "ground_truth_value": "(336) 741-2998",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "(336)741-2998",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 6,
+      "fuzzy_lexical_leaf_fallback": 14
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Recipient(s)[0].Recipient(s)",
+      "ground_truth_value": "Mr. Meyer G. Koplow"
+    },
+    {
+      "key": "Recipient(s)[0].Company",
+      "ground_truth_value": "Wachtell, Lipton, Rosen & Katz"
+    },
+    {
+      "key": "Recipient(s)[1].Recipient(s)",
+      "ground_truth_value": "Mr. Arthur F. Golden"
+    },
+    {
+      "key": "Recipient(s)[1].Company",
+      "ground_truth_value": "Davis, Polk & Wardwell"
+    },
+    {
+      "key": "Recipient(s)[2].Recipient(s)",
+      "ground_truth_value": "Mr. Martin Barrington"
+    },
+    {
+      "key": "Recipient(s)[2].Company",
+      "ground_truth_value": "Philip Morris Inc."
+    },
+    {
+      "key": "Recipient(s)[3].Recipient(s)",
+      "ground_truth_value": "Mr. F. Anthony Burke"
+    },
+    {
+      "key": "Recipient(s)[3].Company",
+      "ground_truth_value": "Brown & Williamson Tobacco Corp."
+    },
+    {
+      "key": "Recipient(s)[4].Recipient(s)",
+      "ground_truth_value": "Mr. Ronald Milstein"
+    },
+    {
+      "key": "Recipient(s)[4].Company",
+      "ground_truth_value": "Lorillard Tobacco Co."
+    },
+    {
+      "key": "Recipient(s)[5].Recipient(s)",
+      "ground_truth_value": "Mr. Charles A. Blixt"
+    },
+    {
+      "key": "Recipient(s)[5].Company",
+      "ground_truth_value": "R.J. Reynolds Tobacco Co."
+    },
+    {
+      "key": "Recipient(s)[6].Recipient(s)",
+      "ground_truth_value": "Mr. Stephen R. Patton"
+    },
+    {
+      "key": "Recipient(s)[6].Company",
+      "ground_truth_value": "Kirkland & Ellis"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "Recipient(s) - Row 1 - Name",
+      "predicted_value": "Mr. Meyer G. Koplow"
+    },
+    {
+      "key": "Recipient(s) - Row 1 - Company",
+      "predicted_value": "Wachtell, Lipton, Rosen & Katz"
+    },
+    {
+      "key": "Recipient(s) - Row 2 - Name",
+      "predicted_value": "Mr. Arthur F. Golden"
+    },
+    {
+      "key": "Recipient(s) - Row 2 - Company",
+      "predicted_value": "Davis, Polk & Wardwell"
+    },
+    {
+      "key": "Recipient(s) - Row 3 - Name",
+      "predicted_value": "Mr. Martin Barrington"
+    },
+    {
+      "key": "Recipient(s) - Row 3 - Company",
+      "predicted_value": "Philip Morris Inc."
+    },
+    {
+      "key": "Recipient(s) - Row 4 - Name",
+      "predicted_value": "Mr. F. Anthony Burke"
+    },
+    {
+      "key": "Recipient(s) - Row 4 - Company",
+      "predicted_value": "Brown & Williamson Tobacco Corp."
+    },
+    {
+      "key": "Recipient(s) - Row 5 - Name",
+      "predicted_value": "Mr. Ronald Milstein"
+    },
+    {
+      "key": "Recipient(s) - Row 5 - Company",
+      "predicted_value": "Lorillard Tobacco Co."
+    },
+    {
+      "key": "Recipient(s) - Row 6 - Name",
+      "predicted_value": "Mr. Charles A. Blixt"
+    },
+    {
+      "key": "Recipient(s) - Row 6 - Company",
+      "predicted_value": "R.J. Reynolds Tobacco Co."
+    },
+    {
+      "key": "Recipient(s) - Row 7 - Name",
+      "predicted_value": "Mr. Stephen R. Patton"
+    },
+    {
+      "key": "Recipient(s) - Row 7 - Company",
+      "predicted_value": "Kirkland & Ellis"
+    }
+  ]
+}

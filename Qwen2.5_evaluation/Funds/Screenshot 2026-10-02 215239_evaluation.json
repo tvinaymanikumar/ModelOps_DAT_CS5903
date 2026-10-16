@@ -1,0 +1,77 @@
+{
+  "file": "Screenshot 2026-10-02 215239.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Date Routed": "January 11, 1994",
+    "Contract No.": "4011 00 00",
+    "Contract Subject": "Joe's Place Exhibits",
+    "Company": "SPEVCO, INC.",
+    "Brand(s)": "Camel/Winston",
+    "Total Contract Cost": "$1,340,000.00",
+    "Current Year Cost": "1994-1995",
+    "Brief Description": "2 Joe's Place Exhibits for use at Winston Cup, Winston Drag and Camel Super Bike Events."
+  },
+  "predictions_flattened": {
+    "date_routed": "January 11, 1994",
+    "contract_no": "4011 00 00",
+    "contract_subject": "Joe's Place Exhibits",
+    "company": "SPEVCO, INC.",
+    "brand_s": "Camel/Winston",
+    "total_contract_cost": "$1,340,000.00",
+    "current_year_cost": "1994-1995",
+    "brief_description": "2 Joe's Place Exhibits for use at Winston Cup, Winston Drag and Camel Super Bike Events."
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 8,
+      "total_prediction_fields": 8,
+      "matched_key_count": 7,
+      "correct_fields": 7,
+      "field_level_extraction_accuracy_pct": 87.5,
+      "matched_field_value_exact_match_pct": 100.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 7,
+      "false_positive": 1,
+      "false_negative": 1,
+      "precision_pct": 87.5,
+      "recall_pct": 87.5,
+      "f1_pct": 87.5,
+      "anls_pct": 87.5,
+      "anls_fields_scored": 8,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 7
+      }
+    },
+    "incorrect_values": [],
+    "key_match_methods": {
+      "normalized_exact": 7
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Contract No.",
+      "ground_truth_value": "4011 00 00"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "contract_no",
+      "predicted_value": "4011 00 00"
+    }
+  ]
+}

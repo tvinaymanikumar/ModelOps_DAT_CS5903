@@ -1,0 +1,10 @@
+```json
+{
+  "reported_by": "VAL THURMAN, DIVISION MANAGER, LOUISVILLE, KY",
+  "date": "4/26/91",
+  "source_of_information": "SHORT STOP FOOD MARTS, LOUISVILLE, KY",
+  "manufacturer": "PHILIP MORRIS",
+  "brand_s_promoted": "MARLBORO CIGARETTES",
+  "type_of_promotion": "CARTON PROMOTION SWEEPSTAKES"
+}
+```

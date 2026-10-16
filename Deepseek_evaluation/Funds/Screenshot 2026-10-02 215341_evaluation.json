@@ -1,0 +1,113 @@
+{
+  "file": "Screenshot 2026-10-02 215341.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "DATE": "12/28/94",
+    "TIME": "10:15",
+    "PLEASE TRANSMIT THIS DOCUMENT TO.NAME": "R. H. Orcutt",
+    "PLEASE TRANSMIT THIS DOCUMENT TO.OFFICE": "Lorillard - New York",
+    "PLEASE TRANSMIT THIS DOCUMENT TO.FAX PHONE NUMBER": "(212) 545-3299",
+    "THIS DOCUMENT IS FROM.NAME": "J. L. McGinnis - Region 9",
+    "THIS DOCUMENT IS FROM.OFFICE": "Lorillard Tobacco Company - Houston N., Texas",
+    "THIS DOCUMENT IS FROM.FAX PHONE NUMBER": "(713) 591-0204"
+  },
+  "predictions_flattened": {
+    "DATE": "12/28/94",
+    "TIME": "10:15",
+    "PAGES": "3",
+    "NAME": "J. L. McGinnis - Region 9",
+    "OFFICE": "Lorillard Tobacco Company - Houston N., Texas",
+    "FAX PHONE NUMBER": "(713) 591-0204"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 8,
+      "total_prediction_fields": 6,
+      "matched_key_count": 5,
+      "correct_fields": 2,
+      "field_level_extraction_accuracy_pct": 25.0,
+      "matched_field_value_exact_match_pct": 40.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 2,
+      "false_positive": 4,
+      "false_negative": 6,
+      "precision_pct": 33.33,
+      "recall_pct": 25.0,
+      "f1_pct": 28.57,
+      "anls_pct": 25.0,
+      "anls_fields_scored": 8,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 2,
+        "fuzzy_lexical_leaf_fallback": 3
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "PLEASE TRANSMIT THIS DOCUMENT TO.NAME",
+        "predicted_key": "NAME",
+        "ground_truth_value": "R. H. Orcutt",
+        "predicted_value": "J. L. McGinnis - Region 9",
+        "normalized_ground_truth_value": "r.h.orcutt",
+        "normalized_predicted_value": "j.l.mcginnis-region9",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "PLEASE TRANSMIT THIS DOCUMENT TO.OFFICE",
+        "predicted_key": "OFFICE",
+        "ground_truth_value": "Lorillard - New York",
+        "predicted_value": "Lorillard Tobacco Company - Houston N., Texas",
+        "normalized_ground_truth_value": "lorillard-newyork",
+        "normalized_predicted_value": "lorillardtobaccocompany-houstonn.,texas",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "PLEASE TRANSMIT THIS DOCUMENT TO.FAX PHONE NUMBER",
+        "predicted_key": "FAX PHONE NUMBER",
+        "ground_truth_value": "(212) 545-3299",
+        "predicted_value": "(713) 591-0204",
+        "normalized_ground_truth_value": "(212)545-3299",
+        "normalized_predicted_value": "(713)591-0204",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 2,
+      "fuzzy_lexical_leaf_fallback": 3
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "THIS DOCUMENT IS FROM.NAME",
+      "ground_truth_value": "J. L. McGinnis - Region 9"
+    },
+    {
+      "key": "THIS DOCUMENT IS FROM.OFFICE",
+      "ground_truth_value": "Lorillard Tobacco Company - Houston N., Texas"
+    },
+    {
+      "key": "THIS DOCUMENT IS FROM.FAX PHONE NUMBER",
+      "ground_truth_value": "(713) 591-0204"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "PAGES",
+      "predicted_value": "3"
+    }
+  ]
+}

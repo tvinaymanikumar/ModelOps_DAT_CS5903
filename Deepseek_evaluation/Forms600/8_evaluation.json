@@ -1,0 +1,316 @@
+{
+  "file": "8.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "First Name": "SOURAV",
+    "Middle Name": "",
+    "Surname": "SEN",
+    "Date of Birth/ Incorporation of declarant": "22/08/2005",
+    "Father's Name (in case of individual)/ First Name": "ARKA",
+    "Father's Middle Name": "",
+    "Father's Surname": "SEN",
+    "Flat/Room No": "",
+    "Floor No": "1st",
+    "Name of premises": "Lake Gardens Housing Complex",
+    "Block Name/No": "D10",
+    "Road/Street/Lane": "Prince Anwar Shah Road",
+    "Area/Locality": "Lake Gardens Housing Complex",
+    "Town/City": "Kolkata",
+    "District": "Kolkata",
+    "State": "West Bengal",
+    "Pin code": "700045",
+    "Telephone Number (wth STD code)": "033-23533997",
+    "Mobile No": "+91 9800011223",
+    "Amount of tansaction (Rs)": "6522",
+    "Date of transaction": "24/05/2025",
+    "In case of transaction in joint names, number of persons involved in the transaction": "3",
+    "Mode of transaction": "Card",
+    "Aadhaar Number issued by UIDAI (if available)": "472646912498",
+    "If applied for PAN and it is not yet generated enter date of application and acknowedgement number": "",
+    "Estimated Total Income.Agricultural income (Rs.)": "9523",
+    "Estimated Total Income.Other than agricultural income (Rs)": "133756",
+    "Details of document being produced in support of identify in Column 1.Document code": "C3",
+    "Details of document being produced in support of identify in Column 1.Document identification number": "DOC23910",
+    "Details of document being produced in support of identify in Column 1.Name and address of the authority issuing the document": "RTO",
+    "Details of document being produced in support of address in Columns 4 to 13.Document code": "C3",
+    "Details of document being produced in support of address in Columns 4 to 13.Document identification number": "DOC23910",
+    "Details of document being produced in support of address in Columns 4 to 13.Name and address of the authority issuing the document": "RTO",
+    "Transaction Type.05- Investment in time deposit": "No",
+    "Transaction Type.06- Deposit in cash": "Yes",
+    "Transaction Type.09- Opening an account (other than savings and time deposit)": "No",
+    "Transaction Type.10- Account with balance exceeding Rs. 50,000": "No",
+    "Transaction Type.11- Purchase of bank drafts or pay orders": "No",
+    "Transaction Type.12- Application for issue of a credit or debit card": "No",
+    "Transaction Type.14- Payment in connection with travel to any foreign country": "No",
+    "Transaction Type.15- Payment for purchase, or remittance outside India": "No",
+    "Transaction Type.22- Not classified above": "No",
+    "Verification.Name": "Sourav Sen",
+    "Verification.Verified today.Date": "24",
+    "Verification.Verified today.Month": "May",
+    "Verification.Verified today.Year": "",
+    "Verification.Place": "Kolkata",
+    "Verification.Signature of Declarant": "Sourav Sen"
+  },
+  "predictions_flattened": {
+    "First Name": "Sourav",
+    "Middle Name": "",
+    "Surname": "Sen",
+    "Father's Name": "Arka",
+    "Father's Middle Name": "",
+    "Father's Surname": "Sen",
+    "Flat/Room No.": "",
+    "Floor No.": "1st",
+    "Name of premises": "Lake Gardens Housing Complex",
+    "Block Name/No.": "D10",
+    "Road/Street/Lane": "Prince Anwer Shah Road",
+    "Area/Locality": "Lake Gardens Housing Complex",
+    "Town/City": "Kolkata",
+    "District": "Kolkata",
+    "State": "West Bengal",
+    "Pin code": "700045",
+    "Telephone Number (with STD code)": "983330997",
+    "Mobile No.": "91980001423",
+    "Amount of transaction (Rs.)": "5252",
+    "Date of transaction": "24/05/2021",
+    "Mode of transaction": "Card",
+    "Aadhaar Number issued by UIDAI (if available)": "472646912498",
+    "If applied for PAN and it is not yet generated enter date of application and acknowledgement number": "",
+    "If PAN not applied, fill estimated total income (including income of spouse, minor child etc. as per section 64 of Income-tax Act, 1961) for the financial year in which the above transaction is held": "5252",
+    "Agricultural income (Rs.)": "5252",
+    "Other than agricultural income (Rs.)": "5252",
+    "Details of document being produced in support of Column 1 (Refer Instruction overleaf)": "C3",
+    "Details of document being produced in support of address in Columns 4 to 13 (Refer Instruction overleaf)": "C3",
+    "Transaction Type": "05 - Investment in time deposit",
+    "Place": "Kolkata",
+    "Signature of Declarant": "Sourav Sen",
+    "Signature": "Sourav Sen"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 48,
+      "total_prediction_fields": 32,
+      "matched_key_count": 28,
+      "correct_fields": 22,
+      "field_level_extraction_accuracy_pct": 45.83,
+      "matched_field_value_exact_match_pct": 78.57,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 19,
+      "false_positive": 16,
+      "false_negative": 24,
+      "precision_pct": 54.29,
+      "recall_pct": 44.19,
+      "f1_pct": 48.72,
+      "anls_pct": 48.48,
+      "anls_fields_scored": 43,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 23,
+        "leaf_normalized_exact": 2,
+        "fuzzy_lexical_leaf_fallback": 3
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Road/Street/Lane",
+        "predicted_key": "Road/Street/Lane",
+        "ground_truth_value": "Prince Anwar Shah Road",
+        "predicted_value": "Prince Anwer Shah Road",
+        "normalized_ground_truth_value": "princeanwarshahroad",
+        "normalized_predicted_value": "princeanwershahroad",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Date of transaction",
+        "predicted_key": "Date of transaction",
+        "ground_truth_value": "24/05/2025",
+        "predicted_value": "24/05/2021",
+        "normalized_ground_truth_value": "24/05/2025",
+        "normalized_predicted_value": "24/05/2021",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Transaction Type.05- Investment in time deposit",
+        "predicted_key": "Transaction Type.05- Investment in time deposit",
+        "ground_truth_value": "No",
+        "predicted_value": "Yes",
+        "normalized_ground_truth_value": "no",
+        "normalized_predicted_value": "yes",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Transaction Type.06- Deposit in cash",
+        "predicted_key": "Transaction Type.06- Deposit in cash",
+        "ground_truth_value": "Yes",
+        "predicted_value": "No",
+        "normalized_ground_truth_value": "yes",
+        "normalized_predicted_value": "no",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Estimated Total Income.Agricultural income (Rs.)",
+        "predicted_key": "Flat/Room No.",
+        "ground_truth_value": "9523",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "9523",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Telephone Number (wth STD code)",
+        "predicted_key": "Telephone Number (with STD code)",
+        "ground_truth_value": "033-23533997",
+        "predicted_value": "983330997",
+        "normalized_ground_truth_value": "033-23533997",
+        "normalized_predicted_value": "983330997",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 23,
+      "leaf_normalized_exact": 2,
+      "fuzzy_lexical_leaf_fallback": 3
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Date of Birth/ Incorporation of declarant",
+      "ground_truth_value": "22/08/2005"
+    },
+    {
+      "key": "Father's Name (in case of individual)/ First Name",
+      "ground_truth_value": "ARKA"
+    },
+    {
+      "key": "Flat/Room No",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Floor No",
+      "ground_truth_value": "1st"
+    },
+    {
+      "key": "Block Name/No",
+      "ground_truth_value": "D10"
+    },
+    {
+      "key": "Mobile No",
+      "ground_truth_value": "+91 9800011223"
+    },
+    {
+      "key": "Amount of tansaction (Rs)",
+      "ground_truth_value": "6522"
+    },
+    {
+      "key": "In case of transaction in joint names, number of persons involved in the transaction",
+      "ground_truth_value": "3"
+    },
+    {
+      "key": "Estimated Total Income.Other than agricultural income (Rs)",
+      "ground_truth_value": "133756"
+    },
+    {
+      "key": "Details of document being produced in support of identify in Column 1.Document code",
+      "ground_truth_value": "C3"
+    },
+    {
+      "key": "Details of document being produced in support of identify in Column 1.Document identification number",
+      "ground_truth_value": "DOC23910"
+    },
+    {
+      "key": "Details of document being produced in support of identify in Column 1.Name and address of the authority issuing the document",
+      "ground_truth_value": "RTO"
+    },
+    {
+      "key": "Details of document being produced in support of address in Columns 4 to 13.Document code",
+      "ground_truth_value": "C3"
+    },
+    {
+      "key": "Details of document being produced in support of address in Columns 4 to 13.Document identification number",
+      "ground_truth_value": "DOC23910"
+    },
+    {
+      "key": "Details of document being produced in support of address in Columns 4 to 13.Name and address of the authority issuing the document",
+      "ground_truth_value": "RTO"
+    },
+    {
+      "key": "Transaction Type.10- Account with balance exceeding Rs. 50,000",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Verification.Name",
+      "ground_truth_value": "Sourav Sen"
+    },
+    {
+      "key": "Verification.Verified today.Date",
+      "ground_truth_value": "24"
+    },
+    {
+      "key": "Verification.Verified today.Month",
+      "ground_truth_value": "May"
+    },
+    {
+      "key": "Verification.Verified today.Year",
+      "ground_truth_value": ""
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "Father's Name",
+      "predicted_value": "Arka"
+    },
+    {
+      "key": "Floor No.",
+      "predicted_value": "1st"
+    },
+    {
+      "key": "Block Name/No.",
+      "predicted_value": "D10"
+    },
+    {
+      "key": "Mobile No.",
+      "predicted_value": "91980001423"
+    },
+    {
+      "key": "Amount of transaction (Rs.)",
+      "predicted_value": "5252"
+    },
+    {
+      "key": "If PAN not applied, fill estimated total income (including income of spouse, minor child etc. as per section 64 of Income-tax Act, 1961) for the financial year in which the above transaction is held",
+      "predicted_value": "5252"
+    },
+    {
+      "key": "Agricultural income (Rs.)",
+      "predicted_value": "5252"
+    },
+    {
+      "key": "Other than agricultural income (Rs.)",
+      "predicted_value": "5252"
+    },
+    {
+      "key": "Details of document being produced in support of Column 1 (Refer Instruction overleaf)",
+      "predicted_value": "C3"
+    },
+    {
+      "key": "Details of document being produced in support of address in Columns 4 to 13 (Refer Instruction overleaf)",
+      "predicted_value": "C3"
+    },
+    {
+      "key": "Signature",
+      "predicted_value": "Sourav Sen"
+    }
+  ]
+}

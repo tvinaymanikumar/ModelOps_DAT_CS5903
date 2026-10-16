@@ -1,0 +1,14 @@
+Pharmacy Prescription not:
+Pt Name: Blessing Ehtahman
+Age: 22
+Set: f
+Hosp No: Med 108/26
+Date: 23/05/26
+Diagnosis: Malaria
+Prescription:
+① Antiemetic/Compartment (Long/Longy teh)
+4 hrs sth, 4 less after shrs, 4 hrs BDX 47
+② Pcm soong - 1 hrs study x 3/7
+③ ORS - as needed
+Prescriber: Dr A-Johnson
+Signatures:

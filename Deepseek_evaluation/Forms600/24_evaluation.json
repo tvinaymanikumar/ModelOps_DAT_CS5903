@@ -1,0 +1,93 @@
+{
+  "file": "24.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Personal Information.Full Name": "DEEPIKA SHAH",
+    "Personal Information.Place Birth": "Surat",
+    "Personal Information.Birth of Date": "31/07/2007",
+    "Personal Information.Full Address": "A-204, Diamond Residency, Ring Road, Near Surat Castle, Surat",
+    "Personal Information.Nationality": "Indian",
+    "Personal Information.city/country": "Surat, India",
+    "Personal Information.Gander": "Female",
+    "Personal Information.Email": "deepika.shah@gmail.com",
+    "Personal Information.Phone Number": "+91-9979123456",
+    "Type Of Membership.Regular (3 month)": "Yes",
+    "Type Of Membership.Gold (6 month)": "No",
+    "Type Of Membership.Platinum (12 month)": "No"
+  },
+  "predictions_flattened": {
+    "Full Name": "DEEPIKA SHAH",
+    "Place Birth": "Surat",
+    "Birth of Date": "31/07/2007",
+    "Full Address": "No. 204, Diamond Residency, Ring Road, Near Surat Castle, Surat",
+    "Nationality": "Indian",
+    "City/Country": "Surat, India",
+    "Gender": "Female",
+    "Email": "deepika.shah@gmail.com",
+    "Phone Number": "+91-9979123456",
+    "Type Of Membership": "Regular (3 month)",
+    "Term & Condition": "This membership is valid\nMembership includes the facilities available\nMembership is not automatic"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 12,
+      "total_prediction_fields": 11,
+      "matched_key_count": 12,
+      "correct_fields": 11,
+      "field_level_extraction_accuracy_pct": 91.67,
+      "matched_field_value_exact_match_pct": 91.67,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 11,
+      "false_positive": 2,
+      "false_negative": 1,
+      "precision_pct": 84.62,
+      "recall_pct": 91.67,
+      "f1_pct": 88.0,
+      "anls_pct": 99.54,
+      "anls_fields_scored": 12,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 3,
+        "leaf_normalized_exact": 8,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Personal Information.Full Address",
+        "predicted_key": "Full Address",
+        "ground_truth_value": "A-204, Diamond Residency, Ring Road, Near Surat Castle, Surat",
+        "predicted_value": "No. 204, Diamond Residency, Ring Road, Near Surat Castle, Surat",
+        "normalized_ground_truth_value": "a-204,diamondresidency,ringroad,nearsuratcastle,surat",
+        "normalized_predicted_value": "no.204,diamondresidency,ringroad,nearsuratcastle,surat",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 3,
+      "leaf_normalized_exact": 8,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": [
+    {
+      "key": "Term & Condition",
+      "predicted_value": "This membership is valid\nMembership includes the facilities available\nMembership is not automatic"
+    }
+  ]
+}

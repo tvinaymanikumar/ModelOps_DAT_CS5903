@@ -1,0 +1,9 @@
+```json
+{
+  "reported_by": "C. M. WIECHMANN, D.M., LUBBOCK, TX",
+  "date": "10/5/92",
+  "time": "",
+  "manufacturer": "R. J. REYNOLDS",
+  "brand_name": "CARDINAL CIGARETTES (11 PACKINGS)"
+}
+```

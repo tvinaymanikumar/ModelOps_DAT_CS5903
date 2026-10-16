@@ -1,0 +1,16 @@
+HURSING OBSERVATION CHART
+
+Patient name: F.O.
+Age/Sex: 19/m
+Hospital number: 2026/5/10/15
+Ward: Male medical ward
+Diagnosis: Vaso-occlusive crisis [SCD]
+
+Date: Time: Temp [°C] Pulse [bpm] Resp rate [cpm]
+12/03/2026 08:00 38.5 102 24
+12/03/2026 12:00 38.2 100 23
+12/03/2026 16:00 37.8 96 22
+12/03/2026 20:00 37.5 90 20
+12/03/2026 08:00 37.2 84 18
+
+Scanned with CS CamScanner

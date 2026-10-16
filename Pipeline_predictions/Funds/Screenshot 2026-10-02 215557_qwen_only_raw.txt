@@ -1,0 +1,11 @@
+```json
+{
+  "project_code": "PNRM",
+  "date": "April 30, 1985",
+  "project_name": "PALL MALL Regular Menthol",
+  "project_leader": "J. F. Anders",
+  "work_requested_by": "R. S. Sprinkle, III",
+  "project_objective": "To develop a nonfilter menthol cigarette delivering 21-24 mg \"tar\" as a menthol companion to PALL MALL Famous Cigarettes. Cigarette dimensions: 84 x 24.9 mm circumference.",
+  "other_personnel_assigned": "E. P. Barbee"
+}
+```

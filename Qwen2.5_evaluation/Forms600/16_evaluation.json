@@ -1,0 +1,123 @@
+{
+  "file": "16.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "PPO Number": "KSEB529130",
+    "Pensioner Name": "Anjali Kurian",
+    "Pension Type": "Service Pension",
+    "Personal Mobile Number": "+91 8332547989",
+    "Aadhar Number (copy required)": "601080648825",
+    "Email": "anjali@gmail.com",
+    "Pension ARU": "KLM",
+    "DECLARATION.Place": "Kottayam",
+    "DECLARATION.Signature of Pensioner": "Anjali Kurian",
+    "DECLARATION.Date": "28/05/2025",
+    "DECLARATION.Name of Pensioner": "Anjali Kurian",
+    "For office use only.Verified & Entered Date": "",
+    "For office use only.Employee code & Signature": ""
+  },
+  "predictions_flattened": {
+    "ppo_number": "KSEB529L30",
+    "pensioner_name": "Anjali Kurian",
+    "pension_type": "Service Pension / Family Pension",
+    "personal_mobile_number": "+91 8334547989",
+    "aadhar_number": "GO1080648825",
+    "email": "anjali@gmail.com",
+    "pension_aru": "KLM",
+    "place": "kottayam",
+    "date": "28/05/2025",
+    "signature_of_pensioner": "Anjali Kurian",
+    "name_of_pensioner": "Anjali Kurian"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 13,
+      "total_prediction_fields": 11,
+      "matched_key_count": 10,
+      "correct_fields": 7,
+      "field_level_extraction_accuracy_pct": 53.85,
+      "matched_field_value_exact_match_pct": 70.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 7,
+      "false_positive": 4,
+      "false_negative": 4,
+      "precision_pct": 63.64,
+      "recall_pct": 63.64,
+      "f1_pct": 63.64,
+      "anls_pct": 80.21,
+      "anls_fields_scored": 11,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 6,
+        "leaf_normalized_exact": 4
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "PPO Number",
+        "predicted_key": "ppo_number",
+        "ground_truth_value": "KSEB529130",
+        "predicted_value": "KSEB529L30",
+        "normalized_ground_truth_value": "kseb529130",
+        "normalized_predicted_value": "kseb529l30",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Pension Type",
+        "predicted_key": "pension_type",
+        "ground_truth_value": "Service Pension",
+        "predicted_value": "Service Pension / Family Pension",
+        "normalized_ground_truth_value": "servicepension",
+        "normalized_predicted_value": "servicepension/familypension",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Mobile Number",
+        "predicted_key": "personal_mobile_number",
+        "ground_truth_value": "+91 8332547989",
+        "predicted_value": "+91 8334547989",
+        "normalized_ground_truth_value": "+918332547989",
+        "normalized_predicted_value": "+918334547989",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 6,
+      "leaf_normalized_exact": 4
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Aadhar Number (copy required)",
+      "ground_truth_value": "601080648825"
+    },
+    {
+      "key": "For office use only.Verified & Entered Date",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "For office use only.Employee code & Signature",
+      "ground_truth_value": ""
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "aadhar_number",
+      "predicted_value": "GO1080648825"
+    }
+  ]
+}

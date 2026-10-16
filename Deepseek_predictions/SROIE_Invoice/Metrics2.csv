@@ -1,0 +1,27 @@
+﻿File,Ground Truth JSON Files,Results JSON Files,GT Values,Prediction Values,Matched Values,Unmatched GT Values,Extra Prediction Values,Accuracy (%),Precision (%),Recall (%),F1 Score (%),Unmatched GT List,Extra Prediction List
+1.json,,,4,4,3,1,1,75.0,75.0,75.0,75.0,"lot1851-a&1851-b,jalankpb6,kawasanperindustrianbalakong,43300serikembangan,selangor(mrdiytescoterbau)","lot1851-a&1851-b,jalankpb6,kawasanperindustrianbalakong,43300serikembangan,selangor"
+10.json,,,4,4,3,1,1,75.0,75.0,75.0,75.0,"no.17-g,jalansetiaindah(x)u13/x,setiaalam,seksyenu13,40170shahalam,","no.17-g,jalansetiaindah(x)u13/x,40170shahalam,seksyenu13,40170shahalam"
+11.json,,,4,4,3,1,1,75.0,75.0,75.0,75.0,"no:28,jalanastana1c,bandarbukitraja,41050klangselangord.e,malaysia","28,jalanastana1c,bandarbukitraja,41050klangselangord.e,malaysia"
+12.json,,,4,4,3,1,1,75.0,75.0,75.0,75.0,"no43-45-47g,tamansejati,ijok,45600bestarijaya,kualaselangor.","no43-45-47g,tamansejati,ijok,45600bestarijaya,kualaselangor"
+13.json,,,4,4,3,1,1,75.0,75.0,75.0,75.0,"no.53,jalanbesar,45600batangberjuntaiselangordarulehsan","no.53,jalanbesar,45600batangberjuntai,selangordarulehsan"
+14.json,,,4,4,3,1,1,75.0,75.0,75.0,75.0,"no.50,jalanpbs14/11,kawasanperindustrianbukitserdang,","no.50,jalanpbs14/11,kawasanperindustrianbukitserdang"
+15.json,,,4,4,4,0,0,100.0,100.0,100.0,100.0,,
+16.json,,,4,4,3,1,1,75.0,75.0,75.0,75.0,348.95,343.95
+17.json,,,4,4,4,0,0,100.0,100.0,100.0,100.0,,
+18.json,,,4,4,3,1,1,75.0,75.0,75.0,75.0,20/03/2018,20/03/2016
+19.json,,,4,4,2,2,2,50.0,50.0,50.0,50.0,"99speedmarts/b | lotp.t.2811,jalanangsa,tamanberkeley41150klang,selangor1245-desasrihartamas","99speedmarts/b(519537-x) | lotp.t.2811,jalanangsa,tamanberkeley,41150klang,selangor,1245-desasrihartamas"
+2.json,,,4,4,1,3,3,25.0,25.0,25.0,25.0,"bookta.k(tamandaya)sdnbhd | 25/12/2018 | no.5355,57&59,jalansagu18,tamandaya,81100johorbahru,johor.","tanwoonyann | 25/12/20188:13:39pm | no.55,57&59,jalansagu18,tamandaya,81100johorbahru,johor."
+20.json,,,4,4,4,0,0,100.0,100.0,100.0,100.0,,
+21.json,,,4,4,3,1,1,75.0,75.0,75.0,75.0,"no8,jalan7/118b,desatunrazak56000kualalumpur,malaysia","no8,jalan7/118b,desatunrazak,56000kualalumpur,malaysia"
+22.json,,,4,4,4,0,0,100.0,100.0,100.0,100.0,,
+23.json,,,4,4,4,0,0,100.0,100.0,100.0,100.0,,
+24.json,,,4,4,2,2,2,50.0,50.0,50.0,50.0,aeonco.(m)bhd. | 5.90,aeonco.(m)bhd.(126926-h) | 5.57
+25.json,,,4,4,3,1,1,75.0,75.0,75.0,75.0,"no290,jalanairpanas.setapak,53200,kualalumpur","no290,jalanairpanas,setapak,53200,kualalumpur."
+3.json,,,4,4,4,0,0,100.0,100.0,100.0,100.0,,
+4.json,,,4,4,3,1,1,75.0,75.0,75.0,75.0,no.122.124.jalandedap1381100johorbahru,"no122,124jalandedap13,81100johorbahru"
+5.json,,,4,4,2,2,2,50.0,50.0,50.0,50.0,"abchotrading | no.2&4,jalanharmoni3/2,tamandesaharmoni.81100johorbahrujohor","tanchayyee | no.284,jalanharmoni3/2,tamandesaharmoni,81100johorbahru,johor"
+6.json,,,4,4,3,1,1,75.0,75.0,75.0,75.0,"no.53jalanputra1,tamansriputra,81200johorbahrujohor","no.53jalanputra1,tamansriputra,81200johorbahru,johor"
+7.json,,,4,4,4,0,0,100.0,100.0,100.0,100.0,,
+8.json,,,4,4,3,1,1,75.0,75.0,75.0,75.0,0.90,5.00
+9.json,,,4,4,4,0,0,100.0,100.0,100.0,100.0,,
+OVERALL,25,25,100,100,78,22,22,78.0,78.0,78.0,78.0,,

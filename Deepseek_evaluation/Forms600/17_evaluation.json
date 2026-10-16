@@ -1,0 +1,133 @@
+{
+  "file": "17.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Service Connection No": "SCN444864",
+    "Name of Registered Consumer (at present)": "Anil Singh",
+    "Consumer Category": "Domestic",
+    "Contracted Load": "5.97",
+    "Address (with telephone number)": "H.No. 23, Gulmohar Colony, Near Hazratganj Market, Lucknow, Uttar Pradesh - 226001, Tel: +91 9947105790",
+    "Name of the person in whose name connection to be changed (in CAPITAL LETTER)": "MEENA DAS",
+    "Attached Documents.Copy of latest bill duly paid": "No",
+    "Attached Documents.Proof of ownership/legal occupancy of premises": "No",
+    "Attached Documents.No objection Certificate from the existing consumer if available/possible": "No",
+    "Attached Documents.Registered deed/Succession certificate": "No",
+    "Date": "28-05-2025",
+    "Signature of Consumer": "Anil Singh",
+    "Place": "Port Blair",
+    "Name": "Anil Singh",
+    "Contact No": "9947105790",
+    "Email": "anil@gmail.com"
+  },
+  "predictions_flattened": {
+    "Service Connection No.": "SCN444864",
+    "Name of Registered Consumer (at present)": "Anil Singh",
+    "Consumer Category": "Domestic",
+    "Contracted Load": "5.97",
+    "Address": "H.No. 23, Gulmohar Colony, Near Hazratganj Market, Lucknow, Uttar Pradesh-226004, Tel: +91 9944106790",
+    "Name of the person in whose name connection to be changed": "MEENA DAS",
+    "Date": "28-06-2025",
+    "Place": "Port Blair",
+    "Contact No.": "9944106790",
+    "Signature of Consumer": "Anil Singh",
+    "Name": "Anil Singh",
+    "Email": "anil@gmail.com"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 16,
+      "total_prediction_fields": 12,
+      "matched_key_count": 9,
+      "correct_fields": 8,
+      "field_level_extraction_accuracy_pct": 50.0,
+      "matched_field_value_exact_match_pct": 88.89,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 8,
+      "false_positive": 4,
+      "false_negative": 8,
+      "precision_pct": 66.67,
+      "recall_pct": 50.0,
+      "f1_pct": 57.14,
+      "anls_pct": 55.62,
+      "anls_fields_scored": 16,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 8,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Date",
+        "predicted_key": "Date",
+        "ground_truth_value": "28-05-2025",
+        "predicted_value": "28-06-2025",
+        "normalized_ground_truth_value": "28-05-2025",
+        "normalized_predicted_value": "28-06-2025",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 8,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Service Connection No",
+      "ground_truth_value": "SCN444864"
+    },
+    {
+      "key": "Address (with telephone number)",
+      "ground_truth_value": "H.No. 23, Gulmohar Colony, Near Hazratganj Market, Lucknow, Uttar Pradesh - 226001, Tel: +91 9947105790"
+    },
+    {
+      "key": "Attached Documents.Copy of latest bill duly paid",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Attached Documents.Proof of ownership/legal occupancy of premises",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Attached Documents.No objection Certificate from the existing consumer if available/possible",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Attached Documents.Registered deed/Succession certificate",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Contact No",
+      "ground_truth_value": "9947105790"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "Service Connection No.",
+      "predicted_value": "SCN444864"
+    },
+    {
+      "key": "Address",
+      "predicted_value": "H.No. 23, Gulmohar Colony, Near Hazratganj Market, Lucknow, Uttar Pradesh-226004, Tel: +91 9944106790"
+    },
+    {
+      "key": "Contact No.",
+      "predicted_value": "9944106790"
+    }
+  ]
+}

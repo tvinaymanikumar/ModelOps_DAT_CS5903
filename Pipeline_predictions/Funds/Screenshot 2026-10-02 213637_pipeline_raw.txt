@@ -1,0 +1,10 @@
+```json
+{
+  "to": "George Baroody",
+  "fax_number": "(336) 335-7392",
+  "phone_number": "(336) 335-7363",
+  "date": "12/10/98",
+  "number_of_pages_including_cover_sheet": "3",
+  "sender_phone_number": "(614) 466-8980"
+}
+```

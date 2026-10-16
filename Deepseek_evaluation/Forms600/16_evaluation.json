@@ -1,0 +1,141 @@
+{
+  "file": "16.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "PPO Number": "KSEB529130",
+    "Pensioner Name": "Anjali Kurian",
+    "Pension Type": "Service Pension",
+    "Personal Mobile Number": "+91 8332547989",
+    "Aadhar Number (copy required)": "601080648825",
+    "Email": "anjali@gmail.com",
+    "Pension ARU": "KLM",
+    "DECLARATION.Place": "Kottayam",
+    "DECLARATION.Signature of Pensioner": "Anjali Kurian",
+    "DECLARATION.Date": "28/05/2025",
+    "DECLARATION.Name of Pensioner": "Anjali Kurian",
+    "For office use only.Verified & Entered Date": "",
+    "For office use only.Employee code & Signature": ""
+  },
+  "predictions_flattened": {
+    "PPO Number": "KSFB529L30",
+    "Pensioner Name": "Anjali Kupian",
+    "Pension Type": "Service Pension / Family Pension",
+    "Personal Mobile Number": "+91 8332547989",
+    "Aadhar Number (copy required)": "60100648895",
+    "Email": "anjali@gmail.com",
+    "Pension ARU": "KLM",
+    "Place": "Kottayam",
+    "Signature of Pensioner": "Anjali Kupian",
+    "Name of Pensioner": "Anjali Kupian",
+    "Date": "28/05/2025"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 13,
+      "total_prediction_fields": 11,
+      "matched_key_count": 11,
+      "correct_fields": 5,
+      "field_level_extraction_accuracy_pct": 38.46,
+      "matched_field_value_exact_match_pct": 45.45,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 5,
+      "false_positive": 6,
+      "false_negative": 6,
+      "precision_pct": 45.45,
+      "recall_pct": 45.45,
+      "f1_pct": 45.45,
+      "anls_pct": 85.3,
+      "anls_fields_scored": 11,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 7,
+        "leaf_normalized_exact": 4
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "PPO Number",
+        "predicted_key": "PPO Number",
+        "ground_truth_value": "KSEB529130",
+        "predicted_value": "KSFB529L30",
+        "normalized_ground_truth_value": "kseb529130",
+        "normalized_predicted_value": "ksfb529l30",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Pensioner Name",
+        "predicted_key": "Pensioner Name",
+        "ground_truth_value": "Anjali Kurian",
+        "predicted_value": "Anjali Kupian",
+        "normalized_ground_truth_value": "anjalikurian",
+        "normalized_predicted_value": "anjalikupian",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Pension Type",
+        "predicted_key": "Pension Type",
+        "ground_truth_value": "Service Pension",
+        "predicted_value": "Service Pension / Family Pension",
+        "normalized_ground_truth_value": "servicepension",
+        "normalized_predicted_value": "servicepension/familypension",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Aadhar Number (copy required)",
+        "predicted_key": "Aadhar Number (copy required)",
+        "ground_truth_value": "601080648825",
+        "predicted_value": "60100648895",
+        "normalized_ground_truth_value": "601080648825",
+        "normalized_predicted_value": "60100648895",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "DECLARATION.Signature of Pensioner",
+        "predicted_key": "Signature of Pensioner",
+        "ground_truth_value": "Anjali Kurian",
+        "predicted_value": "Anjali Kupian",
+        "normalized_ground_truth_value": "anjalikurian",
+        "normalized_predicted_value": "anjalikupian",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "DECLARATION.Name of Pensioner",
+        "predicted_key": "Name of Pensioner",
+        "ground_truth_value": "Anjali Kurian",
+        "predicted_value": "Anjali Kupian",
+        "normalized_ground_truth_value": "anjalikurian",
+        "normalized_predicted_value": "anjalikupian",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 7,
+      "leaf_normalized_exact": 4
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "For office use only.Verified & Entered Date",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "For office use only.Employee code & Signature",
+      "ground_truth_value": ""
+    }
+  ],
+  "extra_in_predictions": []
+}

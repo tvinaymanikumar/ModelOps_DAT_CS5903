@@ -1,0 +1,15 @@
+Date  35 - 002 - Syn
+
+Pediatric Outpatient Clinic
+Name: U.T.
+Sex: Male
+Age: 9 years
+
+Diagnosis: Chicken PoX
+
+Prescription
+
+(1) Calamine (option 6.d × 5/7)
+(2) Tabs (or at fine long dly × 5/7)
+(3) Tabs (or at 20mg dly × 10/7)
+(4) Tabs (or at 10mg)

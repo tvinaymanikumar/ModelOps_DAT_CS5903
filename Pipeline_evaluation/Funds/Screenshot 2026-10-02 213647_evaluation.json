@@ -1,0 +1,107 @@
+{
+  "file": "Screenshot 2026-10-02 213647.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "TO": "JACK REILLY",
+    "TELECOPY NO": "212/545-3297",
+    "FROM": "JIM DALEY",
+    "#": "392",
+    "DATE": "JANUARY 31, 1997",
+    "TIME": "",
+    "SHB Client Matter No.": "LORL45048",
+    "Pages transmitted including cover sheet": "3",
+    "Special Instructions": "",
+    "If you experience any problems, please call extension": "2100"
+  },
+  "predictions_flattened": {
+    "to": "JACK REILLY",
+    "telecopy_no": "212/545-3297",
+    "from": "JIM DALEY",
+    "date": "JANUARY 31, 1997",
+    "time": "",
+    "shb_client_matter_no": "LORI.45048",
+    "pages_transmitted_including_cover_sheet": "3",
+    "original_document_will_follow_via_federal_express": "FEDERAL EXPRESS",
+    "special_instructions": "If you experience any problems, please call extension 21000.",
+    "operator": ""
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 10,
+      "total_prediction_fields": 10,
+      "matched_key_count": 7,
+      "correct_fields": 6,
+      "field_level_extraction_accuracy_pct": 60.0,
+      "matched_field_value_exact_match_pct": 85.71,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 5,
+      "false_positive": 3,
+      "false_negative": 3,
+      "precision_pct": 62.5,
+      "recall_pct": 62.5,
+      "f1_pct": 62.5,
+      "anls_pct": 62.5,
+      "anls_fields_scored": 8,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 7
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Special Instructions",
+        "predicted_key": "special_instructions",
+        "ground_truth_value": "",
+        "predicted_value": "If you experience any problems, please call extension 21000.",
+        "normalized_ground_truth_value": "",
+        "normalized_predicted_value": "ifyouexperienceanyproblems,pleasecallextension21000.",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 7
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "#",
+      "ground_truth_value": "392"
+    },
+    {
+      "key": "SHB Client Matter No.",
+      "ground_truth_value": "LORL45048"
+    },
+    {
+      "key": "If you experience any problems, please call extension",
+      "ground_truth_value": "2100"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "shb_client_matter_no",
+      "predicted_value": "LORI.45048"
+    },
+    {
+      "key": "original_document_will_follow_via_federal_express",
+      "predicted_value": "FEDERAL EXPRESS"
+    },
+    {
+      "key": "operator",
+      "predicted_value": ""
+    }
+  ]
+}

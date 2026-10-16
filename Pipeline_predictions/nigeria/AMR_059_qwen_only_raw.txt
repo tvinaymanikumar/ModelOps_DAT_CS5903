@@ -1,0 +1,7 @@
+```json
+{
+  "name": "8-004-syn",
+  "age": "15 months",
+  "sex": "male"
+}
+```

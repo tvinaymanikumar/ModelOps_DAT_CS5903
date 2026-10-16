@@ -1,0 +1,101 @@
+{
+  "file": "13.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Roll No": "504375",
+    "Name of the Student": "Arka Dutta",
+    "Name of the Hindi": "",
+    "Course": "M.Sc.",
+    "Subject": "Physics",
+    "Dept./ Centre": "Department of Physics",
+    "School": "Osmania University",
+    "Date of Birth": "12-02-1996",
+    "Gender (Male/Female)": "Male",
+    "Nationality": "Indian",
+    "State of Domicile": "Telangana",
+    "Blood Group": "B+",
+    "Father's Name": "Rajesh Dutta",
+    "Mother's Name": "Sunita Dutta",
+    "Date of Admission to the Course": "06-06-2022",
+    "CGPA or Marks obtained": "6.44",
+    "Division obtained": "Second",
+    "Date of declaration of result by the CE's Office": "03-12-2024",
+    "Month and Year of award": "May 2025"
+  },
+  "predictions_flattened": {
+    "Roll No.": "504375",
+    "Name of the Student": "Arka Dutta",
+    "Name of the Hindi": "",
+    "Course": "M.Sc.",
+    "Subject": "Physics",
+    "Dept. / Centre": "Department of physics",
+    "School": "Osmania University",
+    "Date of Birth": "12-02-1996",
+    "Gender (Male / Female)": "Male",
+    "Nationality": "Indian",
+    "State of Domicile": "Telangana",
+    "Blood Group": "B+",
+    "Father's Name": "Rajesh Dutta",
+    "Mother's Name": "Sunita Dutta",
+    "Date of Admission to the Course": "06-06-2022",
+    "CGPA or Marks obtained": "6.44",
+    "Division obtained": "Second",
+    "Date of declaration of result by the CCE's Office": "03-12-2024",
+    "Month and Year of award": "May 2025"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 19,
+      "total_prediction_fields": 19,
+      "matched_key_count": 18,
+      "correct_fields": 18,
+      "field_level_extraction_accuracy_pct": 94.74,
+      "matched_field_value_exact_match_pct": 100.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 17,
+      "false_positive": 1,
+      "false_negative": 1,
+      "precision_pct": 94.44,
+      "recall_pct": 94.44,
+      "f1_pct": 94.44,
+      "anls_pct": 94.44,
+      "anls_fields_scored": 18,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 17,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [],
+    "key_match_methods": {
+      "normalized_exact": 17,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Roll No",
+      "ground_truth_value": "504375"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "Roll No.",
+      "predicted_value": "504375"
+    }
+  ]
+}

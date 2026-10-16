@@ -1,0 +1,11 @@
+```json
+{
+  "case_name": "Donald D. Sellers and Robin J. Sellers v. Raybestos-Manhattan, et al.",
+  "court": "San Francisco Superior Court - No. 996382",
+  "lorillard_entities": "Lorillard Tobacco Company",
+  "date_filed": "",
+  "date_served": "August 3, 1998",
+  "case_type": "Asbestos",
+  "plaintiffs_counsel": "Wartnick, Chaber, Harowitz, Smith & Tigerman\nStephen M. Tigerman\n101 California Street, Suite 2200\nSan Francisco, California 94111\n415/986-5566"
+}
+```

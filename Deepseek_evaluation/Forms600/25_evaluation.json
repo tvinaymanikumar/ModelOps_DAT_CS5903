@@ -1,0 +1,89 @@
+{
+  "file": "25.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Student's First Name": "Lakshmi",
+    "Student's Surname": "Narayanan",
+    "Father's First Name": "Ashok",
+    "Father's Surname": "Narayanan",
+    "(DOB) Date": "27",
+    "Month": "November",
+    "Year": "2007",
+    "Gender": "Female",
+    "Nationality": "Indian",
+    "Religion": "Jain",
+    "Caste Category": "ST",
+    "Father's Occupation": "Engineer",
+    "Course Applied For": "Arts",
+    "Medium": "Bengali",
+    "City": "Madurai",
+    "PO/PS": "Madurai",
+    "State": "Tamil Nadu",
+    "Phone Number": "+91-9884567890"
+  },
+  "predictions_flattened": {
+    "Student's First Name": "Lakshmi",
+    "Student's Surname": "Narayanan",
+    "Father's First Name": "Ashok",
+    "Father's Surname": "Narayanan",
+    "DOB Date": "27",
+    "Month": "November",
+    "Year": "2007",
+    "Gender": "Female",
+    "Nationality": "Indian",
+    "Religion": "Jain",
+    "Caste Category": "ST",
+    "Father's Occupation": "Engineer",
+    "Course Applied For": "Arts",
+    "Medium": "Bengali",
+    "City": "Madurai",
+    "POPS": "Madurai",
+    "State": "Tamil Nadu",
+    "Phone Number": "+91-9884567890"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 18,
+      "total_prediction_fields": 18,
+      "matched_key_count": 18,
+      "correct_fields": 18,
+      "field_level_extraction_accuracy_pct": 100.0,
+      "matched_field_value_exact_match_pct": 100.0,
+      "document_exact_match": true,
+      "document_exact_match_pct": 100.0,
+      "true_positive": 18,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "f1_pct": 100.0,
+      "anls_pct": 100.0,
+      "anls_fields_scored": 18,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 17,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [],
+    "key_match_methods": {
+      "normalized_exact": 17,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": []
+}

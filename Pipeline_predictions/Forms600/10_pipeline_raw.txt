@@ -1,0 +1,21 @@
+```json
+{
+  "name_of_the_applicant": "ARKA DUTTA",
+  "dept": "Zoology",
+  "class": "B.Sc 2nd year",
+  "roll_no": "879",
+  "father_s_name": "Mr. Ashok Dutta",
+  "mother_s_name": "Mrs. Devi Dutta",
+  "total_family_income": "91157",
+  "total_fee_deposited_by_the_candidate": "7405",
+  "1st_installment_amount": "4262",
+  "1st_installment_receipt_number": "R21587",
+  "1st_installment_date": "23/04/2025",
+  "2nd_installment_amount": "3143",
+  "2nd_installment_receipt_number": "R21587",
+  "2nd_installment_date": "23/04/2025",
+  "amenities_already_being_availed": "Meritscholarship",
+  "scholarship_stipend_financial_assistance": "",
+  "fee_concession": "None"
+}
+```

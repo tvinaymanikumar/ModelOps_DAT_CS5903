@@ -1,0 +1,164 @@
+{
+  "file": "4.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Personal Information.Full Name": "Ritoban Bhattacharya",
+    "Personal Information.Date of Birth": "01-30-1999",
+    "Personal Information.Gender": "Male",
+    "Personal Information.Address": "Flat 2B, Saptarshi Apartments, 102 Jodhpur Park, Kolkata, West Bengal - 700068",
+    "Personal Information.City": "Kolkata",
+    "Personal Information.State/Province": "West Bengal",
+    "Personal Information.Zip/Postal Code": "700068",
+    "Personal Information.Country": "India",
+    "Personal Information.Phone Number": "+91-9812345678",
+    "Personal Information.Email Address": "ritoban.bhattacharya@gmail.com",
+    "Educational Background[0].Degree/Course": "M.Sc Physics",
+    "Educational Background[0].University/Institute": "IIM Ahmedabad",
+    "Educational Background[0].Year of Graduate": "2022",
+    "Educational Background[0].Grade": "B",
+    "Educational Background[0].City": "Kolkata",
+    "Employment History[0].Employee": "Reliance Industries",
+    "Employment History[0].Job Title": "Developer",
+    "Employment History[0].Address": "Flat 2B, Saptarshi Apartments, 102 Jodhpur Park, Kolkata, West Bengal - 700068",
+    "Employment History[0].Start Date": "03-26-2024",
+    "Employment History[0].End Date": "10-28-2025",
+    "Employment History[0].Responsibilities": "Project Planning",
+    "Employment History[0].Why I Quit": "Better opportunity",
+    "Skills & Training[0].Skill & Training Achievement(s)": "Cloud Computing",
+    "Skills & Training[0].Level": "Beginner",
+    "Skills & Training[0].Year": "2017",
+    "Skills & Training[0].Institute": "Udemy",
+    "Date": "05-24-2025",
+    "Signature": "Ritoban Bhattacharya"
+  },
+  "predictions_flattened": {
+    "Full Name": "Ritaban Bhattacharya",
+    "Date of Birth": "04-30-1999",
+    "Gender": "Male",
+    "Address": "Flat 2B, Saptarshi Apartments, 102 Jodhpur Park, Kolkata, West Bengal - 700068",
+    "City": "Kolkata",
+    "State/Province": "West Bengal",
+    "Zip/Postal Code": "700068",
+    "Country": "India",
+    "Phone Number": "+91-9842345678",
+    "Email Address": "ritaban.bhattacharya@gmail.com",
+    "Degree / Course": "M.Sc Physics",
+    "University / Institute": "IIM Ahmedabad",
+    "Year of Graduate": "2022",
+    "Grade": "B",
+    "Employee": "Reliance Industries",
+    "Job Title": "Developer",
+    "Start Date": "03-26-2024",
+    "End Date": "10-28-2025",
+    "Responsibilities": "Project Planning",
+    "Why I Quit": "Better opportunity",
+    "Skill & Training Achievement(s)": "Cloud Computing",
+    "Level": "Beginner",
+    "Year": "2017",
+    "Institute": "Udemy",
+    "Date": "05-24-2025",
+    "Signature": "Ritaban Bhattacharya"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 28,
+      "total_prediction_fields": 26,
+      "matched_key_count": 26,
+      "correct_fields": 21,
+      "field_level_extraction_accuracy_pct": 75.0,
+      "matched_field_value_exact_match_pct": 80.77,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 21,
+      "false_positive": 5,
+      "false_negative": 7,
+      "precision_pct": 80.77,
+      "recall_pct": 75.0,
+      "f1_pct": 77.78,
+      "anls_pct": 91.75,
+      "anls_fields_scored": 28,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 2,
+        "leaf_normalized_exact": 22,
+        "fuzzy_lexical_leaf_fallback": 2
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Signature",
+        "predicted_key": "Signature",
+        "ground_truth_value": "Ritoban Bhattacharya",
+        "predicted_value": "Ritaban Bhattacharya",
+        "normalized_ground_truth_value": "ritobanbhattacharya",
+        "normalized_predicted_value": "ritabanbhattacharya",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Full Name",
+        "predicted_key": "Full Name",
+        "ground_truth_value": "Ritoban Bhattacharya",
+        "predicted_value": "Ritaban Bhattacharya",
+        "normalized_ground_truth_value": "ritobanbhattacharya",
+        "normalized_predicted_value": "ritabanbhattacharya",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Date of Birth",
+        "predicted_key": "Date of Birth",
+        "ground_truth_value": "01-30-1999",
+        "predicted_value": "04-30-1999",
+        "normalized_ground_truth_value": "01-30-1999",
+        "normalized_predicted_value": "04-30-1999",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Phone Number",
+        "predicted_key": "Phone Number",
+        "ground_truth_value": "+91-9812345678",
+        "predicted_value": "+91-9842345678",
+        "normalized_ground_truth_value": "+91-9812345678",
+        "normalized_predicted_value": "+91-9842345678",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Email Address",
+        "predicted_key": "Email Address",
+        "ground_truth_value": "ritoban.bhattacharya@gmail.com",
+        "predicted_value": "ritaban.bhattacharya@gmail.com",
+        "normalized_ground_truth_value": "ritoban.bhattacharya@gmail.com",
+        "normalized_predicted_value": "ritaban.bhattacharya@gmail.com",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 2,
+      "leaf_normalized_exact": 22,
+      "fuzzy_lexical_leaf_fallback": 2
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Educational Background[0].City",
+      "ground_truth_value": "Kolkata"
+    },
+    {
+      "key": "Employment History[0].Address",
+      "ground_truth_value": "Flat 2B, Saptarshi Apartments, 102 Jodhpur Park, Kolkata, West Bengal - 700068"
+    }
+  ],
+  "extra_in_predictions": []
+}

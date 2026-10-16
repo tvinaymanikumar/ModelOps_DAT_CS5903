@@ -1,0 +1,81 @@
+{
+  "file": "Screenshot 2026-10-02 220032.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "DATE": "January 11, 1999",
+    "CLIENT NO.": "L8557.002",
+    "MESSAGE TO": "Dewey Tedder",
+    "COMPANY": "Lorillard Tobacco Company",
+    "FAX NUMBER": "336/373-6917",
+    "PHONE": "336/373-6750",
+    "FROM": "Andy Zausner and Rob Mangas",
+    "PHONE (FROM)": "202/828-2259 and 202/828-2241"
+  },
+  "predictions_flattened": {
+    "DATE": "January 11, 1999",
+    "CLIENT NO.": "L8557.002",
+    "MESSAGE TO": "Dewey Tedder",
+    "COMPANY": "Lorillard Tobacco Company",
+    "FAX NUMBER": "336/373-6917",
+    "PHONE": "202/828-2259 and 202/828-2241",
+    "FROM": "Andy Zausner and Rob Mangas"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 8,
+      "total_prediction_fields": 7,
+      "matched_key_count": 7,
+      "correct_fields": 6,
+      "field_level_extraction_accuracy_pct": 75.0,
+      "matched_field_value_exact_match_pct": 85.71,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 6,
+      "false_positive": 1,
+      "false_negative": 2,
+      "precision_pct": 85.71,
+      "recall_pct": 75.0,
+      "f1_pct": 80.0,
+      "anls_pct": 75.0,
+      "anls_fields_scored": 8,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 7
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "PHONE",
+        "predicted_key": "PHONE",
+        "ground_truth_value": "336/373-6750",
+        "predicted_value": "202/828-2259 and 202/828-2241",
+        "normalized_ground_truth_value": "336/373-6750",
+        "normalized_predicted_value": "202/828-2259and202/828-2241",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 7
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "PHONE (FROM)",
+      "ground_truth_value": "202/828-2259 and 202/828-2241"
+    }
+  ],
+  "extra_in_predictions": []
+}

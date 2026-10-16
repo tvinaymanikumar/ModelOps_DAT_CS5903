@@ -1,0 +1,82 @@
+{
+  "file": "Screenshot 2026-10-02 215047.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Date": "Ocotber 9, 1968",
+    "Agency": "BBDO Inc.",
+    "Contact": "Mr. Marv Goldsmith",
+    "Address": "383 Madisom Avenue New York 10017",
+    "Client": "American Tobacco Co.",
+    "Product": "Tareyton Cigarettes"
+  },
+  "predictions_flattened": {
+    "Date": "October 9, 1968",
+    "Agency": "BBDO Inc.",
+    "Contact": "Mr. Marv Goldsmith",
+    "Address": "383 Madison Avenue New York 10017",
+    "Client": "American Tobacco Co.",
+    "Product": "Tareyton Cigarettes"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 6,
+      "total_prediction_fields": 6,
+      "matched_key_count": 6,
+      "correct_fields": 4,
+      "field_level_extraction_accuracy_pct": 66.67,
+      "matched_field_value_exact_match_pct": 66.67,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 4,
+      "false_positive": 2,
+      "false_negative": 2,
+      "precision_pct": 66.67,
+      "recall_pct": 66.67,
+      "f1_pct": 66.67,
+      "anls_pct": 96.84,
+      "anls_fields_scored": 6,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 6
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Date",
+        "predicted_key": "Date",
+        "ground_truth_value": "Ocotber 9, 1968",
+        "predicted_value": "October 9, 1968",
+        "normalized_ground_truth_value": "ocotber9,1968",
+        "normalized_predicted_value": "october9,1968",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Address",
+        "predicted_key": "Address",
+        "ground_truth_value": "383 Madisom Avenue New York 10017",
+        "predicted_value": "383 Madison Avenue New York 10017",
+        "normalized_ground_truth_value": "383madisomavenuenewyork10017",
+        "normalized_predicted_value": "383madisonavenuenewyork10017",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 6
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": []
+}

@@ -1,0 +1,75 @@
+{
+  "file": "Screenshot 2026-10-02 215557.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "PROJECT CODE": "PNRM",
+    "DATE": "April 30, 1985",
+    "PROJECT NAME": "PALL MALL Regular Menthol",
+    "PROJECT LEADER": "J. F. Anders",
+    "WORK REQUESTED BY": "R. S. Sprinkle, III",
+    "PROJECT OBJECTIVE": "To develop a nonfilter menthol cigarette delivering 21-24 mg \"tar\" as a menthol companion to PALL MALL Famous Cigarettes. Cigarette dimensions: 84 x 24.9 mm circum-ference.",
+    "OTHER PERSONNEL ASSIGNED": "E. P. Barbee"
+  },
+  "predictions_flattened": {
+    "project_code": "PNRM",
+    "date": "April 30, 1985",
+    "project_name": "PALL MALL Regular Menthol",
+    "project_leader": "J. F. Anders",
+    "work_requested_by": "R. S. Sprinkle, III",
+    "project_objective": "To develop a nonfilter menthol cigarette delivering 21-24 mg \"tar\" as a menthol companion to PALL MALL Famous Cigarettes. Cigarette dimensions: 84 x 24.9 mm circumference.",
+    "other_personnel_assigned": "E. P. Barbee"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 7,
+      "total_prediction_fields": 7,
+      "matched_key_count": 7,
+      "correct_fields": 6,
+      "field_level_extraction_accuracy_pct": 85.71,
+      "matched_field_value_exact_match_pct": 85.71,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 6,
+      "false_positive": 1,
+      "false_negative": 1,
+      "precision_pct": 85.71,
+      "recall_pct": 85.71,
+      "f1_pct": 85.71,
+      "anls_pct": 99.9,
+      "anls_fields_scored": 7,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 7
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "PROJECT OBJECTIVE",
+        "predicted_key": "project_objective",
+        "ground_truth_value": "To develop a nonfilter menthol cigarette delivering 21-24 mg \"tar\" as a menthol companion to PALL MALL Famous Cigarettes. Cigarette dimensions: 84 x 24.9 mm circum-ference.",
+        "predicted_value": "To develop a nonfilter menthol cigarette delivering 21-24 mg \"tar\" as a menthol companion to PALL MALL Famous Cigarettes. Cigarette dimensions: 84 x 24.9 mm circumference.",
+        "normalized_ground_truth_value": "todevelopanonfiltermentholcigarettedelivering21-24mg\"tar\"asamentholcompaniontopallmallfamouscigarettes.cigarettedimensions:84x24.9mmcircum-ference.",
+        "normalized_predicted_value": "todevelopanonfiltermentholcigarettedelivering21-24mg\"tar\"asamentholcompaniontopallmallfamouscigarettes.cigarettedimensions:84x24.9mmcircumference.",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 7
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": []
+}

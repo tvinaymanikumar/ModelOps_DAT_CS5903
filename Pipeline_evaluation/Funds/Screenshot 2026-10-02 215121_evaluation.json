@@ -1,0 +1,89 @@
+{
+  "file": "Screenshot 2026-10-02 215121.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "DESCRIPTION": "VICEROY Rich Lights 100's 20's Label",
+    "BRAND(S)": "VICEROY Rich Lights",
+    "DESIGN NO.": "81-257",
+    "UPC NO.": "272972",
+    "MATERIAL NO.": "50-034A"
+  },
+  "predictions_flattened": {
+    "description": "VICEROY Rich Lights 100's 20's Label",
+    "brand": "VICEROY Rich Lights",
+    "design_no": "81-257",
+    "upc_no": "272972",
+    "material_no": "50-034A"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 5,
+      "total_prediction_fields": 5,
+      "matched_key_count": 2,
+      "correct_fields": 2,
+      "field_level_extraction_accuracy_pct": 40.0,
+      "matched_field_value_exact_match_pct": 100.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 2,
+      "false_positive": 3,
+      "false_negative": 3,
+      "precision_pct": 40.0,
+      "recall_pct": 40.0,
+      "f1_pct": 40.0,
+      "anls_pct": 40.0,
+      "anls_fields_scored": 5,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 1,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [],
+    "key_match_methods": {
+      "normalized_exact": 1,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "DESIGN NO.",
+      "ground_truth_value": "81-257"
+    },
+    {
+      "key": "UPC NO.",
+      "ground_truth_value": "272972"
+    },
+    {
+      "key": "MATERIAL NO.",
+      "ground_truth_value": "50-034A"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "design_no",
+      "predicted_value": "81-257"
+    },
+    {
+      "key": "upc_no",
+      "predicted_value": "272972"
+    },
+    {
+      "key": "material_no",
+      "predicted_value": "50-034A"
+    }
+  ]
+}

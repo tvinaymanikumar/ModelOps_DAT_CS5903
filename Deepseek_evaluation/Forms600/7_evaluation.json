@@ -1,0 +1,119 @@
+{
+  "file": "7.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Name": "Anirban Ghosh",
+    "Leave required for.days": "1",
+    "Leave required for.dates": "15/06/2025 to 15/06/2025",
+    "Reason": "Conference attendance",
+    "Address while on leave": "Flat 5C, Shantiniketan Residency, 45 Gariahat Road, Ballygunge, Kolkata, West Bengal - 700019",
+    "Signature": "Anirban Ghosh",
+    "Unit": "Economics Division",
+    "Date": "24/05/2025",
+    "Signature of Supervisor/Convener, RF Advisory Committee/Head of Unit/Professor-in-Charge": "Prof. M. Iyer",
+    "Supervisor Date": "24/05/2025",
+    "Signature of warden (for Hosteller)": "Ms. R. Das",
+    "Warden Date": "24/05/2025",
+    "For Office Use.Number of previous leave application during the year": "0",
+    "For Office Use.Total leave (No. of days) already taken during the year": "12",
+    "For Office Use.Entered and verified by": "Ms. S. Ghosh",
+    "For Office Use.Remarks": "Check previous records",
+    "For Office Use.Leave granted/not granted": "granted",
+    "For Office Use.Date": "24/05/2025",
+    "For Office Use.Dean of Studies": "Dr. P. Chatterjee"
+  },
+  "predictions_flattened": {
+    "Name": "Anirban Ghosh",
+    "Leave required for": "1",
+    "Reason": "Conference attendance",
+    "Address while on leave": "Flat 5C, Shantiniketan Residency, 45 Gariahat Road, Ballygunge, Kolkata, West Bengal - 700019",
+    "Signature of Supervisor/Convener, RF Advisory Committee/Head of Unit/Professor-in-Charge": "Prof. M. Iyer",
+    "Signature of warden (for Hosteller)": "Ms. R. Das",
+    "Number of previous leave application during the year": "0",
+    "Total leave (No. of days) already taken during the year": "12",
+    "Entered and verified by": "Ms. S. Ghosh",
+    "Remarks": "check previous records",
+    "Leave granted/not granted": "granted",
+    "Date": "24/05/2025",
+    "Dean of Studies": "Dr. P. Chatterjee"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 19,
+      "total_prediction_fields": 13,
+      "matched_key_count": 12,
+      "correct_fields": 12,
+      "field_level_extraction_accuracy_pct": 63.16,
+      "matched_field_value_exact_match_pct": 100.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 12,
+      "false_positive": 1,
+      "false_negative": 7,
+      "precision_pct": 92.31,
+      "recall_pct": 63.16,
+      "f1_pct": 75.0,
+      "anls_pct": 63.16,
+      "anls_fields_scored": 19,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 6,
+        "leaf_normalized_exact": 6
+      }
+    },
+    "incorrect_values": [],
+    "key_match_methods": {
+      "normalized_exact": 6,
+      "leaf_normalized_exact": 6
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Leave required for.days",
+      "ground_truth_value": "1"
+    },
+    {
+      "key": "Leave required for.dates",
+      "ground_truth_value": "15/06/2025 to 15/06/2025"
+    },
+    {
+      "key": "Signature",
+      "ground_truth_value": "Anirban Ghosh"
+    },
+    {
+      "key": "Unit",
+      "ground_truth_value": "Economics Division"
+    },
+    {
+      "key": "Supervisor Date",
+      "ground_truth_value": "24/05/2025"
+    },
+    {
+      "key": "Warden Date",
+      "ground_truth_value": "24/05/2025"
+    },
+    {
+      "key": "For Office Use.Date",
+      "ground_truth_value": "24/05/2025"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "Leave required for",
+      "predicted_value": "1"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+```json
+{
+  "service_connection_no": "SCN444864",
+  "name_of_registered_consumer_at_present": "Anil Singh",
+  "consumer_category": "Domestic",
+  "contracted_load": "5.97",
+  "address_with_telephone_number": "H.No.23,Gulmohar Colony, Near Hazratganj Market, Lucknow,Uttar Pradesh-226004, Tel: +91 9949105790",
+  "name_of_the_person_in_whose_name_connection_to_be_changed": "MEENA DAS",
+  "date": "28-06-2025",
+  "place": "Port Blair",
+  "contact_no": "9949105790",
+  "signature_of_consumer": "Anil Singh",
+  "name": "Anil Singh",
+  "email": "anil@gmail.com"
+}
+```

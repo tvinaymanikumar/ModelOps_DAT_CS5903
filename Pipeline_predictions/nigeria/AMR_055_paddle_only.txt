@@ -1,0 +1,15 @@
+Laboratory Request Form
+
+Name of Patient: Mrs. Q.S.
+Sex: Female Age: 34 years
+Date: 23/13/26
+Clinical Improvement: Pulmonary Tuberculosis
+Examination Requested
+
+- Sputum Acid Fast Bacillus
+- GeneXpert
+- Fasting Blood Sugar (FBS)
+- Liver Function Test (LFT)
+- ELICO
+- HIV Screening
+- Interferon-gaming release array

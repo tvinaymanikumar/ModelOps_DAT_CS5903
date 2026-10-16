@@ -1,0 +1,20 @@
+```json
+{
+  "name_of_the_TA": "Aninban Gihash",
+  "roll_no": "IIITH439969",
+  "email_id": "aninban.ghash@gmail.com",
+  "mobile_no": "+91-9830011223",
+  "subject": "Computer Networks",
+  "date_of_assuming_as_TA": "",
+  "commencement_of_tutorial_classes": "25/05/2025",
+  "sbi_other_bank_personal_SB_account_no": "35296799677",
+  "ta_ship_recommended_per_month": "Quarter",
+  "other_assistantships_jobs_if_any": "YES",
+  "if_yes_give_details_and_get_signature_of_relevant_faculty_advisor": "Research Assistant at IIITH",
+  "date": "28/05/25",
+  "signature_of_the_advisor": "Aninban Gihash",
+  "signature_of_the_student": "Aninban Gihash",
+  "signature_of_the_chair_TA_ship_committee": "Dr. S. Ras",
+  "signature_of_the_course_faculty": "Prof. R. Singh"
+}
+```

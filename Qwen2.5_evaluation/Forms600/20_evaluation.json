@@ -1,0 +1,362 @@
+{
+  "file": "20.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Part 1.Customer ID": "CUST844691",
+    "Part 1.Name.First": "Saptarshi",
+    "Part 1.Name.Middle": "Prasad",
+    "Part 1.Name.Last /Surname": "Roy",
+    "Part 1.Type of account held.Checking": "Yes",
+    "Part 1.Type of account held.Money Market Deposit": "Yes",
+    "Part 1.Type of account held.Certificate of Deposit": "Yes",
+    "Part 1.Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)": "ABCDE6131F",
+    "Part 1.Employment Details.Employed": "No",
+    "Part 1.Employment Details.Self-employed": "No",
+    "Part 1.Employment Details.Retired": "No",
+    "Part 1.Employment Details.Unemployed": "Yes",
+    "Part 1.Employment Details.Student": "No",
+    "Part 1.Employment Details.Others (give details)": "",
+    "Part 1.Occupation": "Student",
+    "Part 1.Name of Employer in case employed": "Saptarshi Roy",
+    "Part 1.Address.Home Address.Address Line 1": "",
+    "Part 1.Address.Home Address.Address Line 2": "",
+    "Part 1.Address.Home Address.Address Line 3": "",
+    "Part 1.Address.Home Address.City": "",
+    "Part 1.Address.Home Address.State": "",
+    "Part 1.Address.Home Address.Country": "",
+    "Part 1.Address.Home Address.Zip Code": "",
+    "Part 1.Address.Work Address.Address Line 1": "Flat 4D",
+    "Part 1.Address.Work Address.Address Line 2": "Krishna Enclave",
+    "Part 1.Address.Work Address.Address Line 3": "88A Naktala Road",
+    "Part 1.Address.Work Address.City": "Kolkata",
+    "Part 1.Address.Work Address.State": "West Bengal",
+    "Part 1.Address.Work Address.Country": "India",
+    "Part 1.Address.Work Address.Zip Code": "700047",
+    "Part 1.Email": "saptarshi.roy@gmail.com",
+    "Part 1.Contact/ Mobile Number.Home": "+91-9800456123",
+    "Part 1.Contact/ Mobile Number.Mobile": "+91-9800456123",
+    "Part 1.Contact/ Mobile Number.Work": "+91 9836784424"
+  },
+  "predictions_flattened": {
+    "customer_id": "CUST844691",
+    "name_first": "Saptarishi",
+    "name_middle": "Praasad",
+    "name_last": "Roy",
+    "type_of_account_held": "Checking",
+    "social_security_no_tax_identification_no_permanent_account_number_pan_indian_citizen": "ABCD E6131F",
+    "employment_details_employed": "",
+    "employment_details_self_employed": "",
+    "employment_details_retired": "",
+    "employment_details_unemployed": "",
+    "occupation_student": "Student",
+    "name_of_employer_in_case_employed_or_name_nature_of_business_in_case_self_employed": "Saptarishi Roy",
+    "home_address_address_line_1": "1",
+    "home_address_address_line_2": "",
+    "home_address_address_line_3": "",
+    "home_address_city": "Kolkata",
+    "home_address_state": "West Bengal",
+    "home_address_country": "India",
+    "home_address_zip_code": "700047",
+    "work_address_address_line_1": "",
+    "work_address_address_line_2": "",
+    "work_address_address_line_3": "",
+    "work_address_city": "",
+    "work_address_state": "",
+    "work_address_country": "",
+    "work_address_zip_code": "",
+    "email": "saptarishi_rooy@gmail.com",
+    "contact_mobile_number_home": "+91-9800456183",
+    "contact_mobile_number_work": "+91-983678424"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 34,
+      "total_prediction_fields": 29,
+      "matched_key_count": 2,
+      "correct_fields": 1,
+      "field_level_extraction_accuracy_pct": 2.94,
+      "matched_field_value_exact_match_pct": 50.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 1,
+      "false_positive": 15,
+      "false_negative": 25,
+      "precision_pct": 6.25,
+      "recall_pct": 3.85,
+      "f1_pct": 4.76,
+      "anls_pct": 7.23,
+      "anls_fields_scored": 26,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "leaf_normalized_exact": 2
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Part 1.Email",
+        "predicted_key": "email",
+        "ground_truth_value": "saptarshi.roy@gmail.com",
+        "predicted_value": "saptarishi_rooy@gmail.com",
+        "normalized_ground_truth_value": "saptarshi.roy@gmail.com",
+        "normalized_predicted_value": "saptarishi_rooy@gmail.com",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "leaf_normalized_exact": 2
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Part 1.Name.First",
+      "ground_truth_value": "Saptarshi"
+    },
+    {
+      "key": "Part 1.Name.Middle",
+      "ground_truth_value": "Prasad"
+    },
+    {
+      "key": "Part 1.Name.Last /Surname",
+      "ground_truth_value": "Roy"
+    },
+    {
+      "key": "Part 1.Type of account held.Checking",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Part 1.Type of account held.Money Market Deposit",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Part 1.Type of account held.Certificate of Deposit",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Part 1.Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)",
+      "ground_truth_value": "ABCDE6131F"
+    },
+    {
+      "key": "Part 1.Employment Details.Employed",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Part 1.Employment Details.Self-employed",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Part 1.Employment Details.Retired",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Part 1.Employment Details.Unemployed",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Part 1.Employment Details.Student",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Part 1.Employment Details.Others (give details)",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Occupation",
+      "ground_truth_value": "Student"
+    },
+    {
+      "key": "Part 1.Name of Employer in case employed",
+      "ground_truth_value": "Saptarshi Roy"
+    },
+    {
+      "key": "Part 1.Address.Home Address.Address Line 1",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Address.Home Address.Address Line 2",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Address.Home Address.Address Line 3",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Address.Home Address.City",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Address.Home Address.State",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Address.Home Address.Country",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Address.Home Address.Zip Code",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Address.Work Address.Address Line 1",
+      "ground_truth_value": "Flat 4D"
+    },
+    {
+      "key": "Part 1.Address.Work Address.Address Line 2",
+      "ground_truth_value": "Krishna Enclave"
+    },
+    {
+      "key": "Part 1.Address.Work Address.Address Line 3",
+      "ground_truth_value": "88A Naktala Road"
+    },
+    {
+      "key": "Part 1.Address.Work Address.City",
+      "ground_truth_value": "Kolkata"
+    },
+    {
+      "key": "Part 1.Address.Work Address.State",
+      "ground_truth_value": "West Bengal"
+    },
+    {
+      "key": "Part 1.Address.Work Address.Country",
+      "ground_truth_value": "India"
+    },
+    {
+      "key": "Part 1.Address.Work Address.Zip Code",
+      "ground_truth_value": "700047"
+    },
+    {
+      "key": "Part 1.Contact/ Mobile Number.Home",
+      "ground_truth_value": "+91-9800456123"
+    },
+    {
+      "key": "Part 1.Contact/ Mobile Number.Mobile",
+      "ground_truth_value": "+91-9800456123"
+    },
+    {
+      "key": "Part 1.Contact/ Mobile Number.Work",
+      "ground_truth_value": "+91 9836784424"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "name_first",
+      "predicted_value": "Saptarishi"
+    },
+    {
+      "key": "name_middle",
+      "predicted_value": "Praasad"
+    },
+    {
+      "key": "name_last",
+      "predicted_value": "Roy"
+    },
+    {
+      "key": "type_of_account_held",
+      "predicted_value": "Checking"
+    },
+    {
+      "key": "social_security_no_tax_identification_no_permanent_account_number_pan_indian_citizen",
+      "predicted_value": "ABCD E6131F"
+    },
+    {
+      "key": "employment_details_employed",
+      "predicted_value": ""
+    },
+    {
+      "key": "employment_details_self_employed",
+      "predicted_value": ""
+    },
+    {
+      "key": "employment_details_retired",
+      "predicted_value": ""
+    },
+    {
+      "key": "employment_details_unemployed",
+      "predicted_value": ""
+    },
+    {
+      "key": "occupation_student",
+      "predicted_value": "Student"
+    },
+    {
+      "key": "name_of_employer_in_case_employed_or_name_nature_of_business_in_case_self_employed",
+      "predicted_value": "Saptarishi Roy"
+    },
+    {
+      "key": "home_address_address_line_1",
+      "predicted_value": "1"
+    },
+    {
+      "key": "home_address_address_line_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "home_address_address_line_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "home_address_city",
+      "predicted_value": "Kolkata"
+    },
+    {
+      "key": "home_address_state",
+      "predicted_value": "West Bengal"
+    },
+    {
+      "key": "home_address_country",
+      "predicted_value": "India"
+    },
+    {
+      "key": "home_address_zip_code",
+      "predicted_value": "700047"
+    },
+    {
+      "key": "work_address_address_line_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "work_address_address_line_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "work_address_address_line_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "work_address_city",
+      "predicted_value": ""
+    },
+    {
+      "key": "work_address_state",
+      "predicted_value": ""
+    },
+    {
+      "key": "work_address_country",
+      "predicted_value": ""
+    },
+    {
+      "key": "work_address_zip_code",
+      "predicted_value": ""
+    },
+    {
+      "key": "contact_mobile_number_home",
+      "predicted_value": "+91-9800456183"
+    },
+    {
+      "key": "contact_mobile_number_work",
+      "predicted_value": "+91-983678424"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+```json
+{
+  "name_of_the_student": "Ritika Basu",
+  "father_s_name": "Mr. Ashok Basu",
+  "course_of_study": "MBA",
+  "category": "SC",
+  "date_of_joining": "17/09/2023",
+  "hallticket_enrol_no": "HT 529380",
+  "date_of_leaving": "03/04/2025",
+  "reason_for_leaving": "Personal Problems",
+  "particulars_of_fees_paid": "Tuition and other fees paid on Dr. 06/11/2024 Rs. 5216",
+  "bank_a_c_details_of_the_student.bank_name": "STATE BANK OF INDIA",
+  "bank_a_c_details_of_the_student.bank_account_no": "33619908862",
+  "bank_a_c_details_of_the_student.branch_name_and_ifsc_code": "HITECH CITY,SBIN6762361",
+  "date": "24/05/2025",
+  "signature_of_the_student": "Ritika Basu",
+  "dean_of_the_school_head_of_the_department_centre": "Dr. Iyer",
+  "date_of_decision": "24/05/2025",
+  "dealing_asst": "A.R. Acad",
+  "jr_registrar_a_e": "",
+  "controller_of_examinations": ""
+}
+```

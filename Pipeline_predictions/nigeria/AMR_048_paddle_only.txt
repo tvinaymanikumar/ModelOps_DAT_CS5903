@@ -1,0 +1,15 @@
+35 - 004 - Syn
+Pediatric Outpatient Clinic
+
+Name: G. C
+Age: 5 years
+Sex: female
+Diagnosis: Acute intubation
+Prescription
++ Syr piriton 4mg nodex 4/7
++ Syr utamin C 5ml tds × 5/7
++ Syr PCM 5ml - tds × 3/7
+
+Z
+
+Dr. D.P 15/2/24

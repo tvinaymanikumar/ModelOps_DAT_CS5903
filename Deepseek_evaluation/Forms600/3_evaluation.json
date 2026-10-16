@@ -1,0 +1,118 @@
+{
+  "file": "3.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Personal Information.Full Name": "MOUMITA ROY",
+    "Personal Information.Place Birth": "Kolkata",
+    "Personal Information.Birth of Date": "22/11/2008",
+    "Personal Information.Full Address": "Flat 9B, Ujjwala Apartments, Salt Lake Sector V, Kolkata",
+    "Personal Information.Nationality": "Indian",
+    "Personal Information.City/Country": "Kolkata, India",
+    "Personal Information.Gender": "Female",
+    "Personal Information.Email": "moumita.roy@gmail.com",
+    "Personal Information.Phone Number": "+91-9831122334",
+    "Type Of Membership.Regular (3 month)": "Yes",
+    "Type Of Membership.Gold (6 month)": "No",
+    "Type Of Membership.Platinum (12 month)": "No"
+  },
+  "predictions_flattened": {
+    "Full Name": "MOUHITA ROY",
+    "Place Birth": "kolkata",
+    "Birth of Date": "22/11/2008",
+    "Full Address": "Flat 9B, Vijwaka Apartments, Salt Lake Section, Kolkata",
+    "Nationality": "Indian",
+    "City/Country": "kolkata, India",
+    "Gender": "Female",
+    "Email": "mouhita.roy@gmail.com",
+    "Phone Number": "+91-9831192334",
+    "Type Of Membership": "Regular (3 month)",
+    "Term & Condition": "This membership is valid\nMembership includes the facilities available\nMembership is not automatic"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 12,
+      "total_prediction_fields": 11,
+      "matched_key_count": 12,
+      "correct_fields": 8,
+      "field_level_extraction_accuracy_pct": 66.67,
+      "matched_field_value_exact_match_pct": 66.67,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 8,
+      "false_positive": 5,
+      "false_negative": 4,
+      "precision_pct": 61.54,
+      "recall_pct": 66.67,
+      "f1_pct": 64.0,
+      "anls_pct": 97.13,
+      "anls_fields_scored": 12,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 3,
+        "leaf_normalized_exact": 9
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Personal Information.Full Name",
+        "predicted_key": "Full Name",
+        "ground_truth_value": "MOUMITA ROY",
+        "predicted_value": "MOUHITA ROY",
+        "normalized_ground_truth_value": "moumitaroy",
+        "normalized_predicted_value": "mouhitaroy",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Full Address",
+        "predicted_key": "Full Address",
+        "ground_truth_value": "Flat 9B, Ujjwala Apartments, Salt Lake Sector V, Kolkata",
+        "predicted_value": "Flat 9B, Vijwaka Apartments, Salt Lake Section, Kolkata",
+        "normalized_ground_truth_value": "flat9b,ujjwalaapartments,saltlakesectorv,kolkata",
+        "normalized_predicted_value": "flat9b,vijwakaapartments,saltlakesection,kolkata",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Email",
+        "predicted_key": "Email",
+        "ground_truth_value": "moumita.roy@gmail.com",
+        "predicted_value": "mouhita.roy@gmail.com",
+        "normalized_ground_truth_value": "moumita.roy@gmail.com",
+        "normalized_predicted_value": "mouhita.roy@gmail.com",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Phone Number",
+        "predicted_key": "Phone Number",
+        "ground_truth_value": "+91-9831122334",
+        "predicted_value": "+91-9831192334",
+        "normalized_ground_truth_value": "+91-9831122334",
+        "normalized_predicted_value": "+91-9831192334",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 3,
+      "leaf_normalized_exact": 9
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": [
+    {
+      "key": "Term & Condition",
+      "predicted_value": "This membership is valid\nMembership includes the facilities available\nMembership is not automatic"
+    }
+  ]
+}

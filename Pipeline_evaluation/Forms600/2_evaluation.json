@@ -1,0 +1,107 @@
+{
+  "file": "2.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Student's First Name": "Ritika",
+    "Student's Surname": "Basu",
+    "Father's First Name": "Sanjay",
+    "Father's Surname": "Basu",
+    "(DOB) Date": "13",
+    "Month": "04",
+    "Year": "2010",
+    "Gender": "Female",
+    "Nationality": "Indian",
+    "Religion": "Muslim",
+    "Caste Category": "OBC",
+    "Father's Occupation": "Accountant",
+    "Course Applied For": "Commerce",
+    "Medium": "Marathi",
+    "City": "Kolkata",
+    "PO/PS": "Kolkata",
+    "State": "West Bengal",
+    "Phone Number": "+91-9870012345"
+  },
+  "predictions_flattened": {
+    "student_first_name": "Ritika",
+    "student_surname": "Basu",
+    "father_first_name": "Sanjay",
+    "father_surname": "Basu",
+    "dob_date": "13",
+    "dob_month": "04",
+    "dob_year": "2010",
+    "gender": "Female",
+    "nationality": "Indian",
+    "religion": "Muslim",
+    "caste_category": "OBC",
+    "father_occupation": "Accountant",
+    "course_applied_for": "Commerce",
+    "medium": "Marathi",
+    "city": "Kolkata",
+    "po_ps": "Kolkata",
+    "state": "West Bengal",
+    "phone_number": "+91-9870012345"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 18,
+      "total_prediction_fields": 18,
+      "matched_key_count": 16,
+      "correct_fields": 16,
+      "field_level_extraction_accuracy_pct": 88.89,
+      "matched_field_value_exact_match_pct": 100.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 16,
+      "false_positive": 2,
+      "false_negative": 2,
+      "precision_pct": 88.89,
+      "recall_pct": 88.89,
+      "f1_pct": 88.89,
+      "anls_pct": 88.89,
+      "anls_fields_scored": 18,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 11,
+        "fuzzy_lexical_leaf_fallback": 5
+      }
+    },
+    "incorrect_values": [],
+    "key_match_methods": {
+      "normalized_exact": 11,
+      "fuzzy_lexical_leaf_fallback": 5
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Month",
+      "ground_truth_value": "04"
+    },
+    {
+      "key": "Year",
+      "ground_truth_value": "2010"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "dob_month",
+      "predicted_value": "04"
+    },
+    {
+      "key": "dob_year",
+      "predicted_value": "2010"
+    }
+  ]
+}

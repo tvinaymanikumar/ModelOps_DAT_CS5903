@@ -1,0 +1,21 @@
+Laboratory Request Form
+
+Patient Information
+Patient Name: Miss J.I. Age: 12 years
+Patient ID: 2026/PD/266 Sec: Female
+Physician Name: Araya Nare Date: 10/03/2026
+
+Clinical Note
+Oliguria 2/52, vomiting 2/52, generalized edema 1/52, fever 1/52, abdominal pain 2/7. Suspected AKI with nephrotic overlap -?
+
+Requested Tests
+☑ Complete blood Count
+☑ Renal function Test (Curea, Creatinine, GFR)
+☑ Electrolytes
+☑ Urinalysis
+☑ Serum Albumin
+☑ Urine Protein / Creatinine Ratio
+
+Dr. N. Nare
+Date: 10/03/2026
+Results to be reported given

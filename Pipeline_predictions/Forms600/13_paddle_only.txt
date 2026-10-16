@@ -1,0 +1,22 @@
+UNIVERSITY OF HYDERABAD
+
+1 Roll No. 504375
+2 Name of the Student Apka Dutta
+3 Name of the Hindi
+4 Course
+5 Subject
+6 Dept./ Centre
+7 School
+8 Date of Birth
+9 Gender (Male / Female)
+10 Nationality
+11 State of Domicile
+12 Blood Group
+13 Father's Name
+14 Mother's Name
+15 Date of Admission to the Course
+16 CGPA or Marks obtained
+17 Division obtained
+18 Date of declaration of result by the CE's Office
+19 Month and Year of award
+May 2025

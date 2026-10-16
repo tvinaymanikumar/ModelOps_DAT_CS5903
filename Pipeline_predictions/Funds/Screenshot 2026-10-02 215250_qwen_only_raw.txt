@@ -1,0 +1,11 @@
+```json
+{
+  "project_code": "BTF",
+  "date": "September 16, 1980",
+  "project_name": "-",
+  "project_leader": "E. P. Barbee",
+  "work_requested_by": "R. S. Sprinkle, III",
+  "project_objective": "To develop an 83 mm x 24.9 mm cigarette delivering 1 mg/cigt \"tar.\" Cigarette to utilize a filter tip with longitudinal grooves from the mouth end to the tobacco end in conjunction with perforated tipping paper.",
+  "other_personnel_assigned": "J. E. Mann, Jr.\nD. E. Cawthon"
+}
+```

@@ -1,0 +1,155 @@
+{
+  "file": "5.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Demographic Information.Name": "Debdeep Mukherjee",
+    "Demographic Information.Age": "47",
+    "Demographic Information.Gender": "Male",
+    "Demographic Information.Occupation": "Engineer",
+    "Demographic Information.Marital Status": "Divorced",
+    "Chief Complaint.Presenting Issue": "Repetitive thoughts and compulsive behaviors",
+    "Chief Complaint.Duration of Symptoms": "1 year",
+    "Chief Complaint.Severity": "Moderate",
+    "Medical History.Past Psychiatric History": "No prior psychiatric illness",
+    "Medical History.Medical Conditions": "No significant medical history",
+    "Medical History.Substance Use": "Tobacco chewing for 5 years",
+    "Family Psychiatric History.Family History": "Sibling with schizophrenia",
+    "Family Psychiatric History.Substance Use in Family": "Brother drinks alcohol occasionally",
+    "Social History.Living Situation": "Lives alone",
+    "Social History.Education": "Postgraduate",
+    "Social History.Social Support": "Active in community groups",
+    "Social History.Legal Issues": "Pending divorce case",
+    "Psychosocial Functioning.Employment Status": "Retired",
+    "Psychosocial Functioning.Relationships": "Frequent arguments with family",
+    "Psychosocial Functioning.Daily Activities": "Neglects self-care",
+    "Treatment History.Current Medications": "Olanzapine 5mg at night",
+    "Treatment History.Previous Treatments": "No previous treatment",
+    "Diagnosis.Primary Diagnosis": "Bipolar Affective Disorder",
+    "Diagnosis.Secondary Diagnosis": "Diabetes Mellitus"
+  },
+  "predictions_flattened": {
+    "Name": "Debdeep Mukherjee",
+    "Age": "47",
+    "Gender": "Male",
+    "Occupation": "Engineer",
+    "Marital Status": "Divorced",
+    "Chief Complaint": "Repetitive thoughts and compulsive behaviors",
+    "Duration of Symptoms": "1 year",
+    "Severity": "Moderate",
+    "Medical History": "No prior psychiatric illness",
+    "Medical Conditions": "No significant medical history",
+    "Substance Use": "Tobacco chewing for 5 years",
+    "Family Psychiatric History": "Sibling with schizophrenia",
+    "Substance Use in Family": "Brother drinks alcohol occasionally",
+    "Living Situation": "Lives alone",
+    "Education": "Postgraduate",
+    "Social Support": "Active in community groups",
+    "Legal Issues": "Pending divorce case",
+    "Psychosocial Functioning": "Retired",
+    "Employment Status": "Retired",
+    "Relationships": "Frequent arguments with family",
+    "Daily Activities": "Neglects self-care",
+    "Treatment History": "Olanzapine 5mg at night",
+    "Previous Treatments": "No previous treatment",
+    "Diagnosis": "Bipolar Affective Disorders",
+    "Secondary Diagnosis": "Diabetes Mellitus",
+    "Plan": ""
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 24,
+      "total_prediction_fields": 26,
+      "matched_key_count": 20,
+      "correct_fields": 19,
+      "field_level_extraction_accuracy_pct": 79.17,
+      "matched_field_value_exact_match_pct": 95.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 19,
+      "false_positive": 6,
+      "false_negative": 5,
+      "precision_pct": 76.0,
+      "recall_pct": 79.17,
+      "f1_pct": 77.55,
+      "anls_pct": 79.17,
+      "anls_fields_scored": 24,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "leaf_normalized_exact": 19,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Medical History.Past Psychiatric History",
+        "predicted_key": "Family Psychiatric History",
+        "ground_truth_value": "No prior psychiatric illness",
+        "predicted_value": "Sibling with schizophrenia",
+        "normalized_ground_truth_value": "nopriorpsychiatricillness",
+        "normalized_predicted_value": "siblingwithschizophrenia",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "leaf_normalized_exact": 19,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Chief Complaint.Presenting Issue",
+      "ground_truth_value": "Repetitive thoughts and compulsive behaviors"
+    },
+    {
+      "key": "Family Psychiatric History.Family History",
+      "ground_truth_value": "Sibling with schizophrenia"
+    },
+    {
+      "key": "Treatment History.Current Medications",
+      "ground_truth_value": "Olanzapine 5mg at night"
+    },
+    {
+      "key": "Diagnosis.Primary Diagnosis",
+      "ground_truth_value": "Bipolar Affective Disorder"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "Chief Complaint",
+      "predicted_value": "Repetitive thoughts and compulsive behaviors"
+    },
+    {
+      "key": "Medical History",
+      "predicted_value": "No prior psychiatric illness"
+    },
+    {
+      "key": "Psychosocial Functioning",
+      "predicted_value": "Retired"
+    },
+    {
+      "key": "Treatment History",
+      "predicted_value": "Olanzapine 5mg at night"
+    },
+    {
+      "key": "Diagnosis",
+      "predicted_value": "Bipolar Affective Disorders"
+    },
+    {
+      "key": "Plan",
+      "predicted_value": ""
+    }
+  ]
+}

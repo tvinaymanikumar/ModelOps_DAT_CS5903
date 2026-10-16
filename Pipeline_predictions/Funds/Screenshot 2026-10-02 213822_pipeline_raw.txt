@@ -1,0 +1,12 @@
+```json
+{
+  "date": "February 25, 1998",
+  "client_no": "L8557.002",
+  "message_to": "Ronald S. Milstein",
+  "company": "Lorillard Tobacco Company",
+  "fax_number": "910/335-7707",
+  "phone": "910/335-7718",
+  "from": "Andy Zausner",
+  "phone_2": "202/828-2259"
+}
+```
