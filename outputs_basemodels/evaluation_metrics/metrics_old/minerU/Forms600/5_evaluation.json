@@ -1,0 +1,347 @@
+{
+  "file": "5.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Demographic Information.Name": "Debdeep Mukherjee",
+    "Demographic Information.Age": "47",
+    "Demographic Information.Gender": "Male",
+    "Demographic Information.Occupation": "Engineer",
+    "Demographic Information.Marital Status": "Divorced",
+    "Chief Complaint.Presenting Issue": "Repetitive thoughts and compulsive behaviors",
+    "Chief Complaint.Duration of Symptoms": "1 year",
+    "Chief Complaint.Severity": "Moderate",
+    "Medical History.Past Psychiatric History": "No prior psychiatric illness",
+    "Medical History.Medical Conditions": "No significant medical history",
+    "Medical History.Substance Use": "Tobacco chewing for 5 years",
+    "Family Psychiatric History.Family History": "Sibling with schizophrenia",
+    "Family Psychiatric History.Substance Use in Family": "Brother drinks alcohol occasionally",
+    "Social History.Living Situation": "Lives alone",
+    "Social History.Education": "Postgraduate",
+    "Social History.Social Support": "Active in community groups",
+    "Social History.Legal Issues": "Pending divorce case",
+    "Psychosocial Functioning.Employment Status": "Retired",
+    "Psychosocial Functioning.Relationships": "Frequent arguments with family",
+    "Psychosocial Functioning.Daily Activities": "Neglects self-care",
+    "Treatment History.Current Medications": "Olanzapine 5mg at night",
+    "Treatment History.Previous Treatments": "No previous treatment",
+    "Diagnosis.Primary Diagnosis": "Bipolar Affective Disorder",
+    "Diagnosis.Secondary Diagnosis": "Diabetes Mellitus"
+  },
+  "predictions_flattened": {
+    "document_title": "PSYCHIATRIC HISTORY FORM",
+    "section": "Details",
+    "demographic_information": "",
+    "name_debdeep_mukherjeet": "",
+    "age_47": "",
+    "gender_male": "",
+    "occupation_engineers": "",
+    "marital_status_divorced": "",
+    "chief_complaint": "",
+    "presenting_issue_repetitive_thoughts_and_compulsive_behavioos": "",
+    "duration_of_symptoms_1_years": "",
+    "severity_moderate": "",
+    "medical_history": "",
+    "past_psychiatric_history_no_prior_psycbiatrie_illness": "",
+    "medical_conditions_no_significant_medical_history": "",
+    "substance_use_tobacco_chewing_for_5_years": "",
+    "family_psychiatric_history": "",
+    "family_history_sibling_with_schizophrenia": "",
+    "substance_use_in_family_brother_daughter_alcohol_occasionally": "",
+    "social_history": "",
+    "living_situation_lives_alone": "",
+    "education_postgraduate": "",
+    "social_support_retlive_in_community_groups": "",
+    "legal_issues_pending_divorce_case": "",
+    "psychosocial_functioning": "",
+    "employment_status_retired": "",
+    "relationships_frequent_arguments_with_family": "",
+    "daily_activities_neglects_self_dizer": "",
+    "treatment_history": "",
+    "current_medications_olanzapine_5mg_at_night": "",
+    "previous_treatments_no_previous_treatment": "",
+    "diagnosis": "",
+    "primary_diagnosis_bipolar_affective_disorder": "",
+    "secondary_diagnosis_diabetes_mellitus": ""
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 24,
+      "total_prediction_fields": 34,
+      "matched_key_count": 3,
+      "correct_fields": 0,
+      "field_level_extraction_accuracy_pct": 0.0,
+      "matched_field_value_exact_match_pct": 0.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 0,
+      "false_positive": 2,
+      "false_negative": 24,
+      "precision_pct": 0.0,
+      "recall_pct": 0.0,
+      "f1_pct": 0.0,
+      "anls_pct": 0.0,
+      "anls_fields_scored": 24,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "fuzzy_lexical_leaf_fallback": 3
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Medical History.Past Psychiatric History",
+        "predicted_key": "family_psychiatric_history",
+        "ground_truth_value": "No prior psychiatric illness",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "nopriorpsychiatricillness",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Chief Complaint.Duration of Symptoms",
+        "predicted_key": "duration_of_symptoms_1_years",
+        "ground_truth_value": "1 year",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "1year",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Psychosocial Functioning.Employment Status",
+        "predicted_key": "employment_status_retired",
+        "ground_truth_value": "Retired",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "retired",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "fuzzy_lexical_leaf_fallback": 3
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Demographic Information.Name",
+      "ground_truth_value": "Debdeep Mukherjee"
+    },
+    {
+      "key": "Demographic Information.Age",
+      "ground_truth_value": "47"
+    },
+    {
+      "key": "Demographic Information.Gender",
+      "ground_truth_value": "Male"
+    },
+    {
+      "key": "Demographic Information.Occupation",
+      "ground_truth_value": "Engineer"
+    },
+    {
+      "key": "Demographic Information.Marital Status",
+      "ground_truth_value": "Divorced"
+    },
+    {
+      "key": "Chief Complaint.Presenting Issue",
+      "ground_truth_value": "Repetitive thoughts and compulsive behaviors"
+    },
+    {
+      "key": "Chief Complaint.Severity",
+      "ground_truth_value": "Moderate"
+    },
+    {
+      "key": "Medical History.Medical Conditions",
+      "ground_truth_value": "No significant medical history"
+    },
+    {
+      "key": "Medical History.Substance Use",
+      "ground_truth_value": "Tobacco chewing for 5 years"
+    },
+    {
+      "key": "Family Psychiatric History.Family History",
+      "ground_truth_value": "Sibling with schizophrenia"
+    },
+    {
+      "key": "Family Psychiatric History.Substance Use in Family",
+      "ground_truth_value": "Brother drinks alcohol occasionally"
+    },
+    {
+      "key": "Social History.Living Situation",
+      "ground_truth_value": "Lives alone"
+    },
+    {
+      "key": "Social History.Education",
+      "ground_truth_value": "Postgraduate"
+    },
+    {
+      "key": "Social History.Social Support",
+      "ground_truth_value": "Active in community groups"
+    },
+    {
+      "key": "Social History.Legal Issues",
+      "ground_truth_value": "Pending divorce case"
+    },
+    {
+      "key": "Psychosocial Functioning.Relationships",
+      "ground_truth_value": "Frequent arguments with family"
+    },
+    {
+      "key": "Psychosocial Functioning.Daily Activities",
+      "ground_truth_value": "Neglects self-care"
+    },
+    {
+      "key": "Treatment History.Current Medications",
+      "ground_truth_value": "Olanzapine 5mg at night"
+    },
+    {
+      "key": "Treatment History.Previous Treatments",
+      "ground_truth_value": "No previous treatment"
+    },
+    {
+      "key": "Diagnosis.Primary Diagnosis",
+      "ground_truth_value": "Bipolar Affective Disorder"
+    },
+    {
+      "key": "Diagnosis.Secondary Diagnosis",
+      "ground_truth_value": "Diabetes Mellitus"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "PSYCHIATRIC HISTORY FORM"
+    },
+    {
+      "key": "section",
+      "predicted_value": "Details"
+    },
+    {
+      "key": "demographic_information",
+      "predicted_value": ""
+    },
+    {
+      "key": "name_debdeep_mukherjeet",
+      "predicted_value": ""
+    },
+    {
+      "key": "age_47",
+      "predicted_value": ""
+    },
+    {
+      "key": "gender_male",
+      "predicted_value": ""
+    },
+    {
+      "key": "occupation_engineers",
+      "predicted_value": ""
+    },
+    {
+      "key": "marital_status_divorced",
+      "predicted_value": ""
+    },
+    {
+      "key": "chief_complaint",
+      "predicted_value": ""
+    },
+    {
+      "key": "presenting_issue_repetitive_thoughts_and_compulsive_behavioos",
+      "predicted_value": ""
+    },
+    {
+      "key": "severity_moderate",
+      "predicted_value": ""
+    },
+    {
+      "key": "medical_history",
+      "predicted_value": ""
+    },
+    {
+      "key": "past_psychiatric_history_no_prior_psycbiatrie_illness",
+      "predicted_value": ""
+    },
+    {
+      "key": "medical_conditions_no_significant_medical_history",
+      "predicted_value": ""
+    },
+    {
+      "key": "substance_use_tobacco_chewing_for_5_years",
+      "predicted_value": ""
+    },
+    {
+      "key": "family_history_sibling_with_schizophrenia",
+      "predicted_value": ""
+    },
+    {
+      "key": "substance_use_in_family_brother_daughter_alcohol_occasionally",
+      "predicted_value": ""
+    },
+    {
+      "key": "social_history",
+      "predicted_value": ""
+    },
+    {
+      "key": "living_situation_lives_alone",
+      "predicted_value": ""
+    },
+    {
+      "key": "education_postgraduate",
+      "predicted_value": ""
+    },
+    {
+      "key": "social_support_retlive_in_community_groups",
+      "predicted_value": ""
+    },
+    {
+      "key": "legal_issues_pending_divorce_case",
+      "predicted_value": ""
+    },
+    {
+      "key": "psychosocial_functioning",
+      "predicted_value": ""
+    },
+    {
+      "key": "relationships_frequent_arguments_with_family",
+      "predicted_value": ""
+    },
+    {
+      "key": "daily_activities_neglects_self_dizer",
+      "predicted_value": ""
+    },
+    {
+      "key": "treatment_history",
+      "predicted_value": ""
+    },
+    {
+      "key": "current_medications_olanzapine_5mg_at_night",
+      "predicted_value": ""
+    },
+    {
+      "key": "previous_treatments_no_previous_treatment",
+      "predicted_value": ""
+    },
+    {
+      "key": "diagnosis",
+      "predicted_value": ""
+    },
+    {
+      "key": "primary_diagnosis_bipolar_affective_disorder",
+      "predicted_value": ""
+    },
+    {
+      "key": "secondary_diagnosis_diabetes_mellitus",
+      "predicted_value": ""
+    }
+  ]
+}

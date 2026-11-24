@@ -1,0 +1,718 @@
+{
+  "file": "14.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Name in Full (Block Letters)": "MAINAK SARKAR",
+    "Father's/Guardian's Name": "Deepak Sarkar",
+    "Permanent (Home) Address": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+    "Present Mailing Address": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+    "Telephone No. (with STD Code)": "+91-9876567890",
+    "M": "9876567890",
+    "Sex.Male": "Yes",
+    "Sex.Female": "No",
+    "Marital Status.Married": "No",
+    "Marital Status.Single": "Yes",
+    "Date of Birth.Date": "05",
+    "Date of Birth.Month": "03",
+    "Date of Birth.Year": "1995",
+    "Academic Record.Examination Passed": "M.Sc.",
+    "Academic Record.Year of Passing": "2017",
+    "Academic Record.Board/ University": "CBSE",
+    "Academic Record.Marks Obtained": "410",
+    "Academic Record.Total Marks": "500",
+    "Academic Record.%age of Marks Obtained": "82.0",
+    "Academic Record.Subjects": "Management"
+  },
+  "predictions_flattened": {
+    "document_title": "UNIVERSITY OF JAMMU, JAMMU",
+    "human_resource_management_iccc": "R & HRM)",
+    "name_in_full": "MATNAK SARKAR (Block Letters)",
+    "father_s_guardian_s_name_deepak_sarkar": "",
+    "permanent_home_address": "House No. 82, Stechopany Park East, Near Passabehari Avenue, kolkata, West Bengal 700029",
+    "present_mailing_address": "House No. 28, Deshpriya park East, Near",
+    "telephone_no_with_std_code": "91-9876567690 M: 9876567890",
+    "sex": "",
+    "marital_status": "",
+    "date_of_birth": "",
+    "presently_enrolled_in_college_department_of_university_give_complete_details_including_roll_no": "",
+    "academic_record": "",
+    "pret_券商_s_examination_row_1": "10\"",
+    "examination_passed_row_1": "",
+    "year_of_passing_row_1": "",
+    "board_university_row_1": "",
+    "marks_obtained_row_1": "",
+    "total_marks_row_1": "",
+    "age_of_marks_obtained_row_1": "",
+    "subjects_row_1": "",
+    "pret_券商_s_examination_row_2": "11\"",
+    "examination_passed_row_2": "",
+    "year_of_passing_row_2": "",
+    "board_university_row_2": "",
+    "marks_obtained_row_2": "",
+    "total_marks_row_2": "",
+    "age_of_marks_obtained_row_2": "",
+    "subjects_row_2": "",
+    "pret_券商_s_examination_row_3": "12\"",
+    "examination_passed_row_3": "",
+    "year_of_passing_row_3": "",
+    "board_university_row_3": "",
+    "marks_obtained_row_3": "",
+    "total_marks_row_3": "",
+    "age_of_marks_obtained_row_3": "",
+    "subjects_row_3": "",
+    "pret_券商_s_examination_row_4": "I",
+    "examination_passed_row_4": "",
+    "year_of_passing_row_4": "",
+    "board_university_row_4": "",
+    "marks_obtained_row_4": "",
+    "total_marks_row_4": "",
+    "age_of_marks_obtained_row_4": "",
+    "subjects_row_4": "",
+    "pret_券商_s_examination_row_5": "III",
+    "examination_passed_row_5": "",
+    "year_of_passing_row_5": "",
+    "board_university_row_5": "",
+    "marks_obtained_row_5": "",
+    "total_marks_row_5": "",
+    "age_of_marks_obtained_row_5": "",
+    "subjects_row_5": "",
+    "pret_券商_s_examination_row_6": "III",
+    "examination_passed_row_6": "",
+    "year_of_passing_row_6": "",
+    "board_university_row_6": "",
+    "marks_obtained_row_6": "",
+    "total_marks_row_6": "",
+    "age_of_marks_obtained_row_6": "",
+    "subjects_row_6": "",
+    "pret_券商_s_examination_row_7": "IV",
+    "examination_passed_row_7": "",
+    "year_of_passing_row_7": "",
+    "board_university_row_7": "",
+    "marks_obtained_row_7": "",
+    "total_marks_row_7": "",
+    "age_of_marks_obtained_row_7": "",
+    "subjects_row_7": "",
+    "pret_券商_s_examination_row_8": "M. SE.",
+    "examination_passed_row_8": "2017",
+    "year_of_passing_row_8": "CBSE",
+    "board_university_row_8": "AIO",
+    "marks_obtained_row_8": "500",
+    "total_marks_row_8": "$2.0",
+    "age_of_marks_obtained_row_8": "Management",
+    "subjects_row_8": "",
+    "pret_券商_s_examination_row_9": "Any",
+    "examination_passed_row_9": "",
+    "year_of_passing_row_9": "",
+    "board_university_row_9": "",
+    "marks_obtained_row_9": "",
+    "total_marks_row_9": "",
+    "age_of_marks_obtained_row_9": "",
+    "subjects_row_9": "",
+    "pret_券商_s_examination_row_10": "Other",
+    "examination_passed_row_10": "",
+    "year_of_passing_row_10": "",
+    "board_university_row_10": "",
+    "marks_obtained_row_10": "",
+    "total_marks_row_10": "",
+    "age_of_marks_obtained_row_10": "",
+    "subjects_row_10": "",
+    "pret_券商_s_examination_row_11": "Exam.",
+    "examination_passed_row_11": "",
+    "year_of_passing_row_11": "",
+    "board_university_row_11": "",
+    "marks_obtained_row_11": "",
+    "total_marks_row_11": "",
+    "age_of_marks_obtained_row_11": "",
+    "subjects_row_11": "",
+    "unparsed_text_line_1": "International Centre for Cross-Cultural Research and",
+    "unparsed_text_line_2": "(Developing people with ultimate flexibility)",
+    "unparsed_text_line_3": "Application for Admission to 3-month's Post-Graduate Certificate Courses in (tick as applicable)",
+    "unparsed_text_line_4": "Cross-Cultural International Management",
+    "unparsed_text_line_5": "Human Resource Management Practices and Labour Law",
+    "unparsed_text_line_6": "Rashbehari Avenue, Kolkata, West Bengal-700029",
+    "unparsed_text_line_7": "Male",
+    "unparsed_text_line_8": "Female",
+    "unparsed_text_line_9": "Married",
+    "unparsed_text_line_10": "Single",
+    "unparsed_text_line_11": "Date 05 Month 03 Year 1995"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 20,
+      "total_prediction_fields": 111,
+      "matched_key_count": 7,
+      "correct_fields": 0,
+      "field_level_extraction_accuracy_pct": 0.0,
+      "matched_field_value_exact_match_pct": 0.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 0,
+      "false_positive": 34,
+      "false_negative": 20,
+      "precision_pct": 0.0,
+      "recall_pct": 0.0,
+      "f1_pct": 0.0,
+      "anls_pct": 4.14,
+      "anls_fields_scored": 20,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 2,
+        "fuzzy_lexical_leaf_fallback": 5
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Permanent (Home) Address",
+        "predicted_key": "permanent_home_address",
+        "ground_truth_value": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+        "predicted_value": "House No. 82, Stechopany Park East, Near Passabehari Avenue, kolkata, West Bengal 700029",
+        "normalized_ground_truth_value": "houseno.28,deshapriyaparkeast,nearrashbehariavenue,kolkata,westbengal-700029",
+        "normalized_predicted_value": "houseno.82,stechopanyparkeast,nearpassabehariavenue,kolkata,westbengal700029",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Present Mailing Address",
+        "predicted_key": "present_mailing_address",
+        "ground_truth_value": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+        "predicted_value": "House No. 28, Deshpriya park East, Near",
+        "normalized_ground_truth_value": "houseno.28,deshapriyaparkeast,nearrashbehariavenue,kolkata,westbengal-700029",
+        "normalized_predicted_value": "houseno.28,deshpriyaparkeast,near",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Academic Record.%age of Marks Obtained",
+        "predicted_key": "age_of_marks_obtained_row_1",
+        "ground_truth_value": "82.0",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "82.0",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Academic Record.Examination Passed",
+        "predicted_key": "examination_passed_row_1",
+        "ground_truth_value": "M.Sc.",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "m.sc.",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Academic Record.Board/ University",
+        "predicted_key": "board_university_row_1",
+        "ground_truth_value": "CBSE",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "cbse",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Academic Record.Year of Passing",
+        "predicted_key": "year_of_passing_row_1",
+        "ground_truth_value": "2017",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "2017",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Academic Record.Marks Obtained",
+        "predicted_key": "marks_obtained_row_1",
+        "ground_truth_value": "410",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "410",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 2,
+      "fuzzy_lexical_leaf_fallback": 5
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Name in Full (Block Letters)",
+      "ground_truth_value": "MAINAK SARKAR"
+    },
+    {
+      "key": "Father's/Guardian's Name",
+      "ground_truth_value": "Deepak Sarkar"
+    },
+    {
+      "key": "Telephone No. (with STD Code)",
+      "ground_truth_value": "+91-9876567890"
+    },
+    {
+      "key": "M",
+      "ground_truth_value": "9876567890"
+    },
+    {
+      "key": "Sex.Male",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Sex.Female",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Marital Status.Married",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Marital Status.Single",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Date of Birth.Date",
+      "ground_truth_value": "05"
+    },
+    {
+      "key": "Date of Birth.Month",
+      "ground_truth_value": "03"
+    },
+    {
+      "key": "Date of Birth.Year",
+      "ground_truth_value": "1995"
+    },
+    {
+      "key": "Academic Record.Total Marks",
+      "ground_truth_value": "500"
+    },
+    {
+      "key": "Academic Record.Subjects",
+      "ground_truth_value": "Management"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "UNIVERSITY OF JAMMU, JAMMU"
+    },
+    {
+      "key": "human_resource_management_iccc",
+      "predicted_value": "R & HRM)"
+    },
+    {
+      "key": "name_in_full",
+      "predicted_value": "MATNAK SARKAR (Block Letters)"
+    },
+    {
+      "key": "father_s_guardian_s_name_deepak_sarkar",
+      "predicted_value": ""
+    },
+    {
+      "key": "telephone_no_with_std_code",
+      "predicted_value": "91-9876567690 M: 9876567890"
+    },
+    {
+      "key": "sex",
+      "predicted_value": ""
+    },
+    {
+      "key": "marital_status",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth",
+      "predicted_value": ""
+    },
+    {
+      "key": "presently_enrolled_in_college_department_of_university_give_complete_details_including_roll_no",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record",
+      "predicted_value": ""
+    },
+    {
+      "key": "pret_券商_s_examination_row_1",
+      "predicted_value": "10\""
+    },
+    {
+      "key": "total_marks_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "subjects_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "pret_券商_s_examination_row_2",
+      "predicted_value": "11\""
+    },
+    {
+      "key": "examination_passed_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "year_of_passing_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "board_university_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "marks_obtained_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "total_marks_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "age_of_marks_obtained_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "subjects_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "pret_券商_s_examination_row_3",
+      "predicted_value": "12\""
+    },
+    {
+      "key": "examination_passed_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "year_of_passing_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "board_university_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "marks_obtained_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "total_marks_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "age_of_marks_obtained_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "subjects_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "pret_券商_s_examination_row_4",
+      "predicted_value": "I"
+    },
+    {
+      "key": "examination_passed_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "year_of_passing_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "board_university_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "marks_obtained_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "total_marks_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "age_of_marks_obtained_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "subjects_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "pret_券商_s_examination_row_5",
+      "predicted_value": "III"
+    },
+    {
+      "key": "examination_passed_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "year_of_passing_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "board_university_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "marks_obtained_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "total_marks_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "age_of_marks_obtained_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "subjects_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "pret_券商_s_examination_row_6",
+      "predicted_value": "III"
+    },
+    {
+      "key": "examination_passed_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "year_of_passing_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "board_university_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "marks_obtained_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "total_marks_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "age_of_marks_obtained_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "subjects_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "pret_券商_s_examination_row_7",
+      "predicted_value": "IV"
+    },
+    {
+      "key": "examination_passed_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "year_of_passing_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "board_university_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "marks_obtained_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "total_marks_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "age_of_marks_obtained_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "subjects_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "pret_券商_s_examination_row_8",
+      "predicted_value": "M. SE."
+    },
+    {
+      "key": "examination_passed_row_8",
+      "predicted_value": "2017"
+    },
+    {
+      "key": "year_of_passing_row_8",
+      "predicted_value": "CBSE"
+    },
+    {
+      "key": "board_university_row_8",
+      "predicted_value": "AIO"
+    },
+    {
+      "key": "marks_obtained_row_8",
+      "predicted_value": "500"
+    },
+    {
+      "key": "total_marks_row_8",
+      "predicted_value": "$2.0"
+    },
+    {
+      "key": "age_of_marks_obtained_row_8",
+      "predicted_value": "Management"
+    },
+    {
+      "key": "subjects_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "pret_券商_s_examination_row_9",
+      "predicted_value": "Any"
+    },
+    {
+      "key": "examination_passed_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "year_of_passing_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "board_university_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "marks_obtained_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "total_marks_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "age_of_marks_obtained_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "subjects_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "pret_券商_s_examination_row_10",
+      "predicted_value": "Other"
+    },
+    {
+      "key": "examination_passed_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "year_of_passing_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "board_university_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "marks_obtained_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "total_marks_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "age_of_marks_obtained_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "subjects_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "pret_券商_s_examination_row_11",
+      "predicted_value": "Exam."
+    },
+    {
+      "key": "examination_passed_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "year_of_passing_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "board_university_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "marks_obtained_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "total_marks_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "age_of_marks_obtained_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "subjects_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "International Centre for Cross-Cultural Research and"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "(Developing people with ultimate flexibility)"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "Application for Admission to 3-month's Post-Graduate Certificate Courses in (tick as applicable)"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "Cross-Cultural International Management"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "Human Resource Management Practices and Labour Law"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "Rashbehari Avenue, Kolkata, West Bengal-700029"
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "Male"
+    },
+    {
+      "key": "unparsed_text_line_8",
+      "predicted_value": "Female"
+    },
+    {
+      "key": "unparsed_text_line_9",
+      "predicted_value": "Married"
+    },
+    {
+      "key": "unparsed_text_line_10",
+      "predicted_value": "Single"
+    },
+    {
+      "key": "unparsed_text_line_11",
+      "predicted_value": "Date 05 Month 03 Year 1995"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "file": "Screenshot 2026-10-02 215359.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "MARKET": "Boston",
+    "PRODUCT": "Old Gold Lights",
+    "SAMPLING DATES:*": "October 3 through October 5",
+    "SAMPLING HOURS:*": "9:30 a.m. - 5:30 p.m.",
+    "QUANTITIES": "270,000",
+    "NUMBER OF SAMPLING PERSONNEL": "24 per day",
+    "NUMBER OF SUPERVISORS": "3",
+    "ORIENTATION MEETING.Date": "October 3rd",
+    "ORIENTATION MEETING.Time": "9:30 a.m.",
+    "ORIENTATION MEETING.Place": "Boston Park Plaza Room 412 64 Arlington Street Boston, Mass. 02117 617/426-2000",
+    "FDC REPRESENTATIVES": "Tony Anari"
+  },
+  "predictions_flattened": {
+    "market": "",
+    "product": "",
+    "dates": "\\*",
+    "hours": "",
+    "quantities": "",
+    "personnel": "",
+    "supervisors": "",
+    "meeting": "",
+    "date": "October 3rd",
+    "time": "9:30 a.m.",
+    "place": "Boston Park Plaza Room 412",
+    "representatives": "Tony Anari",
+    "unparsed_text_line_1": "Boston",
+    "unparsed_text_line_2": "Old Gold Lights",
+    "unparsed_text_line_3": "SAMPLING",
+    "unparsed_text_line_4": "October 3 through October 5",
+    "unparsed_text_line_5": "SAMPLING",
+    "unparsed_text_line_6": "9:30 a.m. - 5:30 p.m.",
+    "unparsed_text_line_7": "270,000",
+    "unparsed_text_line_8": "NUMBER OF",
+    "unparsed_text_line_9": "SAMPLING",
+    "unparsed_text_line_10": "24 per day",
+    "unparsed_text_line_11": "NUMBER OF",
+    "unparsed_text_line_12": "3",
+    "unparsed_text_line_13": "ORIENTATION",
+    "unparsed_text_line_14": "64 Arlington Street",
+    "unparsed_text_line_15": "Boston, Mass. 02117",
+    "unparsed_text_line_16": "617/426-2000",
+    "unparsed_text_line_17": "FDC"
+  },
+  "evaluation": {
+    "mode": "auto",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 11,
+      "total_prediction_fields": 29,
+      "matched_key_count": 7,
+      "correct_fields": 3,
+      "field_level_extraction_accuracy_pct": 27.27,
+      "matched_field_value_exact_match_pct": 42.86,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 3,
+      "false_positive": 19,
+      "false_negative": 8,
+      "precision_pct": 13.64,
+      "recall_pct": 27.27,
+      "f1_pct": 18.18,
+      "anls_pct": 27.27,
+      "anls_fields_scored": 11,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 3,
+        "leaf_normalized_exact": 3,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "MARKET",
+        "predicted_key": "market",
+        "ground_truth_value": "Boston",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "boston",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "PRODUCT",
+        "predicted_key": "product",
+        "ground_truth_value": "Old Gold Lights",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "oldgoldlights",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "QUANTITIES",
+        "predicted_key": "quantities",
+        "ground_truth_value": "270,000",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "270,000",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "ORIENTATION MEETING.Place",
+        "predicted_key": "place",
+        "ground_truth_value": "Boston Park Plaza Room 412 64 Arlington Street Boston, Mass. 02117 617/426-2000",
+        "predicted_value": "Boston Park Plaza Room 412",
+        "normalized_ground_truth_value": "bostonparkplazaroom41264arlingtonstreetboston,mass.02117617/426-2000",
+        "normalized_predicted_value": "bostonparkplazaroom412",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 3,
+      "leaf_normalized_exact": 3,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "SAMPLING DATES:*",
+      "ground_truth_value": "October 3 through October 5"
+    },
+    {
+      "key": "SAMPLING HOURS:*",
+      "ground_truth_value": "9:30 a.m. - 5:30 p.m."
+    },
+    {
+      "key": "NUMBER OF SAMPLING PERSONNEL",
+      "ground_truth_value": "24 per day"
+    },
+    {
+      "key": "NUMBER OF SUPERVISORS",
+      "ground_truth_value": "3"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "dates",
+      "predicted_value": "\\*"
+    },
+    {
+      "key": "hours",
+      "predicted_value": ""
+    },
+    {
+      "key": "personnel",
+      "predicted_value": ""
+    },
+    {
+      "key": "supervisors",
+      "predicted_value": ""
+    },
+    {
+      "key": "meeting",
+      "predicted_value": ""
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "Boston"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "Old Gold Lights"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "SAMPLING"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "October 3 through October 5"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "SAMPLING"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "9:30 a.m. - 5:30 p.m."
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "270,000"
+    },
+    {
+      "key": "unparsed_text_line_8",
+      "predicted_value": "NUMBER OF"
+    },
+    {
+      "key": "unparsed_text_line_9",
+      "predicted_value": "SAMPLING"
+    },
+    {
+      "key": "unparsed_text_line_10",
+      "predicted_value": "24 per day"
+    },
+    {
+      "key": "unparsed_text_line_11",
+      "predicted_value": "NUMBER OF"
+    },
+    {
+      "key": "unparsed_text_line_12",
+      "predicted_value": "3"
+    },
+    {
+      "key": "unparsed_text_line_13",
+      "predicted_value": "ORIENTATION"
+    },
+    {
+      "key": "unparsed_text_line_14",
+      "predicted_value": "64 Arlington Street"
+    },
+    {
+      "key": "unparsed_text_line_15",
+      "predicted_value": "Boston, Mass. 02117"
+    },
+    {
+      "key": "unparsed_text_line_16",
+      "predicted_value": "617/426-2000"
+    },
+    {
+      "key": "unparsed_text_line_17",
+      "predicted_value": "FDC"
+    }
+  ]
+}

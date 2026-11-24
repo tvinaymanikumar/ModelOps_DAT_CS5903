@@ -1,0 +1,160 @@
+{
+  "file": "7.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Name": "Anirban Ghosh",
+    "Leave required for.days": "1",
+    "Leave required for.dates": "15/06/2025 to 15/06/2025",
+    "Reason": "Conference attendance",
+    "Address while on leave": "Flat 5C, Shantiniketan Residency, 45 Gariahat Road, Ballygunge, Kolkata, West Bengal - 700019",
+    "Signature": "Anirban Ghosh",
+    "Unit": "Economics Division",
+    "Date": "24/05/2025",
+    "Signature of Supervisor/Convener, RF Advisory Committee/Head of Unit/Professor-in-Charge": "Prof. M. Iyer",
+    "Supervisor Date": "24/05/2025",
+    "Signature of warden (for Hosteller)": "Ms. R. Das",
+    "Warden Date": "24/05/2025",
+    "For Office Use.Number of previous leave application during the year": "0",
+    "For Office Use.Total leave (No. of days) already taken during the year": "12",
+    "For Office Use.Entered and verified by": "Ms. S. Ghosh",
+    "For Office Use.Remarks": "Check previous records",
+    "For Office Use.Leave granted/not granted": "granted",
+    "For Office Use.Date": "24/05/2025",
+    "For Office Use.Dean of Studies": "Dr. P. Chatterjee"
+  },
+  "predictions_flattened": {
+    "annexure": "Annexure - I",
+    "institution_name": "INDIAN STATISTICAL INSTITUTE",
+    "form_title": "LEAVE APPLICATION FOR RESEARCH FELLOWS AND RESEARCH ASSOCIATES",
+    "name": "Anirban Ghosh",
+    "leave_required_for_days": "1",
+    "leave_required_for_dates": "15/06/2025 to 15/06/2025",
+    "reason": "Conference attendance",
+    "address_while_on_leave": "Flat 5C, Shantiniketan Residency, 45 Gariahat Road, Ballygunge, Kolkata, West Bengal - 700019",
+    "applicant_signature": "Anirban Ghosh",
+    "unit": "Economic Division",
+    "applicant_date": "24/05/2025",
+    "signature_of_supervisor_convener_rf_advisory_committee_head_of_unit_professor_in_charge": "Prof. M. Iyer",
+    "supervisor_date": "24/05/2025",
+    "signature_of_warden_for_hosteller": "Ms. R. Das",
+    "warden_date": "24/05/2025",
+    "number_of_previous_leave_application_during_the_year": "0",
+    "total_leave_no_of_days_already_taken_during_the_year": "12",
+    "entered_and_verified_by": "MS. S. Ghosh",
+    "remarks": "check previous records",
+    "leave_granted_not_granted": "granted",
+    "office_use_date": "24/05/2025",
+    "dean_of_studies": "Dr. P. Chatterjee"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 19,
+      "total_prediction_fields": 22,
+      "matched_key_count": 14,
+      "correct_fields": 13,
+      "field_level_extraction_accuracy_pct": 68.42,
+      "matched_field_value_exact_match_pct": 92.86,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 13,
+      "false_positive": 9,
+      "false_negative": 6,
+      "precision_pct": 59.09,
+      "recall_pct": 68.42,
+      "f1_pct": 63.41,
+      "anls_pct": 73.37,
+      "anls_fields_scored": 19,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 8,
+        "leaf_normalized_exact": 5,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Unit",
+        "predicted_key": "unit",
+        "ground_truth_value": "Economics Division",
+        "predicted_value": "Economic Division",
+        "normalized_ground_truth_value": "economicsdivision",
+        "normalized_predicted_value": "economicdivision",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 8,
+      "leaf_normalized_exact": 5,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Leave required for.days",
+      "ground_truth_value": "1"
+    },
+    {
+      "key": "Leave required for.dates",
+      "ground_truth_value": "15/06/2025 to 15/06/2025"
+    },
+    {
+      "key": "Signature",
+      "ground_truth_value": "Anirban Ghosh"
+    },
+    {
+      "key": "Date",
+      "ground_truth_value": "24/05/2025"
+    },
+    {
+      "key": "For Office Use.Date",
+      "ground_truth_value": "24/05/2025"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "annexure",
+      "predicted_value": "Annexure - I"
+    },
+    {
+      "key": "institution_name",
+      "predicted_value": "INDIAN STATISTICAL INSTITUTE"
+    },
+    {
+      "key": "form_title",
+      "predicted_value": "LEAVE APPLICATION FOR RESEARCH FELLOWS AND RESEARCH ASSOCIATES"
+    },
+    {
+      "key": "leave_required_for_days",
+      "predicted_value": "1"
+    },
+    {
+      "key": "leave_required_for_dates",
+      "predicted_value": "15/06/2025 to 15/06/2025"
+    },
+    {
+      "key": "applicant_signature",
+      "predicted_value": "Anirban Ghosh"
+    },
+    {
+      "key": "applicant_date",
+      "predicted_value": "24/05/2025"
+    },
+    {
+      "key": "office_use_date",
+      "predicted_value": "24/05/2025"
+    }
+  ]
+}

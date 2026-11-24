@@ -1,0 +1,313 @@
+[
+  {
+    "image": "/home/cs26mtech02010/Modelops/VLM_Finetuning/dataset/forms/benchmark/images/bench_form_08.png",
+    "fields": [
+      "Tel",
+      "Customer ID",
+      "First",
+      "Middle",
+      "Last /Surname",
+      "Type of account held",
+      "Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)",
+      "Employed Details",
+      "Occupation",
+      "Name of Employer in case employed Or Name Nature of Business in case Self Employed",
+      "Address Line 1",
+      "Address Line 2",
+      "Address Line 3",
+      "City",
+      "State",
+      "Country",
+      "Zip Code",
+      "Email",
+      "Home",
+      "Mobile",
+      "Work"
+    ],
+    "target": {
+      "Tel": "212-521-3286,3300; Fax: 212-521-3361",
+      "Customer ID": "CUST844691",
+      "First": "Saptarshi",
+      "Middle": "Prasad",
+      "Last /Surname": "Roy",
+      "Type of account held": "Checking, Money Market Deposit, Certificate of Deposit",
+      "Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)": "ABCDE6131F",
+      "Employed Details": "Unemployed",
+      "Occupation": "Student",
+      "Name of Employer in case employed Or Name Nature of Business in case Self Employed": "Saptarshi Roy",
+      "Address Line 1": "Flat 4D",
+      "Address Line 2": "Krishna Enclave",
+      "Address Line 3": "88A Naktala Road",
+      "City": "Kolkata",
+      "State": "West Bengal",
+      "Country": "India",
+      "Zip Code": "700047",
+      "Email": "saptarshi.roy@gmail.com",
+      "Home": "+91-9800456123",
+      "Mobile": "+91-9800456123",
+      "Work": "+91 9836784424"
+    },
+    "finetuned": {
+      "raw": "{\n  \"Tel\": \"212-521-3286,3300; Fax: 212-521-3361\",\n  \"Customer ID\": \"CUST844691\",\n  \"First\": \"Saptarshi\",\n  \"Middle\": \"Prasad\",\n  \"Last /Surname\": \"Roy\",\n  \"Type of account held\": \"Checking, Money Market Deposit, Certificate of Deposit\",\n  \"Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)\": \"ABCDE6131F\",\n  \"Employed Details\": \"Unemployed\",\n  \"Occupation\": \"Student\",\n  \"Name of Employer in case employed Or Name Nature of Business in case Self Employed\": \"Saptarshi Roy\",\n  \"Address Line 1\": null,\n  \"Address Line 2\": \"Flat 4D\",\n  \"Address Line 3\": \"Kolkata Enclave\",\n  \"City\": \"Kolkata\",\n  \"State\": \"West Bengal\",\n  \"Country\": \"India\",\n  \"Zip Code\": \"700047\",\n  \"Email\": \"saptarshi.roy@gmail.com\",\n  \"Home\": \"+91-9800456123\",\n  \"Mobile\": \"+91-9800456123\",\n  \"Work\": \"+91 9536789424\"\n}",
+      "parsed": {
+        "Tel": "212-521-3286,3300; Fax: 212-521-3361",
+        "Customer ID": "CUST844691",
+        "First": "Saptarshi",
+        "Middle": "Prasad",
+        "Last /Surname": "Roy",
+        "Type of account held": "Checking, Money Market Deposit, Certificate of Deposit",
+        "Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)": "ABCDE6131F",
+        "Employed Details": "Unemployed",
+        "Occupation": "Student",
+        "Name of Employer in case employed Or Name Nature of Business in case Self Employed": "Saptarshi Roy",
+        "Address Line 1": null,
+        "Address Line 2": "Flat 4D",
+        "Address Line 3": "Kolkata Enclave",
+        "City": "Kolkata",
+        "State": "West Bengal",
+        "Country": "India",
+        "Zip Code": "700047",
+        "Email": "saptarshi.roy@gmail.com",
+        "Home": "+91-9800456123",
+        "Mobile": "+91-9800456123",
+        "Work": "+91 9536789424"
+      },
+      "seconds": 14.9,
+      "score": {
+        "combined_kv_precision_pct": 80.95,
+        "combined_kv_recall_pct": 80.95,
+        "combined_kv_f1_pct": 80.95,
+        "normalized_edit_distance_similarity_pct": 97.01,
+        "strict_form_accuracy_pct": 0.0,
+        "strict_form_correct": false,
+        "ground_truth_fields": 21,
+        "prediction_fields": 21,
+        "matched_key_pairs": 21,
+        "missing_keys": 0,
+        "extra_keys": 0,
+        "incorrect_values": 4,
+        "tp": 17,
+        "fp": 4,
+        "fn": 4,
+        "valid_json": 1
+      },
+      "field_rows": {
+        "Tel": [
+          "212-521-3286,3300; Fax: 212-521-3361",
+          true
+        ],
+        "Customer ID": [
+          "CUST844691",
+          true
+        ],
+        "First": [
+          "Saptarshi",
+          true
+        ],
+        "Middle": [
+          "Prasad",
+          true
+        ],
+        "Last /Surname": [
+          "Roy",
+          true
+        ],
+        "Type of account held": [
+          "Checking, Money Market Deposit, Certificate of Deposit",
+          true
+        ],
+        "Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)": [
+          "ABCDE6131F",
+          true
+        ],
+        "Employed Details": [
+          "Unemployed",
+          true
+        ],
+        "Occupation": [
+          "Student",
+          true
+        ],
+        "Name of Employer in case employed Or Name Nature of Business in case Self Employed": [
+          "Saptarshi Roy",
+          true
+        ],
+        "Address Line 1": [
+          "",
+          false
+        ],
+        "Address Line 2": [
+          "Flat 4D",
+          false
+        ],
+        "Address Line 3": [
+          "Kolkata Enclave",
+          false
+        ],
+        "City": [
+          "Kolkata",
+          true
+        ],
+        "State": [
+          "West Bengal",
+          true
+        ],
+        "Country": [
+          "India",
+          true
+        ],
+        "Zip Code": [
+          "700047",
+          true
+        ],
+        "Email": [
+          "saptarshi.roy@gmail.com",
+          true
+        ],
+        "Home": [
+          "+91-9800456123",
+          true
+        ],
+        "Mobile": [
+          "+91-9800456123",
+          true
+        ],
+        "Work": [
+          "+91 9536789424",
+          false
+        ]
+      }
+    },
+    "base": {
+      "raw": "{\"Tel\": \"212-521-3286,3300; Fax: 212-521-3361\", \"Customer ID\": \"CUST84691\", \"First\": \"Saptarshi\", \"Middle\": \"Poonad\", \"Last /Surname\": \"Roy\", \"Type of account held\": \"Checking Certificate of Deposit Money Market Deposit\", \"Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)\": \"ABCD6E131F\", \"Employed Details\": \"Employed\", \"Occupation\": \"Student\", \"Name of Employer in case employed Or Name Nature of Business in case Self Employed\": \"Saptarshi Roy\", \"Address Line 1\": \"1\", \"Address Line 2\": \"Korishma Enclave\", \"Address Line 3\": \"88 A Nakatala Road\", \"City\": \"Kolkata\", \"State\": \"West Bengal\", \"Country\": \"India\", \"Zip Code\": \"700047\", \"Email\": \"saptarshi_0107@gmail.com\", \"Home\": \"+91-9800456123\", \"Mobile\": \"+91-9800456123\", \"Work\": \"+91-983678424\"}",
+      "parsed": {
+        "Tel": "212-521-3286,3300; Fax: 212-521-3361",
+        "Customer ID": "CUST84691",
+        "First": "Saptarshi",
+        "Middle": "Poonad",
+        "Last /Surname": "Roy",
+        "Type of account held": "Checking Certificate of Deposit Money Market Deposit",
+        "Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)": "ABCD6E131F",
+        "Employed Details": "Employed",
+        "Occupation": "Student",
+        "Name of Employer in case employed Or Name Nature of Business in case Self Employed": "Saptarshi Roy",
+        "Address Line 1": "1",
+        "Address Line 2": "Korishma Enclave",
+        "Address Line 3": "88 A Nakatala Road",
+        "City": "Kolkata",
+        "State": "West Bengal",
+        "Country": "India",
+        "Zip Code": "700047",
+        "Email": "saptarshi_0107@gmail.com",
+        "Home": "+91-9800456123",
+        "Mobile": "+91-9800456123",
+        "Work": "+91-983678424"
+      },
+      "seconds": 8.8,
+      "score": {
+        "combined_kv_precision_pct": 52.38,
+        "combined_kv_recall_pct": 52.38,
+        "combined_kv_f1_pct": 52.38,
+        "normalized_edit_distance_similarity_pct": 95.33,
+        "strict_form_accuracy_pct": 0.0,
+        "strict_form_correct": false,
+        "ground_truth_fields": 21,
+        "prediction_fields": 21,
+        "matched_key_pairs": 21,
+        "missing_keys": 0,
+        "extra_keys": 0,
+        "incorrect_values": 10,
+        "tp": 11,
+        "fp": 10,
+        "fn": 10,
+        "valid_json": 1
+      },
+      "field_rows": {
+        "Tel": [
+          "212-521-3286,3300; Fax: 212-521-3361",
+          true
+        ],
+        "Customer ID": [
+          "CUST84691",
+          false
+        ],
+        "First": [
+          "Saptarshi",
+          true
+        ],
+        "Middle": [
+          "Poonad",
+          false
+        ],
+        "Last /Surname": [
+          "Roy",
+          true
+        ],
+        "Type of account held": [
+          "Checking Certificate of Deposit Money Market Deposit",
+          false
+        ],
+        "Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)": [
+          "ABCD6E131F",
+          false
+        ],
+        "Employed Details": [
+          "Employed",
+          false
+        ],
+        "Occupation": [
+          "Student",
+          true
+        ],
+        "Name of Employer in case employed Or Name Nature of Business in case Self Employed": [
+          "Saptarshi Roy",
+          true
+        ],
+        "Address Line 1": [
+          "1",
+          false
+        ],
+        "Address Line 2": [
+          "Korishma Enclave",
+          false
+        ],
+        "Address Line 3": [
+          "88 A Nakatala Road",
+          false
+        ],
+        "City": [
+          "Kolkata",
+          true
+        ],
+        "State": [
+          "West Bengal",
+          true
+        ],
+        "Country": [
+          "India",
+          true
+        ],
+        "Zip Code": [
+          "700047",
+          true
+        ],
+        "Email": [
+          "saptarshi_0107@gmail.com",
+          false
+        ],
+        "Home": [
+          "+91-9800456123",
+          true
+        ],
+        "Mobile": [
+          "+91-9800456123",
+          true
+        ],
+        "Work": [
+          "+91-983678424",
+          false
+        ]
+      }
+    }
+  }
+]

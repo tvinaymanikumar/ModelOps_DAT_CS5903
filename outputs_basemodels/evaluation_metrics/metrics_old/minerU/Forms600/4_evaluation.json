@@ -1,0 +1,341 @@
+{
+  "file": "4.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Personal Information.Full Name": "Ritoban Bhattacharya",
+    "Personal Information.Date of Birth": "01-30-1999",
+    "Personal Information.Gender": "Male",
+    "Personal Information.Address": "Flat 2B, Saptarshi Apartments, 102 Jodhpur Park, Kolkata, West Bengal - 700068",
+    "Personal Information.City": "Kolkata",
+    "Personal Information.State/Province": "West Bengal",
+    "Personal Information.Zip/Postal Code": "700068",
+    "Personal Information.Country": "India",
+    "Personal Information.Phone Number": "+91-9812345678",
+    "Personal Information.Email Address": "ritoban.bhattacharya@gmail.com",
+    "Educational Background[0].Degree/Course": "M.Sc Physics",
+    "Educational Background[0].University/Institute": "IIM Ahmedabad",
+    "Educational Background[0].Year of Graduate": "2022",
+    "Educational Background[0].Grade": "B",
+    "Educational Background[0].City": "Kolkata",
+    "Employment History[0].Employee": "Reliance Industries",
+    "Employment History[0].Job Title": "Developer",
+    "Employment History[0].Address": "Flat 2B, Saptarshi Apartments, 102 Jodhpur Park, Kolkata, West Bengal - 700068",
+    "Employment History[0].Start Date": "03-26-2024",
+    "Employment History[0].End Date": "10-28-2025",
+    "Employment History[0].Responsibilities": "Project Planning",
+    "Employment History[0].Why I Quit": "Better opportunity",
+    "Skills & Training[0].Skill & Training Achievement(s)": "Cloud Computing",
+    "Skills & Training[0].Level": "Beginner",
+    "Skills & Training[0].Year": "2017",
+    "Skills & Training[0].Institute": "Udemy",
+    "Date": "05-24-2025",
+    "Signature": "Ritoban Bhattacharya"
+  },
+  "predictions_flattened": {
+    "document_title": "Application for Employment",
+    "document_title_2": "PERSONAL INFORMATION",
+    "full_name_rizban_bhallaeha_a": "",
+    "date_of_birth_01_30_1999_gender_male": "",
+    "address_flat_28_saplazshi_apartments_j02_jadhpu_park": "",
+    "kolkata_west_bengal_700068": "",
+    "city_kolkala_state_province_west_bengal": "",
+    "zip_postal_code_700068_country_india": "",
+    "phone_number_91_3832345678_email_address_rizban_bhallaeha_a": "",
+    "document_title_3": "EDUCATIONAL BACKGROUND",
+    "degree_course": "M.Se physics",
+    "university_institute": "JIM Phmedabad",
+    "year_of_graduate": "2022",
+    "grade": "B",
+    "city": "Kolkata",
+    "document_title_4": "EMPLOYMENT HISTORY",
+    "employee_row_1": "Address",
+    "reliance_industries_job_title_row_1": ":Flat 2B, Saptiash Area Temples, 202 johns Road, Kolkata",
+    "developopen_row_1": "",
+    "employee_row_2": "Start Date",
+    "reliance_industries_job_title_row_2": ":03-26-2024 End Date",
+    "developopen_row_2": ":10-28-2025",
+    "employee_row_3": "Responsibilities",
+    "reliance_industries_job_title_row_3": ":Planetary Planning Why I Quit",
+    "developopen_row_3": ":Betel opportunities",
+    "document_title_5": "SKILLS & TRAINING",
+    "skill_training_achievement_s": "Cloud Computing",
+    "level": "Beginners",
+    "year": "2017",
+    "institute": "Udemy",
+    "sqrt_0": "2A} - {2025}} \\)",
+    "unparsed_text_line_1": "Hanover and Tyke",
+    "unparsed_text_line_2": "www.realgreatsite.com",
+    "unparsed_text_line_3": "hello@reallygreatsite.com",
+    "unparsed_text_line_4": "I affirm that my answers are truthful and thorough, recognizing that supplying false information could result in termination if I am hired.",
+    "unparsed_text_line_5": "Date",
+    "unparsed_text_line_6": "Signature",
+    "unparsed_text_line_7": "Riboban jhaltahachya"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 28,
+      "total_prediction_fields": 38,
+      "matched_key_count": 9,
+      "correct_fields": 6,
+      "field_level_extraction_accuracy_pct": 21.43,
+      "matched_field_value_exact_match_pct": 66.67,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 6,
+      "false_positive": 24,
+      "false_negative": 22,
+      "precision_pct": 20.0,
+      "recall_pct": 21.43,
+      "f1_pct": 20.69,
+      "anls_pct": 30.83,
+      "anls_fields_scored": 28,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "leaf_normalized_exact": 8,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Educational Background[0].Degree/Course",
+        "predicted_key": "degree_course",
+        "ground_truth_value": "M.Sc Physics",
+        "predicted_value": "M.Se physics",
+        "normalized_ground_truth_value": "m.scphysics",
+        "normalized_predicted_value": "m.sephysics",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Educational Background[0].University/Institute",
+        "predicted_key": "university_institute",
+        "ground_truth_value": "IIM Ahmedabad",
+        "predicted_value": "JIM Phmedabad",
+        "normalized_ground_truth_value": "iimahmedabad",
+        "normalized_predicted_value": "jimphmedabad",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Skills & Training[0].Level",
+        "predicted_key": "level",
+        "ground_truth_value": "Beginner",
+        "predicted_value": "Beginners",
+        "normalized_ground_truth_value": "beginner",
+        "normalized_predicted_value": "beginners",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "leaf_normalized_exact": 8,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Personal Information.Full Name",
+      "ground_truth_value": "Ritoban Bhattacharya"
+    },
+    {
+      "key": "Personal Information.Date of Birth",
+      "ground_truth_value": "01-30-1999"
+    },
+    {
+      "key": "Personal Information.Gender",
+      "ground_truth_value": "Male"
+    },
+    {
+      "key": "Personal Information.Address",
+      "ground_truth_value": "Flat 2B, Saptarshi Apartments, 102 Jodhpur Park, Kolkata, West Bengal - 700068"
+    },
+    {
+      "key": "Personal Information.State/Province",
+      "ground_truth_value": "West Bengal"
+    },
+    {
+      "key": "Personal Information.Zip/Postal Code",
+      "ground_truth_value": "700068"
+    },
+    {
+      "key": "Personal Information.Country",
+      "ground_truth_value": "India"
+    },
+    {
+      "key": "Personal Information.Phone Number",
+      "ground_truth_value": "+91-9812345678"
+    },
+    {
+      "key": "Personal Information.Email Address",
+      "ground_truth_value": "ritoban.bhattacharya@gmail.com"
+    },
+    {
+      "key": "Educational Background[0].City",
+      "ground_truth_value": "Kolkata"
+    },
+    {
+      "key": "Employment History[0].Employee",
+      "ground_truth_value": "Reliance Industries"
+    },
+    {
+      "key": "Employment History[0].Job Title",
+      "ground_truth_value": "Developer"
+    },
+    {
+      "key": "Employment History[0].Address",
+      "ground_truth_value": "Flat 2B, Saptarshi Apartments, 102 Jodhpur Park, Kolkata, West Bengal - 700068"
+    },
+    {
+      "key": "Employment History[0].Start Date",
+      "ground_truth_value": "03-26-2024"
+    },
+    {
+      "key": "Employment History[0].End Date",
+      "ground_truth_value": "10-28-2025"
+    },
+    {
+      "key": "Employment History[0].Responsibilities",
+      "ground_truth_value": "Project Planning"
+    },
+    {
+      "key": "Employment History[0].Why I Quit",
+      "ground_truth_value": "Better opportunity"
+    },
+    {
+      "key": "Date",
+      "ground_truth_value": "05-24-2025"
+    },
+    {
+      "key": "Signature",
+      "ground_truth_value": "Ritoban Bhattacharya"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "Application for Employment"
+    },
+    {
+      "key": "document_title_2",
+      "predicted_value": "PERSONAL INFORMATION"
+    },
+    {
+      "key": "full_name_rizban_bhallaeha_a",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth_01_30_1999_gender_male",
+      "predicted_value": ""
+    },
+    {
+      "key": "address_flat_28_saplazshi_apartments_j02_jadhpu_park",
+      "predicted_value": ""
+    },
+    {
+      "key": "kolkata_west_bengal_700068",
+      "predicted_value": ""
+    },
+    {
+      "key": "city_kolkala_state_province_west_bengal",
+      "predicted_value": ""
+    },
+    {
+      "key": "zip_postal_code_700068_country_india",
+      "predicted_value": ""
+    },
+    {
+      "key": "phone_number_91_3832345678_email_address_rizban_bhallaeha_a",
+      "predicted_value": ""
+    },
+    {
+      "key": "document_title_3",
+      "predicted_value": "EDUCATIONAL BACKGROUND"
+    },
+    {
+      "key": "document_title_4",
+      "predicted_value": "EMPLOYMENT HISTORY"
+    },
+    {
+      "key": "employee_row_1",
+      "predicted_value": "Address"
+    },
+    {
+      "key": "reliance_industries_job_title_row_1",
+      "predicted_value": ":Flat 2B, Saptiash Area Temples, 202 johns Road, Kolkata"
+    },
+    {
+      "key": "developopen_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "employee_row_2",
+      "predicted_value": "Start Date"
+    },
+    {
+      "key": "reliance_industries_job_title_row_2",
+      "predicted_value": ":03-26-2024 End Date"
+    },
+    {
+      "key": "developopen_row_2",
+      "predicted_value": ":10-28-2025"
+    },
+    {
+      "key": "employee_row_3",
+      "predicted_value": "Responsibilities"
+    },
+    {
+      "key": "reliance_industries_job_title_row_3",
+      "predicted_value": ":Planetary Planning Why I Quit"
+    },
+    {
+      "key": "developopen_row_3",
+      "predicted_value": ":Betel opportunities"
+    },
+    {
+      "key": "document_title_5",
+      "predicted_value": "SKILLS & TRAINING"
+    },
+    {
+      "key": "sqrt_0",
+      "predicted_value": "2A} - {2025}} \\)"
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "Hanover and Tyke"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "www.realgreatsite.com"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "hello@reallygreatsite.com"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "I affirm that my answers are truthful and thorough, recognizing that supplying false information could result in termination if I am hired."
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "Date"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "Signature"
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "Riboban jhaltahachya"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "file": "12.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Name of the Student": "RITIKA BASU",
+    "Father's Name": "Mr. Ashok Basu",
+    "Course of Study": "MBA",
+    "Category.GE": "No",
+    "Category.SC": "Yes",
+    "Category.ST": "No",
+    "Category.OBC": "No",
+    "Category.PH": "No",
+    "Category.DP": "No",
+    "Date of Joining": "17/09/2023",
+    "Hallticket/ Enrol. No": "HT529380",
+    "Date of leaving": "03/04/2025",
+    "Reason(s) for leaving.Joining another University": "No",
+    "Reason(s) for leaving.Course": "",
+    "Reason(s) for leaving.Taking up employment": "No",
+    "Reason(s) for leaving.Financial Problems": "No",
+    "Reason(s) for leaving.Non-availability of Hostel": "No",
+    "Reason(s) for leaving.Personal Problems": "Yes",
+    "Reason(s) for leaving.Any other reason, please specify": "",
+    "Particulars of the fees paid.Tuition and other fees paid on Dt": "06/11/2024",
+    "Particulars of the fees paid.Rs": "5216",
+    "Bank A/c details of the Student (IN BLOCK LETTERS).Bank Name": "STATE BANK OF INDIA",
+    "Bank A/c details of the Student (IN BLOCK LETTERS).Bank Account No": "33619908862",
+    "Bank A/c details of the Student (IN BLOCK LETTERS).Branch Name and IFSC Code": "HITECH CITY, SBIN6762364",
+    "Date": "24/05/2025",
+    "Signature of the Student": "Ritika Basu",
+    "Dean of the School/ Head of the Department/ Centre": "Dr. Iyer"
+  },
+  "predictions_flattened": {
+    "name_of_the_student": "RITIKA BASU",
+    "fathers_name": "Mr. Ashok Basu",
+    "course_of_study": "MBA",
+    "category_ge": "",
+    "category_sc": "✓",
+    "category_st": "",
+    "category_obc": "",
+    "category_ph": "",
+    "category_dp": "",
+    "date_of_joining": "17/09/2023",
+    "hallticket_enrol_no": "HT 52 93 80",
+    "date_of_leaving": "03/04/2025",
+    "joining_another_university": "No",
+    "course": "",
+    "taking_up_an_employment": "",
+    "financial_problems": "",
+    "non_availability_of_hostel": "",
+    "personal_problems": "✓",
+    "any_other_reason_please_specify": "",
+    "particulars_of_the_fees_paid": "",
+    "tuition_and_other_fees_paid_on_dt": "06/11/2024",
+    "rs": "5216",
+    "bank_name": "STATE BANK OF INDIA",
+    "bank_account_no": "33619908862",
+    "branch_name_and_ifsc_code": "HITECH CITY, SBIN6762369",
+    "date": "24/05/2025",
+    "signature_of_the_student": "Ritika Basu",
+    "date_2": "24/05/2025",
+    "dean_of_the_school_head_of_the_department_centre": "Dr. Iyer",
+    "dealing_asst": "",
+    "ar_acad": "",
+    "jt_registrar_ae": "",
+    "controller_of_examinations": ""
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 27,
+      "total_prediction_fields": 33,
+      "matched_key_count": 20,
+      "correct_fields": 15,
+      "field_level_extraction_accuracy_pct": 55.56,
+      "matched_field_value_exact_match_pct": 75.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 13,
+      "false_positive": 5,
+      "false_negative": 12,
+      "precision_pct": 72.22,
+      "recall_pct": 52.0,
+      "f1_pct": 60.47,
+      "anls_pct": 55.82,
+      "anls_fields_scored": 25,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 7,
+        "leaf_normalized_exact": 11,
+        "fuzzy_lexical_leaf_fallback": 2
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Reason(s) for leaving.Financial Problems",
+        "predicted_key": "financial_problems",
+        "ground_truth_value": "No",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "no",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Reason(s) for leaving.Non-availability of Hostel",
+        "predicted_key": "non_availability_of_hostel",
+        "ground_truth_value": "No",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "no",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Reason(s) for leaving.Personal Problems",
+        "predicted_key": "personal_problems",
+        "ground_truth_value": "Yes",
+        "predicted_value": "✓",
+        "normalized_ground_truth_value": "yes",
+        "normalized_predicted_value": "✓",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Bank A/c details of the Student (IN BLOCK LETTERS).Branch Name and IFSC Code",
+        "predicted_key": "branch_name_and_ifsc_code",
+        "ground_truth_value": "HITECH CITY, SBIN6762364",
+        "predicted_value": "HITECH CITY, SBIN6762369",
+        "normalized_ground_truth_value": "hitechcity,sbin6762364",
+        "normalized_predicted_value": "hitechcity,sbin6762369",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Reason(s) for leaving.Taking up employment",
+        "predicted_key": "taking_up_an_employment",
+        "ground_truth_value": "No",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "no",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 7,
+      "leaf_normalized_exact": 11,
+      "fuzzy_lexical_leaf_fallback": 2
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Category.GE",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Category.SC",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Category.ST",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Category.OBC",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Category.PH",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Category.DP",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Hallticket/ Enrol. No",
+      "ground_truth_value": "HT529380"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "category_ge",
+      "predicted_value": ""
+    },
+    {
+      "key": "category_sc",
+      "predicted_value": "✓"
+    },
+    {
+      "key": "category_st",
+      "predicted_value": ""
+    },
+    {
+      "key": "category_obc",
+      "predicted_value": ""
+    },
+    {
+      "key": "category_ph",
+      "predicted_value": ""
+    },
+    {
+      "key": "category_dp",
+      "predicted_value": ""
+    },
+    {
+      "key": "hallticket_enrol_no",
+      "predicted_value": "HT 52 93 80"
+    },
+    {
+      "key": "particulars_of_the_fees_paid",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_2",
+      "predicted_value": "24/05/2025"
+    },
+    {
+      "key": "dealing_asst",
+      "predicted_value": ""
+    },
+    {
+      "key": "ar_acad",
+      "predicted_value": ""
+    },
+    {
+      "key": "jt_registrar_ae",
+      "predicted_value": ""
+    },
+    {
+      "key": "controller_of_examinations",
+      "predicted_value": ""
+    }
+  ]
+}

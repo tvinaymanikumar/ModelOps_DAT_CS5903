@@ -1,0 +1,114 @@
+{
+  "file": "Screenshot 2026-10-02 215642.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "DATE": "11/4/93",
+    "TIME": "3:28 CST",
+    "PLEASE TRANSMIT THIS DOCUMENT TO.NAME": "Mr. A. J. Giacoio",
+    "PLEASE TRANSMIT THIS DOCUMENT TO.OFFICE": "New York - Sales Planning",
+    "PLEASE TRANSMIT THIS DOCUMENT TO.FAX PHONE NUMBER": "212 545-3299",
+    "THIS DOCUMENT IS FROM.NAME": "R. E. Welsh",
+    "THIS DOCUMENT IS FROM.OFFICE": "Oklahoma City, OK",
+    "THIS DOCUMENT IS FROM.FAX PHONE NUMBER": "(405) 840-0639"
+  },
+  "predictions_flattened": {
+    "date_11_4_93_time_3": "28 CST",
+    "please_transmit_this_document_to": "",
+    "name": "Mr. A. J. Giacoio",
+    "office": "New York - Sales Planning",
+    "fax_phone_number": "212 545-3299",
+    "this_document_is_from": "",
+    "name_2": "",
+    "office_2": "Oklahoma City. OK",
+    "fax_phone_number_2": "(405) 840-0639",
+    "unparsed_text_line_1": "The following document, including cover page is 3 pages long."
+  },
+  "evaluation": {
+    "mode": "auto",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 8,
+      "total_prediction_fields": 10,
+      "matched_key_count": 6,
+      "correct_fields": 4,
+      "field_level_extraction_accuracy_pct": 50.0,
+      "matched_field_value_exact_match_pct": 66.67,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 4,
+      "false_positive": 3,
+      "false_negative": 4,
+      "precision_pct": 57.14,
+      "recall_pct": 50.0,
+      "f1_pct": 53.33,
+      "anls_pct": 61.67,
+      "anls_fields_scored": 8,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "fuzzy_lexical_leaf_fallback": 6
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "THIS DOCUMENT IS FROM.OFFICE",
+        "predicted_key": "office_2",
+        "ground_truth_value": "Oklahoma City, OK",
+        "predicted_value": "Oklahoma City. OK",
+        "normalized_ground_truth_value": "oklahomacity,ok",
+        "normalized_predicted_value": "oklahomacity.ok",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "THIS DOCUMENT IS FROM.NAME",
+        "predicted_key": "name_2",
+        "ground_truth_value": "R. E. Welsh",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "r.e.welsh",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "fuzzy_lexical_leaf_fallback": 6
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "DATE",
+      "ground_truth_value": "11/4/93"
+    },
+    {
+      "key": "TIME",
+      "ground_truth_value": "3:28 CST"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "date_11_4_93_time_3",
+      "predicted_value": "28 CST"
+    },
+    {
+      "key": "please_transmit_this_document_to",
+      "predicted_value": ""
+    },
+    {
+      "key": "this_document_is_from",
+      "predicted_value": ""
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "The following document, including cover page is 3 pages long."
+    }
+  ]
+}

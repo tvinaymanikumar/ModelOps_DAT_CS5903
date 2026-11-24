@@ -1,0 +1,16 @@
+Split report - MANUAL split read from D:\01_Workspace\Projects\03_Mtech_Projects\01_DAT course\ModelOps_Project\vlmFinetuning\dataset
+manifest D:\01_Workspace\Projects\03_Mtech_Projects\01_DAT course\ModelOps_Project\vlmFinetuning\prepared\manifest.jsonl sha256 712eb8c6cee34607
+
+                                 forms         cheques           funsd    total
+-------------------------------------------------------------------------------
+train_docs                      454 ok           70 ok           45 ok      569
+tilts_per_train_doc               2 ok            1 ok            2 ok
+train_images                   1362 ok          140 ok          135 ok     1637
+validation_docs                  57 ok            9 ok            5 ok       71
+test_docs                        57 ok            8 ok            5 ok       70
+benchmark_docs                   25 ok           25 ok           26 ok       76
+
+Training mix by images: forms 83.2%, cheques 8.6%, funsd 8.2%
+Test sets below 30 documents (report per-dataset results as PRELIMINARY): cheques (8), funsd (5)
+
+All counts match config/expected_counts.json.

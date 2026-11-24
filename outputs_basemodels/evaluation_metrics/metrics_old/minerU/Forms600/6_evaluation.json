@@ -1,0 +1,276 @@
+{
+  "file": "6.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Personal Information.Name of the Applicant": "SRABONI CHATTERJEE",
+    "Personal Information.Father's Name": "RAKESH CHATTERJEE",
+    "Personal Information.Designation/Occupation": "Engineer",
+    "Personal Information.Annual Income of the Father/Guardian": "8,00,000",
+    "Personal Information.Date of Birth.Day": "12",
+    "Personal Information.Date of Birth.Month": "04",
+    "Personal Information.Date of Birth.Year": "1999",
+    "Personal Information.Address for Correspondence": "Flat 3A, Ananya Apartment, Hazra Road, Kalighat, Kolkata, West Bengal - 700026",
+    "Personal Information.Permanent Address": "Flat 3A, Ananya Apartment, Hazra Road, Kalighat, Kolkata, West Bengal - 700026",
+    "Personal Information.Contact Tel No.(R)": "019176543212",
+    "Personal Information.Contact Tel No.(M)": "08765432120",
+    "Personal Information.Sex.Male": "No",
+    "Personal Information.Sex.Female": "Yes",
+    "Personal Information.University from which the Bachelor's Degree completed": "Jamia Millia Islamia",
+    "Personal Information.Year of Passing": "2015",
+    "Personal Information.Nationality": "Indian",
+    "Personal Information.State of Domicile": "Delhi"
+  },
+  "predictions_flattened": {
+    "document_title": "PERSONAL INFORMATION",
+    "name_of_the_applicant": "",
+    "a_father_s_name": "",
+    "date_of_birth": "",
+    "a_address_for_correspondence_flat_3a_ananya_apartment_ha": "22a Road, Kalighat, Kolrata, West Bungal-700026",
+    "v_tick_whichever_is_applicable": "Sex",
+    "university_from_which_the_bachelor_s_degree_completed_jamia_millia_is_lamia": "",
+    "year_of_passing_2015": "",
+    "nationality_indian": "",
+    "state_of_domicile_delhii": "",
+    "unparsed_text_line_1": "2",
+    "unparsed_text_line_2": "Application for Admission",
+    "unparsed_text_line_3": "www.jammuuniversity.in",
+    "unparsed_text_line_4": "(in capital letters) SRABONI CHATTERJEE",
+    "unparsed_text_line_5": "(in capital letters) RAKESH CHATTERJEE",
+    "unparsed_text_line_6": "b) Designation/Occupation Engineer",
+    "unparsed_text_line_7": "c) Annual Income of the Father/Guardian 8,00,000",
+    "unparsed_text_line_8": "Day 7[2]",
+    "unparsed_text_line_9": "Month[014]",
+    "unparsed_text_line_10": "Year 799",
+    "unparsed_text_line_11": "b) Permanent Address Flat 3A,Ananyoy-Apartment, Hazna- Road,Kaligat, Kolkata,West Bengal-700026",
+    "unparsed_text_line_12": "c) Contact Tel. No.",
+    "unparsed_text_line_13": "（10）[7]977651432712(10)G",
+    "unparsed_text_line_14": "(M) 08765432120",
+    "unparsed_text_line_15": "Male",
+    "unparsed_text_line_16": "Female"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 17,
+      "total_prediction_fields": 26,
+      "matched_key_count": 5,
+      "correct_fields": 0,
+      "field_level_extraction_accuracy_pct": 0.0,
+      "matched_field_value_exact_match_pct": 0.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 0,
+      "false_positive": 19,
+      "false_negative": 17,
+      "precision_pct": 0.0,
+      "recall_pct": 0.0,
+      "f1_pct": 0.0,
+      "anls_pct": 0.0,
+      "anls_fields_scored": 17,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "leaf_normalized_exact": 1,
+        "fuzzy_lexical_leaf_fallback": 4
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Personal Information.Name of the Applicant",
+        "predicted_key": "name_of_the_applicant",
+        "ground_truth_value": "SRABONI CHATTERJEE",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "srabonichatterjee",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Father's Name",
+        "predicted_key": "a_father_s_name",
+        "ground_truth_value": "RAKESH CHATTERJEE",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "rakeshchatterjee",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Year of Passing",
+        "predicted_key": "year_of_passing_2015",
+        "ground_truth_value": "2015",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "2015",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.State of Domicile",
+        "predicted_key": "state_of_domicile_delhii",
+        "ground_truth_value": "Delhi",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "delhi",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.University from which the Bachelor's Degree completed",
+        "predicted_key": "university_from_which_the_bachelor_s_degree_completed_jamia_millia_is_lamia",
+        "ground_truth_value": "Jamia Millia Islamia",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "jamiamilliaislamia",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "leaf_normalized_exact": 1,
+      "fuzzy_lexical_leaf_fallback": 4
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Personal Information.Designation/Occupation",
+      "ground_truth_value": "Engineer"
+    },
+    {
+      "key": "Personal Information.Annual Income of the Father/Guardian",
+      "ground_truth_value": "8,00,000"
+    },
+    {
+      "key": "Personal Information.Date of Birth.Day",
+      "ground_truth_value": "12"
+    },
+    {
+      "key": "Personal Information.Date of Birth.Month",
+      "ground_truth_value": "04"
+    },
+    {
+      "key": "Personal Information.Date of Birth.Year",
+      "ground_truth_value": "1999"
+    },
+    {
+      "key": "Personal Information.Address for Correspondence",
+      "ground_truth_value": "Flat 3A, Ananya Apartment, Hazra Road, Kalighat, Kolkata, West Bengal - 700026"
+    },
+    {
+      "key": "Personal Information.Permanent Address",
+      "ground_truth_value": "Flat 3A, Ananya Apartment, Hazra Road, Kalighat, Kolkata, West Bengal - 700026"
+    },
+    {
+      "key": "Personal Information.Contact Tel No.(R)",
+      "ground_truth_value": "019176543212"
+    },
+    {
+      "key": "Personal Information.Contact Tel No.(M)",
+      "ground_truth_value": "08765432120"
+    },
+    {
+      "key": "Personal Information.Sex.Male",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Personal Information.Sex.Female",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Personal Information.Nationality",
+      "ground_truth_value": "Indian"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "PERSONAL INFORMATION"
+    },
+    {
+      "key": "date_of_birth",
+      "predicted_value": ""
+    },
+    {
+      "key": "a_address_for_correspondence_flat_3a_ananya_apartment_ha",
+      "predicted_value": "22a Road, Kalighat, Kolrata, West Bungal-700026"
+    },
+    {
+      "key": "v_tick_whichever_is_applicable",
+      "predicted_value": "Sex"
+    },
+    {
+      "key": "nationality_indian",
+      "predicted_value": ""
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "2"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "Application for Admission"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "www.jammuuniversity.in"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "(in capital letters) SRABONI CHATTERJEE"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "(in capital letters) RAKESH CHATTERJEE"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "b) Designation/Occupation Engineer"
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "c) Annual Income of the Father/Guardian 8,00,000"
+    },
+    {
+      "key": "unparsed_text_line_8",
+      "predicted_value": "Day 7[2]"
+    },
+    {
+      "key": "unparsed_text_line_9",
+      "predicted_value": "Month[014]"
+    },
+    {
+      "key": "unparsed_text_line_10",
+      "predicted_value": "Year 799"
+    },
+    {
+      "key": "unparsed_text_line_11",
+      "predicted_value": "b) Permanent Address Flat 3A,Ananyoy-Apartment, Hazna- Road,Kaligat, Kolkata,West Bengal-700026"
+    },
+    {
+      "key": "unparsed_text_line_12",
+      "predicted_value": "c) Contact Tel. No."
+    },
+    {
+      "key": "unparsed_text_line_13",
+      "predicted_value": "（10）[7]977651432712(10)G"
+    },
+    {
+      "key": "unparsed_text_line_14",
+      "predicted_value": "(M) 08765432120"
+    },
+    {
+      "key": "unparsed_text_line_15",
+      "predicted_value": "Male"
+    },
+    {
+      "key": "unparsed_text_line_16",
+      "predicted_value": "Female"
+    }
+  ]
+}

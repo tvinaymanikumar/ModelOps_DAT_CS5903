@@ -1,0 +1,587 @@
+{
+  "file": "11.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Serial No.": "PU6963",
+    "For Office use.Diary No": "D21076",
+    "For Office use.Date": "24/05/2025",
+    "Name of the Post": "Junior Assistant",
+    "Advt. No.": "PU/969/2024",
+    "Department": "Computer Centre",
+    "A. Personal Information.Name in full Mr/Mrs/Ms.(IN CAPITALS)": "TIYASHA SAHA",
+    "A. Personal Information.Father's Name": "MR. AMITABHA SAHA",
+    "A. Personal Information.Date of Birth": "19/07/1995",
+    "A. Personal Information.Place of Birth": "Delhi",
+    "A. Personal Information.Nationality": "Indian",
+    "A. Personal Information.Marital Status": "Divorced",
+    "A. Personal Information.Member of Scheduled Caste/Backward Class": "Yes",
+    "B. Address.Permanent address(IN CAPITALS)": "HOUSE 14, , DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA",
+    "B. Address.Present Address (For correspondence) (IN CAPITALS)": "HOUSE 14, SUBHASHAPALLY, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA",
+    "B. Address.Mobile/Telephone": "+91-9745678912",
+    "B. Address.E-mail": "tiyasha.saha@gmail.com",
+    "C..Minimum pay acceptable": "26269",
+    "C..Joining time (if selected)": "17 days",
+    "D. Educational Qualifications.1. Matric.Univ./Board": "CBSE",
+    "D. Educational Qualifications.1. Matric.Main Subjects": "Eng, Hin, Math, Sci",
+    "D. Educational Qualifications.1. Matric.Year of passing": "2015",
+    "D. Educational Qualifications.1. Matric.Marks Obtd.(with Max. marks)": "446/500",
+    "D. Educational Qualifications.1. Matric.Class/Div/Grade(Attach conversion formula)": "First",
+    "D. Educational Qualifications.1. Matric.Merit/Prizes/Medals won, if any": "",
+    "D. Educational Qualifications.2. 10+2/Pre-Med./Pre-Engg.Univ./Board": "CBSE",
+    "D. Educational Qualifications.2. 10+2/Pre-Med./Pre-Engg.Main Subjects": "DO",
+    "D. Educational Qualifications.2. 10+2/Pre-Med./Pre-Engg.Year of passing": "2015",
+    "D. Educational Qualifications.2. 10+2/Pre-Med./Pre-Engg.Marks Obtd.(with Max. marks)": "453/500",
+    "D. Educational Qualifications.2. 10+2/Pre-Med./Pre-Engg.Class/Div/Grade(Attach conversion formula)": "First",
+    "D. Educational Qualifications.2. 10+2/Pre-Med./Pre-Engg.Merit/Prizes/Medals won, if any": "",
+    "D. Educational Qualifications.3. B.A/B.Sc./BCom. etc.Univ./Board": "B.Sc. IIT Kanpur",
+    "D. Educational Qualifications.3. B.A/B.Sc./BCom. etc.Main Subjects": "Chemistry",
+    "D. Educational Qualifications.3. B.A/B.Sc./BCom. etc.Year of passing": "2016",
+    "D. Educational Qualifications.3. B.A/B.Sc./BCom. etc.Marks Obtd.(with Max. marks)": "920/1000",
+    "D. Educational Qualifications.3. B.A/B.Sc./BCom. etc.Class/Div/Grade(Attach conversion formula)": "First",
+    "D. Educational Qualifications.3. B.A/B.Sc./BCom. etc.Merit/Prizes/Medals won, if any": "Gold Medal",
+    "D. Educational Qualifications.4. M.A./M.Sc/M.Com. etc.Univ./Board": "M.Sc. IIT khargapur",
+    "D. Educational Qualifications.4. M.A./M.Sc/M.Com. etc.Main Subjects": "Chemistry",
+    "D. Educational Qualifications.4. M.A./M.Sc/M.Com. etc.Year of passing": "2021",
+    "D. Educational Qualifications.4. M.A./M.Sc/M.Com. etc.Marks Obtd.(with Max. marks)": "908/1000",
+    "D. Educational Qualifications.4. M.A./M.Sc/M.Com. etc.Class/Div/Grade(Attach conversion formula)": "First",
+    "D. Educational Qualifications.4. M.A./M.Sc/M.Com. etc.Merit/Prizes/Medals won, if any": "Silver Medal",
+    "D. Educational Qualifications.5. M. Phil.Univ./Board": "M.Phil IIT Madras",
+    "D. Educational Qualifications.5. M. Phil.Main Subjects": "",
+    "D. Educational Qualifications.5. M. Phil.Year of passing": "2022",
+    "D. Educational Qualifications.5. M. Phil.Marks Obtd.(with Max. marks)": "",
+    "D. Educational Qualifications.5. M. Phil.Class/Div/Grade(Attach conversion formula)": "",
+    "D. Educational Qualifications.5. M. Phil.Merit/Prizes/Medals won, if any": "",
+    "D. Educational Qualifications.6. Ph.D.Univ./Board": "Ph.D IIT Hydrabad",
+    "D. Educational Qualifications.6. Ph.D.Main Subjects": "Chemistry",
+    "D. Educational Qualifications.6. Ph.D.Year of passing": "2023",
+    "D. Educational Qualifications.6. Ph.D.Marks Obtd.(with Max. marks)": "",
+    "D. Educational Qualifications.6. Ph.D.Class/Div/Grade(Attach conversion formula)": "",
+    "D. Educational Qualifications.6. Ph.D.Merit/Prizes/Medals won, if any": "",
+    "D. Educational Qualifications.7 Any other Exam (Please Specify)": ""
+  },
+  "predictions_flattened": {
+    "serial_no_pug": "6263",
+    "document_title": "PANJAB UNIVERSITY, CHANDIGARH",
+    "document_title_2": "Application for Class - A (Non-teaching) positions",
+    "document_title_3": "(Use separate form for each post)",
+    "diary_no": "12107C",
+    "father_s_name": "Mr.",
+    "date_of_birth": "19 / 07 / 1995 Place of Birth Delhi",
+    "nationality": "Indian Marital Status Divoneed",
+    "member_of_scheduled_caste_backward_class": "Yes/No Yes",
+    "b_address": "HOUSE 14, DUM DUM ROAD NEAR",
+    "present_address": "(For correspondence) HOUsE 14, SUBHAS PALLY",
+    "mobile_telephone": "+91-3745678912 E-mail: liyasha.saha@ gmail.com",
+    "c_minimum_pay_acceptable": "26269 _____ Joining time",
+    "d_educational_qualifications": "(Please attach one set of attested copies along-with original application)",
+    "examination_row_1": "1. Matric",
+    "univ_board_row_1": "CBSE",
+    "main_subjects_row_1": "Eng HhM Nol gal",
+    "year_of_passing_row_1": "2015",
+    "marks_obt_with_max_marks_row_1": "446/500",
+    "class_bw_grade_attach_conversion_formula_row_1": "First",
+    "merit_prizes_medals_won_if_any_row_1": "",
+    "examination_row_2": "2. 10+2/Pre-Med./Pre-Elag.",
+    "univ_board_row_2": "CBSE",
+    "main_subjects_row_2": "Do",
+    "year_of_passing_row_2": "2015",
+    "marks_obt_with_max_marks_row_2": "453/500",
+    "class_bw_grade_attach_conversion_formula_row_2": "First",
+    "merit_prizes_medals_won_if_any_row_2": "",
+    "examination_row_3": "3. B.A/M.Sc/J B.Com. etc.",
+    "univ_board_row_3": "B.Sci ITI Chemistry",
+    "main_subjects_row_3": "Chemistry",
+    "year_of_passing_row_3": "2016",
+    "marks_obt_with_max_marks_row_3": "920/1000",
+    "class_bw_grade_attach_conversion_formula_row_3": "First",
+    "merit_prizes_medals_won_if_any_row_3": "Goldie",
+    "examination_row_4": "4. M.A/M.Sc/J M.Com. etc.",
+    "univ_board_row_4": "M.Sci ITI Chemistry",
+    "main_subjects_row_4": "Chemistry",
+    "year_of_passing_row_4": "2021",
+    "marks_obt_with_max_marks_row_4": "908/1000",
+    "class_bw_grade_attach_conversion_formula_row_4": "First",
+    "merit_prizes_medals_won_if_any_row_4": "Sllu",
+    "examination_row_5": "5. M. Phil",
+    "univ_board_row_5": "M.Phys II ITI Chemistry",
+    "main_subjects_row_5": "Chemistry",
+    "year_of_passing_row_5": "2022",
+    "marks_obt_with_max_marks_row_5": "",
+    "class_bw_grade_attach_conversion_formula_row_5": "",
+    "merit_prizes_medals_won_if_any_row_5": "",
+    "examination_row_6": "6. Ph.D.",
+    "univ_board_row_6": "PHD ITI ITI Hydrodok",
+    "main_subjects_row_6": "Chemistry",
+    "year_of_passing_row_6": "2023",
+    "marks_obt_with_max_marks_row_6": "",
+    "class_bw_grade_attach_conversion_formula_row_6": "",
+    "merit_prizes_medals_won_if_any_row_6": "",
+    "examination_row_7": "Any other Exam (Please Specific)",
+    "univ_board_row_7": "",
+    "main_subjects_row_7": "",
+    "year_of_passing_row_7": "",
+    "marks_obt_with_max_marks_row_7": "",
+    "class_bw_grade_attach_conversion_formula_row_7": "",
+    "merit_prizes_medals_won_if_any_row_7": "",
+    "unparsed_text_line_1": "The candidate should attach nine",
+    "unparsed_text_line_2": "Photostat copies of this form",
+    "unparsed_text_line_3": "along-with the original",
+    "unparsed_text_line_4": "(For Office use)",
+    "unparsed_text_line_5": "Date 24/05/2025",
+    "unparsed_text_line_6": "Name of the Post Junior Assistant. Adv. No. P/U/369/2024",
+    "unparsed_text_line_7": "Department Computer Centre",
+    "unparsed_text_line_8": "A. Name in full Mr/Mrs/Ms. TIYASHA SAHA",
+    "unparsed_text_line_9": "IN CAPITALS)",
+    "unparsed_text_line_10": "AMITA BHA SAHA",
+    "unparsed_text_line_11": "(If yes, please attach certificate from Tehsildar/Magistrate 1st. Class of the area)",
+    "unparsed_text_line_12": "Affix recent passport size photograph",
+    "unparsed_text_line_13": "(NCAPITALS) NAGERBAZAR, KOLRATA",
+    "unparsed_text_line_14": "(IN CAPITALS) DUMDUM ROAD,NEAR NAGERBAZAR,KOLKATA",
+    "unparsed_text_line_15": "47 days",
+    "unparsed_text_line_16": "(if selected)",
+    "unparsed_text_line_17": "P.T.O."
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 56,
+      "total_prediction_fields": 80,
+      "matched_key_count": 31,
+      "correct_fields": 20,
+      "field_level_extraction_accuracy_pct": 35.71,
+      "matched_field_value_exact_match_pct": 64.52,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 14,
+      "false_positive": 52,
+      "false_negative": 32,
+      "precision_pct": 21.21,
+      "recall_pct": 30.43,
+      "f1_pct": 25.0,
+      "anls_pct": 33.09,
+      "anls_fields_scored": 46,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "leaf_normalized_exact": 6,
+        "fuzzy_lexical_leaf_fallback": 25
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "For Office use.Diary No",
+        "predicted_key": "diary_no",
+        "ground_truth_value": "D21076",
+        "predicted_value": "12107C",
+        "normalized_ground_truth_value": "d21076",
+        "normalized_predicted_value": "12107c",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "A. Personal Information.Father's Name",
+        "predicted_key": "father_s_name",
+        "ground_truth_value": "MR. AMITABHA SAHA",
+        "predicted_value": "Mr.",
+        "normalized_ground_truth_value": "mr.amitabhasaha",
+        "normalized_predicted_value": "mr.",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "A. Personal Information.Date of Birth",
+        "predicted_key": "date_of_birth",
+        "ground_truth_value": "19/07/1995",
+        "predicted_value": "19 / 07 / 1995 Place of Birth Delhi",
+        "normalized_ground_truth_value": "19/07/1995",
+        "normalized_predicted_value": "19/07/1995placeofbirthdelhi",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "A. Personal Information.Nationality",
+        "predicted_key": "nationality",
+        "ground_truth_value": "Indian",
+        "predicted_value": "Indian Marital Status Divoneed",
+        "normalized_ground_truth_value": "indian",
+        "normalized_predicted_value": "indianmaritalstatusdivoneed",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "A. Personal Information.Member of Scheduled Caste/Backward Class",
+        "predicted_key": "member_of_scheduled_caste_backward_class",
+        "ground_truth_value": "Yes",
+        "predicted_value": "Yes/No Yes",
+        "normalized_ground_truth_value": "yes",
+        "normalized_predicted_value": "yes/noyes",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "B. Address.Mobile/Telephone",
+        "predicted_key": "mobile_telephone",
+        "ground_truth_value": "+91-9745678912",
+        "predicted_value": "+91-3745678912 E-mail: liyasha.saha@ gmail.com",
+        "normalized_ground_truth_value": "+91-9745678912",
+        "normalized_predicted_value": "+91-3745678912e-mail:liyasha.saha@gmail.com",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "C..Minimum pay acceptable",
+        "predicted_key": "c_minimum_pay_acceptable",
+        "ground_truth_value": "26269",
+        "predicted_value": "26269 _____ Joining time",
+        "normalized_ground_truth_value": "26269",
+        "normalized_predicted_value": "26269_____joiningtime",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "D. Educational Qualifications.3. B.A/B.Sc./BCom. etc.Merit/Prizes/Medals won, if any",
+        "predicted_key": "merit_prizes_medals_won_if_any_row_3",
+        "ground_truth_value": "Gold Medal",
+        "predicted_value": "Goldie",
+        "normalized_ground_truth_value": "goldmedal",
+        "normalized_predicted_value": "goldie",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "D. Educational Qualifications.4. M.A./M.Sc/M.Com. etc.Merit/Prizes/Medals won, if any",
+        "predicted_key": "merit_prizes_medals_won_if_any_row_4",
+        "ground_truth_value": "Silver Medal",
+        "predicted_value": "Sllu",
+        "normalized_ground_truth_value": "silvermedal",
+        "normalized_predicted_value": "sllu",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "D. Educational Qualifications.1. Matric.Main Subjects",
+        "predicted_key": "main_subjects_row_1",
+        "ground_truth_value": "Eng, Hin, Math, Sci",
+        "predicted_value": "Eng HhM Nol gal",
+        "normalized_ground_truth_value": "eng,hin,math,sci",
+        "normalized_predicted_value": "enghhmnolgal",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "D. Educational Qualifications.5. M. Phil.Main Subjects",
+        "predicted_key": "main_subjects_row_5",
+        "ground_truth_value": "",
+        "predicted_value": "Chemistry",
+        "normalized_ground_truth_value": "",
+        "normalized_predicted_value": "chemistry",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "leaf_normalized_exact": 6,
+      "fuzzy_lexical_leaf_fallback": 25
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Serial No.",
+      "ground_truth_value": "PU6963"
+    },
+    {
+      "key": "For Office use.Date",
+      "ground_truth_value": "24/05/2025"
+    },
+    {
+      "key": "Name of the Post",
+      "ground_truth_value": "Junior Assistant"
+    },
+    {
+      "key": "Advt. No.",
+      "ground_truth_value": "PU/969/2024"
+    },
+    {
+      "key": "Department",
+      "ground_truth_value": "Computer Centre"
+    },
+    {
+      "key": "A. Personal Information.Name in full Mr/Mrs/Ms.(IN CAPITALS)",
+      "ground_truth_value": "TIYASHA SAHA"
+    },
+    {
+      "key": "A. Personal Information.Place of Birth",
+      "ground_truth_value": "Delhi"
+    },
+    {
+      "key": "A. Personal Information.Marital Status",
+      "ground_truth_value": "Divorced"
+    },
+    {
+      "key": "B. Address.Permanent address(IN CAPITALS)",
+      "ground_truth_value": "HOUSE 14, , DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA"
+    },
+    {
+      "key": "B. Address.Present Address (For correspondence) (IN CAPITALS)",
+      "ground_truth_value": "HOUSE 14, SUBHASHAPALLY, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA"
+    },
+    {
+      "key": "B. Address.E-mail",
+      "ground_truth_value": "tiyasha.saha@gmail.com"
+    },
+    {
+      "key": "C..Joining time (if selected)",
+      "ground_truth_value": "17 days"
+    },
+    {
+      "key": "D. Educational Qualifications.1. Matric.Univ./Board",
+      "ground_truth_value": "CBSE"
+    },
+    {
+      "key": "D. Educational Qualifications.1. Matric.Marks Obtd.(with Max. marks)",
+      "ground_truth_value": "446/500"
+    },
+    {
+      "key": "D. Educational Qualifications.2. 10+2/Pre-Med./Pre-Engg.Univ./Board",
+      "ground_truth_value": "CBSE"
+    },
+    {
+      "key": "D. Educational Qualifications.2. 10+2/Pre-Med./Pre-Engg.Marks Obtd.(with Max. marks)",
+      "ground_truth_value": "453/500"
+    },
+    {
+      "key": "D. Educational Qualifications.3. B.A/B.Sc./BCom. etc.Univ./Board",
+      "ground_truth_value": "B.Sc. IIT Kanpur"
+    },
+    {
+      "key": "D. Educational Qualifications.3. B.A/B.Sc./BCom. etc.Marks Obtd.(with Max. marks)",
+      "ground_truth_value": "920/1000"
+    },
+    {
+      "key": "D. Educational Qualifications.4. M.A./M.Sc/M.Com. etc.Univ./Board",
+      "ground_truth_value": "M.Sc. IIT khargapur"
+    },
+    {
+      "key": "D. Educational Qualifications.4. M.A./M.Sc/M.Com. etc.Marks Obtd.(with Max. marks)",
+      "ground_truth_value": "908/1000"
+    },
+    {
+      "key": "D. Educational Qualifications.5. M. Phil.Univ./Board",
+      "ground_truth_value": "M.Phil IIT Madras"
+    },
+    {
+      "key": "D. Educational Qualifications.5. M. Phil.Marks Obtd.(with Max. marks)",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "D. Educational Qualifications.6. Ph.D.Univ./Board",
+      "ground_truth_value": "Ph.D IIT Hydrabad"
+    },
+    {
+      "key": "D. Educational Qualifications.6. Ph.D.Marks Obtd.(with Max. marks)",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "D. Educational Qualifications.7 Any other Exam (Please Specify)",
+      "ground_truth_value": ""
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "serial_no_pug",
+      "predicted_value": "6263"
+    },
+    {
+      "key": "document_title",
+      "predicted_value": "PANJAB UNIVERSITY, CHANDIGARH"
+    },
+    {
+      "key": "document_title_2",
+      "predicted_value": "Application for Class - A (Non-teaching) positions"
+    },
+    {
+      "key": "document_title_3",
+      "predicted_value": "(Use separate form for each post)"
+    },
+    {
+      "key": "b_address",
+      "predicted_value": "HOUSE 14, DUM DUM ROAD NEAR"
+    },
+    {
+      "key": "present_address",
+      "predicted_value": "(For correspondence) HOUsE 14, SUBHAS PALLY"
+    },
+    {
+      "key": "d_educational_qualifications",
+      "predicted_value": "(Please attach one set of attested copies along-with original application)"
+    },
+    {
+      "key": "examination_row_1",
+      "predicted_value": "1. Matric"
+    },
+    {
+      "key": "univ_board_row_1",
+      "predicted_value": "CBSE"
+    },
+    {
+      "key": "marks_obt_with_max_marks_row_1",
+      "predicted_value": "446/500"
+    },
+    {
+      "key": "examination_row_2",
+      "predicted_value": "2. 10+2/Pre-Med./Pre-Elag."
+    },
+    {
+      "key": "univ_board_row_2",
+      "predicted_value": "CBSE"
+    },
+    {
+      "key": "marks_obt_with_max_marks_row_2",
+      "predicted_value": "453/500"
+    },
+    {
+      "key": "examination_row_3",
+      "predicted_value": "3. B.A/M.Sc/J B.Com. etc."
+    },
+    {
+      "key": "univ_board_row_3",
+      "predicted_value": "B.Sci ITI Chemistry"
+    },
+    {
+      "key": "marks_obt_with_max_marks_row_3",
+      "predicted_value": "920/1000"
+    },
+    {
+      "key": "examination_row_4",
+      "predicted_value": "4. M.A/M.Sc/J M.Com. etc."
+    },
+    {
+      "key": "univ_board_row_4",
+      "predicted_value": "M.Sci ITI Chemistry"
+    },
+    {
+      "key": "marks_obt_with_max_marks_row_4",
+      "predicted_value": "908/1000"
+    },
+    {
+      "key": "examination_row_5",
+      "predicted_value": "5. M. Phil"
+    },
+    {
+      "key": "univ_board_row_5",
+      "predicted_value": "M.Phys II ITI Chemistry"
+    },
+    {
+      "key": "marks_obt_with_max_marks_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "examination_row_6",
+      "predicted_value": "6. Ph.D."
+    },
+    {
+      "key": "univ_board_row_6",
+      "predicted_value": "PHD ITI ITI Hydrodok"
+    },
+    {
+      "key": "marks_obt_with_max_marks_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "examination_row_7",
+      "predicted_value": "Any other Exam (Please Specific)"
+    },
+    {
+      "key": "univ_board_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "main_subjects_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "year_of_passing_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "marks_obt_with_max_marks_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "class_bw_grade_attach_conversion_formula_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "merit_prizes_medals_won_if_any_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "The candidate should attach nine"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "Photostat copies of this form"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "along-with the original"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "(For Office use)"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "Date 24/05/2025"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "Name of the Post Junior Assistant. Adv. No. P/U/369/2024"
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "Department Computer Centre"
+    },
+    {
+      "key": "unparsed_text_line_8",
+      "predicted_value": "A. Name in full Mr/Mrs/Ms. TIYASHA SAHA"
+    },
+    {
+      "key": "unparsed_text_line_9",
+      "predicted_value": "IN CAPITALS)"
+    },
+    {
+      "key": "unparsed_text_line_10",
+      "predicted_value": "AMITA BHA SAHA"
+    },
+    {
+      "key": "unparsed_text_line_11",
+      "predicted_value": "(If yes, please attach certificate from Tehsildar/Magistrate 1st. Class of the area)"
+    },
+    {
+      "key": "unparsed_text_line_12",
+      "predicted_value": "Affix recent passport size photograph"
+    },
+    {
+      "key": "unparsed_text_line_13",
+      "predicted_value": "(NCAPITALS) NAGERBAZAR, KOLRATA"
+    },
+    {
+      "key": "unparsed_text_line_14",
+      "predicted_value": "(IN CAPITALS) DUMDUM ROAD,NEAR NAGERBAZAR,KOLKATA"
+    },
+    {
+      "key": "unparsed_text_line_15",
+      "predicted_value": "47 days"
+    },
+    {
+      "key": "unparsed_text_line_16",
+      "predicted_value": "(if selected)"
+    },
+    {
+      "key": "unparsed_text_line_17",
+      "predicted_value": "P.T.O."
+    }
+  ]
+}

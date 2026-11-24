@@ -1,0 +1,247 @@
+{
+  "file": "16.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "PPO Number": "KSEB529130",
+    "Pensioner Name": "Anjali Kurian",
+    "Pension Type": "Service Pension",
+    "Personal Mobile Number": "+91 8332547989",
+    "Aadhar Number (copy required)": "601080648825",
+    "Email": "anjali@gmail.com",
+    "Pension ARU": "KLM",
+    "DECLARATION.Place": "Kottayam",
+    "DECLARATION.Signature of Pensioner": "Anjali Kurian",
+    "DECLARATION.Date": "28/05/2025",
+    "DECLARATION.Name of Pensioner": "Anjali Kurian",
+    "For office use only.Verified & Entered Date": "",
+    "For office use only.Employee code & Signature": ""
+  },
+  "predictions_flattened": {
+    "document_title": "KERALA STATE ELECTRICITY BOARD LTD",
+    "document_title_2": "Application for Pensioner's Online Services",
+    "1_row_1": "2",
+    "ppo_number_row_1": "Pensioner Name",
+    "kse8529130_row_1": "Anjali Kupian",
+    "1_row_2": "3",
+    "ppo_number_row_2": "Pension Type",
+    "kse8529130_row_2": "Service Pension / Family Pension",
+    "1_row_3": "4",
+    "ppo_number_row_3": "Personal Mobile Number",
+    "kse8529130_row_3": "+91 8338547989",
+    "1_row_4": "5",
+    "ppo_number_row_4": "Aadhar Number (copy required)",
+    "kse8529130_row_4": "60108064885",
+    "1_row_5": "6",
+    "ppo_number_row_5": "Email",
+    "kse8529130_row_5": "an.jalil@gmail.com",
+    "1_row_6": "7",
+    "ppo_number_row_6": "Pension ARU",
+    "kse8529130_row_6": "KLM",
+    "document_title_3": "DECLARATION",
+    "place": "Kottayam",
+    "signature_of_pensioner": "Anjali Kunian",
+    "date": "28/05/2025",
+    "name_of_pensioner": "Anjali Kunian",
+    "for_office_use_only_keep_this_document_in_safe_custody": "Employee code & Signature",
+    "verified_entered_date": "",
+    "column_3": "",
+    "unparsed_text_line_1": "1 hereby declare that the details furnished above are true and correct to the best of my knowledge and I undertake to inform you of any future changes in mobile number or email.",
+    "unparsed_text_line_2": "1 also request to enable Pensioner's Online Services by linking my PPO number and mobile number as furnished above."
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 13,
+      "total_prediction_fields": 30,
+      "matched_key_count": 5,
+      "correct_fields": 3,
+      "field_level_extraction_accuracy_pct": 23.08,
+      "matched_field_value_exact_match_pct": 60.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 2,
+      "false_positive": 26,
+      "false_negative": 9,
+      "precision_pct": 7.14,
+      "recall_pct": 18.18,
+      "f1_pct": 10.26,
+      "anls_pct": 34.85,
+      "anls_fields_scored": 11,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "leaf_normalized_exact": 5
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "DECLARATION.Signature of Pensioner",
+        "predicted_key": "signature_of_pensioner",
+        "ground_truth_value": "Anjali Kurian",
+        "predicted_value": "Anjali Kunian",
+        "normalized_ground_truth_value": "anjalikurian",
+        "normalized_predicted_value": "anjalikunian",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "DECLARATION.Name of Pensioner",
+        "predicted_key": "name_of_pensioner",
+        "ground_truth_value": "Anjali Kurian",
+        "predicted_value": "Anjali Kunian",
+        "normalized_ground_truth_value": "anjalikurian",
+        "normalized_predicted_value": "anjalikunian",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "leaf_normalized_exact": 5
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "PPO Number",
+      "ground_truth_value": "KSEB529130"
+    },
+    {
+      "key": "Pensioner Name",
+      "ground_truth_value": "Anjali Kurian"
+    },
+    {
+      "key": "Pension Type",
+      "ground_truth_value": "Service Pension"
+    },
+    {
+      "key": "Personal Mobile Number",
+      "ground_truth_value": "+91 8332547989"
+    },
+    {
+      "key": "Aadhar Number (copy required)",
+      "ground_truth_value": "601080648825"
+    },
+    {
+      "key": "Email",
+      "ground_truth_value": "anjali@gmail.com"
+    },
+    {
+      "key": "Pension ARU",
+      "ground_truth_value": "KLM"
+    },
+    {
+      "key": "For office use only.Employee code & Signature",
+      "ground_truth_value": ""
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "KERALA STATE ELECTRICITY BOARD LTD"
+    },
+    {
+      "key": "document_title_2",
+      "predicted_value": "Application for Pensioner's Online Services"
+    },
+    {
+      "key": "1_row_1",
+      "predicted_value": "2"
+    },
+    {
+      "key": "ppo_number_row_1",
+      "predicted_value": "Pensioner Name"
+    },
+    {
+      "key": "kse8529130_row_1",
+      "predicted_value": "Anjali Kupian"
+    },
+    {
+      "key": "1_row_2",
+      "predicted_value": "3"
+    },
+    {
+      "key": "ppo_number_row_2",
+      "predicted_value": "Pension Type"
+    },
+    {
+      "key": "kse8529130_row_2",
+      "predicted_value": "Service Pension / Family Pension"
+    },
+    {
+      "key": "1_row_3",
+      "predicted_value": "4"
+    },
+    {
+      "key": "ppo_number_row_3",
+      "predicted_value": "Personal Mobile Number"
+    },
+    {
+      "key": "kse8529130_row_3",
+      "predicted_value": "+91 8338547989"
+    },
+    {
+      "key": "1_row_4",
+      "predicted_value": "5"
+    },
+    {
+      "key": "ppo_number_row_4",
+      "predicted_value": "Aadhar Number (copy required)"
+    },
+    {
+      "key": "kse8529130_row_4",
+      "predicted_value": "60108064885"
+    },
+    {
+      "key": "1_row_5",
+      "predicted_value": "6"
+    },
+    {
+      "key": "ppo_number_row_5",
+      "predicted_value": "Email"
+    },
+    {
+      "key": "kse8529130_row_5",
+      "predicted_value": "an.jalil@gmail.com"
+    },
+    {
+      "key": "1_row_6",
+      "predicted_value": "7"
+    },
+    {
+      "key": "ppo_number_row_6",
+      "predicted_value": "Pension ARU"
+    },
+    {
+      "key": "kse8529130_row_6",
+      "predicted_value": "KLM"
+    },
+    {
+      "key": "document_title_3",
+      "predicted_value": "DECLARATION"
+    },
+    {
+      "key": "for_office_use_only_keep_this_document_in_safe_custody",
+      "predicted_value": "Employee code & Signature"
+    },
+    {
+      "key": "column_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "1 hereby declare that the details furnished above are true and correct to the best of my knowledge and I undertake to inform you of any future changes in mobile number or email."
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "1 also request to enable Pensioner's Online Services by linking my PPO number and mobile number as furnished above."
+    }
+  ]
+}

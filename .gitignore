@@ -1,0 +1,55 @@
+# ==============================================================================
+# Security: Secret Keys & Environment Variables (NEVER COMMIT)
+# ==============================================================================
+.env
+.env.*
+!.env.example
+secrets.toml
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# ==============================================================================
+# Python Virtual Environments & Build / Cache Artifacts
+# ==============================================================================
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# ==============================================================================
+# IDE & Operating System Files
+# ==============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+tempCodeRunnerFile.py
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================================================================
+# Large Datasets & Model Weights (>100MB / Multi-GB pushes will fail on GitHub)
+# ==============================================================================
+Datasets/
+vlmFinetuning/dataset/
+vlmFinetuning/runs/
+vlmFinetuning/logs/
+vlmFinetuning/locks/
+
+# ==============================================================================
+# UI Transient Uploads & Outputs
+# ==============================================================================
+UI_interface/uploads/*
+!UI_interface/uploads/.gitkeep
+UI_interface/outputs/*
+!UI_interface/outputs/.gitkeep

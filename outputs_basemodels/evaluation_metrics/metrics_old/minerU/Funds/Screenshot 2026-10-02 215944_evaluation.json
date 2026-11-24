@@ -1,0 +1,118 @@
+{
+  "file": "Screenshot 2026-10-02 215944.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "CASE NAME": "Donald D. Sellers and Robin J. Sellers v. Raybestos-Manhattan, et al.",
+    "COURT": "San Francisco Superior Court - No. 996382",
+    "LORILLARD ENTITIES": "Lorillard Tobacco Company",
+    "DATE FILED": "",
+    "DATE SERVED": "August 3, 1998",
+    "CASE TYPE": "Asbestos",
+    "PLAINTIFF'S COUNSEL": "Wartnick, Chaber, Harowitz, Smith& Tigerman StephenM.Tigerman 101 California Street, Suite 2200 San Francisco, California 94111 415/986-5566"
+  },
+  "predictions_flattened": {
+    "document_title": "CASE FORM",
+    "case_name": "Donald D. Sellers and Robin J. Sellers v. Raybestos-Manhattan, et al.",
+    "court": "San Francisco Superior Court - No. 996382",
+    "entities": "Lorillard Tobacco Company",
+    "date_filed": "",
+    "date_served": "August 3, 1998",
+    "case_type": "Asbestos",
+    "counsel": "Wartnick, Chaber, Harowitz, Smith& Tigerman",
+    "stephen": "M.Tigerman",
+    "unparsed_text_line_1": "LORILLARD",
+    "unparsed_text_line_2": "PLAINTIFF'S",
+    "unparsed_text_line_3": "101 California Street, Suite 2200",
+    "unparsed_text_line_4": "San Francisco, California 94111",
+    "unparsed_text_line_5": "415/986-5566"
+  },
+  "evaluation": {
+    "mode": "auto",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 7,
+      "total_prediction_fields": 14,
+      "matched_key_count": 5,
+      "correct_fields": 5,
+      "field_level_extraction_accuracy_pct": 71.43,
+      "matched_field_value_exact_match_pct": 100.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 4,
+      "false_positive": 9,
+      "false_negative": 2,
+      "precision_pct": 30.77,
+      "recall_pct": 66.67,
+      "f1_pct": 42.11,
+      "anls_pct": 66.67,
+      "anls_fields_scored": 6,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 5
+      }
+    },
+    "incorrect_values": [],
+    "key_match_methods": {
+      "normalized_exact": 5
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "LORILLARD ENTITIES",
+      "ground_truth_value": "Lorillard Tobacco Company"
+    },
+    {
+      "key": "PLAINTIFF'S COUNSEL",
+      "ground_truth_value": "Wartnick, Chaber, Harowitz, Smith& Tigerman StephenM.Tigerman 101 California Street, Suite 2200 San Francisco, California 94111 415/986-5566"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "CASE FORM"
+    },
+    {
+      "key": "entities",
+      "predicted_value": "Lorillard Tobacco Company"
+    },
+    {
+      "key": "counsel",
+      "predicted_value": "Wartnick, Chaber, Harowitz, Smith& Tigerman"
+    },
+    {
+      "key": "stephen",
+      "predicted_value": "M.Tigerman"
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "LORILLARD"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "PLAINTIFF'S"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "101 California Street, Suite 2200"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "San Francisco, California 94111"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "415/986-5566"
+    }
+  ]
+}

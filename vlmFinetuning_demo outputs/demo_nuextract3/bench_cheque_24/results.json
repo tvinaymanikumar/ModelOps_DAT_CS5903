@@ -1,0 +1,121 @@
+[
+  {
+    "image": "/home/cs26mtech02010/Modelops/VLM_Finetuning/dataset/cheques/benchmark/images/bench_cheque_24.png",
+    "fields": [
+      "payee_name",
+      "amount_in_words",
+      "amount",
+      "year",
+      "account_no"
+    ],
+    "target": {
+      "payee_name": "Shobha Ram kumar",
+      "amount_in_words": "One Crore fourty lakhs",
+      "amount": 14000000,
+      "year": "2016",
+      "account_no": "911010049001545"
+    },
+    "finetuned": {
+      "raw": "{\n  \"payee_name\": \"Shobha tem Kumar\",\n  \"amount_in_words\": \"One crore forty lacks\",\n  \"amount\": 14000000,\n  \"year\": \"2016\",\n  \"account_no\": \"911010049001545\"\n}",
+      "parsed": {
+        "payee_name": "Shobha tem Kumar",
+        "amount_in_words": "One crore forty lacks",
+        "amount": 14000000,
+        "year": "2016",
+        "account_no": "911010049001545"
+      },
+      "seconds": 4.5,
+      "score": {
+        "combined_kv_precision_pct": 60.0,
+        "combined_kv_recall_pct": 60.0,
+        "combined_kv_f1_pct": 60.0,
+        "normalized_edit_distance_similarity_pct": 97.73,
+        "strict_form_accuracy_pct": 0.0,
+        "strict_form_correct": false,
+        "ground_truth_fields": 5,
+        "prediction_fields": 5,
+        "matched_key_pairs": 5,
+        "missing_keys": 0,
+        "extra_keys": 0,
+        "incorrect_values": 2,
+        "tp": 3,
+        "fp": 2,
+        "fn": 2,
+        "valid_json": 1
+      },
+      "field_rows": {
+        "payee_name": [
+          "Shobha tem Kumar",
+          false
+        ],
+        "amount_in_words": [
+          "One crore forty lacks",
+          false
+        ],
+        "amount": [
+          "14000000",
+          true
+        ],
+        "year": [
+          "2016",
+          true
+        ],
+        "account_no": [
+          "911010049001545",
+          true
+        ]
+      }
+    },
+    "base": {
+      "raw": "{\"payee_name\": \"Shobha kum kumar\", \"amount_in_words\": \"One One Forty Laches\", \"amount\": \"1,40,00,000/-\", \"year\": \"2016\", \"account_no\": \"911010049001545\"}",
+      "parsed": {
+        "payee_name": "Shobha kum kumar",
+        "amount_in_words": "One One Forty Laches",
+        "amount": "1,40,00,000/-",
+        "year": "2016",
+        "account_no": "911010049001545"
+      },
+      "seconds": 2.6,
+      "score": {
+        "combined_kv_precision_pct": 40.0,
+        "combined_kv_recall_pct": 40.0,
+        "combined_kv_f1_pct": 40.0,
+        "normalized_edit_distance_similarity_pct": 94.17,
+        "strict_form_accuracy_pct": 0.0,
+        "strict_form_correct": false,
+        "ground_truth_fields": 5,
+        "prediction_fields": 5,
+        "matched_key_pairs": 5,
+        "missing_keys": 0,
+        "extra_keys": 0,
+        "incorrect_values": 3,
+        "tp": 2,
+        "fp": 3,
+        "fn": 3,
+        "valid_json": 1
+      },
+      "field_rows": {
+        "payee_name": [
+          "Shobha kum kumar",
+          false
+        ],
+        "amount_in_words": [
+          "One One Forty Laches",
+          false
+        ],
+        "amount": [
+          "1,40,00,000/-",
+          false
+        ],
+        "year": [
+          "2016",
+          true
+        ],
+        "account_no": [
+          "911010049001545",
+          true
+        ]
+      }
+    }
+  }
+]

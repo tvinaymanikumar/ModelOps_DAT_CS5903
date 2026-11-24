@@ -1,0 +1,26 @@
+﻿combined_kv_precision_pct,combined_kv_recall_pct,combined_kv_f1_pct,normalized_edit_distance_similarity_pct,strict_form_accuracy_pct,strict_form_correct,ground_truth_fields,prediction_fields,matched_key_pairs,missing_keys,extra_keys,incorrect_values,tp,fp,fn,file,status,prediction_file
+60.0,60.0,60.0,97.74,0.0,False,5,5,5,0,0,2,3,2,2,Cheque 083654.json,ok,Cheque 083654_qwen_only.json
+100.0,100.0,100.0,100.0,100.0,True,5,5,5,0,0,0,5,0,0,Cheque 083656.json,ok,Cheque 083656_qwen_only.json
+80.0,80.0,80.0,98.26,0.0,False,5,5,5,0,0,1,4,1,1,Cheque 083659.json,ok,Cheque 083659_qwen_only.json
+80.0,80.0,80.0,99.13,0.0,False,5,5,5,0,0,1,4,1,1,Cheque 100828.json,ok,Cheque 100828_qwen_only.json
+80.0,80.0,80.0,99.53,0.0,False,5,5,5,0,0,1,4,1,1,Cheque 100835.json,ok,Cheque 100835_qwen_only.json
+60.0,60.0,60.0,98.68,0.0,False,5,5,5,0,0,2,3,2,2,Cheque 120611.json,ok,Cheque 120611_qwen_only.json
+60.0,60.0,60.0,97.32,0.0,False,5,5,5,0,0,2,3,2,2,Cheque 120614.json,ok,Cheque 120614_qwen_only.json
+80.0,80.0,80.0,99.17,0.0,False,5,5,5,0,0,1,4,1,1,Cheque 120620.json,ok,Cheque 120620_qwen_only.json
+100.0,100.0,100.0,100.0,100.0,True,5,5,5,0,0,0,5,0,0,Cheque 309062.json,ok,Cheque 309062_qwen_only.json
+60.0,60.0,60.0,98.61,0.0,False,5,5,5,0,0,2,3,2,2,Cheque 309077.json,ok,Cheque 309077_qwen_only.json
+60.0,60.0,60.0,98.28,0.0,False,5,5,5,0,0,2,3,2,2,Cheque 309079.json,ok,Cheque 309079_qwen_only.json
+80.0,80.0,80.0,99.05,0.0,False,5,5,5,0,0,1,4,1,1,Cheque 309082.json,ok,Cheque 309082_qwen_only.json
+80.0,80.0,80.0,99.54,0.0,False,5,5,5,0,0,1,4,1,1,Cheque 309084.json,ok,Cheque 309084_qwen_only.json
+100.0,100.0,100.0,100.0,100.0,True,5,5,5,0,0,0,5,0,0,Cheque 309091.json,ok,Cheque 309091_qwen_only.json
+80.0,80.0,80.0,99.14,0.0,False,5,5,5,0,0,1,4,1,1,Cheque 309093.json,ok,Cheque 309093_qwen_only.json
+100.0,100.0,100.0,100.0,100.0,True,5,5,5,0,0,0,5,0,0,Cheque 309097.json,ok,Cheque 309097_qwen_only.json
+60.0,60.0,60.0,98.39,0.0,False,5,5,5,0,0,2,3,2,2,Cheque 309101.json,ok,Cheque 309101_qwen_only.json
+100.0,100.0,100.0,100.0,100.0,True,5,5,5,0,0,0,5,0,0,Cheque 309104.json,ok,Cheque 309104_qwen_only.json
+80.0,80.0,80.0,97.67,0.0,False,5,5,5,0,0,1,4,1,1,Cheque 309116.json,ok,Cheque 309116_qwen_only.json
+100.0,100.0,100.0,100.0,100.0,True,5,5,5,0,0,0,5,0,0,Cheque 309128.json,ok,Cheque 309128_qwen_only.json
+60.0,60.0,60.0,99.09,0.0,False,5,5,5,0,0,2,3,2,2,Cheque 309137.json,ok,Cheque 309137_qwen_only.json
+100.0,100.0,100.0,100.0,100.0,True,5,5,5,0,0,0,5,0,0,Cheque 309141.json,ok,Cheque 309141_qwen_only.json
+100.0,100.0,100.0,100.0,100.0,True,5,5,5,0,0,0,5,0,0,Cheque 309147.json,ok,Cheque 309147_qwen_only.json
+40.0,40.0,40.0,96.36,0.0,False,5,5,5,0,0,3,2,3,3,Cheque 309151.json,ok,Cheque 309151_qwen_only.json
+80.0,80.0,80.0,99.09,0.0,False,5,5,5,0,0,1,4,1,1,Cheque 309158.json,ok,Cheque 309158_qwen_only.json

@@ -1,0 +1,121 @@
+[
+  {
+    "image": "/home/cs26mtech02010/Modelops/VLM_Finetuning/dataset/cheques/benchmark/images/bench_cheque_07.png",
+    "fields": [
+      "payee_name",
+      "amount_in_words",
+      "amount",
+      "year",
+      "account_no"
+    ],
+    "target": {
+      "payee_name": "Kadamareti Rama Prathap Reddy",
+      "amount_in_words": "Sixty Nine Lacks",
+      "amount": 6900000,
+      "year": "2006",
+      "account_no": "2854101006936"
+    },
+    "finetuned": {
+      "raw": "{\n  \"payee_name\": \"Kadamani Rava Prothap Reddy\",\n  \"amount_in_words\": \"Sata Nine lacks\",\n  \"amount\": 6900000,\n  \"year\": \"2006\",\n  \"account_no\": \"2854101006936\"\n}",
+      "parsed": {
+        "payee_name": "Kadamani Rava Prothap Reddy",
+        "amount_in_words": "Sata Nine lacks",
+        "amount": 6900000,
+        "year": "2006",
+        "account_no": "2854101006936"
+      },
+      "seconds": 4.6,
+      "score": {
+        "combined_kv_precision_pct": 60.0,
+        "combined_kv_recall_pct": 60.0,
+        "combined_kv_f1_pct": 60.0,
+        "normalized_edit_distance_similarity_pct": 96.43,
+        "strict_form_accuracy_pct": 0.0,
+        "strict_form_correct": false,
+        "ground_truth_fields": 5,
+        "prediction_fields": 5,
+        "matched_key_pairs": 5,
+        "missing_keys": 0,
+        "extra_keys": 0,
+        "incorrect_values": 2,
+        "tp": 3,
+        "fp": 2,
+        "fn": 2,
+        "valid_json": 1
+      },
+      "field_rows": {
+        "payee_name": [
+          "Kadamani Rava Prothap Reddy",
+          false
+        ],
+        "amount_in_words": [
+          "Sata Nine lacks",
+          false
+        ],
+        "amount": [
+          "6900000",
+          true
+        ],
+        "year": [
+          "2006",
+          true
+        ],
+        "account_no": [
+          "2854101006936",
+          true
+        ]
+      }
+    },
+    "base": {
+      "raw": "{\"payee_name\": \"Kadamnath Rana Prathap Reddy\", \"amount_in_words\": \"Sixty Nine Lakhs\", \"amount\": \"6900000/-\", \"year\": \"2014\", \"account_no\": \"2854101006936\"}",
+      "parsed": {
+        "payee_name": "Kadamnath Rana Prathap Reddy",
+        "amount_in_words": "Sixty Nine Lakhs",
+        "amount": "6900000/-",
+        "year": "2014",
+        "account_no": "2854101006936"
+      },
+      "seconds": 2.6,
+      "score": {
+        "combined_kv_precision_pct": 20.0,
+        "combined_kv_recall_pct": 20.0,
+        "combined_kv_f1_pct": 20.0,
+        "normalized_edit_distance_similarity_pct": 95.11,
+        "strict_form_accuracy_pct": 0.0,
+        "strict_form_correct": false,
+        "ground_truth_fields": 5,
+        "prediction_fields": 5,
+        "matched_key_pairs": 5,
+        "missing_keys": 0,
+        "extra_keys": 0,
+        "incorrect_values": 4,
+        "tp": 1,
+        "fp": 4,
+        "fn": 4,
+        "valid_json": 1
+      },
+      "field_rows": {
+        "payee_name": [
+          "Kadamnath Rana Prathap Reddy",
+          false
+        ],
+        "amount_in_words": [
+          "Sixty Nine Lakhs",
+          false
+        ],
+        "amount": [
+          "6900000/-",
+          false
+        ],
+        "year": [
+          "2014",
+          false
+        ],
+        "account_no": [
+          "2854101006936",
+          true
+        ]
+      }
+    }
+  }
+]

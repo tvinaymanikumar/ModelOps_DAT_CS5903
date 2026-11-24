@@ -1,0 +1,113 @@
+{
+  "file": "3.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Personal Information.Full Name": "MOUMITA ROY",
+    "Personal Information.Place Birth": "Kolkata",
+    "Personal Information.Birth of Date": "22/11/2008",
+    "Personal Information.Full Address": "Flat 9B, Ujjwala Apartments, Salt Lake Sector V, Kolkata",
+    "Personal Information.Nationality": "Indian",
+    "Personal Information.City/Country": "Kolkata, India",
+    "Personal Information.Gender": "Female",
+    "Personal Information.Email": "moumita.roy@gmail.com",
+    "Personal Information.Phone Number": "+91-9831122334",
+    "Type Of Membership.Regular (3 month)": "Yes",
+    "Type Of Membership.Gold (6 month)": "No",
+    "Type Of Membership.Platinum (12 month)": "No"
+  },
+  "predictions_flattened": {
+    "full_name": "MOUMITA ROY",
+    "place_birth": "Kolkata",
+    "birth_of_date": "22 / 11 / 2008",
+    "full_address": "Flat 9B, Ujjwala Apartments, Salt Lake Secton V, Kolkata",
+    "nationality": "Indian",
+    "city_country": "Kolkata, India",
+    "gander": "Female",
+    "email": "moumita.roy@gmail.com",
+    "phone_number": "+91-9831122334",
+    "type_of_membership_regular_3_month": "True",
+    "type_of_membership_gold_6_month": "False",
+    "type_of_membership_platinum_12_month": "False"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 12,
+      "total_prediction_fields": 12,
+      "matched_key_count": 9,
+      "correct_fields": 8,
+      "field_level_extraction_accuracy_pct": 66.67,
+      "matched_field_value_exact_match_pct": 88.89,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 8,
+      "false_positive": 4,
+      "false_negative": 4,
+      "precision_pct": 66.67,
+      "recall_pct": 66.67,
+      "f1_pct": 66.67,
+      "anls_pct": 74.83,
+      "anls_fields_scored": 12,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "leaf_normalized_exact": 8,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Personal Information.Full Address",
+        "predicted_key": "full_address",
+        "ground_truth_value": "Flat 9B, Ujjwala Apartments, Salt Lake Sector V, Kolkata",
+        "predicted_value": "Flat 9B, Ujjwala Apartments, Salt Lake Secton V, Kolkata",
+        "normalized_ground_truth_value": "flat9b,ujjwalaapartments,saltlakesectorv,kolkata",
+        "normalized_predicted_value": "flat9b,ujjwalaapartments,saltlakesectonv,kolkata",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "leaf_normalized_exact": 8,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Type Of Membership.Regular (3 month)",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Type Of Membership.Gold (6 month)",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Type Of Membership.Platinum (12 month)",
+      "ground_truth_value": "No"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "type_of_membership_regular_3_month",
+      "predicted_value": "True"
+    },
+    {
+      "key": "type_of_membership_gold_6_month",
+      "predicted_value": "False"
+    },
+    {
+      "key": "type_of_membership_platinum_12_month",
+      "predicted_value": "False"
+    }
+  ]
+}

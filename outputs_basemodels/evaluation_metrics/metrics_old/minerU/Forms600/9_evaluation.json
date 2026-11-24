@@ -1,0 +1,225 @@
+{
+  "file": "9.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Branch": "ICICI BANK Andheri Branch",
+    "Date": "24/05/2025",
+    "Beneficiary Details.Beneficiary Name": "MEERA IYER",
+    "Beneficiary Details.Beneficiary Account Number": "56439946578",
+    "Beneficiary Details.Beneficiary Bank": "ICICI Bank",
+    "Beneficiary Details.Beneficiary Account Type": "NRE",
+    "Beneficiary Details.Beneficiary Branch Name & Address": "Andheri, Hyderabad",
+    "Beneficiary Details.IFSC Code": "PUNB0123456",
+    "Remitter Details.Remitter (Applicant) Name": "TIYASHA SAHA",
+    "Remitter Details.Remitter Account Number": "60439649237",
+    "Remitter Details.Remitter Email ID": "tiyasha.saha@gmail.com",
+    "Remitter Details.Remitter Mobile number": "+91 9745678912",
+    "Standing Instruction Details.Amount (in rupees)": "27949",
+    "Standing Instruction Details.Amount (in words)": "TWENTY SEVEN THOUSAND NINE HOUNDRED AND FORTY NINE ONLY",
+    "Standing Instruction Details.Execution date (DD/MM/YYYY format)": "28/05/2025",
+    "Standing Instruction Details.Last date (DD/MM/YYYY)": "30/03/2026",
+    "Standing Instruction Details.Frequency.Weekly": "No",
+    "Standing Instruction Details.Frequency.Bi-Monthly": "No",
+    "Standing Instruction Details.Frequency.Monthly": "No",
+    "Standing Instruction Details.Frequency.Quarterly": "No",
+    "Standing Instruction Details.Frequency.Half-yearly": "No",
+    "Standing Instruction Details.Frequency.Yearly": "No",
+    "Standing Instruction Details.Frequency.One time": "Yes"
+  },
+  "predictions_flattened": {
+    "document_title": "NEFT SI Request Form",
+    "branch": "ICICI BANK Andhani Branch",
+    "date": "24/05/2025",
+    "beneficiary_details": "",
+    "beneficiary_name": "MEERA IYER",
+    "beneficiary_account_number": "56139946 578",
+    "beneficiary_account_number_2": "56930946 578",
+    "beneficiary_bank": "ICICI Bank",
+    "beneficiary_account_type": "NRE",
+    "beneficiary_branch_name_address": "Andhensi, Jfhyderabad",
+    "ifsc_code": "PUN B0123456",
+    "remitter_details": "",
+    "remitter_applicant_name": "TIYASHA SAHA",
+    "remitter_account_number": "60430649237",
+    "remitter_email_id": "tiyasha.saha@gmail.com",
+    "remitter_mobile_number": "+91 9745 67 8 912",
+    "document_title_2": "Standing Instruction Details",
+    "amount_in_rupees": "27949",
+    "amount_in_words": "TWENTY SEVEN THOUSAND NINE HUNDRED",
+    "execution_date_dd_mm_yyyy_format": "28/105/2025",
+    "frequency": "Weekly Bi-Monthly Monthly Quarterly Half-",
+    "unparsed_text_line_1": "AND FORTY NINE ONLY",
+    "unparsed_text_line_2": "Last date - (DD/MM/YYYY) 30/03/2026",
+    "unparsed_text_line_3": "yearly Yearly One time"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 23,
+      "total_prediction_fields": 24,
+      "matched_key_count": 15,
+      "correct_fields": 9,
+      "field_level_extraction_accuracy_pct": 39.13,
+      "matched_field_value_exact_match_pct": 60.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 9,
+      "false_positive": 13,
+      "false_negative": 14,
+      "precision_pct": 40.91,
+      "recall_pct": 39.13,
+      "f1_pct": 40.0,
+      "anls_pct": 61.19,
+      "anls_fields_scored": 23,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 2,
+        "leaf_normalized_exact": 13
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Branch",
+        "predicted_key": "branch",
+        "ground_truth_value": "ICICI BANK Andheri Branch",
+        "predicted_value": "ICICI BANK Andhani Branch",
+        "normalized_ground_truth_value": "icicibankandheribranch",
+        "normalized_predicted_value": "icicibankandhanibranch",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Beneficiary Details.Beneficiary Account Number",
+        "predicted_key": "beneficiary_account_number",
+        "ground_truth_value": "56439946578",
+        "predicted_value": "56139946 578",
+        "normalized_ground_truth_value": "56439946578",
+        "normalized_predicted_value": "56139946578",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Beneficiary Details.Beneficiary Branch Name & Address",
+        "predicted_key": "beneficiary_branch_name_address",
+        "ground_truth_value": "Andheri, Hyderabad",
+        "predicted_value": "Andhensi, Jfhyderabad",
+        "normalized_ground_truth_value": "andheri,hyderabad",
+        "normalized_predicted_value": "andhensi,jfhyderabad",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Remitter Details.Remitter Account Number",
+        "predicted_key": "remitter_account_number",
+        "ground_truth_value": "60439649237",
+        "predicted_value": "60430649237",
+        "normalized_ground_truth_value": "60439649237",
+        "normalized_predicted_value": "60430649237",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Standing Instruction Details.Amount (in words)",
+        "predicted_key": "amount_in_words",
+        "ground_truth_value": "TWENTY SEVEN THOUSAND NINE HOUNDRED AND FORTY NINE ONLY",
+        "predicted_value": "TWENTY SEVEN THOUSAND NINE HUNDRED",
+        "normalized_ground_truth_value": "twentyseventhousandninehoundredandfortynineonly",
+        "normalized_predicted_value": "twentyseventhousandninehundred",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Standing Instruction Details.Execution date (DD/MM/YYYY format)",
+        "predicted_key": "execution_date_dd_mm_yyyy_format",
+        "ground_truth_value": "28/05/2025",
+        "predicted_value": "28/105/2025",
+        "normalized_ground_truth_value": "28/05/2025",
+        "normalized_predicted_value": "28/105/2025",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 2,
+      "leaf_normalized_exact": 13
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Standing Instruction Details.Last date (DD/MM/YYYY)",
+      "ground_truth_value": "30/03/2026"
+    },
+    {
+      "key": "Standing Instruction Details.Frequency.Weekly",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Standing Instruction Details.Frequency.Bi-Monthly",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Standing Instruction Details.Frequency.Monthly",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Standing Instruction Details.Frequency.Quarterly",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Standing Instruction Details.Frequency.Half-yearly",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Standing Instruction Details.Frequency.Yearly",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Standing Instruction Details.Frequency.One time",
+      "ground_truth_value": "Yes"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "NEFT SI Request Form"
+    },
+    {
+      "key": "beneficiary_details",
+      "predicted_value": ""
+    },
+    {
+      "key": "beneficiary_account_number_2",
+      "predicted_value": "56930946 578"
+    },
+    {
+      "key": "remitter_details",
+      "predicted_value": ""
+    },
+    {
+      "key": "document_title_2",
+      "predicted_value": "Standing Instruction Details"
+    },
+    {
+      "key": "frequency",
+      "predicted_value": "Weekly Bi-Monthly Monthly Quarterly Half-"
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "AND FORTY NINE ONLY"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "Last date - (DD/MM/YYYY) 30/03/2026"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "yearly Yearly One time"
+    }
+  ]
+}

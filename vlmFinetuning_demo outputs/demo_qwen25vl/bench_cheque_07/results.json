@@ -1,0 +1,121 @@
+[
+  {
+    "image": "/home/rahul/Modelops/VLM_Finetuning/dataset/cheques/benchmark/images/bench_cheque_07.png",
+    "fields": [
+      "payee_name",
+      "amount_in_words",
+      "amount",
+      "year",
+      "account_no"
+    ],
+    "target": {
+      "payee_name": "Kadamareti Rama Prathap Reddy",
+      "amount_in_words": "Sixty Nine Lacks",
+      "amount": 6900000,
+      "year": "2006",
+      "account_no": "2854101006936"
+    },
+    "finetuned": {
+      "raw": "{\"payee_name\":\"Kadamarthi Rana Prathap Reddy\",\"amount_in_words\":\"Sixty Nine lacks\",\"amount\":6900000,\"year\":\"2006\",\"account_no\":\"2854101006936\"}",
+      "parsed": {
+        "payee_name": "Kadamarthi Rana Prathap Reddy",
+        "amount_in_words": "Sixty Nine lacks",
+        "amount": 6900000,
+        "year": "2006",
+        "account_no": "2854101006936"
+      },
+      "seconds": 6.0,
+      "score": {
+        "combined_kv_precision_pct": 80.0,
+        "combined_kv_recall_pct": 80.0,
+        "combined_kv_f1_pct": 80.0,
+        "normalized_edit_distance_similarity_pct": 98.66,
+        "strict_form_accuracy_pct": 0.0,
+        "strict_form_correct": false,
+        "ground_truth_fields": 5,
+        "prediction_fields": 5,
+        "matched_key_pairs": 5,
+        "missing_keys": 0,
+        "extra_keys": 0,
+        "incorrect_values": 1,
+        "tp": 4,
+        "fp": 1,
+        "fn": 1,
+        "valid_json": 1
+      },
+      "field_rows": {
+        "payee_name": [
+          "Kadamarthi Rana Prathap Reddy",
+          false
+        ],
+        "amount_in_words": [
+          "Sixty Nine lacks",
+          true
+        ],
+        "amount": [
+          "6900000",
+          true
+        ],
+        "year": [
+          "2006",
+          true
+        ],
+        "account_no": [
+          "2854101006936",
+          true
+        ]
+      }
+    },
+    "base": {
+      "raw": "{\n  \"payee_name\": \"Kadamanchi Rana Prathap Reddy\",\n  \"amount_in_words\": \"Sixty Nine lakhs\",\n  \"amount\": \"6900000\",\n  \"year\": \"2006\",\n  \"account_no\": \"2854101006936\"\n}",
+      "parsed": {
+        "payee_name": "Kadamanchi Rana Prathap Reddy",
+        "amount_in_words": "Sixty Nine lakhs",
+        "amount": "6900000",
+        "year": "2006",
+        "account_no": "2854101006936"
+      },
+      "seconds": 2.5,
+      "score": {
+        "combined_kv_precision_pct": 60.0,
+        "combined_kv_recall_pct": 60.0,
+        "combined_kv_f1_pct": 60.0,
+        "normalized_edit_distance_similarity_pct": 97.32,
+        "strict_form_accuracy_pct": 0.0,
+        "strict_form_correct": false,
+        "ground_truth_fields": 5,
+        "prediction_fields": 5,
+        "matched_key_pairs": 5,
+        "missing_keys": 0,
+        "extra_keys": 0,
+        "incorrect_values": 2,
+        "tp": 3,
+        "fp": 2,
+        "fn": 2,
+        "valid_json": 1
+      },
+      "field_rows": {
+        "payee_name": [
+          "Kadamanchi Rana Prathap Reddy",
+          false
+        ],
+        "amount_in_words": [
+          "Sixty Nine lakhs",
+          false
+        ],
+        "amount": [
+          "6900000",
+          true
+        ],
+        "year": [
+          "2006",
+          true
+        ],
+        "account_no": [
+          "2854101006936",
+          true
+        ]
+      }
+    }
+  }
+]

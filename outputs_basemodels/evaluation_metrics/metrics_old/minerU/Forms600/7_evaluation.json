@@ -1,0 +1,251 @@
+{
+  "file": "7.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Name": "Anirban Ghosh",
+    "Leave required for.days": "1",
+    "Leave required for.dates": "15/06/2025 to 15/06/2025",
+    "Reason": "Conference attendance",
+    "Address while on leave": "Flat 5C, Shantiniketan Residency, 45 Gariahat Road, Ballygunge, Kolkata, West Bengal - 700019",
+    "Signature": "Anirban Ghosh",
+    "Unit": "Economics Division",
+    "Date": "24/05/2025",
+    "Signature of Supervisor/Convener, RF Advisory Committee/Head of Unit/Professor-in-Charge": "Prof. M. Iyer",
+    "Supervisor Date": "24/05/2025",
+    "Signature of warden (for Hosteller)": "Ms. R. Das",
+    "Warden Date": "24/05/2025",
+    "For Office Use.Number of previous leave application during the year": "0",
+    "For Office Use.Total leave (No. of days) already taken during the year": "12",
+    "For Office Use.Entered and verified by": "Ms. S. Ghosh",
+    "For Office Use.Remarks": "Check previous records",
+    "For Office Use.Leave granted/not granted": "granted",
+    "For Office Use.Date": "24/05/2025",
+    "For Office Use.Dean of Studies": "Dr. P. Chatterjee"
+  },
+  "predictions_flattened": {
+    "document_title": "Annexure-I",
+    "document_title_2": "INDIAN STATISTICAL INSTITUTE",
+    "document_title_3": "LEAVE APPLICATION FOR RESEARCH FELOWS AND RESEARCH ASSOCIATES",
+    "name": "Anirban Ghosh",
+    "leave_required_for": "days on (dates) \\( {15}/{06}/{2025} + {15}/{06}/{2025} \\)",
+    "reason": "Conferencce attendance",
+    "address_while_on_leave": "Flat 5C, shantiniketam Residency, 45 Czaziahat Road , Bally gunge, Kolkata, west Bengal - 7000 A",
+    "economic_unit": "Division Date:24/05/2025",
+    "date": "24/05/2025",
+    "date_2": "",
+    "document_title_4": "(For Office Use)",
+    "number_of_previous_leave_application_during_the_year": "",
+    "total_leave_no_of_days_already_taken_during_the_year": "12",
+    "entered_and_verified_by": "Ms, S. Ghosh",
+    "remarks": "cheek previous records",
+    "leave_granted_not_granted_granted": "",
+    "unparsed_text_line_1": "Anirban Guhosh (Signature)",
+    "unparsed_text_line_2": "Proof. M. Iyer",
+    "unparsed_text_line_3": "Signature of Supervisor/Convener, RFU, 12000/Heel of Unit/ Professor-in-Charge",
+    "unparsed_text_line_4": "Ms.R.Das",
+    "unparsed_text_line_5": "Signature of warden (for Hosteller)",
+    "unparsed_text_line_6": "Dn·P. chatterjee",
+    "unparsed_text_line_7": "Dean of Studies"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 19,
+      "total_prediction_fields": 23,
+      "matched_key_count": 10,
+      "correct_fields": 3,
+      "field_level_extraction_accuracy_pct": 15.79,
+      "matched_field_value_exact_match_pct": 30.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 3,
+      "false_positive": 17,
+      "false_negative": 16,
+      "precision_pct": 15.0,
+      "recall_pct": 15.79,
+      "f1_pct": 15.38,
+      "anls_pct": 35.41,
+      "anls_fields_scored": 19,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 4,
+        "leaf_normalized_exact": 3,
+        "fuzzy_lexical_leaf_fallback": 3
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Reason",
+        "predicted_key": "reason",
+        "ground_truth_value": "Conference attendance",
+        "predicted_value": "Conferencce attendance",
+        "normalized_ground_truth_value": "conferenceattendance",
+        "normalized_predicted_value": "conferencceattendance",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Address while on leave",
+        "predicted_key": "address_while_on_leave",
+        "ground_truth_value": "Flat 5C, Shantiniketan Residency, 45 Gariahat Road, Ballygunge, Kolkata, West Bengal - 700019",
+        "predicted_value": "Flat 5C, shantiniketam Residency, 45 Czaziahat Road , Bally gunge, Kolkata, west Bengal - 7000 A",
+        "normalized_ground_truth_value": "flat5c,shantiniketanresidency,45gariahatroad,ballygunge,kolkata,westbengal-700019",
+        "normalized_predicted_value": "flat5c,shantiniketamresidency,45czaziahatroad,ballygunge,kolkata,westbengal-7000a",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "For Office Use.Number of previous leave application during the year",
+        "predicted_key": "number_of_previous_leave_application_during_the_year",
+        "ground_truth_value": "0",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "0",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "For Office Use.Entered and verified by",
+        "predicted_key": "entered_and_verified_by",
+        "ground_truth_value": "Ms. S. Ghosh",
+        "predicted_value": "Ms, S. Ghosh",
+        "normalized_ground_truth_value": "ms.s.ghosh",
+        "normalized_predicted_value": "ms,s.ghosh",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "For Office Use.Remarks",
+        "predicted_key": "remarks",
+        "ground_truth_value": "Check previous records",
+        "predicted_value": "cheek previous records",
+        "normalized_ground_truth_value": "checkpreviousrecords",
+        "normalized_predicted_value": "cheekpreviousrecords",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "For Office Use.Leave granted/not granted",
+        "predicted_key": "leave_granted_not_granted_granted",
+        "ground_truth_value": "granted",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "granted",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "For Office Use.Date",
+        "predicted_key": "date_2",
+        "ground_truth_value": "24/05/2025",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "24/05/2025",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 4,
+      "leaf_normalized_exact": 3,
+      "fuzzy_lexical_leaf_fallback": 3
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Leave required for.days",
+      "ground_truth_value": "1"
+    },
+    {
+      "key": "Leave required for.dates",
+      "ground_truth_value": "15/06/2025 to 15/06/2025"
+    },
+    {
+      "key": "Signature",
+      "ground_truth_value": "Anirban Ghosh"
+    },
+    {
+      "key": "Unit",
+      "ground_truth_value": "Economics Division"
+    },
+    {
+      "key": "Signature of Supervisor/Convener, RF Advisory Committee/Head of Unit/Professor-in-Charge",
+      "ground_truth_value": "Prof. M. Iyer"
+    },
+    {
+      "key": "Supervisor Date",
+      "ground_truth_value": "24/05/2025"
+    },
+    {
+      "key": "Signature of warden (for Hosteller)",
+      "ground_truth_value": "Ms. R. Das"
+    },
+    {
+      "key": "Warden Date",
+      "ground_truth_value": "24/05/2025"
+    },
+    {
+      "key": "For Office Use.Dean of Studies",
+      "ground_truth_value": "Dr. P. Chatterjee"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "Annexure-I"
+    },
+    {
+      "key": "document_title_2",
+      "predicted_value": "INDIAN STATISTICAL INSTITUTE"
+    },
+    {
+      "key": "document_title_3",
+      "predicted_value": "LEAVE APPLICATION FOR RESEARCH FELOWS AND RESEARCH ASSOCIATES"
+    },
+    {
+      "key": "leave_required_for",
+      "predicted_value": "days on (dates) \\( {15}/{06}/{2025} + {15}/{06}/{2025} \\)"
+    },
+    {
+      "key": "economic_unit",
+      "predicted_value": "Division Date:24/05/2025"
+    },
+    {
+      "key": "document_title_4",
+      "predicted_value": "(For Office Use)"
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "Anirban Guhosh (Signature)"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "Proof. M. Iyer"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "Signature of Supervisor/Convener, RFU, 12000/Heel of Unit/ Professor-in-Charge"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "Ms.R.Das"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "Signature of warden (for Hosteller)"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "Dn·P. chatterjee"
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "Dean of Studies"
+    }
+  ]
+}

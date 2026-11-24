@@ -1,0 +1,493 @@
+{
+  "file": "14.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Name in Full (Block Letters)": "MAINAK SARKAR",
+    "Father's/Guardian's Name": "Deepak Sarkar",
+    "Permanent (Home) Address": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+    "Present Mailing Address": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+    "Telephone No. (with STD Code)": "+91-9876567890",
+    "M": "9876567890",
+    "Sex.Male": "Yes",
+    "Sex.Female": "No",
+    "Marital Status.Married": "No",
+    "Marital Status.Single": "Yes",
+    "Date of Birth.Date": "05",
+    "Date of Birth.Month": "03",
+    "Date of Birth.Year": "1995",
+    "Academic Record.Examination Passed": "M.Sc.",
+    "Academic Record.Year of Passing": "2017",
+    "Academic Record.Board/ University": "CBSE",
+    "Academic Record.Marks Obtained": "410",
+    "Academic Record.Total Marks": "500",
+    "Academic Record.%age of Marks Obtained": "82.0",
+    "Academic Record.Subjects": "Management"
+  },
+  "predictions_flattened": {
+    "application_for_admission_cross_cultural_international_management": "",
+    "application_for_admission_human_resource_management_practices_and_labour_law": "",
+    "name_in_full": "MAINAK SARKAR",
+    "fathers_guardians_name": "Deepak Sarkar",
+    "permanent_home_address": "House NO. 28, Deshapriya Park East Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+    "present_mailing_address": "House No. 28, Deshapriya park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+    "telephone_no_with_std_code": "91-9876567890",
+    "m": "9876567890",
+    "sex_male": "checked",
+    "sex_female": "",
+    "marital_status_married": "",
+    "marital_status_single": "checked",
+    "date_of_birth_date": "05",
+    "date_of_birth_month": "03",
+    "date_of_birth_year": "1995",
+    "presently_enrolled_in_college_department_of_university": "",
+    "academic_record_secondary_examination_10th_examination_passed": "",
+    "academic_record_secondary_examination_10th_year_of_passing": "",
+    "academic_record_secondary_examination_10th_board_university": "",
+    "academic_record_secondary_examination_10th_marks_obtained": "",
+    "academic_record_secondary_examination_10th_total_marks": "",
+    "academic_record_secondary_examination_10th_age_of_marks_obtained": "",
+    "academic_record_secondary_examination_10th_subjects": "",
+    "academic_record_secondary_examination_11th_examination_passed": "",
+    "academic_record_secondary_examination_11th_year_of_passing": "",
+    "academic_record_secondary_examination_11th_board_university": "",
+    "academic_record_secondary_examination_11th_marks_obtained": "",
+    "academic_record_secondary_examination_11th_total_marks": "",
+    "academic_record_secondary_examination_11th_age_of_marks_obtained": "",
+    "academic_record_secondary_examination_11th_subjects": "",
+    "academic_record_secondary_examination_12th_examination_passed": "",
+    "academic_record_secondary_examination_12th_year_of_passing": "",
+    "academic_record_secondary_examination_12th_board_university": "",
+    "academic_record_secondary_examination_12th_marks_obtained": "",
+    "academic_record_secondary_examination_12th_total_marks": "",
+    "academic_record_secondary_examination_12th_age_of_marks_obtained": "",
+    "academic_record_secondary_examination_12th_subjects": "",
+    "academic_record_bachelors_degree_i_examination_passed": "",
+    "academic_record_bachelors_degree_i_year_of_passing": "",
+    "academic_record_bachelors_degree_i_board_university": "",
+    "academic_record_bachelors_degree_i_marks_obtained": "",
+    "academic_record_bachelors_degree_i_total_marks": "",
+    "academic_record_bachelors_degree_i_age_of_marks_obtained": "",
+    "academic_record_bachelors_degree_i_subjects": "",
+    "academic_record_bachelors_degree_ii_examination_passed": "",
+    "academic_record_bachelors_degree_ii_year_of_passing": "",
+    "academic_record_bachelors_degree_ii_board_university": "",
+    "academic_record_bachelors_degree_ii_marks_obtained": "",
+    "academic_record_bachelors_degree_ii_total_marks": "",
+    "academic_record_bachelors_degree_ii_age_of_marks_obtained": "",
+    "academic_record_bachelors_degree_ii_subjects": "",
+    "academic_record_bachelors_degree_iii_examination_passed": "",
+    "academic_record_bachelors_degree_iii_year_of_passing": "",
+    "academic_record_bachelors_degree_iii_board_university": "",
+    "academic_record_bachelors_degree_iii_marks_obtained": "",
+    "academic_record_bachelors_degree_iii_total_marks": "",
+    "academic_record_bachelors_degree_iii_age_of_marks_obtained": "",
+    "academic_record_bachelors_degree_iii_subjects": "",
+    "academic_record_post_graduate_degree_examination_passed": "M.Sc.",
+    "academic_record_post_graduate_degree_year_of_passing": "2017",
+    "academic_record_post_graduate_degree_board_university": "CBSE",
+    "academic_record_post_graduate_degree_marks_obtained": "410",
+    "academic_record_post_graduate_degree_total_marks": "500",
+    "academic_record_post_graduate_degree_age_of_marks_obtained": "82.0",
+    "academic_record_post_graduate_degree_subjects": "Management",
+    "academic_record_any_other_exam_examination_passed": "",
+    "academic_record_any_other_exam_year_of_passing": "",
+    "academic_record_any_other_exam_board_university": "",
+    "academic_record_any_other_exam_marks_obtained": "",
+    "academic_record_any_other_exam_total_marks": "",
+    "academic_record_any_other_exam_age_of_marks_obtained": "",
+    "academic_record_any_other_exam_subjects": ""
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 20,
+      "total_prediction_fields": 72,
+      "matched_key_count": 4,
+      "correct_fields": 3,
+      "field_level_extraction_accuracy_pct": 15.0,
+      "matched_field_value_exact_match_pct": 75.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 3,
+      "false_positive": 15,
+      "false_negative": 17,
+      "precision_pct": 16.67,
+      "recall_pct": 15.0,
+      "f1_pct": 15.79,
+      "anls_pct": 19.93,
+      "anls_fields_scored": 20,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 3,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Permanent (Home) Address",
+        "predicted_key": "permanent_home_address",
+        "ground_truth_value": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+        "predicted_value": "House NO. 28, Deshapriya Park East Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+        "normalized_ground_truth_value": "houseno.28,deshapriyaparkeast,nearrashbehariavenue,kolkata,westbengal-700029",
+        "normalized_predicted_value": "houseno.28,deshapriyaparkeastnearrashbehariavenue,kolkata,westbengal-700029",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 3,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Name in Full (Block Letters)",
+      "ground_truth_value": "MAINAK SARKAR"
+    },
+    {
+      "key": "Telephone No. (with STD Code)",
+      "ground_truth_value": "+91-9876567890"
+    },
+    {
+      "key": "Sex.Male",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Sex.Female",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Marital Status.Married",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Marital Status.Single",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Date of Birth.Date",
+      "ground_truth_value": "05"
+    },
+    {
+      "key": "Date of Birth.Month",
+      "ground_truth_value": "03"
+    },
+    {
+      "key": "Date of Birth.Year",
+      "ground_truth_value": "1995"
+    },
+    {
+      "key": "Academic Record.Examination Passed",
+      "ground_truth_value": "M.Sc."
+    },
+    {
+      "key": "Academic Record.Year of Passing",
+      "ground_truth_value": "2017"
+    },
+    {
+      "key": "Academic Record.Board/ University",
+      "ground_truth_value": "CBSE"
+    },
+    {
+      "key": "Academic Record.Marks Obtained",
+      "ground_truth_value": "410"
+    },
+    {
+      "key": "Academic Record.Total Marks",
+      "ground_truth_value": "500"
+    },
+    {
+      "key": "Academic Record.%age of Marks Obtained",
+      "ground_truth_value": "82.0"
+    },
+    {
+      "key": "Academic Record.Subjects",
+      "ground_truth_value": "Management"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "application_for_admission_cross_cultural_international_management",
+      "predicted_value": ""
+    },
+    {
+      "key": "application_for_admission_human_resource_management_practices_and_labour_law",
+      "predicted_value": ""
+    },
+    {
+      "key": "name_in_full",
+      "predicted_value": "MAINAK SARKAR"
+    },
+    {
+      "key": "telephone_no_with_std_code",
+      "predicted_value": "91-9876567890"
+    },
+    {
+      "key": "sex_male",
+      "predicted_value": "checked"
+    },
+    {
+      "key": "sex_female",
+      "predicted_value": ""
+    },
+    {
+      "key": "marital_status_married",
+      "predicted_value": ""
+    },
+    {
+      "key": "marital_status_single",
+      "predicted_value": "checked"
+    },
+    {
+      "key": "date_of_birth_date",
+      "predicted_value": "05"
+    },
+    {
+      "key": "date_of_birth_month",
+      "predicted_value": "03"
+    },
+    {
+      "key": "date_of_birth_year",
+      "predicted_value": "1995"
+    },
+    {
+      "key": "presently_enrolled_in_college_department_of_university",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_10th_examination_passed",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_10th_year_of_passing",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_10th_board_university",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_10th_marks_obtained",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_10th_total_marks",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_10th_age_of_marks_obtained",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_10th_subjects",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_11th_examination_passed",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_11th_year_of_passing",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_11th_board_university",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_11th_marks_obtained",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_11th_total_marks",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_11th_age_of_marks_obtained",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_11th_subjects",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_12th_examination_passed",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_12th_year_of_passing",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_12th_board_university",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_12th_marks_obtained",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_12th_total_marks",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_12th_age_of_marks_obtained",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_secondary_examination_12th_subjects",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_i_examination_passed",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_i_year_of_passing",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_i_board_university",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_i_marks_obtained",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_i_total_marks",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_i_age_of_marks_obtained",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_i_subjects",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_ii_examination_passed",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_ii_year_of_passing",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_ii_board_university",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_ii_marks_obtained",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_ii_total_marks",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_ii_age_of_marks_obtained",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_ii_subjects",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_iii_examination_passed",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_iii_year_of_passing",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_iii_board_university",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_iii_marks_obtained",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_iii_total_marks",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_iii_age_of_marks_obtained",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_bachelors_degree_iii_subjects",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_post_graduate_degree_examination_passed",
+      "predicted_value": "M.Sc."
+    },
+    {
+      "key": "academic_record_post_graduate_degree_year_of_passing",
+      "predicted_value": "2017"
+    },
+    {
+      "key": "academic_record_post_graduate_degree_board_university",
+      "predicted_value": "CBSE"
+    },
+    {
+      "key": "academic_record_post_graduate_degree_marks_obtained",
+      "predicted_value": "410"
+    },
+    {
+      "key": "academic_record_post_graduate_degree_total_marks",
+      "predicted_value": "500"
+    },
+    {
+      "key": "academic_record_post_graduate_degree_age_of_marks_obtained",
+      "predicted_value": "82.0"
+    },
+    {
+      "key": "academic_record_post_graduate_degree_subjects",
+      "predicted_value": "Management"
+    },
+    {
+      "key": "academic_record_any_other_exam_examination_passed",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_any_other_exam_year_of_passing",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_any_other_exam_board_university",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_any_other_exam_marks_obtained",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_any_other_exam_total_marks",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_any_other_exam_age_of_marks_obtained",
+      "predicted_value": ""
+    },
+    {
+      "key": "academic_record_any_other_exam_subjects",
+      "predicted_value": ""
+    }
+  ]
+}

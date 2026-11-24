@@ -1,0 +1,182 @@
+{
+  "file": "10.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Session": "2023-2024",
+    "Name of the applicant": "ARKA DUTTA",
+    "Deptt": "Zoology",
+    "Class": "B.Sc. 2nd Year",
+    "Roll No": "879",
+    "Father's Name": "Mr. Ashok Dutta",
+    "Mother's Name": "Mrs. Devi Dutta",
+    "Total Family Income (p.a.)": "91157",
+    "Total fee deposited by the candidate Rs.": "7405",
+    "Fee Instalments.1st instalment Rs.": "4262",
+    "Fee Instalments.1st instalment Receipt No": "R21587",
+    "Fee Instalments.1st instalment Date": "23/04/2025",
+    "Fee Instalments.2nd instalment Rs.": "3143",
+    "Fee Instalments.2nd instalment Receipt No": "R21587",
+    "Fee Instalments.2nd instalment Date": "23/04/2025",
+    "Amenities already being availed.Scholarship /Stipend/Financial Assistance (if any)": "Merit Scholarship",
+    "Amenities already being availed.Fee concession (if any)": "None",
+    "CERTIFICATE (To be signed by the student).Signature of the applicant": "Arka Dutta",
+    "CERTIFICATE (To be signed by the student).Recommended Chairperson/Director": "Dr. A. Singh",
+    "CERTIFICATE (To be signed in by the Chairperson/Director of the Deptt.).Signature of the Head of the Deptt With office stamp": "Dr. A. Singh"
+  },
+  "predictions_flattened": {
+    "session": "2023-2024",
+    "name_of_the_applicant": "ARKA DUTTA",
+    "dept": "Zoology",
+    "class": "B.Sc 2nd year",
+    "roll_no": "879",
+    "father_s_name": "Mr. Ashok Dutta",
+    "mother_s_name": "Mrs. Devi Dutta",
+    "total_family_income_p_a": "91157",
+    "total_fee_deposited_by_the_candidate_rs": "7405",
+    "1st_instalment_rs": "4262",
+    "receipt_no_1st_instalment": "R21 587",
+    "date_1st_instalment": "23/04/2025",
+    "2nd_instalment_rs": "3143",
+    "receipt_no_2nd_instalment": "R21 587",
+    "date_2nd_instalment": "23/04/2025",
+    "scholarship_stipend_financial_assistance_if_any": "Merit scholarship",
+    "fee_concession_if_any": "None"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 20,
+      "total_prediction_fields": 17,
+      "matched_key_count": 11,
+      "correct_fields": 8,
+      "field_level_extraction_accuracy_pct": 40.0,
+      "matched_field_value_exact_match_pct": 72.73,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 7,
+      "false_positive": 9,
+      "false_negative": 12,
+      "precision_pct": 43.75,
+      "recall_pct": 36.84,
+      "f1_pct": 40.0,
+      "anls_pct": 41.67,
+      "anls_fields_scored": 19,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 6,
+        "leaf_normalized_exact": 2,
+        "fuzzy_lexical_leaf_fallback": 3
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Class",
+        "predicted_key": "class",
+        "ground_truth_value": "B.Sc. 2nd Year",
+        "predicted_value": "B.Sc 2nd year",
+        "normalized_ground_truth_value": "b.sc.2ndyear",
+        "normalized_predicted_value": "b.sc2ndyear",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Fee Instalments.1st instalment Date",
+        "predicted_key": "1st_instalment_rs",
+        "ground_truth_value": "23/04/2025",
+        "predicted_value": "4262",
+        "normalized_ground_truth_value": "23/04/2025",
+        "normalized_predicted_value": "4262",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Fee Instalments.2nd instalment Date",
+        "predicted_key": "2nd_instalment_rs",
+        "ground_truth_value": "23/04/2025",
+        "predicted_value": "3143",
+        "normalized_ground_truth_value": "23/04/2025",
+        "normalized_predicted_value": "3143",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 6,
+      "leaf_normalized_exact": 2,
+      "fuzzy_lexical_leaf_fallback": 3
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Total Family Income (p.a.)",
+      "ground_truth_value": "91157"
+    },
+    {
+      "key": "Total fee deposited by the candidate Rs.",
+      "ground_truth_value": "7405"
+    },
+    {
+      "key": "Fee Instalments.1st instalment Rs.",
+      "ground_truth_value": "4262"
+    },
+    {
+      "key": "Fee Instalments.1st instalment Receipt No",
+      "ground_truth_value": "R21587"
+    },
+    {
+      "key": "Fee Instalments.2nd instalment Rs.",
+      "ground_truth_value": "3143"
+    },
+    {
+      "key": "Fee Instalments.2nd instalment Receipt No",
+      "ground_truth_value": "R21587"
+    },
+    {
+      "key": "CERTIFICATE (To be signed by the student).Signature of the applicant",
+      "ground_truth_value": "Arka Dutta"
+    },
+    {
+      "key": "CERTIFICATE (To be signed by the student).Recommended Chairperson/Director",
+      "ground_truth_value": "Dr. A. Singh"
+    },
+    {
+      "key": "CERTIFICATE (To be signed in by the Chairperson/Director of the Deptt.).Signature of the Head of the Deptt With office stamp",
+      "ground_truth_value": "Dr. A. Singh"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "total_family_income_p_a",
+      "predicted_value": "91157"
+    },
+    {
+      "key": "total_fee_deposited_by_the_candidate_rs",
+      "predicted_value": "7405"
+    },
+    {
+      "key": "receipt_no_1st_instalment",
+      "predicted_value": "R21 587"
+    },
+    {
+      "key": "date_1st_instalment",
+      "predicted_value": "23/04/2025"
+    },
+    {
+      "key": "receipt_no_2nd_instalment",
+      "predicted_value": "R21 587"
+    },
+    {
+      "key": "date_2nd_instalment",
+      "predicted_value": "23/04/2025"
+    }
+  ]
+}

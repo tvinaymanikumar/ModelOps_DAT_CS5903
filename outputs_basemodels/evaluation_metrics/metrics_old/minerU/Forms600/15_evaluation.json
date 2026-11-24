@@ -1,0 +1,265 @@
+{
+  "file": "15.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "PERSONAL INFORMATION.Name of the Applicant": "NILADRI SINHA",
+    "PERSONAL INFORMATION.Father's Name": "AMIT SINHA",
+    "PERSONAL INFORMATION.Designation/Occupation": "Clerk",
+    "PERSONAL INFORMATION.Annual Income of the Father/Guardian": "2,00,000",
+    "PERSONAL INFORMATION.Date of Birth.Day": "27",
+    "PERSONAL INFORMATION.Date of Birth.Month": "01",
+    "PERSONAL INFORMATION.Date of Birth.Year": "2001",
+    "PERSONAL INFORMATION.Address for Correspondence": "Flat No. 12, Sukriti Residency, Behala Chowrasta, Kolkata, West Bengal - 7000",
+    "PERSONAL INFORMATION.Permanent Address": "Flat No. 12, Sukriti Residency, Behala Chowrasta, Kolkata, West Bengal - 700034",
+    "PERSONAL INFORMATION.Contact Tel No.(R)": "019176543221",
+    "PERSONAL INFORMATION.Contact Tel No.(M)": "08765432210",
+    "PERSONAL INFORMATION.Sex.Male": "Yes",
+    "PERSONAL INFORMATION.Sex.Female": "No",
+    "PERSONAL INFORMATION.University from which the Bachelor's Degree completed": "Jadavpur University",
+    "PERSONAL INFORMATION.Year of Passing": "2017",
+    "PERSONAL INFORMATION.Nationality": "Indian",
+    "PERSONAL INFORMATION.State of Domicile": "West Bengal"
+  },
+  "predictions_flattened": {
+    "document_title": "PERSONAL INFORMATION",
+    "name_of_the_applicant": "",
+    "a_father_s_name": "",
+    "date_of_birth": "",
+    "month": "01",
+    "a_address_for_correspondence_flat_no": "12, Sukniti Residency, Behala Chawmpasta , Koolkata , West Bengal-7000",
+    "b_permanent_address_flat_no": "12, Sukriti Residency, Behala Chawrassta.,Kolkata, West Bengal-700034",
+    "v_tick_whichever_is_applicable": "Sex:",
+    "university_from_which_the_bachelor_s_degree_completed_jadavpuu_university": "",
+    "year_of_passing_2017": "",
+    "nationality": "Indian",
+    "state_of_domicile_west_bengal": "",
+    "unparsed_text_line_1": "2",
+    "unparsed_text_line_2": "Application for Admission",
+    "unparsed_text_line_3": "www.jammuuniversity.in",
+    "unparsed_text_line_4": "(in capital letters) NILADRI SINHA",
+    "unparsed_text_line_5": "(in capital letters) AMIT SINH",
+    "unparsed_text_line_6": "b) Designation/Occupation Clepk",
+    "unparsed_text_line_7": "c Annual Income of the Father/Guardian 2,00,000",
+    "unparsed_text_line_8": "Day 27",
+    "unparsed_text_line_9": "Year 2001",
+    "unparsed_text_line_10": "c) Contact Tel. No.",
+    "unparsed_text_line_11": "(R) 019176543221",
+    "unparsed_text_line_12": "(M) 08765432210",
+    "unparsed_text_line_13": "(SSI Code)",
+    "unparsed_text_line_14": "Male",
+    "unparsed_text_line_15": "Female"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 17,
+      "total_prediction_fields": 27,
+      "matched_key_count": 7,
+      "correct_fields": 2,
+      "field_level_extraction_accuracy_pct": 11.76,
+      "matched_field_value_exact_match_pct": 28.57,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 2,
+      "false_positive": 19,
+      "false_negative": 15,
+      "precision_pct": 9.52,
+      "recall_pct": 11.76,
+      "f1_pct": 10.53,
+      "anls_pct": 16.58,
+      "anls_fields_scored": 17,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "leaf_normalized_exact": 3,
+        "fuzzy_lexical_leaf_fallback": 4
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "PERSONAL INFORMATION.Name of the Applicant",
+        "predicted_key": "name_of_the_applicant",
+        "ground_truth_value": "NILADRI SINHA",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "niladrisinha",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "PERSONAL INFORMATION.Father's Name",
+        "predicted_key": "a_father_s_name",
+        "ground_truth_value": "AMIT SINHA",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "amitsinha",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "PERSONAL INFORMATION.Year of Passing",
+        "predicted_key": "year_of_passing_2017",
+        "ground_truth_value": "2017",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "2017",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "PERSONAL INFORMATION.University from which the Bachelor's Degree completed",
+        "predicted_key": "university_from_which_the_bachelor_s_degree_completed_jadavpuu_university",
+        "ground_truth_value": "Jadavpur University",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "jadavpuruniversity",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "PERSONAL INFORMATION.Address for Correspondence",
+        "predicted_key": "a_address_for_correspondence_flat_no",
+        "ground_truth_value": "Flat No. 12, Sukriti Residency, Behala Chowrasta, Kolkata, West Bengal - 7000",
+        "predicted_value": "12, Sukniti Residency, Behala Chawmpasta , Koolkata , West Bengal-7000",
+        "normalized_ground_truth_value": "flatno.12,sukritiresidency,behalachowrasta,kolkata,westbengal-7000",
+        "normalized_predicted_value": "12,suknitiresidency,behalachawmpasta,koolkata,westbengal-7000",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "leaf_normalized_exact": 3,
+      "fuzzy_lexical_leaf_fallback": 4
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "PERSONAL INFORMATION.Designation/Occupation",
+      "ground_truth_value": "Clerk"
+    },
+    {
+      "key": "PERSONAL INFORMATION.Annual Income of the Father/Guardian",
+      "ground_truth_value": "2,00,000"
+    },
+    {
+      "key": "PERSONAL INFORMATION.Date of Birth.Day",
+      "ground_truth_value": "27"
+    },
+    {
+      "key": "PERSONAL INFORMATION.Date of Birth.Year",
+      "ground_truth_value": "2001"
+    },
+    {
+      "key": "PERSONAL INFORMATION.Permanent Address",
+      "ground_truth_value": "Flat No. 12, Sukriti Residency, Behala Chowrasta, Kolkata, West Bengal - 700034"
+    },
+    {
+      "key": "PERSONAL INFORMATION.Contact Tel No.(R)",
+      "ground_truth_value": "019176543221"
+    },
+    {
+      "key": "PERSONAL INFORMATION.Contact Tel No.(M)",
+      "ground_truth_value": "08765432210"
+    },
+    {
+      "key": "PERSONAL INFORMATION.Sex.Male",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "PERSONAL INFORMATION.Sex.Female",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "PERSONAL INFORMATION.State of Domicile",
+      "ground_truth_value": "West Bengal"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "PERSONAL INFORMATION"
+    },
+    {
+      "key": "date_of_birth",
+      "predicted_value": ""
+    },
+    {
+      "key": "b_permanent_address_flat_no",
+      "predicted_value": "12, Sukriti Residency, Behala Chawrassta.,Kolkata, West Bengal-700034"
+    },
+    {
+      "key": "v_tick_whichever_is_applicable",
+      "predicted_value": "Sex:"
+    },
+    {
+      "key": "state_of_domicile_west_bengal",
+      "predicted_value": ""
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "2"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "Application for Admission"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "www.jammuuniversity.in"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "(in capital letters) NILADRI SINHA"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "(in capital letters) AMIT SINH"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "b) Designation/Occupation Clepk"
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "c Annual Income of the Father/Guardian 2,00,000"
+    },
+    {
+      "key": "unparsed_text_line_8",
+      "predicted_value": "Day 27"
+    },
+    {
+      "key": "unparsed_text_line_9",
+      "predicted_value": "Year 2001"
+    },
+    {
+      "key": "unparsed_text_line_10",
+      "predicted_value": "c) Contact Tel. No."
+    },
+    {
+      "key": "unparsed_text_line_11",
+      "predicted_value": "(R) 019176543221"
+    },
+    {
+      "key": "unparsed_text_line_12",
+      "predicted_value": "(M) 08765432210"
+    },
+    {
+      "key": "unparsed_text_line_13",
+      "predicted_value": "(SSI Code)"
+    },
+    {
+      "key": "unparsed_text_line_14",
+      "predicted_value": "Male"
+    },
+    {
+      "key": "unparsed_text_line_15",
+      "predicted_value": "Female"
+    }
+  ]
+}

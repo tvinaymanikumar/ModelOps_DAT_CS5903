@@ -1,0 +1,109 @@
+{
+  "file": "Screenshot 2026-10-02 214917.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "FROM": "MICHELLE LEPRE",
+    "TO": "V.M. LOSITO",
+    "CC": "S.A. RAPISARLDI, J. BAYLIES, K.P. AUGUSTYN, M. McGLYNN",
+    "BRAND(S) APPLICABLE": "TRUE",
+    "MEDIA TYPE": "SALES FORCE APPLIED - IRC",
+    "MEDIA NAME": "",
+    "ISSUE FREQUENCY/YEAR": "",
+    "SPACE/COLOR": "",
+    "COUPON ISSUE DATE": "MAY 1992",
+    "COUPON EXPIRATION DATE": "8/31/92",
+    "CIRCULATION": "560,000",
+    "GEOGRAPHICAL AREA(S)": "TRUE CORE MARKETS *",
+    "COUPON VALUE": "50c",
+    "PACK AND/OR CARTON": "PACK",
+    "*ADVERTISING CREATIVE TITLE": "",
+    "DATE INITIATED": "JANUARY 8, 1992",
+    "ANALYTICAL REQUIREMENTS": ""
+  },
+  "predictions_flattened": {
+    "from_michelle_lepre_to_v_m_losito_cc_s_a_rapisarldi_p_o_bahles_k_p_augustyn": "M. MoGLYYN",
+    "brand_s_applicable": "TRUE",
+    "media_type": "SALES FORCE APPLIED - IRC",
+    "media_name": "",
+    "issue_frequency_year": "",
+    "space_color": "",
+    "coupon_issue_date": "MAY 1992",
+    "coupon_expiration_date": "8/31/92",
+    "circulation": "560,000",
+    "geographical_area_s": "TRUE CORE MARKETS *",
+    "coupon_value": "50c",
+    "pack_and_or_carton": "PACK",
+    "advertising_creative_title": "",
+    "signature_of_initiator": "###",
+    "date_initiated": "JANUARY 8, 1992"
+  },
+  "evaluation": {
+    "mode": "auto",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 17,
+      "total_prediction_fields": 15,
+      "matched_key_count": 13,
+      "correct_fields": 13,
+      "field_level_extraction_accuracy_pct": 76.47,
+      "matched_field_value_exact_match_pct": 100.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 9,
+      "false_positive": 2,
+      "false_negative": 3,
+      "precision_pct": 81.82,
+      "recall_pct": 75.0,
+      "f1_pct": 78.26,
+      "anls_pct": 75.0,
+      "anls_fields_scored": 12,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 13
+      }
+    },
+    "incorrect_values": [],
+    "key_match_methods": {
+      "normalized_exact": 13
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "FROM",
+      "ground_truth_value": "MICHELLE LEPRE"
+    },
+    {
+      "key": "TO",
+      "ground_truth_value": "V.M. LOSITO"
+    },
+    {
+      "key": "CC",
+      "ground_truth_value": "S.A. RAPISARLDI, J. BAYLIES, K.P. AUGUSTYN, M. McGLYNN"
+    },
+    {
+      "key": "ANALYTICAL REQUIREMENTS",
+      "ground_truth_value": ""
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "from_michelle_lepre_to_v_m_losito_cc_s_a_rapisarldi_p_o_bahles_k_p_augustyn",
+      "predicted_value": "M. MoGLYYN"
+    },
+    {
+      "key": "signature_of_initiator",
+      "predicted_value": "###"
+    }
+  ]
+}

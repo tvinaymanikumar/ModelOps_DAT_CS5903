@@ -1,0 +1,819 @@
+{
+  "file": "12.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Name of the Student": "RITIKA BASU",
+    "Father's Name": "Mr. Ashok Basu",
+    "Course of Study": "MBA",
+    "Category.GE": "No",
+    "Category.SC": "Yes",
+    "Category.ST": "No",
+    "Category.OBC": "No",
+    "Category.PH": "No",
+    "Category.DP": "No",
+    "Date of Joining": "17/09/2023",
+    "Hallticket/ Enrol. No": "HT529380",
+    "Date of leaving": "03/04/2025",
+    "Reason(s) for leaving.Joining another University": "No",
+    "Reason(s) for leaving.Course": "",
+    "Reason(s) for leaving.Taking up employment": "No",
+    "Reason(s) for leaving.Financial Problems": "No",
+    "Reason(s) for leaving.Non-availability of Hostel": "No",
+    "Reason(s) for leaving.Personal Problems": "Yes",
+    "Reason(s) for leaving.Any other reason, please specify": "",
+    "Particulars of the fees paid.Tuition and other fees paid on Dt": "06/11/2024",
+    "Particulars of the fees paid.Rs": "5216",
+    "Bank A/c details of the Student (IN BLOCK LETTERS).Bank Name": "STATE BANK OF INDIA",
+    "Bank A/c details of the Student (IN BLOCK LETTERS).Bank Account No": "33619908862",
+    "Bank A/c details of the Student (IN BLOCK LETTERS).Branch Name and IFSC Code": "HITECH CITY, SBIN6762364",
+    "Date": "24/05/2025",
+    "Signature of the Student": "Ritika Basu",
+    "Dean of the School/ Head of the Department/ Centre": "Dr. Iyer"
+  },
+  "predictions_flattened": {
+    "document_title": "UNIVERSITY OF HYDERABAD",
+    "row_1": "2.",
+    "name_of_the_student_row_1": "Father's Name",
+    "ritika_basu_row_1": "Mr. Ashok Basu",
+    "column_4_row_1": "",
+    "column_5_row_1": "",
+    "column_6_row_1": "",
+    "column_7_row_1": "",
+    "column_8_row_1": "",
+    "row_2": "3.",
+    "name_of_the_student_row_2": "Course of Study",
+    "ritika_basu_row_2": "MBA",
+    "column_4_row_2": "",
+    "column_5_row_2": "",
+    "column_6_row_2": "",
+    "column_7_row_2": "",
+    "column_8_row_2": "",
+    "row_3": "4.",
+    "name_of_the_student_row_3": "Category",
+    "ritika_basu_row_3": "GE",
+    "column_4_row_3": "SC√",
+    "column_5_row_3": "ST",
+    "column_6_row_3": "OBC",
+    "column_7_row_3": "PH",
+    "column_8_row_3": "DP",
+    "row_4": "5.",
+    "name_of_the_student_row_4": "Date of joining",
+    "ritika_basu_row_4": "17/09/2023",
+    "column_4_row_4": "",
+    "column_5_row_4": "",
+    "column_6_row_4": "",
+    "column_7_row_4": "",
+    "column_8_row_4": "",
+    "row_5": "6.",
+    "name_of_the_student_row_5": "Hallticket / Enrol. No.",
+    "ritika_basu_row_5": "HT 52 93 80",
+    "column_4_row_5": "",
+    "column_5_row_5": "",
+    "column_6_row_5": "",
+    "column_7_row_5": "",
+    "column_8_row_5": "",
+    "row_6": "7.",
+    "name_of_the_student_row_6": "Date of leaving",
+    "ritika_basu_row_6": "03/04/2025",
+    "column_4_row_6": "",
+    "column_5_row_6": "",
+    "column_6_row_6": "",
+    "column_7_row_6": "",
+    "column_8_row_6": "",
+    "row_7": "8.",
+    "name_of_the_student_row_7": "Reason(s) for leaving (Please fill / tick appropriate reason)",
+    "ritika_basu_row_7": "Joining another University: No Course:",
+    "column_4_row_7": "",
+    "column_5_row_7": "",
+    "column_6_row_7": "",
+    "column_7_row_7": "",
+    "column_8_row_7": "",
+    "row_8": "Taking up an employment",
+    "name_of_the_student_row_8": "",
+    "ritika_basu_row_8": "Financial Problems",
+    "column_4_row_8": "",
+    "column_5_row_8": "",
+    "column_6_row_8": "",
+    "column_7_row_8": "",
+    "column_8_row_8": "",
+    "row_9": "Non-availability of Hostel",
+    "name_of_the_student_row_9": "",
+    "ritika_basu_row_9": "Personal Problems",
+    "column_4_row_9": "",
+    "column_5_row_9": "",
+    "column_6_row_9": "",
+    "column_7_row_9": "",
+    "column_8_row_9": "",
+    "row_10": "Any other reason, please specify:",
+    "name_of_the_student_row_10": "",
+    "ritika_basu_row_10": "",
+    "column_4_row_10": "",
+    "column_5_row_10": "",
+    "column_6_row_10": "",
+    "column_7_row_10": "",
+    "column_8_row_10": "",
+    "row_11": "9.",
+    "name_of_the_student_row_11": "Particulars of the fees paid",
+    "ritika_basu_row_11": "Tuition and other fees paid on DL 06/11/2024Rs. 5216",
+    "column_4_row_11": "",
+    "column_5_row_11": "",
+    "column_6_row_11": "",
+    "column_7_row_11": "",
+    "column_8_row_11": "",
+    "row_12": "10.",
+    "name_of_the_student_row_12": "Bank A/c details of the Student (IN BLOCK LETTERS)",
+    "ritika_basu_row_12": "Bank Name",
+    "column_4_row_12": "STATE BANK OF INDIA",
+    "column_5_row_12": "",
+    "column_6_row_12": "",
+    "column_7_row_12": "",
+    "column_8_row_12": "",
+    "row_13": "Bank Account No.",
+    "name_of_the_student_row_13": "33 6 10908 862",
+    "ritika_basu_row_13": "",
+    "column_4_row_13": "",
+    "column_5_row_13": "",
+    "column_6_row_13": "",
+    "column_7_row_13": "",
+    "column_8_row_13": "",
+    "row_14": "Branch Name and IFC Code",
+    "name_of_the_student_row_14": "HTECH CITY,SBING 67 62369",
+    "ritika_basu_row_14": "",
+    "column_4_row_14": "",
+    "column_5_row_14": "",
+    "column_6_row_14": "",
+    "column_7_row_14": "",
+    "column_8_row_14": "",
+    "date": "24/05/2025",
+    "based_on_the_recommendations_of_the_recommendations_of_the_ho": "D / Dean, the admission of the student is cancelled",
+    "unparsed_text_line_1": "P.O. Central University, Hyderabad - 500046",
+    "unparsed_text_line_2": "APPLICATION FORM FOR ADMISSION WITHDRAWAL",
+    "unparsed_text_line_3": "Ritikaa",
+    "unparsed_text_line_4": "Signature of the Student",
+    "unparsed_text_line_5": "The student may be permitted to withdraw his / her admission.",
+    "unparsed_text_line_6": "\\( D \\) 、I,yezo",
+    "unparsed_text_line_7": "Dean of the School /",
+    "unparsed_text_line_8": "Head of the Department / Centre",
+    "unparsed_text_line_9": "Dealing Asst.",
+    "unparsed_text_line_10": "A.R. Acad",
+    "unparsed_text_line_11": "JL. Registrar (A&E)",
+    "unparsed_text_line_12": "Controller of Examinations"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 27,
+      "total_prediction_fields": 127,
+      "matched_key_count": 2,
+      "correct_fields": 1,
+      "field_level_extraction_accuracy_pct": 3.7,
+      "matched_field_value_exact_match_pct": 50.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 1,
+      "false_positive": 56,
+      "false_negative": 24,
+      "precision_pct": 1.75,
+      "recall_pct": 4.0,
+      "f1_pct": 2.44,
+      "anls_pct": 4.0,
+      "anls_fields_scored": 25,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 1,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Name of the Student",
+        "predicted_key": "name_of_the_student_row_1",
+        "ground_truth_value": "RITIKA BASU",
+        "predicted_value": "Father's Name",
+        "normalized_ground_truth_value": "ritikabasu",
+        "normalized_predicted_value": "father'sname",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 1,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Father's Name",
+      "ground_truth_value": "Mr. Ashok Basu"
+    },
+    {
+      "key": "Course of Study",
+      "ground_truth_value": "MBA"
+    },
+    {
+      "key": "Category.GE",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Category.SC",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Category.ST",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Category.OBC",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Category.PH",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Category.DP",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Date of Joining",
+      "ground_truth_value": "17/09/2023"
+    },
+    {
+      "key": "Hallticket/ Enrol. No",
+      "ground_truth_value": "HT529380"
+    },
+    {
+      "key": "Date of leaving",
+      "ground_truth_value": "03/04/2025"
+    },
+    {
+      "key": "Reason(s) for leaving.Joining another University",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Reason(s) for leaving.Course",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Reason(s) for leaving.Taking up employment",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Reason(s) for leaving.Financial Problems",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Reason(s) for leaving.Non-availability of Hostel",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Reason(s) for leaving.Personal Problems",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Reason(s) for leaving.Any other reason, please specify",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Particulars of the fees paid.Tuition and other fees paid on Dt",
+      "ground_truth_value": "06/11/2024"
+    },
+    {
+      "key": "Particulars of the fees paid.Rs",
+      "ground_truth_value": "5216"
+    },
+    {
+      "key": "Bank A/c details of the Student (IN BLOCK LETTERS).Bank Name",
+      "ground_truth_value": "STATE BANK OF INDIA"
+    },
+    {
+      "key": "Bank A/c details of the Student (IN BLOCK LETTERS).Bank Account No",
+      "ground_truth_value": "33619908862"
+    },
+    {
+      "key": "Bank A/c details of the Student (IN BLOCK LETTERS).Branch Name and IFSC Code",
+      "ground_truth_value": "HITECH CITY, SBIN6762364"
+    },
+    {
+      "key": "Signature of the Student",
+      "ground_truth_value": "Ritika Basu"
+    },
+    {
+      "key": "Dean of the School/ Head of the Department/ Centre",
+      "ground_truth_value": "Dr. Iyer"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "UNIVERSITY OF HYDERABAD"
+    },
+    {
+      "key": "row_1",
+      "predicted_value": "2."
+    },
+    {
+      "key": "ritika_basu_row_1",
+      "predicted_value": "Mr. Ashok Basu"
+    },
+    {
+      "key": "column_4_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_5_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_6_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_7_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_8_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_2",
+      "predicted_value": "3."
+    },
+    {
+      "key": "name_of_the_student_row_2",
+      "predicted_value": "Course of Study"
+    },
+    {
+      "key": "ritika_basu_row_2",
+      "predicted_value": "MBA"
+    },
+    {
+      "key": "column_4_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_5_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_6_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_7_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_8_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_3",
+      "predicted_value": "4."
+    },
+    {
+      "key": "name_of_the_student_row_3",
+      "predicted_value": "Category"
+    },
+    {
+      "key": "ritika_basu_row_3",
+      "predicted_value": "GE"
+    },
+    {
+      "key": "column_4_row_3",
+      "predicted_value": "SC√"
+    },
+    {
+      "key": "column_5_row_3",
+      "predicted_value": "ST"
+    },
+    {
+      "key": "column_6_row_3",
+      "predicted_value": "OBC"
+    },
+    {
+      "key": "column_7_row_3",
+      "predicted_value": "PH"
+    },
+    {
+      "key": "column_8_row_3",
+      "predicted_value": "DP"
+    },
+    {
+      "key": "row_4",
+      "predicted_value": "5."
+    },
+    {
+      "key": "name_of_the_student_row_4",
+      "predicted_value": "Date of joining"
+    },
+    {
+      "key": "ritika_basu_row_4",
+      "predicted_value": "17/09/2023"
+    },
+    {
+      "key": "column_4_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_5_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_6_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_7_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_8_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_5",
+      "predicted_value": "6."
+    },
+    {
+      "key": "name_of_the_student_row_5",
+      "predicted_value": "Hallticket / Enrol. No."
+    },
+    {
+      "key": "ritika_basu_row_5",
+      "predicted_value": "HT 52 93 80"
+    },
+    {
+      "key": "column_4_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_5_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_6_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_7_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_8_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_6",
+      "predicted_value": "7."
+    },
+    {
+      "key": "name_of_the_student_row_6",
+      "predicted_value": "Date of leaving"
+    },
+    {
+      "key": "ritika_basu_row_6",
+      "predicted_value": "03/04/2025"
+    },
+    {
+      "key": "column_4_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_5_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_6_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_7_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_8_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_7",
+      "predicted_value": "8."
+    },
+    {
+      "key": "name_of_the_student_row_7",
+      "predicted_value": "Reason(s) for leaving (Please fill / tick appropriate reason)"
+    },
+    {
+      "key": "ritika_basu_row_7",
+      "predicted_value": "Joining another University: No Course:"
+    },
+    {
+      "key": "column_4_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_5_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_6_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_7_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_8_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_8",
+      "predicted_value": "Taking up an employment"
+    },
+    {
+      "key": "name_of_the_student_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "ritika_basu_row_8",
+      "predicted_value": "Financial Problems"
+    },
+    {
+      "key": "column_4_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_5_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_6_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_7_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_8_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_9",
+      "predicted_value": "Non-availability of Hostel"
+    },
+    {
+      "key": "name_of_the_student_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "ritika_basu_row_9",
+      "predicted_value": "Personal Problems"
+    },
+    {
+      "key": "column_4_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_5_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_6_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_7_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_8_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_10",
+      "predicted_value": "Any other reason, please specify:"
+    },
+    {
+      "key": "name_of_the_student_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "ritika_basu_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_4_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_5_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_6_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_7_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_8_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_11",
+      "predicted_value": "9."
+    },
+    {
+      "key": "name_of_the_student_row_11",
+      "predicted_value": "Particulars of the fees paid"
+    },
+    {
+      "key": "ritika_basu_row_11",
+      "predicted_value": "Tuition and other fees paid on DL 06/11/2024Rs. 5216"
+    },
+    {
+      "key": "column_4_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_5_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_6_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_7_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_8_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_12",
+      "predicted_value": "10."
+    },
+    {
+      "key": "name_of_the_student_row_12",
+      "predicted_value": "Bank A/c details of the Student (IN BLOCK LETTERS)"
+    },
+    {
+      "key": "ritika_basu_row_12",
+      "predicted_value": "Bank Name"
+    },
+    {
+      "key": "column_4_row_12",
+      "predicted_value": "STATE BANK OF INDIA"
+    },
+    {
+      "key": "column_5_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_6_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_7_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_8_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_13",
+      "predicted_value": "Bank Account No."
+    },
+    {
+      "key": "name_of_the_student_row_13",
+      "predicted_value": "33 6 10908 862"
+    },
+    {
+      "key": "ritika_basu_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_4_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_5_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_6_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_7_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_8_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_14",
+      "predicted_value": "Branch Name and IFC Code"
+    },
+    {
+      "key": "name_of_the_student_row_14",
+      "predicted_value": "HTECH CITY,SBING 67 62369"
+    },
+    {
+      "key": "ritika_basu_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_4_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_5_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_6_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_7_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_8_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "based_on_the_recommendations_of_the_recommendations_of_the_ho",
+      "predicted_value": "D / Dean, the admission of the student is cancelled"
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "P.O. Central University, Hyderabad - 500046"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "APPLICATION FORM FOR ADMISSION WITHDRAWAL"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "Ritikaa"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "Signature of the Student"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "The student may be permitted to withdraw his / her admission."
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "\\( D \\) 、I,yezo"
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "Dean of the School /"
+    },
+    {
+      "key": "unparsed_text_line_8",
+      "predicted_value": "Head of the Department / Centre"
+    },
+    {
+      "key": "unparsed_text_line_9",
+      "predicted_value": "Dealing Asst."
+    },
+    {
+      "key": "unparsed_text_line_10",
+      "predicted_value": "A.R. Acad"
+    },
+    {
+      "key": "unparsed_text_line_11",
+      "predicted_value": "JL. Registrar (A&E)"
+    },
+    {
+      "key": "unparsed_text_line_12",
+      "predicted_value": "Controller of Examinations"
+    }
+  ]
+}

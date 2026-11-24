@@ -1,0 +1,361 @@
+{
+  "file": "2.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Student's First Name": "Ritika",
+    "Student's Surname": "Basu",
+    "Father's First Name": "Sanjay",
+    "Father's Surname": "Basu",
+    "(DOB) Date": "13",
+    "Month": "04",
+    "Year": "2010",
+    "Gender": "Female",
+    "Nationality": "Indian",
+    "Religion": "Muslim",
+    "Caste Category": "OBC",
+    "Father's Occupation": "Accountant",
+    "Course Applied For": "Commerce",
+    "Medium": "Marathi",
+    "City": "Kolkata",
+    "PO/PS": "Kolkata",
+    "State": "West Bengal",
+    "Phone Number": "+91-9870012345"
+  },
+  "predictions_flattened": {
+    "document_title": "Saraswati Vidya Mandir, Sarisha",
+    "contact": "(03174) 244-435",
+    "pin_code": "743368",
+    "student_s_first_name": "",
+    "student_s_surname": "",
+    "father_s_first_name": "",
+    "father_s_surname": "",
+    "dob_date": "",
+    "month": "",
+    "year": "",
+    "gender": "",
+    "nationality": "",
+    "religion": "",
+    "caste_category": "",
+    "father_s_occupation": "",
+    "course_applied_for": "",
+    "medium": "",
+    "city": "",
+    "po_ps": "",
+    "koika": "Ia",
+    "state": "",
+    "phone_number": "",
+    "unparsed_text_line_1": "South 24 Parganas, West Bengal",
+    "unparsed_text_line_2": "Ritika",
+    "unparsed_text_line_3": "Basu",
+    "unparsed_text_line_4": "Sanjay",
+    "unparsed_text_line_5": "Basu",
+    "unparsed_text_line_6": "13",
+    "unparsed_text_line_7": "04",
+    "unparsed_text_line_8": "2010",
+    "unparsed_text_line_9": "Female",
+    "unparsed_text_line_10": "Indian",
+    "unparsed_text_line_11": "Huslim",
+    "unparsed_text_line_12": "OBC",
+    "unparsed_text_line_13": "Accountant",
+    "unparsed_text_line_14": "Comamoneroee",
+    "unparsed_text_line_15": "Marcchini",
+    "unparsed_text_line_16": "kolka",
+    "unparsed_text_line_17": "West Beonggal",
+    "unparsed_text_line_18": "\\( + {91} - {9870012845} \\)"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 18,
+      "total_prediction_fields": 40,
+      "matched_key_count": 18,
+      "correct_fields": 0,
+      "field_level_extraction_accuracy_pct": 0.0,
+      "matched_field_value_exact_match_pct": 0.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 0,
+      "false_positive": 22,
+      "false_negative": 18,
+      "precision_pct": 0.0,
+      "recall_pct": 0.0,
+      "f1_pct": 0.0,
+      "anls_pct": 0.0,
+      "anls_fields_scored": 18,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 18
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Student's First Name",
+        "predicted_key": "student_s_first_name",
+        "ground_truth_value": "Ritika",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "ritika",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Student's Surname",
+        "predicted_key": "student_s_surname",
+        "ground_truth_value": "Basu",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "basu",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Father's First Name",
+        "predicted_key": "father_s_first_name",
+        "ground_truth_value": "Sanjay",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "sanjay",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Father's Surname",
+        "predicted_key": "father_s_surname",
+        "ground_truth_value": "Basu",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "basu",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "(DOB) Date",
+        "predicted_key": "dob_date",
+        "ground_truth_value": "13",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "13",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Month",
+        "predicted_key": "month",
+        "ground_truth_value": "04",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "04",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Year",
+        "predicted_key": "year",
+        "ground_truth_value": "2010",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "2010",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Gender",
+        "predicted_key": "gender",
+        "ground_truth_value": "Female",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "female",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Nationality",
+        "predicted_key": "nationality",
+        "ground_truth_value": "Indian",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "indian",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Religion",
+        "predicted_key": "religion",
+        "ground_truth_value": "Muslim",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "muslim",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Caste Category",
+        "predicted_key": "caste_category",
+        "ground_truth_value": "OBC",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "obc",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Father's Occupation",
+        "predicted_key": "father_s_occupation",
+        "ground_truth_value": "Accountant",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "accountant",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Course Applied For",
+        "predicted_key": "course_applied_for",
+        "ground_truth_value": "Commerce",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "commerce",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Medium",
+        "predicted_key": "medium",
+        "ground_truth_value": "Marathi",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "marathi",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "City",
+        "predicted_key": "city",
+        "ground_truth_value": "Kolkata",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "kolkata",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "PO/PS",
+        "predicted_key": "po_ps",
+        "ground_truth_value": "Kolkata",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "kolkata",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "State",
+        "predicted_key": "state",
+        "ground_truth_value": "West Bengal",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "westbengal",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Phone Number",
+        "predicted_key": "phone_number",
+        "ground_truth_value": "+91-9870012345",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "+91-9870012345",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 18
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "Saraswati Vidya Mandir, Sarisha"
+    },
+    {
+      "key": "contact",
+      "predicted_value": "(03174) 244-435"
+    },
+    {
+      "key": "pin_code",
+      "predicted_value": "743368"
+    },
+    {
+      "key": "koika",
+      "predicted_value": "Ia"
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "South 24 Parganas, West Bengal"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "Ritika"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "Basu"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "Sanjay"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "Basu"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "13"
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "04"
+    },
+    {
+      "key": "unparsed_text_line_8",
+      "predicted_value": "2010"
+    },
+    {
+      "key": "unparsed_text_line_9",
+      "predicted_value": "Female"
+    },
+    {
+      "key": "unparsed_text_line_10",
+      "predicted_value": "Indian"
+    },
+    {
+      "key": "unparsed_text_line_11",
+      "predicted_value": "Huslim"
+    },
+    {
+      "key": "unparsed_text_line_12",
+      "predicted_value": "OBC"
+    },
+    {
+      "key": "unparsed_text_line_13",
+      "predicted_value": "Accountant"
+    },
+    {
+      "key": "unparsed_text_line_14",
+      "predicted_value": "Comamoneroee"
+    },
+    {
+      "key": "unparsed_text_line_15",
+      "predicted_value": "Marcchini"
+    },
+    {
+      "key": "unparsed_text_line_16",
+      "predicted_value": "kolka"
+    },
+    {
+      "key": "unparsed_text_line_17",
+      "predicted_value": "West Beonggal"
+    },
+    {
+      "key": "unparsed_text_line_18",
+      "predicted_value": "\\( + {91} - {9870012845} \\)"
+    }
+  ]
+}

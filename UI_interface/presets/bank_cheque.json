@@ -1,0 +1,35 @@
+{
+  "name": "Bank cheque",
+  "fields": [
+    {
+      "key": "payee_name",
+      "type": "string",
+      "required": true,
+      "description": "Name on the Pay line"
+    },
+    {
+      "key": "amount_in_words",
+      "type": "string",
+      "required": true,
+      "description": "Amount in words as written"
+    },
+    {
+      "key": "amount",
+      "type": "integer",
+      "required": true,
+      "description": "Amount in figures, digits only"
+    },
+    {
+      "key": "date",
+      "type": "date",
+      "required": true,
+      "description": "Cheque date"
+    },
+    {
+      "key": "account_no",
+      "type": "string",
+      "required": true,
+      "description": "Account number, digits only"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "file": "21.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Name of the TA": "Anirban Ghosh",
+    "Roll No": "IIITH439969",
+    "Email ID": "anirban.ghosh@gmail.com",
+    "Mobile No": "+91-9830011223",
+    "Subject": "Computer Networks",
+    "Date of assuming as TA/Commencement of tutorial classes": "25/05/2025",
+    "SBI/other bank Personal SB Account No": "35246799677",
+    "TA ship recommended per month (Please Tick).Quarter": "Yes",
+    "TA ship recommended per month (Please Tick).Half": "No",
+    "TA ship recommended per month (Please Tick).Full": "No",
+    "Other assistantships/ Jobs if": "Yes",
+    "If yes give details and get signature of relevant faculty Advisor": "Research Assistant at IIITH",
+    "Date": "28/05/2025",
+    "Signature of the Advisor": "",
+    "Declaration.Date": "28/05/2025",
+    "Declaration.Signature of the Student": "Anirban Ghosh",
+    "Signature of the Chair-TA ship Committee.Date": "28/05/2025",
+    "Signature of the Chair-TA ship Committee.Signature": "Dr. S. Rao",
+    "Signature of the Course Faculty.Date": "28/05/2025",
+    "Signature of the Course Faculty.Signature": "Prof. R. Singh"
+  },
+  "predictions_flattened": {
+    "institution_name": "International Institute of Information Technology, Hyderabad (Deemed University)",
+    "form_title": "TA Reporting Form for Monsoon 2024/ Spring 2025",
+    "name_of_the_ta": "Anirban Ghosh",
+    "roll_no": "IIITH439969",
+    "email_id": "anirban.ghosh@gmail.com",
+    "mobile_no": "+91-9830011223",
+    "subject": "Computer Networks",
+    "date_of_assuming_as_ta_commencement_of_tutorial_classes": "25/05/2025",
+    "sbi_other_bank_personal_sb_account_no": "35246799677",
+    "ta_ship_recommended_per_month_quarter": "true",
+    "ta_ship_recommended_per_month_half": "false",
+    "ta_ship_recommended_per_month_full": "false",
+    "other_assistantships_jobs_if_any_yes": "true",
+    "other_assistantships_jobs_if_any_no": "false",
+    "if_yes_give_details_and_get_signature_of_relevant_faculty_advisor": "Research Assistant at IIITH",
+    "date_advisor": "28/05/2025",
+    "signature_of_the_advisor": "",
+    "declaration": "I declare that the above information provided by me is TRUE",
+    "date_student": "28/05/25",
+    "signature_of_the_student": "Anirban Ghosh",
+    "date_chair_ta_ship_committee": "28/05/25",
+    "signature_of_the_chair_ta_ship_committee": "Dr. S. Ras",
+    "date_course_faculty": "28/05/25",
+    "signature_of_the_course_faculty": "Prof. R. Singh"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 20,
+      "total_prediction_fields": 24,
+      "matched_key_count": 11,
+      "correct_fields": 10,
+      "field_level_extraction_accuracy_pct": 50.0,
+      "matched_field_value_exact_match_pct": 90.91,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 9,
+      "false_positive": 14,
+      "false_negative": 10,
+      "precision_pct": 39.13,
+      "recall_pct": 47.37,
+      "f1_pct": 42.86,
+      "anls_pct": 47.37,
+      "anls_fields_scored": 19,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 9,
+        "leaf_normalized_exact": 1,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Other assistantships/ Jobs if",
+        "predicted_key": "other_assistantships_jobs_if_any_no",
+        "ground_truth_value": "Yes",
+        "predicted_value": "false",
+        "normalized_ground_truth_value": "yes",
+        "normalized_predicted_value": "false",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 9,
+      "leaf_normalized_exact": 1,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "TA ship recommended per month (Please Tick).Quarter",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "TA ship recommended per month (Please Tick).Half",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "TA ship recommended per month (Please Tick).Full",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Date",
+      "ground_truth_value": "28/05/2025"
+    },
+    {
+      "key": "Declaration.Date",
+      "ground_truth_value": "28/05/2025"
+    },
+    {
+      "key": "Signature of the Chair-TA ship Committee.Date",
+      "ground_truth_value": "28/05/2025"
+    },
+    {
+      "key": "Signature of the Chair-TA ship Committee.Signature",
+      "ground_truth_value": "Dr. S. Rao"
+    },
+    {
+      "key": "Signature of the Course Faculty.Date",
+      "ground_truth_value": "28/05/2025"
+    },
+    {
+      "key": "Signature of the Course Faculty.Signature",
+      "ground_truth_value": "Prof. R. Singh"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "institution_name",
+      "predicted_value": "International Institute of Information Technology, Hyderabad (Deemed University)"
+    },
+    {
+      "key": "form_title",
+      "predicted_value": "TA Reporting Form for Monsoon 2024/ Spring 2025"
+    },
+    {
+      "key": "ta_ship_recommended_per_month_quarter",
+      "predicted_value": "true"
+    },
+    {
+      "key": "ta_ship_recommended_per_month_half",
+      "predicted_value": "false"
+    },
+    {
+      "key": "ta_ship_recommended_per_month_full",
+      "predicted_value": "false"
+    },
+    {
+      "key": "other_assistantships_jobs_if_any_yes",
+      "predicted_value": "true"
+    },
+    {
+      "key": "date_advisor",
+      "predicted_value": "28/05/2025"
+    },
+    {
+      "key": "declaration",
+      "predicted_value": "I declare that the above information provided by me is TRUE"
+    },
+    {
+      "key": "date_student",
+      "predicted_value": "28/05/25"
+    },
+    {
+      "key": "date_chair_ta_ship_committee",
+      "predicted_value": "28/05/25"
+    },
+    {
+      "key": "signature_of_the_chair_ta_ship_committee",
+      "predicted_value": "Dr. S. Ras"
+    },
+    {
+      "key": "date_course_faculty",
+      "predicted_value": "28/05/25"
+    },
+    {
+      "key": "signature_of_the_course_faculty",
+      "predicted_value": "Prof. R. Singh"
+    }
+  ]
+}

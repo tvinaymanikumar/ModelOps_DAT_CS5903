@@ -1,0 +1,110 @@
+{
+  "file": "2.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Student's First Name": "Ritika",
+    "Student's Surname": "Basu",
+    "Father's First Name": "Sanjay",
+    "Father's Surname": "Basu",
+    "(DOB) Date": "13",
+    "Month": "04",
+    "Year": "2010",
+    "Gender": "Female",
+    "Nationality": "Indian",
+    "Religion": "Muslim",
+    "Caste Category": "OBC",
+    "Father's Occupation": "Accountant",
+    "Course Applied For": "Commerce",
+    "Medium": "Marathi",
+    "City": "Kolkata",
+    "PO/PS": "Kolkata",
+    "State": "West Bengal",
+    "Phone Number": "+91-9870012345"
+  },
+  "predictions_flattened": {
+    "institution_name": "Saraswati Vidya Mandir, Sarisha",
+    "contact": "(03174) 244-435",
+    "pin_code": "743368",
+    "address": "South 24 Parganas, West Bengal",
+    "students_first_name": "Ritika",
+    "students_surname": "Basu",
+    "fathers_first_name": "Sanjay",
+    "fathers_surname": "Basu",
+    "dob_date": "13",
+    "month": "04",
+    "year": "2010",
+    "gender": "Female",
+    "nationality": "Indian",
+    "religion": "Muslim",
+    "caste_category": "OBC",
+    "fathers_occupation": "Accountant",
+    "course_applied_for": "Commerce",
+    "medium": "Marathi",
+    "city": "kolkata",
+    "pops": "Kolkata",
+    "state": "West Bengal",
+    "phone_number": "+91-9870012345"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 18,
+      "total_prediction_fields": 22,
+      "matched_key_count": 18,
+      "correct_fields": 18,
+      "field_level_extraction_accuracy_pct": 100.0,
+      "matched_field_value_exact_match_pct": 100.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 18,
+      "false_positive": 4,
+      "false_negative": 0,
+      "precision_pct": 81.82,
+      "recall_pct": 100.0,
+      "f1_pct": 90.0,
+      "anls_pct": 100.0,
+      "anls_fields_scored": 18,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 12,
+        "fuzzy_lexical_leaf_fallback": 6
+      }
+    },
+    "incorrect_values": [],
+    "key_match_methods": {
+      "normalized_exact": 12,
+      "fuzzy_lexical_leaf_fallback": 6
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": [
+    {
+      "key": "institution_name",
+      "predicted_value": "Saraswati Vidya Mandir, Sarisha"
+    },
+    {
+      "key": "contact",
+      "predicted_value": "(03174) 244-435"
+    },
+    {
+      "key": "pin_code",
+      "predicted_value": "743368"
+    },
+    {
+      "key": "address",
+      "predicted_value": "South 24 Parganas, West Bengal"
+    }
+  ]
+}

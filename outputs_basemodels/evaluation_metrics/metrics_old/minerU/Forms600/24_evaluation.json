@@ -1,0 +1,194 @@
+{
+  "file": "24.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Personal Information.Full Name": "DEEPIKA SHAH",
+    "Personal Information.Place Birth": "Surat",
+    "Personal Information.Birth of Date": "31/07/2007",
+    "Personal Information.Full Address": "A-204, Diamond Residency, Ring Road, Near Surat Castle, Surat",
+    "Personal Information.Nationality": "Indian",
+    "Personal Information.city/country": "Surat, India",
+    "Personal Information.Gander": "Female",
+    "Personal Information.Email": "deepika.shah@gmail.com",
+    "Personal Information.Phone Number": "+91-9979123456",
+    "Type Of Membership.Regular (3 month)": "Yes",
+    "Type Of Membership.Gold (6 month)": "No",
+    "Type Of Membership.Platinum (12 month)": "No"
+  },
+  "predictions_flattened": {
+    "document_title": "Personal Information",
+    "full_name": "DEEPPIKA SHAH",
+    "place_birth": "\\; \\) School",
+    "birth_of_date": "31/07/2007",
+    "full_address": "",
+    "nationality": "Indebon",
+    "city_country": "",
+    "gander": "Female",
+    "email": "deepika. shahegyalal. com",
+    "document_title_2": "Type Of Membership",
+    "document_title_3": "Term & Condition",
+    "unparsed_text_line_1": "#",
+    "unparsed_text_line_2": "Membership Form",
+    "unparsed_text_line_3": "Fradel and Spies Fitness",
+    "unparsed_text_line_4": "Phone Number \\( + \\text{②1} - \\text{③2} \\) 39123456",
+    "unparsed_text_line_5": "*Choose your type of membership",
+    "unparsed_text_line_6": "Regular (3 month) Gold (6 month) Platinum (12 month)",
+    "unparsed_text_line_7": "This membership is valid Membership includes the facilities available Membership is not automatic"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 12,
+      "total_prediction_fields": 18,
+      "matched_key_count": 8,
+      "correct_fields": 2,
+      "field_level_extraction_accuracy_pct": 16.67,
+      "matched_field_value_exact_match_pct": 25.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 2,
+      "false_positive": 14,
+      "false_negative": 10,
+      "precision_pct": 12.5,
+      "recall_pct": 16.67,
+      "f1_pct": 14.29,
+      "anls_pct": 35.95,
+      "anls_fields_scored": 12,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "leaf_normalized_exact": 8
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Personal Information.Full Name",
+        "predicted_key": "full_name",
+        "ground_truth_value": "DEEPIKA SHAH",
+        "predicted_value": "DEEPPIKA SHAH",
+        "normalized_ground_truth_value": "deepikashah",
+        "normalized_predicted_value": "deeppikashah",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Place Birth",
+        "predicted_key": "place_birth",
+        "ground_truth_value": "Surat",
+        "predicted_value": "\\; \\) School",
+        "normalized_ground_truth_value": "surat",
+        "normalized_predicted_value": "\\;\\)school",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Full Address",
+        "predicted_key": "full_address",
+        "ground_truth_value": "A-204, Diamond Residency, Ring Road, Near Surat Castle, Surat",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "a-204,diamondresidency,ringroad,nearsuratcastle,surat",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Nationality",
+        "predicted_key": "nationality",
+        "ground_truth_value": "Indian",
+        "predicted_value": "Indebon",
+        "normalized_ground_truth_value": "indian",
+        "normalized_predicted_value": "indebon",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.city/country",
+        "predicted_key": "city_country",
+        "ground_truth_value": "Surat, India",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "surat,india",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Email",
+        "predicted_key": "email",
+        "ground_truth_value": "deepika.shah@gmail.com",
+        "predicted_value": "deepika. shahegyalal. com",
+        "normalized_ground_truth_value": "deepika.shah@gmail.com",
+        "normalized_predicted_value": "deepika.shahegyalal.com",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "leaf_normalized_exact": 8
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Personal Information.Phone Number",
+      "ground_truth_value": "+91-9979123456"
+    },
+    {
+      "key": "Type Of Membership.Regular (3 month)",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Type Of Membership.Gold (6 month)",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Type Of Membership.Platinum (12 month)",
+      "ground_truth_value": "No"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "Personal Information"
+    },
+    {
+      "key": "document_title_2",
+      "predicted_value": "Type Of Membership"
+    },
+    {
+      "key": "document_title_3",
+      "predicted_value": "Term & Condition"
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "#"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "Membership Form"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "Fradel and Spies Fitness"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "Phone Number \\( + \\text{②1} - \\text{③2} \\) 39123456"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "*Choose your type of membership"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "Regular (3 month) Gold (6 month) Platinum (12 month)"
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "This membership is valid Membership includes the facilities available Membership is not automatic"
+    }
+  ]
+}

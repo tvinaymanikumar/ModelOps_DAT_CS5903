@@ -1,0 +1,29 @@
+{
+  "name": "Retail receipt",
+  "fields": [
+    {
+      "key": "company",
+      "type": "string",
+      "required": true,
+      "description": "Merchant name at the top"
+    },
+    {
+      "key": "date",
+      "type": "date",
+      "required": true,
+      "description": "Transaction date as printed"
+    },
+    {
+      "key": "address",
+      "type": "string",
+      "required": true,
+      "description": "Merchant address on one line"
+    },
+    {
+      "key": "total",
+      "type": "string",
+      "required": true,
+      "description": "Final total paid, not a sub-total"
+    }
+  ]
+}

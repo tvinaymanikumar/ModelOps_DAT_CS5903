@@ -1,0 +1,23 @@
+{
+  "name": "Patient record",
+  "fields": [
+    {
+      "key": "name",
+      "type": "string",
+      "required": true,
+      "description": "Patient name or initials (not the doctor)"
+    },
+    {
+      "key": "age",
+      "type": "string",
+      "required": true,
+      "description": "Age as written"
+    },
+    {
+      "key": "sex",
+      "type": "string",
+      "required": true,
+      "description": "Patient sex as written or stated"
+    }
+  ]
+}

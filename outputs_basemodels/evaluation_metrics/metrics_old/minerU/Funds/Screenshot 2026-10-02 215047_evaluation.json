@@ -1,0 +1,107 @@
+{
+  "file": "Screenshot 2026-10-02 215047.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Date": "Ocotber 9, 1968",
+    "Agency": "BBDO Inc.",
+    "Contact": "Mr. Marv Goldsmith",
+    "Address": "383 Madisom Avenue New York 10017",
+    "Client": "American Tobacco Co.",
+    "Product": "Tareyton Cigarettes"
+  },
+  "predictions_flattened": {
+    "bbdo_inc_agency": "",
+    "date": "October 9, 1968",
+    "contact": "Mr. Marv Goldsmith",
+    "383_madison_avenue_new_york_10017_address": "",
+    "tareyton_cigarettes_product": "",
+    "unparsed_text_line_1": "American Tobacco Co."
+  },
+  "evaluation": {
+    "mode": "auto",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 6,
+      "total_prediction_fields": 6,
+      "matched_key_count": 2,
+      "correct_fields": 1,
+      "field_level_extraction_accuracy_pct": 16.67,
+      "matched_field_value_exact_match_pct": 50.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 1,
+      "false_positive": 2,
+      "false_negative": 5,
+      "precision_pct": 33.33,
+      "recall_pct": 16.67,
+      "f1_pct": 22.22,
+      "anls_pct": 30.77,
+      "anls_fields_scored": 6,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 2
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Date",
+        "predicted_key": "date",
+        "ground_truth_value": "Ocotber 9, 1968",
+        "predicted_value": "October 9, 1968",
+        "normalized_ground_truth_value": "ocotber9,1968",
+        "normalized_predicted_value": "october9,1968",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 2
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Agency",
+      "ground_truth_value": "BBDO Inc."
+    },
+    {
+      "key": "Address",
+      "ground_truth_value": "383 Madisom Avenue New York 10017"
+    },
+    {
+      "key": "Client",
+      "ground_truth_value": "American Tobacco Co."
+    },
+    {
+      "key": "Product",
+      "ground_truth_value": "Tareyton Cigarettes"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "bbdo_inc_agency",
+      "predicted_value": ""
+    },
+    {
+      "key": "383_madison_avenue_new_york_10017_address",
+      "predicted_value": ""
+    },
+    {
+      "key": "tareyton_cigarettes_product",
+      "predicted_value": ""
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "American Tobacco Co."
+    }
+  ]
+}

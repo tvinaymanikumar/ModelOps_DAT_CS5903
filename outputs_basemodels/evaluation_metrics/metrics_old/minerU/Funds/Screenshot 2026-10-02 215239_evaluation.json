@@ -1,0 +1,169 @@
+{
+  "file": "Screenshot 2026-10-02 215239.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Date Routed": "January 11, 1994",
+    "Contract No.": "4011 00 00",
+    "Contract Subject": "Joe's Place Exhibits",
+    "Company": "SPEVCO, INC.",
+    "Brand(s)": "Camel/Winston",
+    "Total Contract Cost": "$1,340,000.00",
+    "Current Year Cost": "1994-1995",
+    "Brief Description": "2 Joe's Place Exhibits for use at Winston Cup, Winston Drag and Camel Super Bike Events."
+  },
+  "predictions_flattened": {
+    "date_routed_row_1": "Contract Subject:",
+    "january_11_1994_row_1": "Joe's Place Exhibits",
+    "contract_no_row_1": "",
+    "4011_00_00_row_1": "",
+    "date_routed_row_2": "Company",
+    "january_11_1994_row_2": "SPEVCO, INC.",
+    "contract_no_row_2": "Brand(s)",
+    "4011_00_00_row_2": "Camel/Winston",
+    "date_routed_row_3": "Total Contract Cost",
+    "january_11_1994_row_3": "$1,340,000.00",
+    "contract_no_row_3": "Current Year Cost",
+    "4011_00_00_row_3": "1994-1995",
+    "date_routed_row_4": "Brief Description",
+    "january_11_1994_row_4": "2 Joe's Place Exhibits for use at Winston Cup, Winston Drag and Camel Super Bike Events.",
+    "contract_no_row_4": "",
+    "4011_00_00_row_4": ""
+  },
+  "evaluation": {
+    "mode": "auto",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 8,
+      "total_prediction_fields": 16,
+      "matched_key_count": 0,
+      "correct_fields": 0,
+      "field_level_extraction_accuracy_pct": 0.0,
+      "matched_field_value_exact_match_pct": 0.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 0,
+      "false_positive": 12,
+      "false_negative": 8,
+      "precision_pct": 0.0,
+      "recall_pct": 0.0,
+      "f1_pct": 0.0,
+      "anls_pct": 0.0,
+      "anls_fields_scored": 8,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {}
+    },
+    "incorrect_values": [],
+    "key_match_methods": {}
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Date Routed",
+      "ground_truth_value": "January 11, 1994"
+    },
+    {
+      "key": "Contract No.",
+      "ground_truth_value": "4011 00 00"
+    },
+    {
+      "key": "Contract Subject",
+      "ground_truth_value": "Joe's Place Exhibits"
+    },
+    {
+      "key": "Company",
+      "ground_truth_value": "SPEVCO, INC."
+    },
+    {
+      "key": "Brand(s)",
+      "ground_truth_value": "Camel/Winston"
+    },
+    {
+      "key": "Total Contract Cost",
+      "ground_truth_value": "$1,340,000.00"
+    },
+    {
+      "key": "Current Year Cost",
+      "ground_truth_value": "1994-1995"
+    },
+    {
+      "key": "Brief Description",
+      "ground_truth_value": "2 Joe's Place Exhibits for use at Winston Cup, Winston Drag and Camel Super Bike Events."
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "date_routed_row_1",
+      "predicted_value": "Contract Subject:"
+    },
+    {
+      "key": "january_11_1994_row_1",
+      "predicted_value": "Joe's Place Exhibits"
+    },
+    {
+      "key": "contract_no_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "4011_00_00_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_routed_row_2",
+      "predicted_value": "Company"
+    },
+    {
+      "key": "january_11_1994_row_2",
+      "predicted_value": "SPEVCO, INC."
+    },
+    {
+      "key": "contract_no_row_2",
+      "predicted_value": "Brand(s)"
+    },
+    {
+      "key": "4011_00_00_row_2",
+      "predicted_value": "Camel/Winston"
+    },
+    {
+      "key": "date_routed_row_3",
+      "predicted_value": "Total Contract Cost"
+    },
+    {
+      "key": "january_11_1994_row_3",
+      "predicted_value": "$1,340,000.00"
+    },
+    {
+      "key": "contract_no_row_3",
+      "predicted_value": "Current Year Cost"
+    },
+    {
+      "key": "4011_00_00_row_3",
+      "predicted_value": "1994-1995"
+    },
+    {
+      "key": "date_routed_row_4",
+      "predicted_value": "Brief Description"
+    },
+    {
+      "key": "january_11_1994_row_4",
+      "predicted_value": "2 Joe's Place Exhibits for use at Winston Cup, Winston Drag and Camel Super Bike Events."
+    },
+    {
+      "key": "contract_no_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "4011_00_00_row_4",
+      "predicted_value": ""
+    }
+  ]
+}

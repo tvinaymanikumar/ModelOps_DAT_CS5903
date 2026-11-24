@@ -1,0 +1,2 @@
+﻿combined_kv_precision_pct,combined_kv_recall_pct,combined_kv_f1_pct,normalized_edit_distance_similarity_pct,strict_form_accuracy_pct,strict_form_correct_documents,documents_evaluated,combined_kv_tp,combined_kv_fp,combined_kv_fn
+61.44,48.69,54.33,56.04,8.0,2,25,298,187,314

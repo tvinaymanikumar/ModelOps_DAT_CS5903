@@ -1,0 +1,361 @@
+{
+  "file": "25.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Student's First Name": "Lakshmi",
+    "Student's Surname": "Narayanan",
+    "Father's First Name": "Ashok",
+    "Father's Surname": "Narayanan",
+    "(DOB) Date": "27",
+    "Month": "November",
+    "Year": "2007",
+    "Gender": "Female",
+    "Nationality": "Indian",
+    "Religion": "Jain",
+    "Caste Category": "ST",
+    "Father's Occupation": "Engineer",
+    "Course Applied For": "Arts",
+    "Medium": "Bengali",
+    "City": "Madurai",
+    "PO/PS": "Madurai",
+    "State": "Tamil Nadu",
+    "Phone Number": "+91-9884567890"
+  },
+  "predictions_flattened": {
+    "document_title": "Saraswati Vidya Mandir, Sarisha",
+    "contact": "(03174) 244-435",
+    "pin_code": "743368",
+    "student_s_first_name": "",
+    "student_s_surname": "",
+    "father_s_first_name": "",
+    "father_s_surname": "",
+    "dob_date": "",
+    "month": "",
+    "year": "",
+    "gender": "",
+    "nationality": "",
+    "religion": "",
+    "caste_category": "",
+    "father_s_occupation": "",
+    "course_applied_for": "",
+    "medium": "",
+    "city": "",
+    "po_ps": "",
+    "state": "",
+    "phone_number": "",
+    "unparsed_text_line_1": "South 24 Parganas, West Bengal",
+    "unparsed_text_line_2": "Lakshmi",
+    "unparsed_text_line_3": "Nanayanan",
+    "unparsed_text_line_4": "Asha",
+    "unparsed_text_line_5": "\\( \\sqrt{\\text{anayanan}} \\)",
+    "unparsed_text_line_6": "27",
+    "unparsed_text_line_7": "November",
+    "unparsed_text_line_8": "2007",
+    "unparsed_text_line_9": "Female",
+    "unparsed_text_line_10": "Indian",
+    "unparsed_text_line_11": "Jain",
+    "unparsed_text_line_12": "ST",
+    "unparsed_text_line_13": "Engineering",
+    "unparsed_text_line_14": "Ants",
+    "unparsed_text_line_15": "Bengali",
+    "unparsed_text_line_16": "Madunai",
+    "unparsed_text_line_17": "Madunai",
+    "unparsed_text_line_18": "Tamil Naidu",
+    "unparsed_text_line_19": "\\( + {01} - 9\\sqrt{8} + {456} + {7890} \\)"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 18,
+      "total_prediction_fields": 40,
+      "matched_key_count": 18,
+      "correct_fields": 0,
+      "field_level_extraction_accuracy_pct": 0.0,
+      "matched_field_value_exact_match_pct": 0.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 0,
+      "false_positive": 22,
+      "false_negative": 18,
+      "precision_pct": 0.0,
+      "recall_pct": 0.0,
+      "f1_pct": 0.0,
+      "anls_pct": 0.0,
+      "anls_fields_scored": 18,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 18
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Student's First Name",
+        "predicted_key": "student_s_first_name",
+        "ground_truth_value": "Lakshmi",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "lakshmi",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Student's Surname",
+        "predicted_key": "student_s_surname",
+        "ground_truth_value": "Narayanan",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "narayanan",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Father's First Name",
+        "predicted_key": "father_s_first_name",
+        "ground_truth_value": "Ashok",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "ashok",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Father's Surname",
+        "predicted_key": "father_s_surname",
+        "ground_truth_value": "Narayanan",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "narayanan",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "(DOB) Date",
+        "predicted_key": "dob_date",
+        "ground_truth_value": "27",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "27",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Month",
+        "predicted_key": "month",
+        "ground_truth_value": "November",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "november",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Year",
+        "predicted_key": "year",
+        "ground_truth_value": "2007",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "2007",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Gender",
+        "predicted_key": "gender",
+        "ground_truth_value": "Female",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "female",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Nationality",
+        "predicted_key": "nationality",
+        "ground_truth_value": "Indian",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "indian",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Religion",
+        "predicted_key": "religion",
+        "ground_truth_value": "Jain",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "jain",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Caste Category",
+        "predicted_key": "caste_category",
+        "ground_truth_value": "ST",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "st",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Father's Occupation",
+        "predicted_key": "father_s_occupation",
+        "ground_truth_value": "Engineer",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "engineer",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Course Applied For",
+        "predicted_key": "course_applied_for",
+        "ground_truth_value": "Arts",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "arts",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Medium",
+        "predicted_key": "medium",
+        "ground_truth_value": "Bengali",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "bengali",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "City",
+        "predicted_key": "city",
+        "ground_truth_value": "Madurai",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "madurai",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "PO/PS",
+        "predicted_key": "po_ps",
+        "ground_truth_value": "Madurai",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "madurai",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "State",
+        "predicted_key": "state",
+        "ground_truth_value": "Tamil Nadu",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "tamilnadu",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Phone Number",
+        "predicted_key": "phone_number",
+        "ground_truth_value": "+91-9884567890",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "+91-9884567890",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 18
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "Saraswati Vidya Mandir, Sarisha"
+    },
+    {
+      "key": "contact",
+      "predicted_value": "(03174) 244-435"
+    },
+    {
+      "key": "pin_code",
+      "predicted_value": "743368"
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "South 24 Parganas, West Bengal"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "Lakshmi"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "Nanayanan"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "Asha"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "\\( \\sqrt{\\text{anayanan}} \\)"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "27"
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "November"
+    },
+    {
+      "key": "unparsed_text_line_8",
+      "predicted_value": "2007"
+    },
+    {
+      "key": "unparsed_text_line_9",
+      "predicted_value": "Female"
+    },
+    {
+      "key": "unparsed_text_line_10",
+      "predicted_value": "Indian"
+    },
+    {
+      "key": "unparsed_text_line_11",
+      "predicted_value": "Jain"
+    },
+    {
+      "key": "unparsed_text_line_12",
+      "predicted_value": "ST"
+    },
+    {
+      "key": "unparsed_text_line_13",
+      "predicted_value": "Engineering"
+    },
+    {
+      "key": "unparsed_text_line_14",
+      "predicted_value": "Ants"
+    },
+    {
+      "key": "unparsed_text_line_15",
+      "predicted_value": "Bengali"
+    },
+    {
+      "key": "unparsed_text_line_16",
+      "predicted_value": "Madunai"
+    },
+    {
+      "key": "unparsed_text_line_17",
+      "predicted_value": "Madunai"
+    },
+    {
+      "key": "unparsed_text_line_18",
+      "predicted_value": "Tamil Naidu"
+    },
+    {
+      "key": "unparsed_text_line_19",
+      "predicted_value": "\\( + {01} - 9\\sqrt{8} + {456} + {7890} \\)"
+    }
+  ]
+}

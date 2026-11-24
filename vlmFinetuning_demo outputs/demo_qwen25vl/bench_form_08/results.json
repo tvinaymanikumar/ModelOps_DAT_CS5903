@@ -1,0 +1,313 @@
+[
+  {
+    "image": "/home/rahul/Modelops/VLM_Finetuning/dataset/forms/benchmark/images/bench_form_08.png",
+    "fields": [
+      "Tel",
+      "Customer ID",
+      "First",
+      "Middle",
+      "Last /Surname",
+      "Type of account held",
+      "Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)",
+      "Employed Details",
+      "Occupation",
+      "Name of Employer in case employed Or Name Nature of Business in case Self Employed",
+      "Address Line 1",
+      "Address Line 2",
+      "Address Line 3",
+      "City",
+      "State",
+      "Country",
+      "Zip Code",
+      "Email",
+      "Home",
+      "Mobile",
+      "Work"
+    ],
+    "target": {
+      "Tel": "212-521-3286,3300; Fax: 212-521-3361",
+      "Customer ID": "CUST844691",
+      "First": "Saptarshi",
+      "Middle": "Prasad",
+      "Last /Surname": "Roy",
+      "Type of account held": "Checking, Money Market Deposit, Certificate of Deposit",
+      "Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)": "ABCDE6131F",
+      "Employed Details": "Unemployed",
+      "Occupation": "Student",
+      "Name of Employer in case employed Or Name Nature of Business in case Self Employed": "Saptarshi Roy",
+      "Address Line 1": "Flat 4D",
+      "Address Line 2": "Krishna Enclave",
+      "Address Line 3": "88A Naktala Road",
+      "City": "Kolkata",
+      "State": "West Bengal",
+      "Country": "India",
+      "Zip Code": "700047",
+      "Email": "saptarshi.roy@gmail.com",
+      "Home": "+91-9800456123",
+      "Mobile": "+91-9800456123",
+      "Work": "+91 9836784424"
+    },
+    "finetuned": {
+      "raw": "{\"Tel\":\"212-521-3286,3300; Fax: 212-521-3361\",\"Customer ID\":\"CUST844691\",\"First\":\"Saptarshi\",\"Middle\":\"Prasad\",\"Last /Surname\":\"Roy\",\"Type of account held\":\"Checking, Certificate of Deposit, Money Market Deposit\",\"Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)\":\"ABCDE6131F\",\"Employed Details\":\"\",\"Occupation\":\"Student\",\"Name of Employer in case employed Or Name Nature of Business in case Self Employed\":\"Saptarshi Roy\",\"Address Line 1\":\"Flat 4D\",\"Address Line 2\":\"Krishna Enclave\",\"Address Line 3\":\"88 A Naktala Road\",\"City\":\"Kolkata\",\"State\":\"West Bengal\",\"Country\":\"India\",\"Zip Code\":\"700047\",\"Email\":\"saptarshi.roy@gmail.com\",\"Home\":\"+91-9800456183\",\"Mobile\":\"+91-9800456123\",\"Work\":\"+91 983678424\"}",
+      "parsed": {
+        "Tel": "212-521-3286,3300; Fax: 212-521-3361",
+        "Customer ID": "CUST844691",
+        "First": "Saptarshi",
+        "Middle": "Prasad",
+        "Last /Surname": "Roy",
+        "Type of account held": "Checking, Certificate of Deposit, Money Market Deposit",
+        "Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)": "ABCDE6131F",
+        "Employed Details": "",
+        "Occupation": "Student",
+        "Name of Employer in case employed Or Name Nature of Business in case Self Employed": "Saptarshi Roy",
+        "Address Line 1": "Flat 4D",
+        "Address Line 2": "Krishna Enclave",
+        "Address Line 3": "88 A Naktala Road",
+        "City": "Kolkata",
+        "State": "West Bengal",
+        "Country": "India",
+        "Zip Code": "700047",
+        "Email": "saptarshi.roy@gmail.com",
+        "Home": "+91-9800456183",
+        "Mobile": "+91-9800456123",
+        "Work": "+91 983678424"
+      },
+      "seconds": 12.6,
+      "score": {
+        "combined_kv_precision_pct": 80.95,
+        "combined_kv_recall_pct": 80.95,
+        "combined_kv_f1_pct": 80.95,
+        "normalized_edit_distance_similarity_pct": 96.64,
+        "strict_form_accuracy_pct": 0.0,
+        "strict_form_correct": false,
+        "ground_truth_fields": 21,
+        "prediction_fields": 21,
+        "matched_key_pairs": 21,
+        "missing_keys": 0,
+        "extra_keys": 0,
+        "incorrect_values": 4,
+        "tp": 17,
+        "fp": 4,
+        "fn": 4,
+        "valid_json": 1
+      },
+      "field_rows": {
+        "Tel": [
+          "212-521-3286,3300; Fax: 212-521-3361",
+          true
+        ],
+        "Customer ID": [
+          "CUST844691",
+          true
+        ],
+        "First": [
+          "Saptarshi",
+          true
+        ],
+        "Middle": [
+          "Prasad",
+          true
+        ],
+        "Last /Surname": [
+          "Roy",
+          true
+        ],
+        "Type of account held": [
+          "Checking, Certificate of Deposit, Money Market Deposit",
+          false
+        ],
+        "Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)": [
+          "ABCDE6131F",
+          true
+        ],
+        "Employed Details": [
+          "",
+          false
+        ],
+        "Occupation": [
+          "Student",
+          true
+        ],
+        "Name of Employer in case employed Or Name Nature of Business in case Self Employed": [
+          "Saptarshi Roy",
+          true
+        ],
+        "Address Line 1": [
+          "Flat 4D",
+          true
+        ],
+        "Address Line 2": [
+          "Krishna Enclave",
+          true
+        ],
+        "Address Line 3": [
+          "88 A Naktala Road",
+          true
+        ],
+        "City": [
+          "Kolkata",
+          true
+        ],
+        "State": [
+          "West Bengal",
+          true
+        ],
+        "Country": [
+          "India",
+          true
+        ],
+        "Zip Code": [
+          "700047",
+          true
+        ],
+        "Email": [
+          "saptarshi.roy@gmail.com",
+          true
+        ],
+        "Home": [
+          "+91-9800456183",
+          false
+        ],
+        "Mobile": [
+          "+91-9800456123",
+          true
+        ],
+        "Work": [
+          "+91 983678424",
+          false
+        ]
+      }
+    },
+    "base": {
+      "raw": "{\n  \"Tel\": \"212-521-3286,3300; Fax: 212-521-3361\",\n  \"Customer ID\": \"CUST844691\",\n  \"First\": \"Saptanishi\",\n  \"Middle\": \"Prasad\",\n  \"Last /Surname\": \"Roy\",\n  \"Type of account held\": \"Checking Certificate of Deposit\",\n  \"Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)\": \"ABCD E6131F\",\n  \"Employed Details\": \"\",\n  \"Occupation\": \"Student\",\n  \"Name of Employer in case employed Or Name Nature of Business in case Self Employed\": \"Saptanishi Roy\",\n  \"Address Line 1\": \"1\",\n  \"Address Line 2\": \"\",\n  \"Address Line 3\": \"88 A Naktala Road\",\n  \"City\": \"Kolkata\",\n  \"State\": \"West Bengal\",\n  \"Country\": \"India\",\n  \"Zip Code\": \"700047\",\n  \"Email\": \"saptanishi.roy@gmail.com\",\n  \"Home\": \"+91-9800456183\",\n  \"Mobile\": \"+91-9800456123\",\n  \"Work\": \"+91-9836784424\"\n}",
+      "parsed": {
+        "Tel": "212-521-3286,3300; Fax: 212-521-3361",
+        "Customer ID": "CUST844691",
+        "First": "Saptanishi",
+        "Middle": "Prasad",
+        "Last /Surname": "Roy",
+        "Type of account held": "Checking Certificate of Deposit",
+        "Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)": "ABCD E6131F",
+        "Employed Details": "",
+        "Occupation": "Student",
+        "Name of Employer in case employed Or Name Nature of Business in case Self Employed": "Saptanishi Roy",
+        "Address Line 1": "1",
+        "Address Line 2": "",
+        "Address Line 3": "88 A Naktala Road",
+        "City": "Kolkata",
+        "State": "West Bengal",
+        "Country": "India",
+        "Zip Code": "700047",
+        "Email": "saptanishi.roy@gmail.com",
+        "Home": "+91-9800456183",
+        "Mobile": "+91-9800456123",
+        "Work": "+91-9836784424"
+      },
+      "seconds": 8.2,
+      "score": {
+        "combined_kv_precision_pct": 57.14,
+        "combined_kv_recall_pct": 57.14,
+        "combined_kv_f1_pct": 57.14,
+        "normalized_edit_distance_similarity_pct": 94.49,
+        "strict_form_accuracy_pct": 0.0,
+        "strict_form_correct": false,
+        "ground_truth_fields": 21,
+        "prediction_fields": 21,
+        "matched_key_pairs": 21,
+        "missing_keys": 0,
+        "extra_keys": 0,
+        "incorrect_values": 9,
+        "tp": 12,
+        "fp": 9,
+        "fn": 9,
+        "valid_json": 1
+      },
+      "field_rows": {
+        "Tel": [
+          "212-521-3286,3300; Fax: 212-521-3361",
+          true
+        ],
+        "Customer ID": [
+          "CUST844691",
+          true
+        ],
+        "First": [
+          "Saptanishi",
+          false
+        ],
+        "Middle": [
+          "Prasad",
+          true
+        ],
+        "Last /Surname": [
+          "Roy",
+          true
+        ],
+        "Type of account held": [
+          "Checking Certificate of Deposit",
+          false
+        ],
+        "Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)": [
+          "ABCD E6131F",
+          true
+        ],
+        "Employed Details": [
+          "",
+          false
+        ],
+        "Occupation": [
+          "Student",
+          true
+        ],
+        "Name of Employer in case employed Or Name Nature of Business in case Self Employed": [
+          "Saptanishi Roy",
+          false
+        ],
+        "Address Line 1": [
+          "1",
+          false
+        ],
+        "Address Line 2": [
+          "",
+          false
+        ],
+        "Address Line 3": [
+          "88 A Naktala Road",
+          true
+        ],
+        "City": [
+          "Kolkata",
+          true
+        ],
+        "State": [
+          "West Bengal",
+          true
+        ],
+        "Country": [
+          "India",
+          true
+        ],
+        "Zip Code": [
+          "700047",
+          true
+        ],
+        "Email": [
+          "saptanishi.roy@gmail.com",
+          false
+        ],
+        "Home": [
+          "+91-9800456183",
+          false
+        ],
+        "Mobile": [
+          "+91-9800456123",
+          true
+        ],
+        "Work": [
+          "+91-9836784424",
+          false
+        ]
+      }
+    }
+  }
+]

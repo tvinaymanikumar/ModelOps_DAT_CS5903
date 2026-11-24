@@ -1,0 +1,2231 @@
+{
+  "file": "8.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "First Name": "SOURAV",
+    "Middle Name": "",
+    "Surname": "SEN",
+    "Date of Birth/ Incorporation of declarant": "22/08/2005",
+    "Father's Name (in case of individual)/ First Name": "ARKA",
+    "Father's Middle Name": "",
+    "Father's Surname": "SEN",
+    "Flat/Room No": "",
+    "Floor No": "1st",
+    "Name of premises": "Lake Gardens Housing Complex",
+    "Block Name/No": "D10",
+    "Road/Street/Lane": "Prince Anwar Shah Road",
+    "Area/Locality": "Lake Gardens Housing Complex",
+    "Town/City": "Kolkata",
+    "District": "Kolkata",
+    "State": "West Bengal",
+    "Pin code": "700045",
+    "Telephone Number (wth STD code)": "033-23533997",
+    "Mobile No": "+91 9800011223",
+    "Amount of tansaction (Rs)": "6522",
+    "Date of transaction": "24/05/2025",
+    "In case of transaction in joint names, number of persons involved in the transaction": "3",
+    "Mode of transaction": "Card",
+    "Aadhaar Number issued by UIDAI (if available)": "472646912498",
+    "If applied for PAN and it is not yet generated enter date of application and acknowedgement number": "",
+    "Estimated Total Income.Agricultural income (Rs.)": "9523",
+    "Estimated Total Income.Other than agricultural income (Rs)": "133756",
+    "Details of document being produced in support of identify in Column 1.Document code": "C3",
+    "Details of document being produced in support of identify in Column 1.Document identification number": "DOC23910",
+    "Details of document being produced in support of identify in Column 1.Name and address of the authority issuing the document": "RTO",
+    "Details of document being produced in support of address in Columns 4 to 13.Document code": "C3",
+    "Details of document being produced in support of address in Columns 4 to 13.Document identification number": "DOC23910",
+    "Details of document being produced in support of address in Columns 4 to 13.Name and address of the authority issuing the document": "RTO",
+    "Transaction Type.05- Investment in time deposit": "No",
+    "Transaction Type.06- Deposit in cash": "Yes",
+    "Transaction Type.09- Opening an account (other than savings and time deposit)": "No",
+    "Transaction Type.10- Account with balance exceeding Rs. 50,000": "No",
+    "Transaction Type.11- Purchase of bank drafts or pay orders": "No",
+    "Transaction Type.12- Application for issue of a credit or debit card": "No",
+    "Transaction Type.14- Payment in connection with travel to any foreign country": "No",
+    "Transaction Type.15- Payment for purchase, or remittance outside India": "No",
+    "Transaction Type.22- Not classified above": "No",
+    "Verification.Name": "Sourav Sen",
+    "Verification.Verified today.Date": "24",
+    "Verification.Verified today.Month": "May",
+    "Verification.Verified today.Year": "",
+    "Verification.Place": "Kolkata",
+    "Verification.Signature of Declarant": "Sourav Sen"
+  },
+  "predictions_flattened": {
+    "document_title": "\\*FORM NO. 60 [See second proviso to rule 114B]",
+    "row_1": "Middle Name",
+    "first_name_row_1": "",
+    "s_row_1": "",
+    "o_row_1": "",
+    "u_row_1": "",
+    "r_row_1": "",
+    "a_row_1": "",
+    "v_row_1": "",
+    "column_9_row_1": "",
+    "column_10_row_1": "",
+    "column_11_row_1": "",
+    "column_12_row_1": "",
+    "column_13_row_1": "",
+    "column_14_row_1": "",
+    "column_15_row_1": "",
+    "column_16_row_1": "",
+    "2_row_1": "2",
+    "date_of_birth_incorporation_of_declarant_row_1": "2",
+    "column_19_row_1": "0",
+    "column_20_row_1": "8",
+    "column_21_row_1": "2",
+    "column_22_row_1": "0",
+    "column_23_row_1": "0",
+    "column_24_row_1": "5",
+    "row_2": "Surname",
+    "first_name_row_2": "S",
+    "s_row_2": "E",
+    "o_row_2": "N",
+    "u_row_2": "",
+    "r_row_2": "",
+    "a_row_2": "",
+    "v_row_2": "",
+    "column_9_row_2": "",
+    "column_10_row_2": "",
+    "column_11_row_2": "",
+    "column_12_row_2": "",
+    "column_13_row_2": "",
+    "column_14_row_2": "",
+    "column_15_row_2": "",
+    "column_16_row_2": "",
+    "2_row_2": "",
+    "date_of_birth_incorporation_of_declarant_row_2": "",
+    "column_19_row_2": "",
+    "column_20_row_2": "",
+    "column_21_row_2": "",
+    "column_22_row_2": "",
+    "column_23_row_2": "",
+    "column_24_row_2": "",
+    "row_3": "3.",
+    "first_name_row_3": "Father's Name (in case of individual)",
+    "s_row_3": "First Name",
+    "o_row_3": "AIR",
+    "u_row_3": "KA",
+    "r_row_3": "",
+    "a_row_3": "",
+    "v_row_3": "",
+    "column_9_row_3": "",
+    "column_10_row_3": "",
+    "column_11_row_3": "",
+    "column_12_row_3": "",
+    "column_13_row_3": "",
+    "column_14_row_3": "",
+    "column_15_row_3": "",
+    "column_16_row_3": "",
+    "2_row_3": "",
+    "date_of_birth_incorporation_of_declarant_row_3": "",
+    "column_19_row_3": "",
+    "column_20_row_3": "",
+    "column_21_row_3": "",
+    "column_22_row_3": "",
+    "column_23_row_3": "",
+    "column_24_row_3": "",
+    "row_4": "Middle Name",
+    "first_name_row_4": "",
+    "s_row_4": "",
+    "o_row_4": "",
+    "u_row_4": "",
+    "r_row_4": "",
+    "a_row_4": "",
+    "v_row_4": "",
+    "column_9_row_4": "",
+    "column_10_row_4": "",
+    "column_11_row_4": "",
+    "column_12_row_4": "",
+    "column_13_row_4": "",
+    "column_14_row_4": "",
+    "column_15_row_4": "",
+    "column_16_row_4": "",
+    "2_row_4": "",
+    "date_of_birth_incorporation_of_declarant_row_4": "",
+    "column_19_row_4": "",
+    "column_20_row_4": "",
+    "column_21_row_4": "",
+    "column_22_row_4": "",
+    "column_23_row_4": "",
+    "column_24_row_4": "",
+    "row_5": "Surname",
+    "first_name_row_5": "S",
+    "s_row_5": "EN",
+    "o_row_5": "",
+    "u_row_5": "",
+    "r_row_5": "",
+    "a_row_5": "",
+    "v_row_5": "",
+    "column_9_row_5": "",
+    "column_10_row_5": "",
+    "column_11_row_5": "",
+    "column_12_row_5": "",
+    "column_13_row_5": "",
+    "column_14_row_5": "",
+    "column_15_row_5": "",
+    "column_16_row_5": "",
+    "2_row_5": "",
+    "date_of_birth_incorporation_of_declarant_row_5": "",
+    "column_19_row_5": "",
+    "column_20_row_5": "",
+    "column_21_row_5": "",
+    "column_22_row_5": "",
+    "column_23_row_5": "",
+    "column_24_row_5": "",
+    "row_6": "4.",
+    "first_name_row_6": "Flial Room No.",
+    "s_row_6": "5. Floor No. 1ST",
+    "o_row_6": "",
+    "u_row_6": "",
+    "r_row_6": "",
+    "a_row_6": "",
+    "v_row_6": "",
+    "column_9_row_6": "",
+    "column_10_row_6": "",
+    "column_11_row_6": "",
+    "column_12_row_6": "",
+    "column_13_row_6": "",
+    "column_14_row_6": "",
+    "column_15_row_6": "",
+    "column_16_row_6": "",
+    "2_row_6": "",
+    "date_of_birth_incorporation_of_declarant_row_6": "",
+    "column_19_row_6": "",
+    "column_20_row_6": "",
+    "column_21_row_6": "",
+    "column_22_row_6": "",
+    "column_23_row_6": "",
+    "column_24_row_6": "",
+    "row_7": "6.",
+    "first_name_row_7": "Name of premises Lake Grangeons Housing Camp",
+    "s_row_7": "7. Block Name/No. D10",
+    "o_row_7": "",
+    "u_row_7": "",
+    "r_row_7": "",
+    "a_row_7": "",
+    "v_row_7": "",
+    "column_9_row_7": "",
+    "column_10_row_7": "",
+    "column_11_row_7": "",
+    "column_12_row_7": "",
+    "column_13_row_7": "",
+    "column_14_row_7": "",
+    "column_15_row_7": "",
+    "column_16_row_7": "",
+    "2_row_7": "",
+    "date_of_birth_incorporation_of_declarant_row_7": "",
+    "column_19_row_7": "",
+    "column_20_row_7": "",
+    "column_21_row_7": "",
+    "column_22_row_7": "",
+    "column_23_row_7": "",
+    "column_24_row_7": "",
+    "row_8": "8.",
+    "first_name_row_8": "Road / Street / Lane Principe Anwar Shah Road",
+    "s_row_8": "8. Area/Locality Lake Gondar/Douglas Housing Camp",
+    "o_row_8": "",
+    "u_row_8": "",
+    "r_row_8": "",
+    "a_row_8": "",
+    "v_row_8": "",
+    "column_9_row_8": "",
+    "column_10_row_8": "",
+    "column_11_row_8": "",
+    "column_12_row_8": "",
+    "column_13_row_8": "",
+    "column_14_row_8": "",
+    "column_15_row_8": "",
+    "column_16_row_8": "",
+    "2_row_8": "",
+    "date_of_birth_incorporation_of_declarant_row_8": "",
+    "column_19_row_8": "",
+    "column_20_row_8": "",
+    "column_21_row_8": "",
+    "column_22_row_8": "",
+    "column_23_row_8": "",
+    "column_24_row_8": "",
+    "row_9": "10.",
+    "first_name_row_9": "Town/City Kokala",
+    "s_row_9": "9. District/Kolkata",
+    "o_row_9": "",
+    "u_row_9": "",
+    "r_row_9": "",
+    "a_row_9": "",
+    "v_row_9": "",
+    "column_9_row_9": "",
+    "column_10_row_9": "",
+    "column_11_row_9": "",
+    "column_12_row_9": "",
+    "column_13_row_9": "",
+    "column_14_row_9": "",
+    "column_15_row_9": "",
+    "column_16_row_9": "",
+    "2_row_9": "",
+    "date_of_birth_incorporation_of_declarant_row_9": "",
+    "column_19_row_9": "",
+    "column_20_row_9": "",
+    "column_21_row_9": "",
+    "column_22_row_9": "",
+    "column_23_row_9": "",
+    "column_24_row_9": "",
+    "row_10": "13.",
+    "first_name_row_10": "Pin code 700045 14 Telephone Number (with STD code) 83333333 15",
+    "s_row_10": "",
+    "o_row_10": "",
+    "u_row_10": "",
+    "r_row_10": "",
+    "a_row_10": "",
+    "v_row_10": "",
+    "column_9_row_10": "",
+    "column_10_row_10": "",
+    "column_11_row_10": "",
+    "column_12_row_10": "",
+    "column_13_row_10": "",
+    "column_14_row_10": "",
+    "column_15_row_10": "",
+    "column_16_row_10": "",
+    "2_row_10": "",
+    "date_of_birth_incorporation_of_declarant_row_10": "",
+    "column_19_row_10": "",
+    "column_20_row_10": "",
+    "column_21_row_10": "",
+    "column_22_row_10": "",
+    "column_23_row_10": "",
+    "column_24_row_10": "",
+    "row_11": "16.",
+    "first_name_row_11": "Amount of transaction (Rs.):",
+    "s_row_11": "6",
+    "o_row_11": "5",
+    "u_row_11": "2",
+    "r_row_11": "2",
+    "a_row_11": "1",
+    "v_row_11": "18. In case of transaction in joint names, number of persons involved in the transaction:",
+    "column_9_row_11": "3",
+    "column_10_row_11": "",
+    "column_11_row_11": "",
+    "column_12_row_11": "",
+    "column_13_row_11": "",
+    "column_14_row_11": "",
+    "column_15_row_11": "",
+    "column_16_row_11": "",
+    "2_row_11": "",
+    "date_of_birth_incorporation_of_declarant_row_11": "",
+    "column_19_row_11": "",
+    "column_20_row_11": "",
+    "column_21_row_11": "",
+    "column_22_row_11": "",
+    "column_23_row_11": "",
+    "column_24_row_11": "",
+    "row_12": "17.",
+    "first_name_row_12": "Date of transaction",
+    "s_row_12": "24",
+    "o_row_12": "05",
+    "u_row_12": "2",
+    "r_row_12": "0",
+    "a_row_12": "25",
+    "v_row_12": "",
+    "column_9_row_12": "",
+    "column_10_row_12": "",
+    "column_11_row_12": "",
+    "column_12_row_12": "",
+    "column_13_row_12": "",
+    "column_14_row_12": "",
+    "column_15_row_12": "",
+    "column_16_row_12": "",
+    "2_row_12": "",
+    "date_of_birth_incorporation_of_declarant_row_12": "",
+    "column_19_row_12": "",
+    "column_20_row_12": "",
+    "column_21_row_12": "",
+    "column_22_row_12": "",
+    "column_23_row_12": "",
+    "column_24_row_12": "",
+    "row_13": "19.",
+    "first_name_row_13": "Mode of transaction",
+    "s_row_13": "Cash",
+    "o_row_13": "Check, Check, Card",
+    "u_row_13": "Draf Banker's Cheque, COnline transfer, COther",
+    "r_row_13": "",
+    "a_row_13": "",
+    "v_row_13": "",
+    "column_9_row_13": "",
+    "column_10_row_13": "",
+    "column_11_row_13": "",
+    "column_12_row_13": "",
+    "column_13_row_13": "",
+    "column_14_row_13": "",
+    "column_15_row_13": "",
+    "column_16_row_13": "",
+    "2_row_13": "",
+    "date_of_birth_incorporation_of_declarant_row_13": "",
+    "column_19_row_13": "",
+    "column_20_row_13": "",
+    "column_21_row_13": "",
+    "column_22_row_13": "",
+    "column_23_row_13": "",
+    "column_24_row_13": "",
+    "row_14": "20.",
+    "first_name_row_14": "Aadhaar Number issued by UDAI (if available):",
+    "s_row_14": "47 264963 12 4938",
+    "o_row_14": "",
+    "u_row_14": "",
+    "r_row_14": "",
+    "a_row_14": "",
+    "v_row_14": "",
+    "column_9_row_14": "",
+    "column_10_row_14": "",
+    "column_11_row_14": "",
+    "column_12_row_14": "",
+    "column_13_row_14": "",
+    "column_14_row_14": "",
+    "column_15_row_14": "",
+    "column_16_row_14": "",
+    "2_row_14": "",
+    "date_of_birth_incorporation_of_declarant_row_14": "",
+    "column_19_row_14": "",
+    "column_20_row_14": "",
+    "column_21_row_14": "",
+    "column_22_row_14": "",
+    "column_23_row_14": "",
+    "column_24_row_14": "",
+    "row_15": "21.",
+    "first_name_row_15": "If applied for PAN and it is not yet generated enter date of application and acknowledgement number:",
+    "s_row_15": "D D D D D M Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y YY Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y.Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY YY YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYyyYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYyy YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzZZzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz. 22.",
+    "o_row_15": "Document identification number DOC23 Document identification number DOC24 Document identification number DOC25 Document identification number DOC26 Document identification number DOC27 Document identification number DOC28 Document identification number DOC29 Document identification number DOC30 Document identification number DOC31 Document identification number DOC32 Document identification number DOC33 Document identification number DOC34 Document identification number DOC35 Document identification number DOC36 Document identification number DOC37 Document identification number DOC38 Document identification number DOC39 Document identification number DOC40 Document identification number DOC41 Document identification number DOC42 Document identification number DOC43 Document identification number DOC44 Document identification number DOC45 Document identification number DOC46 Document identification number DOC47 Document identification number DOC48 Document identification number DOC49 Document identification number DOC50 Document identification number DOC51 Document identification number DOC52 Document identification number DOC53 Document identification number DOC54 Document identification number DOC55 Document identification number DOC56 Document identification number DOC57 Document identification number DOC58 Document identification number DOC59 Document identification number DOC60 Document identification number DOC61 Document identification number DOC62 Document identification number DOC63 Document identification number DOC64 Document identification number DOC65 Document identification number DOC66 Document identification number DOC67 Document identification number DOC68 Document identification number DOC69 Document identification number DOC70 Document identification number DOC71 Document identification number DOC72 Document identification number DOC73 Document identification number DOC74 Document identification number DOC75 Document identification number DOC76 Document identification number DOC77 Document identification number DOC78 Document identification number DOC79 Document identification number DOC80 Document identification number DOC81 Document identification number DOC82 Document identification number DOC83 Document identification number DOC84 Document identification number DOC85 Document identification number DOC86 Document identification number DOC87 Document identification number DOC88 Document identification number DOC89 Document identification number DOC90 Document identification number DOC91 Document identification number DOC92 Document identification number DOC93 Document identification number DOC94 Document identification number DOC95 Document identification number DOC96 Document identification number DOC97 Document identification number DOC98 Document identification number DOC99 Document identification number DOC100 Document identification number DOC101 Document identification number DOC102 Document identification number DOC103 Document identification number DOC104 Document identification number DOC105 Document identification number DOC106 Document identification number DOC107 Document identification number DOC108 Document identification number DOC109 Document identification number DOC110 Document identification number DOC111 Document identification number DOC112 Document identification number DOC113 Document identification number DOC114 Document identification number DOC115 Document identification number DOC116 Document identification number DOC117 Document identification number DOC118 Document identification number DOC119 Document identification number DOC120 Document identification number DOC121 Document identification number DOC122 Document identification number DOC123 Document identification number DOC124 Document identification number DOC125 Document identification number DOC126 Document identification number DOC127 Document identification number DOC128 Document identification number DOC129 Document identification number DOC130 Document identification number DOC131 Document identification number DOC132 Document identification number DOC133 Document identification number DOC134 Document identification number DOC135 Document identification number DOC136 Document identification number DOC137 Document identification number DOC138 Document identification number DOC139 Document identification number DOC140 Document identification number DOC141 Document identification number DOC142 Document identification number DOC143 Document identification number DOC144 Document identification number DOC145 Document identification number DOC146 Document identification number DOC147 Document identification number DOC148 Document identification number DOC149 Document identification number DOC150 Document identification number DOC151 Document identification number DOC152 Document identification number DOC153 Document identification number DOC154 Document identification number DOC155 Document identification number DOC156 Document identification number DOC157 Document identification number DOC158 Document identification number DOC159 Document identification number DOC160 Document identification number DOC161 Document identification number DOC162 Document identification number DOC163 Document identification number DOC164 Document identification number DOC165 Document identification number DOC166 Document identification number DOC167 Document identification number DOC168 Document identification number DOC169 Document identification number DOC170 Document identification number DOC171 Document identification number DOC172 Document identification number DOC173 Document identification number DOC174 Document identification number DOC175 Document identification number DOC176 Document identification number DOC177 Document identification number DOC178 Document identification number DOC179 Document identification number DOC180 Document identification number DOC181 Document identification number DOC182 Document identification number DOC183 Document identification number DOC184 Document identification number DOC185 Document identification number DOC186 Document identification number DOC187 Document identification number DOC188 Document identification number DOC189 Document identification number DOC190 Document identification number DOC191 Document identification number DOC192 Document identification number DOC193 Document identification number DOC194 Document identification number DOC195 Document identification number DOC196 Document identification number DOC197 Document identification number DOC198 Document identification number DOC199 Document identification number DOC200 Document identification number DOC201 Document identification number DOC202 Document identification number DOC203 Document identification number DOC204 Document identification number DOC205 Document identification number DOC206 Document identification number DOC207 Document identification number DOC208 Document identification number DOC209 Document identification number DOC210 Document identification number DOC211 Document identification number DOC212 Document identification number DOC213 Document identification number DOC214 Document identification number DOC215 Document identification number DOC216 Document identification number DOC217 Document identification number DOC218 Document identification number DOC219 Document identification number DOC220 Document identification number DOC221 Document identification number DOC222 Document identification number DOC223 Document identification number DOC224 Document identification number DOC225 Document identification number DOC226 Document identification number DOC227 Document identification number DOC228 Document identification number DOC229 Document identification number DOC230 Document identification number DOC231 Document identification number DOC232 Document identification number DOC233 Document identification number DOC234 Document identification number DOC235 Document identification number DOC236 Document identification number DOC237 Document identification number DOC238 Document identification number DOC239 Document identification number DOC240 Document identification number DOC241 Document identification number DOC242 Document identification number DOC243 Document identification number DOC244 Document identification number DOC245 Document identification number DOC246 Document identification number DOC247 Document identification number DOC248 Document identification number DOC249 Document identification number DOC250 Document identification number DOC251 Document identification number DOC252 Document identification number DOC253 Document identification number DOC254 Document identification number DOC255 Document identification number DOC256 Document identification number DOC257 Document identification number DOC258 Document identification number DOC259 Document identification number DOC260 Document identification number DOC261 Document identification number DOC262 Document identification number DOC263 Document identification number DOC264 Document identification number DOC265 Document identification number DOC266 Document identification number DOC267 Document identification number DOC268 Document identification number DOC269 Document identification number DOC270 Document identification number DOC271 Document identification number DOC272 Document identification number DOC273 Document identification number DOC274 Document identification number DOC275 Document identification number DOC276 Document identification number DOC277 Document identification number DOC278 Document identification number DOC279 Document identification number DOC280 Document identification number DOC281 Document identification number DOC282 Document identification number DOC283 Document identification number DOC284 Document identification number DOC285 Document identification number DOC286 Document identification number DOC287 Document identification number DOC288 Document identification number DOC289 Document identification number DOC290 Document identification number DOC291 Document identification number DOC292 Document identification number DOC293 Document identification number DOC294 Document identification number DOC295 Document identification number DOC296 Document identification number DOC297 Document identification number DOC298 Document identification number DOC299 Document identification number DOC300 Document identification number DOC301 Document identification number DOC302 Document identification number DOC303 Document identification number DOC304 Document identification number DOC305 Document identification number DOC306 Document identification number DOC307 Document identification number DOC308 Document identification number DOC309 Document identification number DOC310 Document identification number DOC311 Document identification number DOC312 Document identification number DOC313 Document identification number DOC314 Document identification number DOC315 Document identification number DOC316 Document identification number DOC317 Document identification number DOC318 Document identification number DOC319 Document identification number DOC320 Document identification number DOC321 Document identification number DOC322 Document identification number DOC323 Document identification number DOC324 Document identification number DOC325 Document identification number DOC326 Document identification number DOC327 Document identification number DOC328 Document identification number DOC329 Document identification number DOC330 Document identification number DOC331 Document identification number DOC332 Document identification number DOC333 Document identification number DOC334 Document identification number DOC335 Document identification number DOC336 Document identification number DOC337 Document identification number DOC338 Document identification number DOC339 Document identification number DOC340 Document identification number DOC341 Document identification number DOC342 Document identification number DOC343 Document identification number DOC344 Document identification number DOC345 Document identification number DOC346 Document identification number DOC347 Document identification number DOC348 Document identification number DOC349 Document identification number DOC350 Document identification number DOC351 Document identification number DOC352 Document identification number DOC353 Document identification number DOC354 Document identification number DOC355 Document identification number DOC356 Document identification number DOC357 Document identification number DOC358 Document identification number DOC359 Document identification number DOC360 Document identification number DOC361 Document identification number DOC362 Document identification number DOC363 Document identification number DOC364 Document identification number DOC365 Document identification number DOC366 Document identification number DOC367 Document identification number DOC368 Document identification number DOC369 Document identification number DOC370 Document identification number DOC371 Document identification number DOC372 Document identification number DOC373 Document identification number DOC374 Document identification number DOC375 Document identification number DOC376 Document identification number DOC377 Document identification number DOC378 Document identification number DOC379 Document identification number DOC380 Document identification number DOC381 Document identification number DOC382 Document identification number DOC383 Document identification number DOC384 Document identification number DOC385 Document identification number DOC386 Document identification number DOC387 Document identification number DOC388 Document identification number DOC389 Document identification number DOC390 Document identification number DOC391 Document identification number DOC392 Document identification number DOC393 Document identification number DOC394 Document identification number DOC395 Document identification number DOC396 Document identification number DOC397 Document identification number DOC398 Document identification number DOC399 Document identification number DOC400 Document identification number DOC401 Document identification number DOC402 Document identification number DOC403 Document identification number DOC404 Document identification number DOC405 Document identification number DOC406 Document identification number DOC407 Document identification number DOC408 Document identification number DOC409 Document identification number DOC410 Document identification number DOC411 Document identification number DOC412 Document identification number DOC413 Document identification number DOC414 Document identification number DOC415 Document identification number DOC416 Document identification number DOC417 Document identification number DOC418 Document identification number DOC419 Document identification number DOC420 Document identification number DOC421 Document identification number DOC422 Document identification number DOC423 Document identification number DOC424 Document identification number DOC425 Document identification number DOC426 Document identification number DOC427 Document identification number DOC428 Document identification number DOC429 Document identification number DOC430 Document identification number DOC431 Document identification number DOC432 Document identification number DOC433 Document identification number DOC434 Document identification number DOC435 Document identification number DOC436 Document identification number DOC437 Document identification number DOC438 Document identification number DOC439 Document identification number DOC440 Document identification number DOC441 Document identification number DOC442 Document identification number DOC443 Document identification number DOC444 Document identification number DOC445 Document identification number DOC446 Document identification number DOC447 Document identification number DOC448 Document identification number DOC449 Document identification number DOC450 Document identification number DOC451 Document identification number DOC452 Document identification number DOC453 Document identification number DOC454 Document identification number DOC455 Document identification number DOC456 Document identification number DOC457 Document identification number DOC458 Document identification number DOC459 Document identification number DOC460 Document identification number DOC461 Document identification number DOC462 Document identification number DOC463 Document identification number DOC464 Document identification number DOC465 Document identification number DOC466 Document identification number DOC467 Document identification number DOC468 Document identification number DOC469 Document identification number DOC470 Document identification number DOC471 Document identification number DOC472 Document identification number DOC473 Document identification number DOC474 Document identification number DOC475 Document identification number DOC476 Document identification number DOC477 Document identification number DOC478 Document identification number DOC479 Document identification number DOC480 Document identification number DOC481 Document identification number DOC482 Document identification number DOC483 Document identification number DOC484 Document identification number DOC485 Document identification number DOC486 Document identification number DOC487 Document identification number DOC488 Document identification number DOC489 Document identification number DOC490 Document identification number DOC491 Document identification number DOC492 Document identification number DOC493 Document identification number DOC494 Document identification number DOC495 Document identification number DOC496 Document identification number DOC497 Document identification number DOC498 Document identification number DOC499 Document identification number DOC500 Document identification number DOC501 Document identification number DOC502 Document identification number DOC503 Document identification number DOC504 Document identification number DOC505 Document identification number DOC506 Document identification number DOC507 Document identification number DOC508 Document identification number DOC509 Document identification number DOC510 Document identification number DOC511 Document identification number DOC512 Document identification number DOC513 Document identification number DOC514 Document identification number DOC515 Document identification number DOC516 Document identification number DOC517 Document identification number DOC518 Document identification number DOC519 Document identification number DOC520 Document identification number DOC521 Document identification number DOC522 Document identification number DOC523 Document identification number DOC524 Document identification number DOC525 Document identification number DOC526 Document identification number DOC527 Document identification number DOC528 Document identification number DOC529 Document identification number DOC530 Document identification number DOC531 Document identification number DOC532 Document identification number DOC533 Document identification number DOC534 Document identification number DOC535 Document identification number DOC536 Document identification number DOC537 Document identification number DOC538 Document identification number DOC539 Document identification number DOC540 Document identification number DOC541 Document identification number DOC542 Document identification number DOC543 Document identification number DOC544 Document identification number DOC545 Document identification number DOC546 Document identification number DOC547 Document identification number DOC548 Document identification number DOC549 Document identification number DOC550 Document identification number DOC551 Document identification number DOC552 Document identification number DOC553 Document identification number DOC554 Document identification number DOC555 Document identification number DOC556 Document identification number DOC557 Document identification number DOC558 Document identification number DOC559 Document identification number DOC560 Document identification number DOC561 Document identification number DOC562 Document identification number DOC563 Document identification number DOC564 Document identification number DOC565 Document identification number DOC566 Document identification number DOC567 Document identification number DOC568 Document identification number DOC569 Document identification number DOC570 Document identification number DOC571 Document identification number DOC572 Document identification number DOC573 Document identification number DOC574 Document identification number DOC575 Document identification number DOC576 Document identification number DOC577 Document identification number DOC578 Document identification number DOC579 Document identification number DOC580 Document identification number DOC581 Document identification number DOC582 Document identification number DOC583 Document identification number DOC584 Document identification number DOC585 Document identification number DOC586 Document identification number DOC587 Document identification number DOC588 Document identification number DOC589 Document identification number DOC590 Document identification number DOC591 Document identification number DOC592 Document identification number DOC593 Document identification number DOC594 Document identification number DOC595 Document identification number DOC596 Document identification number DOC597 Document identification number DOC598 Document identification number DOC599 Document identification number DOC600 Document identification number DOC601 Document identification number DOC602 Document identification number DOC603 Document identification number DOC604 Document identification number DOC605 Document identification number DOC606 Document identification number DOC607 Document identification number DOC608 Document identification number DOC609 Document identification number DOC610 Document identification number DOC611 Document identification number DOC612 Document identification number DOC613 Document identification number DOC614 Document identification number DOC615 Document identification number DOC616 Document identification number DOC617 Document identification number DOC618 Document identification number DOC619 Document identification number DOC620 Document identification number DOC621 Document identification number DOC622 Document identification number DOC623 Document identification number DOC624 Document identification number DOC625 Document identification number DOC626 Document identification number DOC627 Document identification number DOC628 Document identification number DOC629 Document identification number DOC630 Document identification number DOC631 Document identification number DOC632 Document identification number DOC633 Document identification number DOC634 Document identification number DOC635 Document identification number DOC636 Document identification number DOC637 Document identification number DOC638 Document identification number DOC639 Document identification number DOC640 Document identification number DOC641 Document identification number DOC642 Document identification number DOC643 Document identification number DOC644 Document identification number DOC645 Document identification number DOC646 Document identification number DOC647 Document identification number DOC648 Document identification number DOC649 Document identification number DOC650 Document identification number DOC651 Document identification number DOC652 Document identification number DOC653 Document identification number DOC654 Document identification number DOC655 Document identification number DOC656 Document identification number DOC657 Document identification number DOC658 Document identification number DOC659 Document identification number DOC660 Document identification number DOC661 Document identification number DOC662 Document identification number DOC663 Document identification number DOC664 Document identification number DOC665 Document identification number DOC666 Document identification number DOC667 Document identification number DOC668 Document identification number DOC669 Document identification number DOC670 Document identification number DOC671 Document identification number DOC672 Document identification number DOC673 Document identification number DOC674 Document identification number DOC675 Document identification number DOC676 Document identification number DOC677 Document identification number DOC678 Document identification number DOC679 Document identification number DOC680 Document identification number DOC681 Document identification number DOC682 Document identification number DOC683 Document identification number DOC684 Document identification number DOC685 Document identification number DOC686 Document identification number DOC687 Document identification number DOC688 Document identification number DOC689 Document identification number DOC690 Document identification number DOC691 Document identification number DOC692 Document identification number DOC693 Document identification number DOC694 Document identification number DOC695 Document identification number DOC696 Document identification number DOC697 Document identification number DOC698 Document identification number DOC699 Document identification number DOC700 Document identification number DOC701 Document identification number DOC702 Document identification number DOC703 Document identification number DOC704 Document identification number DOC705 Document identification number DOC706 Document identification number DOC707 Document identification number DOC708 Document identification number DOC709 Document identification number DOC710 Document identification number DOC711 Document identification number DOC712 Document identification number DOC713 Document identification number DOC714 Document identification number DOC715 Document identification number DOC716 Document identification number DOC717 Document identification number DOC718 Document identification number DOC719 Document identification number DOC720 Document identification number DOC721 Document identification number DOC722 Document identification number DOC723 Document identification number DOC724 Document identification number DOC725 Document identification number DOC726 Document identification number DOC727 Document identification number DOC728 Document identification number DOC729 Document identification number DOC730 Document identification number DOC731 Document identification number DOC732 Document identification number DOC733 Document identification number DOC734 Document identification number DOC735 Document identification number DOC736 Document identification number DOC737 Document identification number DOC738 Document identification number DOC739 Document identification number DOC740 Document identification number DOC741 Document identification number DOC742 Document identification number DOC743 Document identification number DOC744 Document identification number DOC745 Document identification number DOC746 Document identification number DOC747 Document identification number DOC748 Document identification number DOC749 Document identification number DOC750 Document identification number DOC751 Document identification number DOC752 Document identification number DOC753 Document identification number DOC754 Document identification number DOC755 Document identification number DOC756 Document identification number DOC757 Document identification number DOC758 Document identification number DOC759 Document identification number DOC760 Document identification number DOC761 Document identification number DOC762 Document identification number DOC763 Document identification number DOC764 Document identification number DOC765 Document identification number DOC766 Document identification number DOC767 Document identification number DOC768 Document identification number DOC769 Document identification number DOC770 Document identification number DOC771 Document identification number DOC772 Document identification number DOC773 Document identification number DOC774 Document identification number DOC775 Document identification number DOC776 Document identification number DOC777 Document identification number DOC778 Document identification number DOC779 Document identification number Doc 780 Document identification number Doc 781 Document identification number Doc 782 Document identification number Doc 783 Document identification number Doc 784 Document identification number Doc 785 Document identification number Doc 786 Document identification number Doc 787 Document identification number Doc 788 Document identification number Doc 789 Document identification number Doc 790 Document identification number Doc 791 Document identification number Doc 792 Document identification number Doc 793 Document identification number Doc 794 Document identification number Doc 795 Document identification number Doc 796 Document identification number Doc 797 Document identification number Doc 798 Document identification number Doc 799 Document identification number Doc 800 Document identification number Doc 801 Document identification number Doc 802 Document identification number Doc 803 Document identification number Doc 804 Document identification number Doc 805 Document identification number Doc 806 Document identification number Doc 807 Document identification number Doc 808 Document identification number Doc 809 Document identification number Doc 810 Document identification number Doc 811 Document identification number Doc 812 Document identification number Doc 813 Document identification number Doc 814 Document identification number Doc 815 Document identification number Doc 816 Document identification number Doc 817 Document identification number Doc 818 Document identification number Doc 819 Document identification number Doc 820 Document identification number Doc 821 Document identification number Doc 822 Document identification number Doc 823 Document identification number Doc 824 Document identification number Doc 825 Document identification number Doc 826 Document identification number Doc 827 Document identification number Doc 828 Document identification number Doc 829 Document identification number Doc 830 Document identification number Doc 831 Document identification number Doc 832 Document identification number Doc 833 Document identification number Doc 834 Document identification number Doc 835 Document identification number Doc 836 Document identification number Doc 837 Document identification number Doc 838 Document identification number Doc 839 Document identification number Doc 840 Document identification number Doc 841 Document identification number Doc 842 Document identification number Doc 843 Document identification number Doc 844 Document identification number Doc 845 Document identification number Doc 846 Document identification number Doc 847 Document identification number Doc 848 Document identification number Doc 849 Document identification number Doc 850 Document identification number Doc 851 Document identification number Doc 852 Document identification number Doc 853 Document identification number Doc 854 Document identification number Doc 855 Document identification number Doc 856 Document identification number Doc 857 Document identification number Doc 858 Document identification number Doc 859 Document identification number Doc 860 Document identification number Doc 861 Document identification number Doc 862 Document identification number Doc 863 Document identification number Doc 864 Document identification number Doc 865 Document identification number Doc 866 Document identification number Doc 867 Document identification number Doc 868 Document identification number Doc 869 Document identification number Doc 870 Document identification number Doc 871 Document identification number Doc 872 Document identification number Doc 873 Document identification number Doc 874 Document identification number Doc 875 Document identification number Doc 876 Document identification number Doc 877 Document identification number Doc 878 Document identification number Doc 879 Document identification number Doc 880 Document identification number Doc 881 Document identification number Doc 882 Document identification number Doc 883 Document identification number Doc 884 Document identification number Doc 885 Document identification number Doc 886 Document identification number Doc 887 Document identification number Doc 888 Document identification number Doc 889 Document identification number Doc 890 Document identification number Doc 891 Document identification number Doc 892 Document identification number Doc 893 Document identification number Doc 894 Document identification number Doc 895 Document identification number Doc 896 Document identification number Doc 897 Document identification number Doc 898 Document identification number Doc 899 Document identification number Doc 900 Document identification number Doc 901 Document identification number Doc 902 Document identification number Doc 903 Document identification number Doc 904 Document identification number Doc 905 Document identification number Doc 906 Document identification number Doc 907 Document identification number Doc 908 Document identification number Doc 909 Document identification number Doc 910 Document identification number Doc 911 Document identification number Doc 912 Document identification number Doc 913 Document identification number Doc 914 Document identification number Doc 915 Document identification number Doc 916 Document identification number Doc 917 Document identification number Doc 918 Document identification number Doc 919 Document identification number Doc 920 Document identification number Doc 921 Document identification number Doc 922 Document identification number Doc 923 Document identification number Doc 924 Document identification number Doc 925 Document identification number Doc 926 Document identification number Doc 927 Document identification number Doc 928 Document identification number Doc 929 Document identification number Doc 930 Document identification number Doc 931 Document identification number Doc 932 Document identification number Doc 933 Document identification number Doc 934 Document identification number Doc 935 Document identification number Doc 936 Document identification number Doc 937 Document identification number Doc 938 Document identification number Doc 939 Document identification number Doc 940 Document identification number Doc 941 Document identification number Doc 942 Document identification number Doc 943 Document identification number Doc 944 Document identification number Doc 945 Document identification number Doc 946 Document identification number Doc 947 Document identification number Doc 948 Document identification number Doc 949 Document identification number Doc 950 Document identification number Doc 951 Document identification number Doc 952 Document identification number Doc 953 Document identification number Doc 954 Document identification number Doc 955 Document identification number Doc 956 Document identification number Doc 957 Document identification number Doc 958 Document identification number Doc 959 Document identification number Doc 960 Document identification number Doc 961 Document identification number Doc 962 Document identification number Doc 963 Document identification number Doc 964 Document identification number Doc 965 Document identification number Doc 966 Document identification number Doc 967 Document identification number Doc 968 Document identification number Doc 969 Document identification number Doc 970 Document identification number Doc 971 Document identification number Doc 972 Document identification number Doc 973 Document identification number Doc 974 Document identification number Doc 975 Document identification number Doc 976 Document identification number Doc 977 Document identification number Doc 978 Document identification number Doc 979 Document identification number Doc 980 Document identification number Doc 981 Document identification number Doc 982 Document identification number Doc 983 Document identification number Doc 984 Document identification number Doc 985 Document identification number Doc 986 Document identification number Doc 987 Document identification number Doc 988 Document identification number Doc 989 Document identification number Doc 990 Document identification number Doc 991 Document identification number Doc 992 Document identification number Doc 993 Document identification number Doc 994 Document identification number",
+    "u_row_15": "",
+    "r_row_15": "",
+    "a_row_15": "",
+    "v_row_15": "",
+    "column_9_row_15": "",
+    "column_10_row_15": "",
+    "column_11_row_15": "",
+    "column_12_row_15": "",
+    "column_13_row_15": "",
+    "column_14_row_15": "",
+    "column_15_row_15": "",
+    "column_16_row_15": "",
+    "2_row_15": "",
+    "date_of_birth_incorporation_of_declarant_row_15": "",
+    "column_19_row_15": "",
+    "column_20_row_15": "",
+    "column_21_row_15": "",
+    "column_22_row_15": "",
+    "column_23_row_15": "",
+    "column_24_row_15": "",
+    "document_title_2": "Transaction Type:",
+    "investment_in_time_deposit": "",
+    "opening_an_account_other_than_savings_and_time_deposit": "",
+    "purchase_of_bank_drafts_or_pay_orders": "",
+    "payment_in_connection_with_travel_to_any_foreign_country": "",
+    "not_classified_above": "",
+    "deposit_in_cash": "",
+    "account_with_balance_exceeding_rs_50_000": "",
+    "application_for_issue_of_a_credit_or_debit_card": "",
+    "payment_for_purchase_or_remittance_outside_india": "",
+    "document_title_3": "Verification",
+    "place": "\\( {kO1}{kata} \\)",
+    "document_title_4": "Note:",
+    "unparsed_text_line_1": "#",
+    "unparsed_text_line_2": "HDFC BANK",
+    "unparsed_text_line_3": "We understand your world",
+    "unparsed_text_line_4": "INCOME-TAX RULES, 1962",
+    "unparsed_text_line_5": "Form for declaration to be filed by an individual or a person (not being a company or firm) who does not have a permanent account number and who enters into any transaction specified in rule 114B",
+    "unparsed_text_line_6": "1. Soutay Set 2008, as per the above, do hereby declare that what is stated above is true to the best of my knowledge and that I have not been told any other information about this set. I shall be grateful to the parents for their assistance in obtaining the data from the children and the minor child etc., as per section 64 of Income-tax Act 1981) computed with the provisions of Income-tax Act 1981 for the financial statements.",
+    "unparsed_text_line_7": "Verified today, the 24 day of May 20",
+    "unparsed_text_line_8": "Sourav Sen (greeture of Declarant)",
+    "unparsed_text_line_9": "1. Before signing the declaration, the deatment should sbodhly tell that the information furnished in this form is true, correct and complit in all respects. Any tions that are not true, correct or complit in all respect, will be considered as a matter of doubt. (i) In a case where taw-sought to be avaced exceeds twenty five such issues, with rigorous imputation which shall not be less than six months but no more than 12 months after the date of the declaration.",
+    "unparsed_text_line_10": "(ii) in any other case, with rigorous imprisonment which shall not be less than three months but which may extend to two years and with fine",
+    "unparsed_text_line_11": "2. The person accepting the declaration shall not accept the declaration where the amount of income of the nature referred to in item 22b exceeds the maximum amount which is not chargeable to tax, unless PAN is applied for and column 21 is duly filled."
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 48,
+      "total_prediction_fields": 385,
+      "matched_key_count": 10,
+      "correct_fields": 0,
+      "field_level_extraction_accuracy_pct": 0.0,
+      "matched_field_value_exact_match_pct": 0.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 0,
+      "false_positive": 80,
+      "false_negative": 43,
+      "precision_pct": 0.0,
+      "recall_pct": 0.0,
+      "f1_pct": 0.0,
+      "anls_pct": 0.0,
+      "anls_fields_scored": 43,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "leaf_normalized_exact": 1,
+        "fuzzy_lexical_leaf_fallback": 9
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Verification.Place",
+        "predicted_key": "place",
+        "ground_truth_value": "Kolkata",
+        "predicted_value": "\\( {kO1}{kata} \\)",
+        "normalized_ground_truth_value": "kolkata",
+        "normalized_predicted_value": "\\({ko1}{kata}\\)",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Transaction Type.14- Payment in connection with travel to any foreign country",
+        "predicted_key": "payment_in_connection_with_travel_to_any_foreign_country",
+        "ground_truth_value": "No",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "no",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Transaction Type.09- Opening an account (other than savings and time deposit)",
+        "predicted_key": "opening_an_account_other_than_savings_and_time_deposit",
+        "ground_truth_value": "No",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "no",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Transaction Type.15- Payment for purchase, or remittance outside India",
+        "predicted_key": "payment_for_purchase_or_remittance_outside_india",
+        "ground_truth_value": "No",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "no",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Transaction Type.12- Application for issue of a credit or debit card",
+        "predicted_key": "application_for_issue_of_a_credit_or_debit_card",
+        "ground_truth_value": "No",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "no",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Transaction Type.11- Purchase of bank drafts or pay orders",
+        "predicted_key": "purchase_of_bank_drafts_or_pay_orders",
+        "ground_truth_value": "No",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "no",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Transaction Type.05- Investment in time deposit",
+        "predicted_key": "investment_in_time_deposit",
+        "ground_truth_value": "No",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "no",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Date of Birth/ Incorporation of declarant",
+        "predicted_key": "date_of_birth_incorporation_of_declarant_row_1",
+        "ground_truth_value": "22/08/2005",
+        "predicted_value": "2",
+        "normalized_ground_truth_value": "22/08/2005",
+        "normalized_predicted_value": "2",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Transaction Type.22- Not classified above",
+        "predicted_key": "not_classified_above",
+        "ground_truth_value": "No",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "no",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Transaction Type.06- Deposit in cash",
+        "predicted_key": "deposit_in_cash",
+        "ground_truth_value": "Yes",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "yes",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "leaf_normalized_exact": 1,
+      "fuzzy_lexical_leaf_fallback": 9
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "First Name",
+      "ground_truth_value": "SOURAV"
+    },
+    {
+      "key": "Middle Name",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Surname",
+      "ground_truth_value": "SEN"
+    },
+    {
+      "key": "Father's Name (in case of individual)/ First Name",
+      "ground_truth_value": "ARKA"
+    },
+    {
+      "key": "Father's Middle Name",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Father's Surname",
+      "ground_truth_value": "SEN"
+    },
+    {
+      "key": "Flat/Room No",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Floor No",
+      "ground_truth_value": "1st"
+    },
+    {
+      "key": "Name of premises",
+      "ground_truth_value": "Lake Gardens Housing Complex"
+    },
+    {
+      "key": "Block Name/No",
+      "ground_truth_value": "D10"
+    },
+    {
+      "key": "Road/Street/Lane",
+      "ground_truth_value": "Prince Anwar Shah Road"
+    },
+    {
+      "key": "Area/Locality",
+      "ground_truth_value": "Lake Gardens Housing Complex"
+    },
+    {
+      "key": "Town/City",
+      "ground_truth_value": "Kolkata"
+    },
+    {
+      "key": "District",
+      "ground_truth_value": "Kolkata"
+    },
+    {
+      "key": "State",
+      "ground_truth_value": "West Bengal"
+    },
+    {
+      "key": "Pin code",
+      "ground_truth_value": "700045"
+    },
+    {
+      "key": "Telephone Number (wth STD code)",
+      "ground_truth_value": "033-23533997"
+    },
+    {
+      "key": "Mobile No",
+      "ground_truth_value": "+91 9800011223"
+    },
+    {
+      "key": "Amount of tansaction (Rs)",
+      "ground_truth_value": "6522"
+    },
+    {
+      "key": "Date of transaction",
+      "ground_truth_value": "24/05/2025"
+    },
+    {
+      "key": "In case of transaction in joint names, number of persons involved in the transaction",
+      "ground_truth_value": "3"
+    },
+    {
+      "key": "Mode of transaction",
+      "ground_truth_value": "Card"
+    },
+    {
+      "key": "Aadhaar Number issued by UIDAI (if available)",
+      "ground_truth_value": "472646912498"
+    },
+    {
+      "key": "If applied for PAN and it is not yet generated enter date of application and acknowedgement number",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Estimated Total Income.Agricultural income (Rs.)",
+      "ground_truth_value": "9523"
+    },
+    {
+      "key": "Estimated Total Income.Other than agricultural income (Rs)",
+      "ground_truth_value": "133756"
+    },
+    {
+      "key": "Details of document being produced in support of identify in Column 1.Document code",
+      "ground_truth_value": "C3"
+    },
+    {
+      "key": "Details of document being produced in support of identify in Column 1.Document identification number",
+      "ground_truth_value": "DOC23910"
+    },
+    {
+      "key": "Details of document being produced in support of identify in Column 1.Name and address of the authority issuing the document",
+      "ground_truth_value": "RTO"
+    },
+    {
+      "key": "Details of document being produced in support of address in Columns 4 to 13.Document code",
+      "ground_truth_value": "C3"
+    },
+    {
+      "key": "Details of document being produced in support of address in Columns 4 to 13.Document identification number",
+      "ground_truth_value": "DOC23910"
+    },
+    {
+      "key": "Details of document being produced in support of address in Columns 4 to 13.Name and address of the authority issuing the document",
+      "ground_truth_value": "RTO"
+    },
+    {
+      "key": "Transaction Type.10- Account with balance exceeding Rs. 50,000",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Verification.Name",
+      "ground_truth_value": "Sourav Sen"
+    },
+    {
+      "key": "Verification.Verified today.Date",
+      "ground_truth_value": "24"
+    },
+    {
+      "key": "Verification.Verified today.Month",
+      "ground_truth_value": "May"
+    },
+    {
+      "key": "Verification.Verified today.Year",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Verification.Signature of Declarant",
+      "ground_truth_value": "Sourav Sen"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "\\*FORM NO. 60 [See second proviso to rule 114B]"
+    },
+    {
+      "key": "row_1",
+      "predicted_value": "Middle Name"
+    },
+    {
+      "key": "first_name_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "o_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "u_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "r_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "a_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "v_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_9_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_10_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_11_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_12_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_13_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_14_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_15_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_16_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "2_row_1",
+      "predicted_value": "2"
+    },
+    {
+      "key": "column_19_row_1",
+      "predicted_value": "0"
+    },
+    {
+      "key": "column_20_row_1",
+      "predicted_value": "8"
+    },
+    {
+      "key": "column_21_row_1",
+      "predicted_value": "2"
+    },
+    {
+      "key": "column_22_row_1",
+      "predicted_value": "0"
+    },
+    {
+      "key": "column_23_row_1",
+      "predicted_value": "0"
+    },
+    {
+      "key": "column_24_row_1",
+      "predicted_value": "5"
+    },
+    {
+      "key": "row_2",
+      "predicted_value": "Surname"
+    },
+    {
+      "key": "first_name_row_2",
+      "predicted_value": "S"
+    },
+    {
+      "key": "s_row_2",
+      "predicted_value": "E"
+    },
+    {
+      "key": "o_row_2",
+      "predicted_value": "N"
+    },
+    {
+      "key": "u_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "r_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "a_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "v_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_9_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_10_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_11_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_12_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_13_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_14_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_15_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_16_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "2_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth_incorporation_of_declarant_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_19_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_20_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_21_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_22_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_23_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_24_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_3",
+      "predicted_value": "3."
+    },
+    {
+      "key": "first_name_row_3",
+      "predicted_value": "Father's Name (in case of individual)"
+    },
+    {
+      "key": "s_row_3",
+      "predicted_value": "First Name"
+    },
+    {
+      "key": "o_row_3",
+      "predicted_value": "AIR"
+    },
+    {
+      "key": "u_row_3",
+      "predicted_value": "KA"
+    },
+    {
+      "key": "r_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "a_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "v_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_9_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_10_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_11_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_12_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_13_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_14_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_15_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_16_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "2_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth_incorporation_of_declarant_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_19_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_20_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_21_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_22_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_23_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_24_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_4",
+      "predicted_value": "Middle Name"
+    },
+    {
+      "key": "first_name_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "o_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "u_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "r_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "a_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "v_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_9_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_10_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_11_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_12_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_13_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_14_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_15_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_16_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "2_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth_incorporation_of_declarant_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_19_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_20_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_21_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_22_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_23_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_24_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_5",
+      "predicted_value": "Surname"
+    },
+    {
+      "key": "first_name_row_5",
+      "predicted_value": "S"
+    },
+    {
+      "key": "s_row_5",
+      "predicted_value": "EN"
+    },
+    {
+      "key": "o_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "u_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "r_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "a_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "v_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_9_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_10_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_11_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_12_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_13_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_14_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_15_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_16_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "2_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth_incorporation_of_declarant_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_19_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_20_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_21_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_22_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_23_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_24_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_6",
+      "predicted_value": "4."
+    },
+    {
+      "key": "first_name_row_6",
+      "predicted_value": "Flial Room No."
+    },
+    {
+      "key": "s_row_6",
+      "predicted_value": "5. Floor No. 1ST"
+    },
+    {
+      "key": "o_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "u_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "r_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "a_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "v_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_9_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_10_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_11_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_12_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_13_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_14_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_15_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_16_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "2_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth_incorporation_of_declarant_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_19_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_20_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_21_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_22_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_23_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_24_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_7",
+      "predicted_value": "6."
+    },
+    {
+      "key": "first_name_row_7",
+      "predicted_value": "Name of premises Lake Grangeons Housing Camp"
+    },
+    {
+      "key": "s_row_7",
+      "predicted_value": "7. Block Name/No. D10"
+    },
+    {
+      "key": "o_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "u_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "r_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "a_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "v_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_9_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_10_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_11_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_12_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_13_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_14_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_15_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_16_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "2_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth_incorporation_of_declarant_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_19_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_20_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_21_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_22_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_23_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_24_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_8",
+      "predicted_value": "8."
+    },
+    {
+      "key": "first_name_row_8",
+      "predicted_value": "Road / Street / Lane Principe Anwar Shah Road"
+    },
+    {
+      "key": "s_row_8",
+      "predicted_value": "8. Area/Locality Lake Gondar/Douglas Housing Camp"
+    },
+    {
+      "key": "o_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "u_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "r_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "a_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "v_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_9_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_10_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_11_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_12_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_13_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_14_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_15_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_16_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "2_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth_incorporation_of_declarant_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_19_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_20_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_21_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_22_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_23_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_24_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_9",
+      "predicted_value": "10."
+    },
+    {
+      "key": "first_name_row_9",
+      "predicted_value": "Town/City Kokala"
+    },
+    {
+      "key": "s_row_9",
+      "predicted_value": "9. District/Kolkata"
+    },
+    {
+      "key": "o_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "u_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "r_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "a_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "v_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_9_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_10_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_11_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_12_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_13_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_14_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_15_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_16_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "2_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth_incorporation_of_declarant_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_19_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_20_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_21_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_22_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_23_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_24_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_10",
+      "predicted_value": "13."
+    },
+    {
+      "key": "first_name_row_10",
+      "predicted_value": "Pin code 700045 14 Telephone Number (with STD code) 83333333 15"
+    },
+    {
+      "key": "s_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "o_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "u_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "r_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "a_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "v_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_9_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_10_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_11_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_12_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_13_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_14_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_15_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_16_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "2_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth_incorporation_of_declarant_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_19_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_20_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_21_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_22_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_23_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_24_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_11",
+      "predicted_value": "16."
+    },
+    {
+      "key": "first_name_row_11",
+      "predicted_value": "Amount of transaction (Rs.):"
+    },
+    {
+      "key": "s_row_11",
+      "predicted_value": "6"
+    },
+    {
+      "key": "o_row_11",
+      "predicted_value": "5"
+    },
+    {
+      "key": "u_row_11",
+      "predicted_value": "2"
+    },
+    {
+      "key": "r_row_11",
+      "predicted_value": "2"
+    },
+    {
+      "key": "a_row_11",
+      "predicted_value": "1"
+    },
+    {
+      "key": "v_row_11",
+      "predicted_value": "18. In case of transaction in joint names, number of persons involved in the transaction:"
+    },
+    {
+      "key": "column_9_row_11",
+      "predicted_value": "3"
+    },
+    {
+      "key": "column_10_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_11_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_12_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_13_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_14_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_15_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_16_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "2_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth_incorporation_of_declarant_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_19_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_20_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_21_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_22_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_23_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_24_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_12",
+      "predicted_value": "17."
+    },
+    {
+      "key": "first_name_row_12",
+      "predicted_value": "Date of transaction"
+    },
+    {
+      "key": "s_row_12",
+      "predicted_value": "24"
+    },
+    {
+      "key": "o_row_12",
+      "predicted_value": "05"
+    },
+    {
+      "key": "u_row_12",
+      "predicted_value": "2"
+    },
+    {
+      "key": "r_row_12",
+      "predicted_value": "0"
+    },
+    {
+      "key": "a_row_12",
+      "predicted_value": "25"
+    },
+    {
+      "key": "v_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_9_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_10_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_11_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_12_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_13_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_14_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_15_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_16_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "2_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth_incorporation_of_declarant_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_19_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_20_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_21_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_22_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_23_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_24_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_13",
+      "predicted_value": "19."
+    },
+    {
+      "key": "first_name_row_13",
+      "predicted_value": "Mode of transaction"
+    },
+    {
+      "key": "s_row_13",
+      "predicted_value": "Cash"
+    },
+    {
+      "key": "o_row_13",
+      "predicted_value": "Check, Check, Card"
+    },
+    {
+      "key": "u_row_13",
+      "predicted_value": "Draf Banker's Cheque, COnline transfer, COther"
+    },
+    {
+      "key": "r_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "a_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "v_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_9_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_10_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_11_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_12_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_13_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_14_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_15_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_16_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "2_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth_incorporation_of_declarant_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_19_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_20_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_21_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_22_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_23_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_24_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_14",
+      "predicted_value": "20."
+    },
+    {
+      "key": "first_name_row_14",
+      "predicted_value": "Aadhaar Number issued by UDAI (if available):"
+    },
+    {
+      "key": "s_row_14",
+      "predicted_value": "47 264963 12 4938"
+    },
+    {
+      "key": "o_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "u_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "r_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "a_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "v_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_9_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_10_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_11_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_12_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_13_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_14_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_15_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_16_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "2_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth_incorporation_of_declarant_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_19_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_20_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_21_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_22_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_23_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_24_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "row_15",
+      "predicted_value": "21."
+    },
+    {
+      "key": "first_name_row_15",
+      "predicted_value": "If applied for PAN and it is not yet generated enter date of application and acknowledgement number:"
+    },
+    {
+      "key": "s_row_15",
+      "predicted_value": "D D D D D M Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y YY Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y.Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY YY YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYyyYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYyy YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzZZzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz. 22."
+    },
+    {
+      "key": "o_row_15",
+      "predicted_value": "Document identification number DOC23 Document identification number DOC24 Document identification number DOC25 Document identification number DOC26 Document identification number DOC27 Document identification number DOC28 Document identification number DOC29 Document identification number DOC30 Document identification number DOC31 Document identification number DOC32 Document identification number DOC33 Document identification number DOC34 Document identification number DOC35 Document identification number DOC36 Document identification number DOC37 Document identification number DOC38 Document identification number DOC39 Document identification number DOC40 Document identification number DOC41 Document identification number DOC42 Document identification number DOC43 Document identification number DOC44 Document identification number DOC45 Document identification number DOC46 Document identification number DOC47 Document identification number DOC48 Document identification number DOC49 Document identification number DOC50 Document identification number DOC51 Document identification number DOC52 Document identification number DOC53 Document identification number DOC54 Document identification number DOC55 Document identification number DOC56 Document identification number DOC57 Document identification number DOC58 Document identification number DOC59 Document identification number DOC60 Document identification number DOC61 Document identification number DOC62 Document identification number DOC63 Document identification number DOC64 Document identification number DOC65 Document identification number DOC66 Document identification number DOC67 Document identification number DOC68 Document identification number DOC69 Document identification number DOC70 Document identification number DOC71 Document identification number DOC72 Document identification number DOC73 Document identification number DOC74 Document identification number DOC75 Document identification number DOC76 Document identification number DOC77 Document identification number DOC78 Document identification number DOC79 Document identification number DOC80 Document identification number DOC81 Document identification number DOC82 Document identification number DOC83 Document identification number DOC84 Document identification number DOC85 Document identification number DOC86 Document identification number DOC87 Document identification number DOC88 Document identification number DOC89 Document identification number DOC90 Document identification number DOC91 Document identification number DOC92 Document identification number DOC93 Document identification number DOC94 Document identification number DOC95 Document identification number DOC96 Document identification number DOC97 Document identification number DOC98 Document identification number DOC99 Document identification number DOC100 Document identification number DOC101 Document identification number DOC102 Document identification number DOC103 Document identification number DOC104 Document identification number DOC105 Document identification number DOC106 Document identification number DOC107 Document identification number DOC108 Document identification number DOC109 Document identification number DOC110 Document identification number DOC111 Document identification number DOC112 Document identification number DOC113 Document identification number DOC114 Document identification number DOC115 Document identification number DOC116 Document identification number DOC117 Document identification number DOC118 Document identification number DOC119 Document identification number DOC120 Document identification number DOC121 Document identification number DOC122 Document identification number DOC123 Document identification number DOC124 Document identification number DOC125 Document identification number DOC126 Document identification number DOC127 Document identification number DOC128 Document identification number DOC129 Document identification number DOC130 Document identification number DOC131 Document identification number DOC132 Document identification number DOC133 Document identification number DOC134 Document identification number DOC135 Document identification number DOC136 Document identification number DOC137 Document identification number DOC138 Document identification number DOC139 Document identification number DOC140 Document identification number DOC141 Document identification number DOC142 Document identification number DOC143 Document identification number DOC144 Document identification number DOC145 Document identification number DOC146 Document identification number DOC147 Document identification number DOC148 Document identification number DOC149 Document identification number DOC150 Document identification number DOC151 Document identification number DOC152 Document identification number DOC153 Document identification number DOC154 Document identification number DOC155 Document identification number DOC156 Document identification number DOC157 Document identification number DOC158 Document identification number DOC159 Document identification number DOC160 Document identification number DOC161 Document identification number DOC162 Document identification number DOC163 Document identification number DOC164 Document identification number DOC165 Document identification number DOC166 Document identification number DOC167 Document identification number DOC168 Document identification number DOC169 Document identification number DOC170 Document identification number DOC171 Document identification number DOC172 Document identification number DOC173 Document identification number DOC174 Document identification number DOC175 Document identification number DOC176 Document identification number DOC177 Document identification number DOC178 Document identification number DOC179 Document identification number DOC180 Document identification number DOC181 Document identification number DOC182 Document identification number DOC183 Document identification number DOC184 Document identification number DOC185 Document identification number DOC186 Document identification number DOC187 Document identification number DOC188 Document identification number DOC189 Document identification number DOC190 Document identification number DOC191 Document identification number DOC192 Document identification number DOC193 Document identification number DOC194 Document identification number DOC195 Document identification number DOC196 Document identification number DOC197 Document identification number DOC198 Document identification number DOC199 Document identification number DOC200 Document identification number DOC201 Document identification number DOC202 Document identification number DOC203 Document identification number DOC204 Document identification number DOC205 Document identification number DOC206 Document identification number DOC207 Document identification number DOC208 Document identification number DOC209 Document identification number DOC210 Document identification number DOC211 Document identification number DOC212 Document identification number DOC213 Document identification number DOC214 Document identification number DOC215 Document identification number DOC216 Document identification number DOC217 Document identification number DOC218 Document identification number DOC219 Document identification number DOC220 Document identification number DOC221 Document identification number DOC222 Document identification number DOC223 Document identification number DOC224 Document identification number DOC225 Document identification number DOC226 Document identification number DOC227 Document identification number DOC228 Document identification number DOC229 Document identification number DOC230 Document identification number DOC231 Document identification number DOC232 Document identification number DOC233 Document identification number DOC234 Document identification number DOC235 Document identification number DOC236 Document identification number DOC237 Document identification number DOC238 Document identification number DOC239 Document identification number DOC240 Document identification number DOC241 Document identification number DOC242 Document identification number DOC243 Document identification number DOC244 Document identification number DOC245 Document identification number DOC246 Document identification number DOC247 Document identification number DOC248 Document identification number DOC249 Document identification number DOC250 Document identification number DOC251 Document identification number DOC252 Document identification number DOC253 Document identification number DOC254 Document identification number DOC255 Document identification number DOC256 Document identification number DOC257 Document identification number DOC258 Document identification number DOC259 Document identification number DOC260 Document identification number DOC261 Document identification number DOC262 Document identification number DOC263 Document identification number DOC264 Document identification number DOC265 Document identification number DOC266 Document identification number DOC267 Document identification number DOC268 Document identification number DOC269 Document identification number DOC270 Document identification number DOC271 Document identification number DOC272 Document identification number DOC273 Document identification number DOC274 Document identification number DOC275 Document identification number DOC276 Document identification number DOC277 Document identification number DOC278 Document identification number DOC279 Document identification number DOC280 Document identification number DOC281 Document identification number DOC282 Document identification number DOC283 Document identification number DOC284 Document identification number DOC285 Document identification number DOC286 Document identification number DOC287 Document identification number DOC288 Document identification number DOC289 Document identification number DOC290 Document identification number DOC291 Document identification number DOC292 Document identification number DOC293 Document identification number DOC294 Document identification number DOC295 Document identification number DOC296 Document identification number DOC297 Document identification number DOC298 Document identification number DOC299 Document identification number DOC300 Document identification number DOC301 Document identification number DOC302 Document identification number DOC303 Document identification number DOC304 Document identification number DOC305 Document identification number DOC306 Document identification number DOC307 Document identification number DOC308 Document identification number DOC309 Document identification number DOC310 Document identification number DOC311 Document identification number DOC312 Document identification number DOC313 Document identification number DOC314 Document identification number DOC315 Document identification number DOC316 Document identification number DOC317 Document identification number DOC318 Document identification number DOC319 Document identification number DOC320 Document identification number DOC321 Document identification number DOC322 Document identification number DOC323 Document identification number DOC324 Document identification number DOC325 Document identification number DOC326 Document identification number DOC327 Document identification number DOC328 Document identification number DOC329 Document identification number DOC330 Document identification number DOC331 Document identification number DOC332 Document identification number DOC333 Document identification number DOC334 Document identification number DOC335 Document identification number DOC336 Document identification number DOC337 Document identification number DOC338 Document identification number DOC339 Document identification number DOC340 Document identification number DOC341 Document identification number DOC342 Document identification number DOC343 Document identification number DOC344 Document identification number DOC345 Document identification number DOC346 Document identification number DOC347 Document identification number DOC348 Document identification number DOC349 Document identification number DOC350 Document identification number DOC351 Document identification number DOC352 Document identification number DOC353 Document identification number DOC354 Document identification number DOC355 Document identification number DOC356 Document identification number DOC357 Document identification number DOC358 Document identification number DOC359 Document identification number DOC360 Document identification number DOC361 Document identification number DOC362 Document identification number DOC363 Document identification number DOC364 Document identification number DOC365 Document identification number DOC366 Document identification number DOC367 Document identification number DOC368 Document identification number DOC369 Document identification number DOC370 Document identification number DOC371 Document identification number DOC372 Document identification number DOC373 Document identification number DOC374 Document identification number DOC375 Document identification number DOC376 Document identification number DOC377 Document identification number DOC378 Document identification number DOC379 Document identification number DOC380 Document identification number DOC381 Document identification number DOC382 Document identification number DOC383 Document identification number DOC384 Document identification number DOC385 Document identification number DOC386 Document identification number DOC387 Document identification number DOC388 Document identification number DOC389 Document identification number DOC390 Document identification number DOC391 Document identification number DOC392 Document identification number DOC393 Document identification number DOC394 Document identification number DOC395 Document identification number DOC396 Document identification number DOC397 Document identification number DOC398 Document identification number DOC399 Document identification number DOC400 Document identification number DOC401 Document identification number DOC402 Document identification number DOC403 Document identification number DOC404 Document identification number DOC405 Document identification number DOC406 Document identification number DOC407 Document identification number DOC408 Document identification number DOC409 Document identification number DOC410 Document identification number DOC411 Document identification number DOC412 Document identification number DOC413 Document identification number DOC414 Document identification number DOC415 Document identification number DOC416 Document identification number DOC417 Document identification number DOC418 Document identification number DOC419 Document identification number DOC420 Document identification number DOC421 Document identification number DOC422 Document identification number DOC423 Document identification number DOC424 Document identification number DOC425 Document identification number DOC426 Document identification number DOC427 Document identification number DOC428 Document identification number DOC429 Document identification number DOC430 Document identification number DOC431 Document identification number DOC432 Document identification number DOC433 Document identification number DOC434 Document identification number DOC435 Document identification number DOC436 Document identification number DOC437 Document identification number DOC438 Document identification number DOC439 Document identification number DOC440 Document identification number DOC441 Document identification number DOC442 Document identification number DOC443 Document identification number DOC444 Document identification number DOC445 Document identification number DOC446 Document identification number DOC447 Document identification number DOC448 Document identification number DOC449 Document identification number DOC450 Document identification number DOC451 Document identification number DOC452 Document identification number DOC453 Document identification number DOC454 Document identification number DOC455 Document identification number DOC456 Document identification number DOC457 Document identification number DOC458 Document identification number DOC459 Document identification number DOC460 Document identification number DOC461 Document identification number DOC462 Document identification number DOC463 Document identification number DOC464 Document identification number DOC465 Document identification number DOC466 Document identification number DOC467 Document identification number DOC468 Document identification number DOC469 Document identification number DOC470 Document identification number DOC471 Document identification number DOC472 Document identification number DOC473 Document identification number DOC474 Document identification number DOC475 Document identification number DOC476 Document identification number DOC477 Document identification number DOC478 Document identification number DOC479 Document identification number DOC480 Document identification number DOC481 Document identification number DOC482 Document identification number DOC483 Document identification number DOC484 Document identification number DOC485 Document identification number DOC486 Document identification number DOC487 Document identification number DOC488 Document identification number DOC489 Document identification number DOC490 Document identification number DOC491 Document identification number DOC492 Document identification number DOC493 Document identification number DOC494 Document identification number DOC495 Document identification number DOC496 Document identification number DOC497 Document identification number DOC498 Document identification number DOC499 Document identification number DOC500 Document identification number DOC501 Document identification number DOC502 Document identification number DOC503 Document identification number DOC504 Document identification number DOC505 Document identification number DOC506 Document identification number DOC507 Document identification number DOC508 Document identification number DOC509 Document identification number DOC510 Document identification number DOC511 Document identification number DOC512 Document identification number DOC513 Document identification number DOC514 Document identification number DOC515 Document identification number DOC516 Document identification number DOC517 Document identification number DOC518 Document identification number DOC519 Document identification number DOC520 Document identification number DOC521 Document identification number DOC522 Document identification number DOC523 Document identification number DOC524 Document identification number DOC525 Document identification number DOC526 Document identification number DOC527 Document identification number DOC528 Document identification number DOC529 Document identification number DOC530 Document identification number DOC531 Document identification number DOC532 Document identification number DOC533 Document identification number DOC534 Document identification number DOC535 Document identification number DOC536 Document identification number DOC537 Document identification number DOC538 Document identification number DOC539 Document identification number DOC540 Document identification number DOC541 Document identification number DOC542 Document identification number DOC543 Document identification number DOC544 Document identification number DOC545 Document identification number DOC546 Document identification number DOC547 Document identification number DOC548 Document identification number DOC549 Document identification number DOC550 Document identification number DOC551 Document identification number DOC552 Document identification number DOC553 Document identification number DOC554 Document identification number DOC555 Document identification number DOC556 Document identification number DOC557 Document identification number DOC558 Document identification number DOC559 Document identification number DOC560 Document identification number DOC561 Document identification number DOC562 Document identification number DOC563 Document identification number DOC564 Document identification number DOC565 Document identification number DOC566 Document identification number DOC567 Document identification number DOC568 Document identification number DOC569 Document identification number DOC570 Document identification number DOC571 Document identification number DOC572 Document identification number DOC573 Document identification number DOC574 Document identification number DOC575 Document identification number DOC576 Document identification number DOC577 Document identification number DOC578 Document identification number DOC579 Document identification number DOC580 Document identification number DOC581 Document identification number DOC582 Document identification number DOC583 Document identification number DOC584 Document identification number DOC585 Document identification number DOC586 Document identification number DOC587 Document identification number DOC588 Document identification number DOC589 Document identification number DOC590 Document identification number DOC591 Document identification number DOC592 Document identification number DOC593 Document identification number DOC594 Document identification number DOC595 Document identification number DOC596 Document identification number DOC597 Document identification number DOC598 Document identification number DOC599 Document identification number DOC600 Document identification number DOC601 Document identification number DOC602 Document identification number DOC603 Document identification number DOC604 Document identification number DOC605 Document identification number DOC606 Document identification number DOC607 Document identification number DOC608 Document identification number DOC609 Document identification number DOC610 Document identification number DOC611 Document identification number DOC612 Document identification number DOC613 Document identification number DOC614 Document identification number DOC615 Document identification number DOC616 Document identification number DOC617 Document identification number DOC618 Document identification number DOC619 Document identification number DOC620 Document identification number DOC621 Document identification number DOC622 Document identification number DOC623 Document identification number DOC624 Document identification number DOC625 Document identification number DOC626 Document identification number DOC627 Document identification number DOC628 Document identification number DOC629 Document identification number DOC630 Document identification number DOC631 Document identification number DOC632 Document identification number DOC633 Document identification number DOC634 Document identification number DOC635 Document identification number DOC636 Document identification number DOC637 Document identification number DOC638 Document identification number DOC639 Document identification number DOC640 Document identification number DOC641 Document identification number DOC642 Document identification number DOC643 Document identification number DOC644 Document identification number DOC645 Document identification number DOC646 Document identification number DOC647 Document identification number DOC648 Document identification number DOC649 Document identification number DOC650 Document identification number DOC651 Document identification number DOC652 Document identification number DOC653 Document identification number DOC654 Document identification number DOC655 Document identification number DOC656 Document identification number DOC657 Document identification number DOC658 Document identification number DOC659 Document identification number DOC660 Document identification number DOC661 Document identification number DOC662 Document identification number DOC663 Document identification number DOC664 Document identification number DOC665 Document identification number DOC666 Document identification number DOC667 Document identification number DOC668 Document identification number DOC669 Document identification number DOC670 Document identification number DOC671 Document identification number DOC672 Document identification number DOC673 Document identification number DOC674 Document identification number DOC675 Document identification number DOC676 Document identification number DOC677 Document identification number DOC678 Document identification number DOC679 Document identification number DOC680 Document identification number DOC681 Document identification number DOC682 Document identification number DOC683 Document identification number DOC684 Document identification number DOC685 Document identification number DOC686 Document identification number DOC687 Document identification number DOC688 Document identification number DOC689 Document identification number DOC690 Document identification number DOC691 Document identification number DOC692 Document identification number DOC693 Document identification number DOC694 Document identification number DOC695 Document identification number DOC696 Document identification number DOC697 Document identification number DOC698 Document identification number DOC699 Document identification number DOC700 Document identification number DOC701 Document identification number DOC702 Document identification number DOC703 Document identification number DOC704 Document identification number DOC705 Document identification number DOC706 Document identification number DOC707 Document identification number DOC708 Document identification number DOC709 Document identification number DOC710 Document identification number DOC711 Document identification number DOC712 Document identification number DOC713 Document identification number DOC714 Document identification number DOC715 Document identification number DOC716 Document identification number DOC717 Document identification number DOC718 Document identification number DOC719 Document identification number DOC720 Document identification number DOC721 Document identification number DOC722 Document identification number DOC723 Document identification number DOC724 Document identification number DOC725 Document identification number DOC726 Document identification number DOC727 Document identification number DOC728 Document identification number DOC729 Document identification number DOC730 Document identification number DOC731 Document identification number DOC732 Document identification number DOC733 Document identification number DOC734 Document identification number DOC735 Document identification number DOC736 Document identification number DOC737 Document identification number DOC738 Document identification number DOC739 Document identification number DOC740 Document identification number DOC741 Document identification number DOC742 Document identification number DOC743 Document identification number DOC744 Document identification number DOC745 Document identification number DOC746 Document identification number DOC747 Document identification number DOC748 Document identification number DOC749 Document identification number DOC750 Document identification number DOC751 Document identification number DOC752 Document identification number DOC753 Document identification number DOC754 Document identification number DOC755 Document identification number DOC756 Document identification number DOC757 Document identification number DOC758 Document identification number DOC759 Document identification number DOC760 Document identification number DOC761 Document identification number DOC762 Document identification number DOC763 Document identification number DOC764 Document identification number DOC765 Document identification number DOC766 Document identification number DOC767 Document identification number DOC768 Document identification number DOC769 Document identification number DOC770 Document identification number DOC771 Document identification number DOC772 Document identification number DOC773 Document identification number DOC774 Document identification number DOC775 Document identification number DOC776 Document identification number DOC777 Document identification number DOC778 Document identification number DOC779 Document identification number Doc 780 Document identification number Doc 781 Document identification number Doc 782 Document identification number Doc 783 Document identification number Doc 784 Document identification number Doc 785 Document identification number Doc 786 Document identification number Doc 787 Document identification number Doc 788 Document identification number Doc 789 Document identification number Doc 790 Document identification number Doc 791 Document identification number Doc 792 Document identification number Doc 793 Document identification number Doc 794 Document identification number Doc 795 Document identification number Doc 796 Document identification number Doc 797 Document identification number Doc 798 Document identification number Doc 799 Document identification number Doc 800 Document identification number Doc 801 Document identification number Doc 802 Document identification number Doc 803 Document identification number Doc 804 Document identification number Doc 805 Document identification number Doc 806 Document identification number Doc 807 Document identification number Doc 808 Document identification number Doc 809 Document identification number Doc 810 Document identification number Doc 811 Document identification number Doc 812 Document identification number Doc 813 Document identification number Doc 814 Document identification number Doc 815 Document identification number Doc 816 Document identification number Doc 817 Document identification number Doc 818 Document identification number Doc 819 Document identification number Doc 820 Document identification number Doc 821 Document identification number Doc 822 Document identification number Doc 823 Document identification number Doc 824 Document identification number Doc 825 Document identification number Doc 826 Document identification number Doc 827 Document identification number Doc 828 Document identification number Doc 829 Document identification number Doc 830 Document identification number Doc 831 Document identification number Doc 832 Document identification number Doc 833 Document identification number Doc 834 Document identification number Doc 835 Document identification number Doc 836 Document identification number Doc 837 Document identification number Doc 838 Document identification number Doc 839 Document identification number Doc 840 Document identification number Doc 841 Document identification number Doc 842 Document identification number Doc 843 Document identification number Doc 844 Document identification number Doc 845 Document identification number Doc 846 Document identification number Doc 847 Document identification number Doc 848 Document identification number Doc 849 Document identification number Doc 850 Document identification number Doc 851 Document identification number Doc 852 Document identification number Doc 853 Document identification number Doc 854 Document identification number Doc 855 Document identification number Doc 856 Document identification number Doc 857 Document identification number Doc 858 Document identification number Doc 859 Document identification number Doc 860 Document identification number Doc 861 Document identification number Doc 862 Document identification number Doc 863 Document identification number Doc 864 Document identification number Doc 865 Document identification number Doc 866 Document identification number Doc 867 Document identification number Doc 868 Document identification number Doc 869 Document identification number Doc 870 Document identification number Doc 871 Document identification number Doc 872 Document identification number Doc 873 Document identification number Doc 874 Document identification number Doc 875 Document identification number Doc 876 Document identification number Doc 877 Document identification number Doc 878 Document identification number Doc 879 Document identification number Doc 880 Document identification number Doc 881 Document identification number Doc 882 Document identification number Doc 883 Document identification number Doc 884 Document identification number Doc 885 Document identification number Doc 886 Document identification number Doc 887 Document identification number Doc 888 Document identification number Doc 889 Document identification number Doc 890 Document identification number Doc 891 Document identification number Doc 892 Document identification number Doc 893 Document identification number Doc 894 Document identification number Doc 895 Document identification number Doc 896 Document identification number Doc 897 Document identification number Doc 898 Document identification number Doc 899 Document identification number Doc 900 Document identification number Doc 901 Document identification number Doc 902 Document identification number Doc 903 Document identification number Doc 904 Document identification number Doc 905 Document identification number Doc 906 Document identification number Doc 907 Document identification number Doc 908 Document identification number Doc 909 Document identification number Doc 910 Document identification number Doc 911 Document identification number Doc 912 Document identification number Doc 913 Document identification number Doc 914 Document identification number Doc 915 Document identification number Doc 916 Document identification number Doc 917 Document identification number Doc 918 Document identification number Doc 919 Document identification number Doc 920 Document identification number Doc 921 Document identification number Doc 922 Document identification number Doc 923 Document identification number Doc 924 Document identification number Doc 925 Document identification number Doc 926 Document identification number Doc 927 Document identification number Doc 928 Document identification number Doc 929 Document identification number Doc 930 Document identification number Doc 931 Document identification number Doc 932 Document identification number Doc 933 Document identification number Doc 934 Document identification number Doc 935 Document identification number Doc 936 Document identification number Doc 937 Document identification number Doc 938 Document identification number Doc 939 Document identification number Doc 940 Document identification number Doc 941 Document identification number Doc 942 Document identification number Doc 943 Document identification number Doc 944 Document identification number Doc 945 Document identification number Doc 946 Document identification number Doc 947 Document identification number Doc 948 Document identification number Doc 949 Document identification number Doc 950 Document identification number Doc 951 Document identification number Doc 952 Document identification number Doc 953 Document identification number Doc 954 Document identification number Doc 955 Document identification number Doc 956 Document identification number Doc 957 Document identification number Doc 958 Document identification number Doc 959 Document identification number Doc 960 Document identification number Doc 961 Document identification number Doc 962 Document identification number Doc 963 Document identification number Doc 964 Document identification number Doc 965 Document identification number Doc 966 Document identification number Doc 967 Document identification number Doc 968 Document identification number Doc 969 Document identification number Doc 970 Document identification number Doc 971 Document identification number Doc 972 Document identification number Doc 973 Document identification number Doc 974 Document identification number Doc 975 Document identification number Doc 976 Document identification number Doc 977 Document identification number Doc 978 Document identification number Doc 979 Document identification number Doc 980 Document identification number Doc 981 Document identification number Doc 982 Document identification number Doc 983 Document identification number Doc 984 Document identification number Doc 985 Document identification number Doc 986 Document identification number Doc 987 Document identification number Doc 988 Document identification number Doc 989 Document identification number Doc 990 Document identification number Doc 991 Document identification number Doc 992 Document identification number Doc 993 Document identification number Doc 994 Document identification number"
+    },
+    {
+      "key": "u_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "r_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "a_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "v_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_9_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_10_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_11_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_12_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_13_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_14_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_15_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_16_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "2_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "date_of_birth_incorporation_of_declarant_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_19_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_20_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_21_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_22_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_23_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_24_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "document_title_2",
+      "predicted_value": "Transaction Type:"
+    },
+    {
+      "key": "account_with_balance_exceeding_rs_50_000",
+      "predicted_value": ""
+    },
+    {
+      "key": "document_title_3",
+      "predicted_value": "Verification"
+    },
+    {
+      "key": "document_title_4",
+      "predicted_value": "Note:"
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "#"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "HDFC BANK"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "We understand your world"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "INCOME-TAX RULES, 1962"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "Form for declaration to be filed by an individual or a person (not being a company or firm) who does not have a permanent account number and who enters into any transaction specified in rule 114B"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "1. Soutay Set 2008, as per the above, do hereby declare that what is stated above is true to the best of my knowledge and that I have not been told any other information about this set. I shall be grateful to the parents for their assistance in obtaining the data from the children and the minor child etc., as per section 64 of Income-tax Act 1981) computed with the provisions of Income-tax Act 1981 for the financial statements."
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "Verified today, the 24 day of May 20"
+    },
+    {
+      "key": "unparsed_text_line_8",
+      "predicted_value": "Sourav Sen (greeture of Declarant)"
+    },
+    {
+      "key": "unparsed_text_line_9",
+      "predicted_value": "1. Before signing the declaration, the deatment should sbodhly tell that the information furnished in this form is true, correct and complit in all respects. Any tions that are not true, correct or complit in all respect, will be considered as a matter of doubt. (i) In a case where taw-sought to be avaced exceeds twenty five such issues, with rigorous imputation which shall not be less than six months but no more than 12 months after the date of the declaration."
+    },
+    {
+      "key": "unparsed_text_line_10",
+      "predicted_value": "(ii) in any other case, with rigorous imprisonment which shall not be less than three months but which may extend to two years and with fine"
+    },
+    {
+      "key": "unparsed_text_line_11",
+      "predicted_value": "2. The person accepting the declaration shall not accept the declaration where the amount of income of the nature referred to in item 22b exceeds the maximum amount which is not chargeable to tax, unless PAN is applied for and column 21 is duly filled."
+    }
+  ]
+}

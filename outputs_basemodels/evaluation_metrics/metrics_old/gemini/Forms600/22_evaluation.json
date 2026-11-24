@@ -1,0 +1,525 @@
+{
+  "file": "22.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Train No. & Name": "",
+    "Date of Journey": "18-06-2025",
+    "Class": "SL",
+    "No. of Berth/Seats": "2",
+    "Station From": "Pune",
+    "To": "Patna",
+    "Boarding at": "Pune",
+    "Reservation Upto": "Patna",
+    "Passenger 1.Name in Block Letters (not more than 15 Characters)": "AMIT PATEL",
+    "Passenger 1.Gender(M/F)": "M",
+    "Passenger 1.Age": "20",
+    "Passenger 1.Concession/Travel Authority No": "TRV-2025-4",
+    "Passenger 1.Berth Choice Lower/Upper": "Middle",
+    "Passenger 1.Veg/Non-Veg.for Rajdhani Shatabi Exp Only": "Non-Veg",
+    "Passenger 2.Name in Block Letters (not more than 15 Characters)": "DEEPAK REDDY",
+    "Passenger 2.Gender(M/F)": "M",
+    "Passenger 2.Age": "20",
+    "Passenger 2.Concession/Travel Authority No": "TRV-2025-7",
+    "Passenger 2.Berth Choice Lower/Upper": "Side Upper",
+    "Passenger 2.Veg/Non-Veg.for Rajdhani Shatabi Exp Only": "Non-Veg",
+    "Childern below 5 years (Fo whom ticket is not to be issued).Name in block letters children": "",
+    "Childern below 5 years (Fo whom ticket is not to be issued).Gender M/F children": "",
+    "Childern below 5 years (Fo whom ticket is not to be issued).Age children": "",
+    "Onward/Return Journey Details.Train No. & Name": "12621 Tamil Nadu Express",
+    "Onward/Return Journey Details.Date of Journey": "18-06-2025",
+    "Onward/Return Journey Details.Class": "SL",
+    "Onward/Return Journey Details.No. of Berths/Seats": "",
+    "Onward/Return Journey Details.Station From": "Pune",
+    "Onward/Return Journey Details.To": "Patna",
+    "Onward/Return Journey Details.Name of Applicant": "Priyabrata Chakraborty",
+    "Onward/Return Journey Details.Full Address": "Flat 8A, Ramakrishna Nagar, Near Ramakrishna Mission, Golpark, Kolkata, West Bengal - 700029",
+    "Onward/Return Journey Details.Signature of the Applicant/Representative": "",
+    "Onward/Return Journey Details.Tel /Mob.No. if any": "+91-9831456789",
+    "Onward/Return Journey Details.Date": "31-05-2025",
+    "Onward/Return Journey Details.Time": "05:29",
+    "For Official Use Only.S.No. Requisition": "REQ-2025-83061",
+    "For Official Use Only.PNR No": "5702367000",
+    "For Official Use Only.Berth /Seat No": "",
+    "For Official Use Only.Amount Collected": "728",
+    "For Official Use Only.Signature of Reservation Clerk": ""
+  },
+  "predictions_flattened": {
+    "south_central_railway": "South Central Railway",
+    "com_744_fhet_rev": "Com.744/FHET (Rev)",
+    "medical_practitioner_tick": "",
+    "sr_citizen_concession_yes_no": "",
+    "upgrade_without_extra_charge_yes_no": "",
+    "train_no_name": "",
+    "date_of_journey": "18-06-2025",
+    "class": "SL",
+    "no_of_berths_seats": "2",
+    "station_from": "Pune",
+    "to": "Patna",
+    "boarding_at": "Pune",
+    "reservation_upto": "Patna",
+    "s_no_1_name": "AMIT PATEL",
+    "s_no_1_gender_mf": "M",
+    "s_no_1_age": "20",
+    "s_no_1_concession_travel_authority_no": "TRY-2025-4",
+    "s_no_1_berth_choice": "Middle",
+    "s_no_1_veg_non_veg": "Non-Veg",
+    "s_no_2_name": "DEEPAK REDDY",
+    "s_no_2_gender_mf": "M",
+    "s_no_2_age": "20",
+    "s_no_2_concession_travel_authority_no": "TRY-2025-7",
+    "s_no_2_berth_choice": "Side Upper",
+    "s_no_2_veg_non_veg": "Non-Veg",
+    "s_no_3_name": "",
+    "s_no_3_gender_mf": "",
+    "s_no_3_age": "",
+    "s_no_3_concession_travel_authority_no": "",
+    "s_no_3_berth_choice": "",
+    "s_no_3_veg_non_veg": "",
+    "s_no_4_name": "",
+    "s_no_4_gender_mf": "",
+    "s_no_4_age": "",
+    "s_no_4_concession_travel_authority_no": "",
+    "s_no_4_berth_choice": "",
+    "s_no_4_veg_non_veg": "",
+    "s_no_5_name": "",
+    "s_no_5_gender_mf": "",
+    "s_no_5_age": "",
+    "s_no_5_concession_travel_authority_no": "",
+    "s_no_5_berth_choice": "",
+    "s_no_5_veg_non_veg": "",
+    "s_no_6_name": "",
+    "s_no_6_gender_mf": "",
+    "s_no_6_age": "",
+    "s_no_6_concession_travel_authority_no": "",
+    "s_no_6_berth_choice": "",
+    "s_no_6_veg_non_veg": "",
+    "children_below_5_years_s_no_1": "",
+    "children_below_5_years_name_1": "",
+    "children_below_5_years_gender_1": "",
+    "children_below_5_years_age_1": "",
+    "onward_return_train_no_name": "12621 Tamil Nadu Express",
+    "onward_return_date_of_journey": "18-06-2025",
+    "onward_return_class": "SL",
+    "onward_return_no_of_berths_seats": "",
+    "onward_return_station_from": "Pune",
+    "onward_return_to": "Patna",
+    "name_of_applicant": "Priyabrata Cha Kra brty",
+    "full_address": "Flat 8A, Ramkrishna Nagep Near Ramakrishna Mission, Gol Park Kolkata, West Bengal - 700029",
+    "tel_mob_no": "+91-9831456789",
+    "date": "31-5-2025",
+    "time": "05:29",
+    "s_no_requisition": "REQ-2025-83061",
+    "pnr_no": "5702367000",
+    "berth_seat_no": "",
+    "amount_collected": "726"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 40,
+      "total_prediction_fields": 68,
+      "matched_key_count": 17,
+      "correct_fields": 10,
+      "field_level_extraction_accuracy_pct": 25.0,
+      "matched_field_value_exact_match_pct": 58.82,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 9,
+      "false_positive": 25,
+      "false_negative": 23,
+      "precision_pct": 26.47,
+      "recall_pct": 28.12,
+      "f1_pct": 27.27,
+      "anls_pct": 44.55,
+      "anls_fields_scored": 32,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 6,
+        "leaf_normalized_exact": 7,
+        "fuzzy_lexical_leaf_fallback": 4
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Onward/Return Journey Details.Name of Applicant",
+        "predicted_key": "name_of_applicant",
+        "ground_truth_value": "Priyabrata Chakraborty",
+        "predicted_value": "Priyabrata Cha Kra brty",
+        "normalized_ground_truth_value": "priyabratachakraborty",
+        "normalized_predicted_value": "priyabratachakrabrty",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Onward/Return Journey Details.Full Address",
+        "predicted_key": "full_address",
+        "ground_truth_value": "Flat 8A, Ramakrishna Nagar, Near Ramakrishna Mission, Golpark, Kolkata, West Bengal - 700029",
+        "predicted_value": "Flat 8A, Ramkrishna Nagep Near Ramakrishna Mission, Gol Park Kolkata, West Bengal - 700029",
+        "normalized_ground_truth_value": "flat8a,ramakrishnanagar,nearramakrishnamission,golpark,kolkata,westbengal-700029",
+        "normalized_predicted_value": "flat8a,ramkrishnanagepnearramakrishnamission,golparkkolkata,westbengal-700029",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Onward/Return Journey Details.Date",
+        "predicted_key": "date",
+        "ground_truth_value": "31-05-2025",
+        "predicted_value": "31-5-2025",
+        "normalized_ground_truth_value": "31-05-2025",
+        "normalized_predicted_value": "31-5-2025",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "For Official Use Only.Amount Collected",
+        "predicted_key": "amount_collected",
+        "ground_truth_value": "728",
+        "predicted_value": "726",
+        "normalized_ground_truth_value": "728",
+        "normalized_predicted_value": "726",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Onward/Return Journey Details.No. of Berths/Seats",
+        "predicted_key": "no_of_berths_seats",
+        "ground_truth_value": "",
+        "predicted_value": "2",
+        "normalized_ground_truth_value": "",
+        "normalized_predicted_value": "2",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Passenger 1.Concession/Travel Authority No",
+        "predicted_key": "s_no_1_concession_travel_authority_no",
+        "ground_truth_value": "TRV-2025-4",
+        "predicted_value": "TRY-2025-4",
+        "normalized_ground_truth_value": "trv-2025-4",
+        "normalized_predicted_value": "try-2025-4",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Passenger 2.Concession/Travel Authority No",
+        "predicted_key": "s_no_2_concession_travel_authority_no",
+        "ground_truth_value": "TRV-2025-7",
+        "predicted_value": "TRY-2025-7",
+        "normalized_ground_truth_value": "trv-2025-7",
+        "normalized_predicted_value": "try-2025-7",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 6,
+      "leaf_normalized_exact": 7,
+      "fuzzy_lexical_leaf_fallback": 4
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Train No. & Name",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "No. of Berth/Seats",
+      "ground_truth_value": "2"
+    },
+    {
+      "key": "Passenger 1.Name in Block Letters (not more than 15 Characters)",
+      "ground_truth_value": "AMIT PATEL"
+    },
+    {
+      "key": "Passenger 1.Gender(M/F)",
+      "ground_truth_value": "M"
+    },
+    {
+      "key": "Passenger 1.Age",
+      "ground_truth_value": "20"
+    },
+    {
+      "key": "Passenger 1.Berth Choice Lower/Upper",
+      "ground_truth_value": "Middle"
+    },
+    {
+      "key": "Passenger 1.Veg/Non-Veg.for Rajdhani Shatabi Exp Only",
+      "ground_truth_value": "Non-Veg"
+    },
+    {
+      "key": "Passenger 2.Name in Block Letters (not more than 15 Characters)",
+      "ground_truth_value": "DEEPAK REDDY"
+    },
+    {
+      "key": "Passenger 2.Gender(M/F)",
+      "ground_truth_value": "M"
+    },
+    {
+      "key": "Passenger 2.Age",
+      "ground_truth_value": "20"
+    },
+    {
+      "key": "Passenger 2.Berth Choice Lower/Upper",
+      "ground_truth_value": "Side Upper"
+    },
+    {
+      "key": "Passenger 2.Veg/Non-Veg.for Rajdhani Shatabi Exp Only",
+      "ground_truth_value": "Non-Veg"
+    },
+    {
+      "key": "Childern below 5 years (Fo whom ticket is not to be issued).Name in block letters children",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Childern below 5 years (Fo whom ticket is not to be issued).Gender M/F children",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Childern below 5 years (Fo whom ticket is not to be issued).Age children",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Onward/Return Journey Details.Train No. & Name",
+      "ground_truth_value": "12621 Tamil Nadu Express"
+    },
+    {
+      "key": "Onward/Return Journey Details.Date of Journey",
+      "ground_truth_value": "18-06-2025"
+    },
+    {
+      "key": "Onward/Return Journey Details.Class",
+      "ground_truth_value": "SL"
+    },
+    {
+      "key": "Onward/Return Journey Details.Station From",
+      "ground_truth_value": "Pune"
+    },
+    {
+      "key": "Onward/Return Journey Details.To",
+      "ground_truth_value": "Patna"
+    },
+    {
+      "key": "Onward/Return Journey Details.Signature of the Applicant/Representative",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Onward/Return Journey Details.Tel /Mob.No. if any",
+      "ground_truth_value": "+91-9831456789"
+    },
+    {
+      "key": "For Official Use Only.Signature of Reservation Clerk",
+      "ground_truth_value": ""
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "south_central_railway",
+      "predicted_value": "South Central Railway"
+    },
+    {
+      "key": "com_744_fhet_rev",
+      "predicted_value": "Com.744/FHET (Rev)"
+    },
+    {
+      "key": "medical_practitioner_tick",
+      "predicted_value": ""
+    },
+    {
+      "key": "sr_citizen_concession_yes_no",
+      "predicted_value": ""
+    },
+    {
+      "key": "upgrade_without_extra_charge_yes_no",
+      "predicted_value": ""
+    },
+    {
+      "key": "train_no_name",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_1_name",
+      "predicted_value": "AMIT PATEL"
+    },
+    {
+      "key": "s_no_1_gender_mf",
+      "predicted_value": "M"
+    },
+    {
+      "key": "s_no_1_age",
+      "predicted_value": "20"
+    },
+    {
+      "key": "s_no_1_berth_choice",
+      "predicted_value": "Middle"
+    },
+    {
+      "key": "s_no_1_veg_non_veg",
+      "predicted_value": "Non-Veg"
+    },
+    {
+      "key": "s_no_2_name",
+      "predicted_value": "DEEPAK REDDY"
+    },
+    {
+      "key": "s_no_2_gender_mf",
+      "predicted_value": "M"
+    },
+    {
+      "key": "s_no_2_age",
+      "predicted_value": "20"
+    },
+    {
+      "key": "s_no_2_berth_choice",
+      "predicted_value": "Side Upper"
+    },
+    {
+      "key": "s_no_2_veg_non_veg",
+      "predicted_value": "Non-Veg"
+    },
+    {
+      "key": "s_no_3_name",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_3_gender_mf",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_3_age",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_3_concession_travel_authority_no",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_3_berth_choice",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_3_veg_non_veg",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_4_name",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_4_gender_mf",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_4_age",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_4_concession_travel_authority_no",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_4_berth_choice",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_4_veg_non_veg",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_5_name",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_5_gender_mf",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_5_age",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_5_concession_travel_authority_no",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_5_berth_choice",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_5_veg_non_veg",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_6_name",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_6_gender_mf",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_6_age",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_6_concession_travel_authority_no",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_6_berth_choice",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_6_veg_non_veg",
+      "predicted_value": ""
+    },
+    {
+      "key": "children_below_5_years_s_no_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "children_below_5_years_name_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "children_below_5_years_gender_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "children_below_5_years_age_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "onward_return_train_no_name",
+      "predicted_value": "12621 Tamil Nadu Express"
+    },
+    {
+      "key": "onward_return_date_of_journey",
+      "predicted_value": "18-06-2025"
+    },
+    {
+      "key": "onward_return_class",
+      "predicted_value": "SL"
+    },
+    {
+      "key": "onward_return_no_of_berths_seats",
+      "predicted_value": ""
+    },
+    {
+      "key": "onward_return_station_from",
+      "predicted_value": "Pune"
+    },
+    {
+      "key": "onward_return_to",
+      "predicted_value": "Patna"
+    },
+    {
+      "key": "tel_mob_no",
+      "predicted_value": "+91-9831456789"
+    }
+  ]
+}

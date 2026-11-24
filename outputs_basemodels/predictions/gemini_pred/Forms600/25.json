@@ -1,0 +1,20 @@
+{
+    "students_first_name": "Lakshmi",
+    "students_surname": "Narayanan",
+    "fathers_first_name": "Ashok",
+    "fathers_surname": "Narayanan",
+    "dob_date": "27",
+    "dob_month": "November",
+    "dob_year": "2007",
+    "gender": "Female",
+    "nationality": "Indian",
+    "religion": "Jain",
+    "caste_category": "ST",
+    "fathers_occupation": "Engineer",
+    "course_applied_for": "Arts",
+    "medium": "Bengali",
+    "city": "Madurai",
+    "pops": "Madurai",
+    "state": "Tamil Nadu",
+    "phone_number": "+91-9884567890"
+}

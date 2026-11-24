@@ -1,0 +1,140 @@
+{
+  "file": "Screenshot 2026-10-02 215426.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "REPORTED BY": "VAL THURMAN, DIVISION MANAGER, LOUISVILLE, KY",
+    "DATE": "4/26/91",
+    "SOURCE OF INFORMATION": "SHORT STOP FOOD MARTS, LOUISVILLE, KY",
+    "MANUFACTURER": "PHILIP MORRIS",
+    "BRAND(S) PROMOTED": "MARLBORO CIGARETTES",
+    "TYPE OF PROMOTION": "CARTON PROMOTION SWEEPSTAKES"
+  },
+  "predictions_flattened": {
+    "reported_by": "",
+    "date": "4/26/91",
+    "information": "",
+    "manufacturer": "",
+    "brand_s_promoted": "",
+    "type_of_promotion": "",
+    "unparsed_text_line_1": "VAL THURMAN, DIVISION MANAGER, LOUISVILLE, KY",
+    "unparsed_text_line_2": "SOURCE OF",
+    "unparsed_text_line_3": "SHORT STOP FOOD MARTS, LOUISVILLE, KY",
+    "unparsed_text_line_4": "PHILIP MORRIS",
+    "unparsed_text_line_5": "MARLEBORO CIGARETTES",
+    "unparsed_text_line_6": "CARTON PROMOTION SWEEPSTAKES"
+  },
+  "evaluation": {
+    "mode": "auto",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 6,
+      "total_prediction_fields": 12,
+      "matched_key_count": 5,
+      "correct_fields": 1,
+      "field_level_extraction_accuracy_pct": 16.67,
+      "matched_field_value_exact_match_pct": 20.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 1,
+      "false_positive": 6,
+      "false_negative": 5,
+      "precision_pct": 14.29,
+      "recall_pct": 16.67,
+      "f1_pct": 15.38,
+      "anls_pct": 16.67,
+      "anls_fields_scored": 6,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 5
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "REPORTED BY",
+        "predicted_key": "reported_by",
+        "ground_truth_value": "VAL THURMAN, DIVISION MANAGER, LOUISVILLE, KY",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "valthurman,divisionmanager,louisville,ky",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "MANUFACTURER",
+        "predicted_key": "manufacturer",
+        "ground_truth_value": "PHILIP MORRIS",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "philipmorris",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "BRAND(S) PROMOTED",
+        "predicted_key": "brand_s_promoted",
+        "ground_truth_value": "MARLBORO CIGARETTES",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "marlborocigarettes",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "TYPE OF PROMOTION",
+        "predicted_key": "type_of_promotion",
+        "ground_truth_value": "CARTON PROMOTION SWEEPSTAKES",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "cartonpromotionsweepstakes",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 5
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "SOURCE OF INFORMATION",
+      "ground_truth_value": "SHORT STOP FOOD MARTS, LOUISVILLE, KY"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "information",
+      "predicted_value": ""
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "VAL THURMAN, DIVISION MANAGER, LOUISVILLE, KY"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "SOURCE OF"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "SHORT STOP FOOD MARTS, LOUISVILLE, KY"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "PHILIP MORRIS"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "MARLEBORO CIGARETTES"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "CARTON PROMOTION SWEEPSTAKES"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "file": "Screenshot 2026-10-02 215930.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "TO": "K. A. SPARROW",
+    "DATE TO NYO": "1/24/97",
+    "FROM": "S. Reindel",
+    "DIV. NAME / NO": "Nassau / 107",
+    "NAME OF EVENT": "H. Levinson Tradeshow",
+    "*DATE OF EVENT": "3/18/97"
+  },
+  "predictions_flattened": {
+    "to": "",
+    "from": "",
+    "div_name_no": "",
+    "date_to_nyo": "1/24/97",
+    "name_of_event": "",
+    "date_of_event": "",
+    "unparsed_text_line_1": "K.A SPARROW",
+    "unparsed_text_line_2": "S. Reindel",
+    "unparsed_text_line_3": "Nassau / 107",
+    "unparsed_text_line_4": "1997 SPECIAL EVENT REQUEST FORM",
+    "unparsed_text_line_5": "H. Levinson Tradeshow",
+    "unparsed_text_line_6": "3/18/97"
+  },
+  "evaluation": {
+    "mode": "auto",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 6,
+      "total_prediction_fields": 12,
+      "matched_key_count": 5,
+      "correct_fields": 1,
+      "field_level_extraction_accuracy_pct": 16.67,
+      "matched_field_value_exact_match_pct": 20.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 1,
+      "false_positive": 6,
+      "false_negative": 5,
+      "precision_pct": 14.29,
+      "recall_pct": 16.67,
+      "f1_pct": 15.38,
+      "anls_pct": 16.67,
+      "anls_fields_scored": 6,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 5
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "TO",
+        "predicted_key": "to",
+        "ground_truth_value": "K. A. SPARROW",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "k.a.sparrow",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "FROM",
+        "predicted_key": "from",
+        "ground_truth_value": "S. Reindel",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "s.reindel",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "NAME OF EVENT",
+        "predicted_key": "name_of_event",
+        "ground_truth_value": "H. Levinson Tradeshow",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "h.levinsontradeshow",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "*DATE OF EVENT",
+        "predicted_key": "date_of_event",
+        "ground_truth_value": "3/18/97",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "3/18/97",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 5
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "DIV. NAME / NO",
+      "ground_truth_value": "Nassau / 107"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "div_name_no",
+      "predicted_value": ""
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "K.A SPARROW"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "S. Reindel"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "Nassau / 107"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "1997 SPECIAL EVENT REQUEST FORM"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "H. Levinson Tradeshow"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "3/18/97"
+    }
+  ]
+}

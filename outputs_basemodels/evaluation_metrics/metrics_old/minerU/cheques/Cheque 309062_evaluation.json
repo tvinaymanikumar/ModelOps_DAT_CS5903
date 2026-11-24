@@ -1,0 +1,107 @@
+{
+  "file": "Cheque 309062.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "payee_name": "Vijay kumar singh",
+    "amount_in_words": "Three lakh twenty Nine thousand",
+    "amount": "329000",
+    "year": "2015",
+    "account_no": "911010049001545"
+  },
+  "predictions_flattened": {
+    "payee_name": "Vijay kuman singh",
+    "amount_in_words": "Three lekh twenty Nine houso",
+    "amount": "1",
+    "year": "",
+    "account_no": "SAPPM 426160"
+  },
+  "evaluation": {
+    "mode": "auto",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 5,
+      "total_prediction_fields": 5,
+      "matched_key_count": 5,
+      "correct_fields": 0,
+      "field_level_extraction_accuracy_pct": 0.0,
+      "matched_field_value_exact_match_pct": 0.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 0,
+      "false_positive": 4,
+      "false_negative": 5,
+      "precision_pct": 0.0,
+      "recall_pct": 0.0,
+      "f1_pct": 0.0,
+      "anls_pct": 34.96,
+      "anls_fields_scored": 5,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 5
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "payee_name",
+        "predicted_key": "payee_name",
+        "ground_truth_value": "Vijay kumar singh",
+        "predicted_value": "Vijay kuman singh",
+        "normalized_ground_truth_value": "vijaykumarsingh",
+        "normalized_predicted_value": "vijaykumansingh",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "amount_in_words",
+        "predicted_key": "amount_in_words",
+        "ground_truth_value": "Three lakh twenty Nine thousand",
+        "predicted_value": "Three lekh twenty Nine houso",
+        "normalized_ground_truth_value": "threelakhtwentyninethousand",
+        "normalized_predicted_value": "threelekhtwentyninehouso",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "amount",
+        "predicted_key": "amount",
+        "ground_truth_value": "329000",
+        "predicted_value": "1",
+        "normalized_ground_truth_value": "329000",
+        "normalized_predicted_value": "1",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "year",
+        "predicted_key": "year",
+        "ground_truth_value": "2015",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "2015",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "account_no",
+        "predicted_key": "account_no",
+        "ground_truth_value": "911010049001545",
+        "predicted_value": "SAPPM 426160",
+        "normalized_ground_truth_value": "911010049001545",
+        "normalized_predicted_value": "sappm426160",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 5
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": []
+}

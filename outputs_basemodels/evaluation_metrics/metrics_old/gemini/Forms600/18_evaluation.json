@@ -1,0 +1,144 @@
+{
+  "file": "18.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Name (in Block Letter)": "SEEMA CHOUDHARY",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Father's Name/ Mother's Name": "Manoj Choudhary",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Department": "English",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Current Designation & Grade": "Associate Professor, Academic",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Date of Last Promotion": "05-10-2021",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Which position and grade pay are YOU an applicant under CAS": "Associate Professor",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Date of eligibility for promotion": "08-07-2024",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Date and Place of Birth": "05-10-1990, Srinagar",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Sex": "Female",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Marital status": "Married",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Nationality": "Indian",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Indicate whether belongs to SC/ST/OBC category": "General",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Address for correspondence (with Pin code)": "House No. 28",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.14..(a)Permanent Address (with Pin code)": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.14..(b) Contact No": "+91 8863041647",
+    "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.14..(c) Email": "seema@gmail.com"
+  },
+  "predictions_flattened": {
+    "page_number": "1 of 15",
+    "part": "PART-A",
+    "institution": "University of Jammu, Jammu",
+    "scheme": "CAREER ADVANCEMENT SCHEME (CAS)",
+    "proforma_title": "Performance Based Appraisal System Proforma as per UGC REGULATIONS, 2010 (4TH AMENDMENT, 2016) - Parts 'A' & 'B'",
+    "part_title": "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND",
+    "name_in_block_letter": "SEMA CHOUDHARY",
+    "fathers_name_mothers_name": "Manoj Choudhary",
+    "department": "English",
+    "current_designation_and_grade_pay": "Associate Proffesor, Academic",
+    "date_of_last_promotion": "05-10-2021",
+    "which_position_and_grade_pay_are_you_an_applicant_under_cas": "Associate Proffesor",
+    "date_of_eligibility_for_promotion": "08-07-2024",
+    "date_and_place_of_birth": "05-10-1990, Srinagar",
+    "sex": "Female",
+    "marital_status": "Married",
+    "nationality": "Indian",
+    "indicate_whether_belongs_to_sc_st_obc_category": "General",
+    "address_for_correspondence_with_pin_code": "House No. 28",
+    "permanent_address_with_pin_code": "House No. 28, Deshapriya Park East, Near Rashbehari Avenue, Kolkata, West Bengal - 700029",
+    "contact_no": "+91 8863041647",
+    "email": "Seema@gmail.com"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 16,
+      "total_prediction_fields": 22,
+      "matched_key_count": 16,
+      "correct_fields": 13,
+      "field_level_extraction_accuracy_pct": 81.25,
+      "matched_field_value_exact_match_pct": 81.25,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 13,
+      "false_positive": 9,
+      "false_negative": 3,
+      "precision_pct": 59.09,
+      "recall_pct": 81.25,
+      "f1_pct": 68.42,
+      "anls_pct": 98.4,
+      "anls_fields_scored": 16,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "leaf_normalized_exact": 11,
+        "fuzzy_lexical_leaf_fallback": 5
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Name (in Block Letter)",
+        "predicted_key": "name_in_block_letter",
+        "ground_truth_value": "SEEMA CHOUDHARY",
+        "predicted_value": "SEMA CHOUDHARY",
+        "normalized_ground_truth_value": "seemachoudhary",
+        "normalized_predicted_value": "semachoudhary",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Which position and grade pay are YOU an applicant under CAS",
+        "predicted_key": "which_position_and_grade_pay_are_you_an_applicant_under_cas",
+        "ground_truth_value": "Associate Professor",
+        "predicted_value": "Associate Proffesor",
+        "normalized_ground_truth_value": "associateprofessor",
+        "normalized_predicted_value": "associateproffesor",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND.Current Designation & Grade",
+        "predicted_key": "current_designation_and_grade_pay",
+        "ground_truth_value": "Associate Professor, Academic",
+        "predicted_value": "Associate Proffesor, Academic",
+        "normalized_ground_truth_value": "associateprofessor,academic",
+        "normalized_predicted_value": "associateproffesor,academic",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "leaf_normalized_exact": 11,
+      "fuzzy_lexical_leaf_fallback": 5
+    }
+  },
+  "missing_from_predictions": [],
+  "extra_in_predictions": [
+    {
+      "key": "page_number",
+      "predicted_value": "1 of 15"
+    },
+    {
+      "key": "part",
+      "predicted_value": "PART-A"
+    },
+    {
+      "key": "institution",
+      "predicted_value": "University of Jammu, Jammu"
+    },
+    {
+      "key": "scheme",
+      "predicted_value": "CAREER ADVANCEMENT SCHEME (CAS)"
+    },
+    {
+      "key": "proforma_title",
+      "predicted_value": "Performance Based Appraisal System Proforma as per UGC REGULATIONS, 2010 (4TH AMENDMENT, 2016) - Parts 'A' & 'B'"
+    },
+    {
+      "key": "part_title",
+      "predicted_value": "PART A: GENERAL INFORMATION AND ACADEMIC BACKGROUND"
+    }
+  ]
+}

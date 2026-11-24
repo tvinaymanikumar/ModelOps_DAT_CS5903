@@ -1,0 +1,6 @@
+Transcribe the handwritten text in this image exactly as written.
+- Preserve line breaks as they appear.
+- Preserve spelling, punctuation and capitalization, including the writer's mistakes.
+- Do not correct, summarize or add any text.
+- For a word you cannot read, write [illegible].
+Output only the transcription.

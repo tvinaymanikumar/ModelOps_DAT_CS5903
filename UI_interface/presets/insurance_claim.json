@@ -1,0 +1,35 @@
+{
+  "name": "Insurance claim form",
+  "fields": [
+    {
+      "key": "name",
+      "type": "string",
+      "required": true,
+      "description": "Claimant's full name"
+    },
+    {
+      "key": "age",
+      "type": "integer",
+      "required": true,
+      "description": "Claimant's age in years"
+    },
+    {
+      "key": "policy_number",
+      "type": "string",
+      "required": true,
+      "description": "Policy number as printed"
+    },
+    {
+      "key": "claim_amount",
+      "type": "number",
+      "required": true,
+      "description": "Claimed amount without currency symbols"
+    },
+    {
+      "key": "date_of_incident",
+      "type": "date",
+      "required": true,
+      "description": "Date of the incident"
+    }
+  ]
+}

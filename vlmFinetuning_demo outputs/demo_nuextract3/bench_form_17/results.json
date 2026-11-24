@@ -1,0 +1,373 @@
+[
+  {
+    "image": "/home/cs26mtech02010/Modelops/VLM_Finetuning/dataset/forms/benchmark/images/bench_form_17.png",
+    "fields": [
+      "Serial No",
+      "(Diary No)",
+      "Date",
+      "Name of the Post",
+      "Advt. No",
+      "Department",
+      "A. Name in full Mr/Mrs/Ms.(IN CAPITALS)",
+      "Father's Name",
+      "Date of Birth",
+      "Place of Birth",
+      "Nationality",
+      "Marital Status",
+      "Member of Scheduled Caste/Backward Class",
+      "Permanent address(IN CAPITALS)",
+      "Present Address (For correspondence) (IN CAPITALS)",
+      "Mobile/Telephone",
+      "E-mail",
+      "C. Minimum pay acceptable",
+      "Joining time (if selected)",
+      "Matric",
+      "10+2/Pre-Med./Pre-Engg",
+      "B.A/B.Sc./BCom. etc",
+      "M.A./M.Sc/M.Com. etc",
+      "M. Phil",
+      "Ph.D",
+      "Any other Exam (Please Specify)"
+    ],
+    "target": {
+      "Serial No": "PU6963",
+      "(Diary No)": "D21076",
+      "Date": "24/05/2025",
+      "Name of the Post": "Junior Assistant",
+      "Advt. No": "PU/969/2024",
+      "Department": "Computer Centre",
+      "A. Name in full Mr/Mrs/Ms.(IN CAPITALS)": "TIYASHA SAHA",
+      "Father's Name": "MR. AMITABHA SAHA",
+      "Date of Birth": "19/07/1995",
+      "Place of Birth": "Delhi",
+      "Nationality": "Indian",
+      "Marital Status": "Divorced",
+      "Member of Scheduled Caste/Backward Class": "Yes",
+      "Permanent address(IN CAPITALS)": "HOUSE 14, , DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA",
+      "Present Address (For correspondence) (IN CAPITALS)": "HOUSE 14, SUBHASHAPALLY, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA",
+      "Mobile/Telephone": "+91-9745678912",
+      "E-mail": "tiyasha.saha@gmail.com",
+      "C. Minimum pay acceptable": "26269",
+      "Joining time (if selected)": "17 days",
+      "Matric": "CBSE, Eng, Hin, Math, Sci, 2015, 446/500, First, -",
+      "10+2/Pre-Med./Pre-Engg": "CBSE, DO, 2015, 453/500, First, -",
+      "B.A/B.Sc./BCom. etc": "B.Sc. IIT-Kanpur,,Chemistry, 2016, 920/1000, First, Gold Medal",
+      "M.A./M.Sc/M.Com. etc": "M.Sc. IIT-khargapur, Chemistry,, 2021, 908/1000, First, Silver Medal",
+      "M. Phil": "M.Phil,Chemistry, IIT-Madras, 2022, -, -, -",
+      "Ph.D": "Ph.D, IIIT-Hyderabad, Chemistry, 2022, -, -, -",
+      "Any other Exam (Please Specify)": ""
+    },
+    "finetuned": {
+      "raw": "{\n  \"Serial No\": \"PU6963\",\n  \"(Diary No)\": \"D34076\",\n  \"Date\": \"24/05/2025\",\n  \"Name of the Post\": \"Junior Assistant\",\n  \"Advt. No\": \"PU/69/2024\",\n  \"Department\": \"Computer Centre\",\n  \"A. Name in full Mr/Mrs/Ms.(IN CAPITALS)\": \"TIYASHA SAHA\",\n  \"Father's Name\": \"Mr. Amitabha Saha\",\n  \"Date of Birth\": \"19/07/1995\",\n  \"Place of Birth\": \"Delhi\",\n  \"Nationality\": \"Indian\",\n  \"Marital Status\": \"Divorced\",\n  \"Member of Scheduled Caste/Backward Class\": \"Yes\",\n  \"Permanent address(IN CAPITALS)\": \"HOUSE 14, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA\",\n  \"Present Address (For correspondence) (IN CAPITALS)\": \"HOUSE 14, SUBHAS PALLY, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA\",\n  \"Mobile/Telephone\": \"+91-9745678912\",\n  \"E-mail\": \"tiyasha.saha@gmail.com\",\n  \"C. Minimum pay acceptable\": \"26260\",\n  \"Joining time (if selected)\": \"17 days\",\n  \"Matric\": \"CBSE, Eng, Hin, Math, Sci, 2015, 446/500, First, -\",\n  \"10+2/Pre-Med./Pre-Engg\": \"CBSE, Eng,Hin,Math,Sci, 2015, 453/500, First, -\",\n  \"B.A/B.Sc./BCom. etc\": \"B.Sc. IT,Chemistry, 2016, 920/1000, First, Gold Medal\",\n  \"M.A./M.Sc/M.Com. etc\": \"M.Sc. IT,Chemistry, 2021, 908/1000, First, Silver Medal\",\n  \"M. Phil\": \"M.Phil. IT,History, 2022, -, -, -\",\n  \"Ph.D\": \"Ph.D. IT,History, 2023, -, -, -\",\n  \"Any other Exam (Please Specify)\": null\n}",
+      "parsed": {
+        "Serial No": "PU6963",
+        "(Diary No)": "D34076",
+        "Date": "24/05/2025",
+        "Name of the Post": "Junior Assistant",
+        "Advt. No": "PU/69/2024",
+        "Department": "Computer Centre",
+        "A. Name in full Mr/Mrs/Ms.(IN CAPITALS)": "TIYASHA SAHA",
+        "Father's Name": "Mr. Amitabha Saha",
+        "Date of Birth": "19/07/1995",
+        "Place of Birth": "Delhi",
+        "Nationality": "Indian",
+        "Marital Status": "Divorced",
+        "Member of Scheduled Caste/Backward Class": "Yes",
+        "Permanent address(IN CAPITALS)": "HOUSE 14, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA",
+        "Present Address (For correspondence) (IN CAPITALS)": "HOUSE 14, SUBHAS PALLY, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA",
+        "Mobile/Telephone": "+91-9745678912",
+        "E-mail": "tiyasha.saha@gmail.com",
+        "C. Minimum pay acceptable": "26260",
+        "Joining time (if selected)": "17 days",
+        "Matric": "CBSE, Eng, Hin, Math, Sci, 2015, 446/500, First, -",
+        "10+2/Pre-Med./Pre-Engg": "CBSE, Eng,Hin,Math,Sci, 2015, 453/500, First, -",
+        "B.A/B.Sc./BCom. etc": "B.Sc. IT,Chemistry, 2016, 920/1000, First, Gold Medal",
+        "M.A./M.Sc/M.Com. etc": "M.Sc. IT,Chemistry, 2021, 908/1000, First, Silver Medal",
+        "M. Phil": "M.Phil. IT,History, 2022, -, -, -",
+        "Ph.D": "Ph.D. IT,History, 2023, -, -, -",
+        "Any other Exam (Please Specify)": null
+      },
+      "seconds": 24.6,
+      "score": {
+        "combined_kv_precision_pct": 61.54,
+        "combined_kv_recall_pct": 61.54,
+        "combined_kv_f1_pct": 61.54,
+        "normalized_edit_distance_similarity_pct": 94.94,
+        "strict_form_accuracy_pct": 0.0,
+        "strict_form_correct": false,
+        "ground_truth_fields": 26,
+        "prediction_fields": 26,
+        "matched_key_pairs": 26,
+        "missing_keys": 0,
+        "extra_keys": 0,
+        "incorrect_values": 10,
+        "tp": 16,
+        "fp": 10,
+        "fn": 10,
+        "valid_json": 1
+      },
+      "field_rows": {
+        "Serial No": [
+          "PU6963",
+          true
+        ],
+        "(Diary No)": [
+          "D34076",
+          false
+        ],
+        "Date": [
+          "24/05/2025",
+          true
+        ],
+        "Name of the Post": [
+          "Junior Assistant",
+          true
+        ],
+        "Advt. No": [
+          "PU/69/2024",
+          false
+        ],
+        "Department": [
+          "Computer Centre",
+          true
+        ],
+        "A. Name in full Mr/Mrs/Ms.(IN CAPITALS)": [
+          "TIYASHA SAHA",
+          true
+        ],
+        "Father's Name": [
+          "Mr. Amitabha Saha",
+          true
+        ],
+        "Date of Birth": [
+          "19/07/1995",
+          true
+        ],
+        "Place of Birth": [
+          "Delhi",
+          true
+        ],
+        "Nationality": [
+          "Indian",
+          true
+        ],
+        "Marital Status": [
+          "Divorced",
+          true
+        ],
+        "Member of Scheduled Caste/Backward Class": [
+          "Yes",
+          true
+        ],
+        "Permanent address(IN CAPITALS)": [
+          "HOUSE 14, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA",
+          false
+        ],
+        "Present Address (For correspondence) (IN CAPITALS)": [
+          "HOUSE 14, SUBHAS PALLY, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA",
+          false
+        ],
+        "Mobile/Telephone": [
+          "+91-9745678912",
+          true
+        ],
+        "E-mail": [
+          "tiyasha.saha@gmail.com",
+          true
+        ],
+        "C. Minimum pay acceptable": [
+          "26260",
+          false
+        ],
+        "Joining time (if selected)": [
+          "17 days",
+          true
+        ],
+        "Matric": [
+          "CBSE, Eng, Hin, Math, Sci, 2015, 446/500, First, -",
+          true
+        ],
+        "10+2/Pre-Med./Pre-Engg": [
+          "CBSE, Eng,Hin,Math,Sci, 2015, 453/500, First, -",
+          false
+        ],
+        "B.A/B.Sc./BCom. etc": [
+          "B.Sc. IT,Chemistry, 2016, 920/1000, First, Gold Medal",
+          false
+        ],
+        "M.A./M.Sc/M.Com. etc": [
+          "M.Sc. IT,Chemistry, 2021, 908/1000, First, Silver Medal",
+          false
+        ],
+        "M. Phil": [
+          "M.Phil. IT,History, 2022, -, -, -",
+          false
+        ],
+        "Ph.D": [
+          "Ph.D. IT,History, 2023, -, -, -",
+          false
+        ],
+        "Any other Exam (Please Specify)": [
+          "",
+          true
+        ]
+      }
+    },
+    "base": {
+      "raw": "{\"Serial No\": \"PU6983\", \"(Diary No)\": \"D24076\", \"Date\": \"24/05/2025\", \"Name of the Post\": \"Junior Assistant\", \"Advt. No\": \"PU69/2024\", \"Department\": \"Computer Centre\", \"A. Name in full Mr/Mrs/Ms.(IN CAPITALS)\": \"TIYASHA SAHA\", \"Father's Name\": \"AMITABHA SAHA\", \"Date of Birth\": \"19/07/1995\", \"Place of Birth\": \"Delhi\", \"Nationality\": \"Indian\", \"Marital Status\": \"Divorced\", \"Member of Scheduled Caste/Backward Class\": \"Yes\", \"Permanent address(IN CAPITALS)\": \"HOUSE 14, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA\", \"Present Address (For correspondence) (IN CAPITALS)\": \"HOUSE 14, SUBHASH PALLY, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA\", \"Mobile/Telephone\": \"+91-9745678912\", \"E-mail\": \"tiyasha_saha@gmail.com\", \"C. Minimum pay acceptable\": \"26269\", \"Joining time (if selected)\": \"17 days\", \"Matric\": \"CBSE Eng, Hindi, Maths\", \"10+2/Pre-Med./Pre-Engg\": \"CBSE Bio\", \"B.A/B.Sc./BCom. etc\": \"B.Sc. Chemistry\", \"M.A./M.Sc/M.Com. etc\": \"M.Sc. Chemistry\", \"M. Phil\": \"M.Phil. Hindi\", \"Ph.D\": \"PhD. Chemistry\", \"Any other Exam (Please Specify)\": null}",
+      "parsed": {
+        "Serial No": "PU6983",
+        "(Diary No)": "D24076",
+        "Date": "24/05/2025",
+        "Name of the Post": "Junior Assistant",
+        "Advt. No": "PU69/2024",
+        "Department": "Computer Centre",
+        "A. Name in full Mr/Mrs/Ms.(IN CAPITALS)": "TIYASHA SAHA",
+        "Father's Name": "AMITABHA SAHA",
+        "Date of Birth": "19/07/1995",
+        "Place of Birth": "Delhi",
+        "Nationality": "Indian",
+        "Marital Status": "Divorced",
+        "Member of Scheduled Caste/Backward Class": "Yes",
+        "Permanent address(IN CAPITALS)": "HOUSE 14, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA",
+        "Present Address (For correspondence) (IN CAPITALS)": "HOUSE 14, SUBHASH PALLY, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA",
+        "Mobile/Telephone": "+91-9745678912",
+        "E-mail": "tiyasha_saha@gmail.com",
+        "C. Minimum pay acceptable": "26269",
+        "Joining time (if selected)": "17 days",
+        "Matric": "CBSE Eng, Hindi, Maths",
+        "10+2/Pre-Med./Pre-Engg": "CBSE Bio",
+        "B.A/B.Sc./BCom. etc": "B.Sc. Chemistry",
+        "M.A./M.Sc/M.Com. etc": "M.Sc. Chemistry",
+        "M. Phil": "M.Phil. Hindi",
+        "Ph.D": "PhD. Chemistry",
+        "Any other Exam (Please Specify)": null
+      },
+      "seconds": 11.7,
+      "score": {
+        "combined_kv_precision_pct": 50.0,
+        "combined_kv_recall_pct": 50.0,
+        "combined_kv_f1_pct": 50.0,
+        "normalized_edit_distance_similarity_pct": 86.65,
+        "strict_form_accuracy_pct": 0.0,
+        "strict_form_correct": false,
+        "ground_truth_fields": 26,
+        "prediction_fields": 26,
+        "matched_key_pairs": 26,
+        "missing_keys": 0,
+        "extra_keys": 0,
+        "incorrect_values": 13,
+        "tp": 13,
+        "fp": 13,
+        "fn": 13,
+        "valid_json": 1
+      },
+      "field_rows": {
+        "Serial No": [
+          "PU6983",
+          false
+        ],
+        "(Diary No)": [
+          "D24076",
+          false
+        ],
+        "Date": [
+          "24/05/2025",
+          true
+        ],
+        "Name of the Post": [
+          "Junior Assistant",
+          true
+        ],
+        "Advt. No": [
+          "PU69/2024",
+          false
+        ],
+        "Department": [
+          "Computer Centre",
+          true
+        ],
+        "A. Name in full Mr/Mrs/Ms.(IN CAPITALS)": [
+          "TIYASHA SAHA",
+          true
+        ],
+        "Father's Name": [
+          "AMITABHA SAHA",
+          false
+        ],
+        "Date of Birth": [
+          "19/07/1995",
+          true
+        ],
+        "Place of Birth": [
+          "Delhi",
+          true
+        ],
+        "Nationality": [
+          "Indian",
+          true
+        ],
+        "Marital Status": [
+          "Divorced",
+          true
+        ],
+        "Member of Scheduled Caste/Backward Class": [
+          "Yes",
+          true
+        ],
+        "Permanent address(IN CAPITALS)": [
+          "HOUSE 14, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA",
+          false
+        ],
+        "Present Address (For correspondence) (IN CAPITALS)": [
+          "HOUSE 14, SUBHASH PALLY, DUM DUM ROAD, NEAR NAGERBAZAR, KOLKATA",
+          false
+        ],
+        "Mobile/Telephone": [
+          "+91-9745678912",
+          true
+        ],
+        "E-mail": [
+          "tiyasha_saha@gmail.com",
+          false
+        ],
+        "C. Minimum pay acceptable": [
+          "26269",
+          true
+        ],
+        "Joining time (if selected)": [
+          "17 days",
+          true
+        ],
+        "Matric": [
+          "CBSE Eng, Hindi, Maths",
+          false
+        ],
+        "10+2/Pre-Med./Pre-Engg": [
+          "CBSE Bio",
+          false
+        ],
+        "B.A/B.Sc./BCom. etc": [
+          "B.Sc. Chemistry",
+          false
+        ],
+        "M.A./M.Sc/M.Com. etc": [
+          "M.Sc. Chemistry",
+          false
+        ],
+        "M. Phil": [
+          "M.Phil. Hindi",
+          false
+        ],
+        "Ph.D": [
+          "PhD. Chemistry",
+          false
+        ],
+        "Any other Exam (Please Specify)": [
+          "",
+          true
+        ]
+      }
+    }
+  }
+]

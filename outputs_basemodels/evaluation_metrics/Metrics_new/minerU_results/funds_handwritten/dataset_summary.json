@@ -1,0 +1,15 @@
+{
+  "dataset_metrics": {
+    "combined_kv_precision_pct": 31.25,
+    "combined_kv_recall_pct": 42.37,
+    "combined_kv_f1_pct": 35.97,
+    "normalized_edit_distance_similarity_pct": 55.18,
+    "strict_form_accuracy_pct": 11.54,
+    "strict_form_correct_documents": 3,
+    "documents_evaluated": 26,
+    "combined_kv_tp": 100,
+    "combined_kv_fp": 220,
+    "combined_kv_fn": 136
+  },
+  "errors": []
+}

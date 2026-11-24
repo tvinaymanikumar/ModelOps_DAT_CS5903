@@ -1,0 +1,290 @@
+{
+  "file": "17.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Service Connection No": "SCN444864",
+    "Name of Registered Consumer (at present)": "Anil Singh",
+    "Consumer Category": "Domestic",
+    "Contracted Load": "5.97",
+    "Address (with telephone number)": "H.No. 23, Gulmohar Colony, Near Hazratganj Market, Lucknow, Uttar Pradesh - 226001, Tel: +91 9947105790",
+    "Name of the person in whose name connection to be changed (in CAPITAL LETTER)": "MEENA DAS",
+    "Attached Documents.Copy of latest bill duly paid": "No",
+    "Attached Documents.Proof of ownership/legal occupancy of premises": "No",
+    "Attached Documents.No objection Certificate from the existing consumer if available/possible": "No",
+    "Attached Documents.Registered deed/Succession certificate": "No",
+    "Date": "28-05-2025",
+    "Signature of Consumer": "Anil Singh",
+    "Place": "Port Blair",
+    "Name": "Anil Singh",
+    "Contact No": "9947105790",
+    "Email": "anil@gmail.com"
+  },
+  "predictions_flattened": {
+    "row_1": "2.",
+    "service_connection_no_row_1": "Name of Registered Consumer (at present)",
+    "scn444864_row_1": "Anil Singh",
+    "row_2": "3.",
+    "service_connection_no_row_2": "Consumer Category",
+    "scn444864_row_2": "Domestic",
+    "row_3": "4.",
+    "service_connection_no_row_3": "Contracted Load",
+    "scn444864_row_3": "5.97",
+    "row_4": "5.",
+    "service_connection_no_row_4": "Address; (with telephone number)",
+    "scn444864_row_4": "H.No. 23, Gwimnosh Colony, Neagar Hazraftgaun Nagar,Manipur, Lucknow, Uppara Pradesh- 22,600d.,Tel:+91 9947105790",
+    "row_5": "6.",
+    "service_connection_no_row_5": "Name of the person in whose name connection to be changed (in CAPITAL LETTER)",
+    "scn444864_row_5": "MEENA DAS",
+    "note": "The following documents are attached with the application form (Tick whichever applicable)",
+    "copy_of_latest_bill_duly_paid": "",
+    "proof_of_ownership_legal_occupancy_of_premises": "",
+    "no_objection_certificate_from_the_existing_consumer_if_available_possible": "",
+    "registered_deed_succession_certificate_if_any_other_document_please_specify": "",
+    "date": "28-06-2025",
+    "place": "Port Braid",
+    "contact_no": "9947405790",
+    "signature_of_consumer": "Anil Singh",
+    "name": "Anil Singh",
+    "email": "anit@gmail.com",
+    "unparsed_text_line_1": "30151/2022/IT.ELE",
+    "unparsed_text_line_2": "M/46/2022-O/O AE(IT)-ELE-ELE_AN",
+    "unparsed_text_line_3": "Andaman & Nicobar Administration",
+    "unparsed_text_line_4": "Electricity Department",
+    "unparsed_text_line_5": "14/207",
+    "unparsed_text_line_6": "Application form - Change in Name of Registered Consumer"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 16,
+      "total_prediction_fields": 32,
+      "matched_key_count": 10,
+      "correct_fields": 2,
+      "field_level_extraction_accuracy_pct": 12.5,
+      "matched_field_value_exact_match_pct": 20.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 2,
+      "false_positive": 26,
+      "false_negative": 14,
+      "precision_pct": 7.14,
+      "recall_pct": 12.5,
+      "f1_pct": 9.09,
+      "anls_pct": 34.41,
+      "anls_fields_scored": 16,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 6,
+        "leaf_normalized_exact": 3,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Date",
+        "predicted_key": "date",
+        "ground_truth_value": "28-05-2025",
+        "predicted_value": "28-06-2025",
+        "normalized_ground_truth_value": "28-05-2025",
+        "normalized_predicted_value": "28-06-2025",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Place",
+        "predicted_key": "place",
+        "ground_truth_value": "Port Blair",
+        "predicted_value": "Port Braid",
+        "normalized_ground_truth_value": "portblair",
+        "normalized_predicted_value": "portbraid",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Contact No",
+        "predicted_key": "contact_no",
+        "ground_truth_value": "9947105790",
+        "predicted_value": "9947405790",
+        "normalized_ground_truth_value": "9947105790",
+        "normalized_predicted_value": "9947405790",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Email",
+        "predicted_key": "email",
+        "ground_truth_value": "anil@gmail.com",
+        "predicted_value": "anit@gmail.com",
+        "normalized_ground_truth_value": "anil@gmail.com",
+        "normalized_predicted_value": "anit@gmail.com",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Attached Documents.Copy of latest bill duly paid",
+        "predicted_key": "copy_of_latest_bill_duly_paid",
+        "ground_truth_value": "No",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "no",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Attached Documents.Proof of ownership/legal occupancy of premises",
+        "predicted_key": "proof_of_ownership_legal_occupancy_of_premises",
+        "ground_truth_value": "No",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "no",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Attached Documents.No objection Certificate from the existing consumer if available/possible",
+        "predicted_key": "no_objection_certificate_from_the_existing_consumer_if_available_possible",
+        "ground_truth_value": "No",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "no",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Service Connection No",
+        "predicted_key": "service_connection_no_row_1",
+        "ground_truth_value": "SCN444864",
+        "predicted_value": "Name of Registered Consumer (at present)",
+        "normalized_ground_truth_value": "scn444864",
+        "normalized_predicted_value": "nameofregisteredconsumer(atpresent)",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 6,
+      "leaf_normalized_exact": 3,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Name of Registered Consumer (at present)",
+      "ground_truth_value": "Anil Singh"
+    },
+    {
+      "key": "Consumer Category",
+      "ground_truth_value": "Domestic"
+    },
+    {
+      "key": "Contracted Load",
+      "ground_truth_value": "5.97"
+    },
+    {
+      "key": "Address (with telephone number)",
+      "ground_truth_value": "H.No. 23, Gulmohar Colony, Near Hazratganj Market, Lucknow, Uttar Pradesh - 226001, Tel: +91 9947105790"
+    },
+    {
+      "key": "Name of the person in whose name connection to be changed (in CAPITAL LETTER)",
+      "ground_truth_value": "MEENA DAS"
+    },
+    {
+      "key": "Attached Documents.Registered deed/Succession certificate",
+      "ground_truth_value": "No"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "row_1",
+      "predicted_value": "2."
+    },
+    {
+      "key": "scn444864_row_1",
+      "predicted_value": "Anil Singh"
+    },
+    {
+      "key": "row_2",
+      "predicted_value": "3."
+    },
+    {
+      "key": "service_connection_no_row_2",
+      "predicted_value": "Consumer Category"
+    },
+    {
+      "key": "scn444864_row_2",
+      "predicted_value": "Domestic"
+    },
+    {
+      "key": "row_3",
+      "predicted_value": "4."
+    },
+    {
+      "key": "service_connection_no_row_3",
+      "predicted_value": "Contracted Load"
+    },
+    {
+      "key": "scn444864_row_3",
+      "predicted_value": "5.97"
+    },
+    {
+      "key": "row_4",
+      "predicted_value": "5."
+    },
+    {
+      "key": "service_connection_no_row_4",
+      "predicted_value": "Address; (with telephone number)"
+    },
+    {
+      "key": "scn444864_row_4",
+      "predicted_value": "H.No. 23, Gwimnosh Colony, Neagar Hazraftgaun Nagar,Manipur, Lucknow, Uppara Pradesh- 22,600d.,Tel:+91 9947105790"
+    },
+    {
+      "key": "row_5",
+      "predicted_value": "6."
+    },
+    {
+      "key": "service_connection_no_row_5",
+      "predicted_value": "Name of the person in whose name connection to be changed (in CAPITAL LETTER)"
+    },
+    {
+      "key": "scn444864_row_5",
+      "predicted_value": "MEENA DAS"
+    },
+    {
+      "key": "note",
+      "predicted_value": "The following documents are attached with the application form (Tick whichever applicable)"
+    },
+    {
+      "key": "registered_deed_succession_certificate_if_any_other_document_please_specify",
+      "predicted_value": ""
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "30151/2022/IT.ELE"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "M/46/2022-O/O AE(IT)-ELE-ELE_AN"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "Andaman & Nicobar Administration"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "Electricity Department"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "14/207"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "Application form - Change in Name of Registered Consumer"
+    }
+  ]
+}

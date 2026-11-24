@@ -1,0 +1,639 @@
+{
+  "file": "20.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Part 1.Customer ID": "CUST844691",
+    "Part 1.Name.First": "Saptarshi",
+    "Part 1.Name.Middle": "Prasad",
+    "Part 1.Name.Last /Surname": "Roy",
+    "Part 1.Type of account held.Checking": "Yes",
+    "Part 1.Type of account held.Money Market Deposit": "Yes",
+    "Part 1.Type of account held.Certificate of Deposit": "Yes",
+    "Part 1.Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)": "ABCDE6131F",
+    "Part 1.Employment Details.Employed": "No",
+    "Part 1.Employment Details.Self-employed": "No",
+    "Part 1.Employment Details.Retired": "No",
+    "Part 1.Employment Details.Unemployed": "Yes",
+    "Part 1.Employment Details.Student": "No",
+    "Part 1.Employment Details.Others (give details)": "",
+    "Part 1.Occupation": "Student",
+    "Part 1.Name of Employer in case employed": "Saptarshi Roy",
+    "Part 1.Address.Home Address.Address Line 1": "",
+    "Part 1.Address.Home Address.Address Line 2": "",
+    "Part 1.Address.Home Address.Address Line 3": "",
+    "Part 1.Address.Home Address.City": "",
+    "Part 1.Address.Home Address.State": "",
+    "Part 1.Address.Home Address.Country": "",
+    "Part 1.Address.Home Address.Zip Code": "",
+    "Part 1.Address.Work Address.Address Line 1": "Flat 4D",
+    "Part 1.Address.Work Address.Address Line 2": "Krishna Enclave",
+    "Part 1.Address.Work Address.Address Line 3": "88A Naktala Road",
+    "Part 1.Address.Work Address.City": "Kolkata",
+    "Part 1.Address.Work Address.State": "West Bengal",
+    "Part 1.Address.Work Address.Country": "India",
+    "Part 1.Address.Work Address.Zip Code": "700047",
+    "Part 1.Email": "saptarshi.roy@gmail.com",
+    "Part 1.Contact/ Mobile Number.Home": "+91-9800456123",
+    "Part 1.Contact/ Mobile Number.Mobile": "+91-9800456123",
+    "Part 1.Contact/ Mobile Number.Work": "+91 9836784424"
+  },
+  "predictions_flattened": {
+    "document_title": "STATE BANK OF INDIA",
+    "tel": "212-521-3286,3300Fax:212-521-3361",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_1": "Pc#1",
+    "column_2_row_1": "",
+    "column_3_row_1": "",
+    "column_4_row_1": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_2": "Customer ID",
+    "column_2_row_2": "CUST844691",
+    "column_3_row_2": "",
+    "column_4_row_2": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_3": "Name",
+    "column_2_row_3": "First",
+    "column_3_row_3": "Middle",
+    "column_4_row_3": "Last/Surname",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_4": "Saptanishi",
+    "column_2_row_4": "Pomasad",
+    "column_3_row_4": "Roy",
+    "column_4_row_4": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_5": "Type of account held: (Check all that are applicable)",
+    "column_2_row_5": "Checking",
+    "column_3_row_5": "Money Market Deposit",
+    "column_4_row_5": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_6": "Certificate of Deposit",
+    "column_2_row_6": "",
+    "column_3_row_6": "",
+    "column_4_row_6": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_7": "Social Security No. / Tax Identification No./ Permanent Account Number (PAH) (‘Indian Citizen’)",
+    "column_2_row_7": "ABCD E61 31F",
+    "column_3_row_7": "",
+    "column_4_row_7": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_8": "Employment Details",
+    "column_2_row_8": "□ Employed / □ Self-employed / □ Retired / □ Unemployed / □ Student / □ Others (give details)",
+    "column_3_row_8": "",
+    "column_4_row_8": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_9": "Occupation",
+    "column_2_row_9": "Student",
+    "column_3_row_9": "",
+    "column_4_row_9": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_10": "Name of Employer in case employed Or Name / Nature of Business in case Self Employed",
+    "column_2_row_10": "Saptanshi Roy",
+    "column_3_row_10": "",
+    "column_4_row_10": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_11": "Home Address",
+    "column_2_row_11": "Work Address (In case of Students, address of the College to be provided here)",
+    "column_3_row_11": "",
+    "column_4_row_11": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_12": "Address Line 1",
+    "column_2_row_12": "1",
+    "column_3_row_12": "Flat 4D",
+    "column_4_row_12": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_13": "Address Line 2",
+    "column_2_row_13": "",
+    "column_3_row_13": "Koishna Enclave",
+    "column_4_row_13": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_14": "Address Line 3",
+    "column_2_row_14": "",
+    "column_3_row_14": "38 A Naktala Road",
+    "column_4_row_14": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_15": "City",
+    "column_2_row_15": "",
+    "column_3_row_15": "Kolkata",
+    "column_4_row_15": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_16": "State",
+    "column_2_row_16": "",
+    "column_3_row_16": "West Bengal",
+    "column_4_row_16": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_17": "Country",
+    "column_2_row_17": "",
+    "column_3_row_17": "India",
+    "column_4_row_17": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_18": "Zip Code",
+    "column_2_row_18": "",
+    "column_3_row_18": "700047",
+    "column_4_row_18": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_19": "Email",
+    "column_2_row_19": "saptanishi, ojoy@gmail.com",
+    "column_3_row_19": "",
+    "column_4_row_19": "",
+    "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_20": "Contact / Mobile Number",
+    "column_2_row_20": "Home: +91-9800456123 Mobile: +91-9800456123 Work: +91-9836784424",
+    "column_3_row_20": "",
+    "column_4_row_20": "",
+    "unparsed_text_line_1": "460 Park Avenue, New York, NY 10022",
+    "unparsed_text_line_2": "All fields are mandatorily to be filled"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 34,
+      "total_prediction_fields": 84,
+      "matched_key_count": 0,
+      "correct_fields": 0,
+      "field_level_extraction_accuracy_pct": 0.0,
+      "matched_field_value_exact_match_pct": 0.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 0,
+      "false_positive": 47,
+      "false_negative": 26,
+      "precision_pct": 0.0,
+      "recall_pct": 0.0,
+      "f1_pct": 0.0,
+      "anls_pct": 0.0,
+      "anls_fields_scored": 26,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {}
+    },
+    "incorrect_values": [],
+    "key_match_methods": {}
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Part 1.Customer ID",
+      "ground_truth_value": "CUST844691"
+    },
+    {
+      "key": "Part 1.Name.First",
+      "ground_truth_value": "Saptarshi"
+    },
+    {
+      "key": "Part 1.Name.Middle",
+      "ground_truth_value": "Prasad"
+    },
+    {
+      "key": "Part 1.Name.Last /Surname",
+      "ground_truth_value": "Roy"
+    },
+    {
+      "key": "Part 1.Type of account held.Checking",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Part 1.Type of account held.Money Market Deposit",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Part 1.Type of account held.Certificate of Deposit",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Part 1.Social Security No./Tax Identification No./ Permanent Account Number (PAN) (*Indian Citizen)",
+      "ground_truth_value": "ABCDE6131F"
+    },
+    {
+      "key": "Part 1.Employment Details.Employed",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Part 1.Employment Details.Self-employed",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Part 1.Employment Details.Retired",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Part 1.Employment Details.Unemployed",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Part 1.Employment Details.Student",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Part 1.Employment Details.Others (give details)",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Occupation",
+      "ground_truth_value": "Student"
+    },
+    {
+      "key": "Part 1.Name of Employer in case employed",
+      "ground_truth_value": "Saptarshi Roy"
+    },
+    {
+      "key": "Part 1.Address.Home Address.Address Line 1",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Address.Home Address.Address Line 2",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Address.Home Address.Address Line 3",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Address.Home Address.City",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Address.Home Address.State",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Address.Home Address.Country",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Address.Home Address.Zip Code",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Part 1.Address.Work Address.Address Line 1",
+      "ground_truth_value": "Flat 4D"
+    },
+    {
+      "key": "Part 1.Address.Work Address.Address Line 2",
+      "ground_truth_value": "Krishna Enclave"
+    },
+    {
+      "key": "Part 1.Address.Work Address.Address Line 3",
+      "ground_truth_value": "88A Naktala Road"
+    },
+    {
+      "key": "Part 1.Address.Work Address.City",
+      "ground_truth_value": "Kolkata"
+    },
+    {
+      "key": "Part 1.Address.Work Address.State",
+      "ground_truth_value": "West Bengal"
+    },
+    {
+      "key": "Part 1.Address.Work Address.Country",
+      "ground_truth_value": "India"
+    },
+    {
+      "key": "Part 1.Address.Work Address.Zip Code",
+      "ground_truth_value": "700047"
+    },
+    {
+      "key": "Part 1.Email",
+      "ground_truth_value": "saptarshi.roy@gmail.com"
+    },
+    {
+      "key": "Part 1.Contact/ Mobile Number.Home",
+      "ground_truth_value": "+91-9800456123"
+    },
+    {
+      "key": "Part 1.Contact/ Mobile Number.Mobile",
+      "ground_truth_value": "+91-9800456123"
+    },
+    {
+      "key": "Part 1.Contact/ Mobile Number.Work",
+      "ground_truth_value": "+91 9836784424"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "STATE BANK OF INDIA"
+    },
+    {
+      "key": "tel",
+      "predicted_value": "212-521-3286,3300Fax:212-521-3361"
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_1",
+      "predicted_value": "Pc#1"
+    },
+    {
+      "key": "column_2_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_3_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_4_row_1",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_2",
+      "predicted_value": "Customer ID"
+    },
+    {
+      "key": "column_2_row_2",
+      "predicted_value": "CUST844691"
+    },
+    {
+      "key": "column_3_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_4_row_2",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_3",
+      "predicted_value": "Name"
+    },
+    {
+      "key": "column_2_row_3",
+      "predicted_value": "First"
+    },
+    {
+      "key": "column_3_row_3",
+      "predicted_value": "Middle"
+    },
+    {
+      "key": "column_4_row_3",
+      "predicted_value": "Last/Surname"
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_4",
+      "predicted_value": "Saptanishi"
+    },
+    {
+      "key": "column_2_row_4",
+      "predicted_value": "Pomasad"
+    },
+    {
+      "key": "column_3_row_4",
+      "predicted_value": "Roy"
+    },
+    {
+      "key": "column_4_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_5",
+      "predicted_value": "Type of account held: (Check all that are applicable)"
+    },
+    {
+      "key": "column_2_row_5",
+      "predicted_value": "Checking"
+    },
+    {
+      "key": "column_3_row_5",
+      "predicted_value": "Money Market Deposit"
+    },
+    {
+      "key": "column_4_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_6",
+      "predicted_value": "Certificate of Deposit"
+    },
+    {
+      "key": "column_2_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_3_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_4_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_7",
+      "predicted_value": "Social Security No. / Tax Identification No./ Permanent Account Number (PAH) (‘Indian Citizen’)"
+    },
+    {
+      "key": "column_2_row_7",
+      "predicted_value": "ABCD E61 31F"
+    },
+    {
+      "key": "column_3_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_4_row_7",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_8",
+      "predicted_value": "Employment Details"
+    },
+    {
+      "key": "column_2_row_8",
+      "predicted_value": "□ Employed / □ Self-employed / □ Retired / □ Unemployed / □ Student / □ Others (give details)"
+    },
+    {
+      "key": "column_3_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_4_row_8",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_9",
+      "predicted_value": "Occupation"
+    },
+    {
+      "key": "column_2_row_9",
+      "predicted_value": "Student"
+    },
+    {
+      "key": "column_3_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_4_row_9",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_10",
+      "predicted_value": "Name of Employer in case employed Or Name / Nature of Business in case Self Employed"
+    },
+    {
+      "key": "column_2_row_10",
+      "predicted_value": "Saptanshi Roy"
+    },
+    {
+      "key": "column_3_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_4_row_10",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_11",
+      "predicted_value": "Home Address"
+    },
+    {
+      "key": "column_2_row_11",
+      "predicted_value": "Work Address (In case of Students, address of the College to be provided here)"
+    },
+    {
+      "key": "column_3_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_4_row_11",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_12",
+      "predicted_value": "Address Line 1"
+    },
+    {
+      "key": "column_2_row_12",
+      "predicted_value": "1"
+    },
+    {
+      "key": "column_3_row_12",
+      "predicted_value": "Flat 4D"
+    },
+    {
+      "key": "column_4_row_12",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_13",
+      "predicted_value": "Address Line 2"
+    },
+    {
+      "key": "column_2_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_3_row_13",
+      "predicted_value": "Koishna Enclave"
+    },
+    {
+      "key": "column_4_row_13",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_14",
+      "predicted_value": "Address Line 3"
+    },
+    {
+      "key": "column_2_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_3_row_14",
+      "predicted_value": "38 A Naktala Road"
+    },
+    {
+      "key": "column_4_row_14",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_15",
+      "predicted_value": "City"
+    },
+    {
+      "key": "column_2_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_3_row_15",
+      "predicted_value": "Kolkata"
+    },
+    {
+      "key": "column_4_row_15",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_16",
+      "predicted_value": "State"
+    },
+    {
+      "key": "column_2_row_16",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_3_row_16",
+      "predicted_value": "West Bengal"
+    },
+    {
+      "key": "column_4_row_16",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_17",
+      "predicted_value": "Country"
+    },
+    {
+      "key": "column_2_row_17",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_3_row_17",
+      "predicted_value": "India"
+    },
+    {
+      "key": "column_4_row_17",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_18",
+      "predicted_value": "Zip Code"
+    },
+    {
+      "key": "column_2_row_18",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_3_row_18",
+      "predicted_value": "700047"
+    },
+    {
+      "key": "column_4_row_18",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_19",
+      "predicted_value": "Email"
+    },
+    {
+      "key": "column_2_row_19",
+      "predicted_value": "saptanishi, ojoy@gmail.com"
+    },
+    {
+      "key": "column_3_row_19",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_4_row_19",
+      "predicted_value": ""
+    },
+    {
+      "key": "customer_information_updation_form_to_be_provided_by_each_account_holder_separately_row_20",
+      "predicted_value": "Contact / Mobile Number"
+    },
+    {
+      "key": "column_2_row_20",
+      "predicted_value": "Home: +91-9800456123 Mobile: +91-9800456123 Work: +91-9836784424"
+    },
+    {
+      "key": "column_3_row_20",
+      "predicted_value": ""
+    },
+    {
+      "key": "column_4_row_20",
+      "predicted_value": ""
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "460 Park Avenue, New York, NY 10022"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "All fields are mandatorily to be filled"
+    }
+  ]
+}

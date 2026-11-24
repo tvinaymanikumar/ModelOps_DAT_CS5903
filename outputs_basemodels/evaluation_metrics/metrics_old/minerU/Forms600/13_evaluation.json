@@ -1,0 +1,419 @@
+{
+  "file": "13.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Roll No": "504375",
+    "Name of the Student": "Arka Dutta",
+    "Name of the Hindi": "",
+    "Course": "M.Sc.",
+    "Subject": "Physics",
+    "Dept./ Centre": "Department of Physics",
+    "School": "Osmania University",
+    "Date of Birth": "12-02-1996",
+    "Gender (Male/Female)": "Male",
+    "Nationality": "Indian",
+    "State of Domicile": "Telangana",
+    "Blood Group": "B+",
+    "Father's Name": "Rajesh Dutta",
+    "Mother's Name": "Sunita Dutta",
+    "Date of Admission to the Course": "06-06-2022",
+    "CGPA or Marks obtained": "6.44",
+    "Division obtained": "Second",
+    "Date of declaration of result by the CE's Office": "03-12-2024",
+    "Month and Year of award": "May 2025"
+  },
+  "predictions_flattened": {
+    "document_title": "UNIVERSITY OF HYDERABAD",
+    "1_row_1": "2",
+    "roll_no_row_1": "Name of the Student",
+    "504375_row_1": "Anka Dutta",
+    "1_row_2": "3",
+    "roll_no_row_2": "Name of the Hindi",
+    "504375_row_2": "M#",
+    "1_row_3": "4",
+    "roll_no_row_3": "Course",
+    "504375_row_3": "M, SC,",
+    "1_row_4": "5",
+    "roll_no_row_4": "Subject",
+    "504375_row_4": "Physics",
+    "1_row_5": "6",
+    "roll_no_row_5": "Dept./Centre",
+    "504375_row_5": "Department of Physics",
+    "1_row_6": "7",
+    "roll_no_row_6": "School",
+    "504375_row_6": "Osmania University",
+    "1_row_7": "8",
+    "roll_no_row_7": "Date of Birth",
+    "504375_row_7": "12-02-1996",
+    "1_row_8": "9",
+    "roll_no_row_8": "Gender (Male/Female)",
+    "504375_row_8": "male",
+    "1_row_9": "10",
+    "roll_no_row_9": "Nationality",
+    "504375_row_9": "Indian",
+    "1_row_10": "11",
+    "roll_no_row_10": "State of Domicile",
+    "504375_row_10": "Telangana",
+    "1_row_11": "12",
+    "roll_no_row_11": "Blood Group",
+    "504375_row_11": "B+",
+    "1_row_12": "13",
+    "roll_no_row_12": "Father's Name",
+    "504375_row_12": "Rajesh Dutta",
+    "1_row_13": "14",
+    "roll_no_row_13": "Mother's Name",
+    "504375_row_13": "Sumita Dutta",
+    "1_row_14": "15",
+    "roll_no_row_14": "Date of Admission to the Course",
+    "504375_row_14": "06-06-2022",
+    "1_row_15": "16",
+    "roll_no_row_15": "CGPA or Marks obtained",
+    "504375_row_15": "6,44",
+    "1_row_16": "17",
+    "roll_no_row_16": "Division obtained",
+    "504375_row_16": "Second",
+    "1_row_17": "18",
+    "roll_no_row_17": "Date of declaration of result by the CE's Office",
+    "504375_row_17": "03-12-2024",
+    "1_row_18": "19",
+    "roll_no_row_18": "Month and Year of award",
+    "504375_row_18": "May 2025"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 19,
+      "total_prediction_fields": 55,
+      "matched_key_count": 0,
+      "correct_fields": 0,
+      "field_level_extraction_accuracy_pct": 0.0,
+      "matched_field_value_exact_match_pct": 0.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 0,
+      "false_positive": 55,
+      "false_negative": 18,
+      "precision_pct": 0.0,
+      "recall_pct": 0.0,
+      "f1_pct": 0.0,
+      "anls_pct": 0.0,
+      "anls_fields_scored": 18,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {}
+    },
+    "incorrect_values": [],
+    "key_match_methods": {}
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Roll No",
+      "ground_truth_value": "504375"
+    },
+    {
+      "key": "Name of the Student",
+      "ground_truth_value": "Arka Dutta"
+    },
+    {
+      "key": "Name of the Hindi",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Course",
+      "ground_truth_value": "M.Sc."
+    },
+    {
+      "key": "Subject",
+      "ground_truth_value": "Physics"
+    },
+    {
+      "key": "Dept./ Centre",
+      "ground_truth_value": "Department of Physics"
+    },
+    {
+      "key": "School",
+      "ground_truth_value": "Osmania University"
+    },
+    {
+      "key": "Date of Birth",
+      "ground_truth_value": "12-02-1996"
+    },
+    {
+      "key": "Gender (Male/Female)",
+      "ground_truth_value": "Male"
+    },
+    {
+      "key": "Nationality",
+      "ground_truth_value": "Indian"
+    },
+    {
+      "key": "State of Domicile",
+      "ground_truth_value": "Telangana"
+    },
+    {
+      "key": "Blood Group",
+      "ground_truth_value": "B+"
+    },
+    {
+      "key": "Father's Name",
+      "ground_truth_value": "Rajesh Dutta"
+    },
+    {
+      "key": "Mother's Name",
+      "ground_truth_value": "Sunita Dutta"
+    },
+    {
+      "key": "Date of Admission to the Course",
+      "ground_truth_value": "06-06-2022"
+    },
+    {
+      "key": "CGPA or Marks obtained",
+      "ground_truth_value": "6.44"
+    },
+    {
+      "key": "Division obtained",
+      "ground_truth_value": "Second"
+    },
+    {
+      "key": "Date of declaration of result by the CE's Office",
+      "ground_truth_value": "03-12-2024"
+    },
+    {
+      "key": "Month and Year of award",
+      "ground_truth_value": "May 2025"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "UNIVERSITY OF HYDERABAD"
+    },
+    {
+      "key": "1_row_1",
+      "predicted_value": "2"
+    },
+    {
+      "key": "roll_no_row_1",
+      "predicted_value": "Name of the Student"
+    },
+    {
+      "key": "504375_row_1",
+      "predicted_value": "Anka Dutta"
+    },
+    {
+      "key": "1_row_2",
+      "predicted_value": "3"
+    },
+    {
+      "key": "roll_no_row_2",
+      "predicted_value": "Name of the Hindi"
+    },
+    {
+      "key": "504375_row_2",
+      "predicted_value": "M#"
+    },
+    {
+      "key": "1_row_3",
+      "predicted_value": "4"
+    },
+    {
+      "key": "roll_no_row_3",
+      "predicted_value": "Course"
+    },
+    {
+      "key": "504375_row_3",
+      "predicted_value": "M, SC,"
+    },
+    {
+      "key": "1_row_4",
+      "predicted_value": "5"
+    },
+    {
+      "key": "roll_no_row_4",
+      "predicted_value": "Subject"
+    },
+    {
+      "key": "504375_row_4",
+      "predicted_value": "Physics"
+    },
+    {
+      "key": "1_row_5",
+      "predicted_value": "6"
+    },
+    {
+      "key": "roll_no_row_5",
+      "predicted_value": "Dept./Centre"
+    },
+    {
+      "key": "504375_row_5",
+      "predicted_value": "Department of Physics"
+    },
+    {
+      "key": "1_row_6",
+      "predicted_value": "7"
+    },
+    {
+      "key": "roll_no_row_6",
+      "predicted_value": "School"
+    },
+    {
+      "key": "504375_row_6",
+      "predicted_value": "Osmania University"
+    },
+    {
+      "key": "1_row_7",
+      "predicted_value": "8"
+    },
+    {
+      "key": "roll_no_row_7",
+      "predicted_value": "Date of Birth"
+    },
+    {
+      "key": "504375_row_7",
+      "predicted_value": "12-02-1996"
+    },
+    {
+      "key": "1_row_8",
+      "predicted_value": "9"
+    },
+    {
+      "key": "roll_no_row_8",
+      "predicted_value": "Gender (Male/Female)"
+    },
+    {
+      "key": "504375_row_8",
+      "predicted_value": "male"
+    },
+    {
+      "key": "1_row_9",
+      "predicted_value": "10"
+    },
+    {
+      "key": "roll_no_row_9",
+      "predicted_value": "Nationality"
+    },
+    {
+      "key": "504375_row_9",
+      "predicted_value": "Indian"
+    },
+    {
+      "key": "1_row_10",
+      "predicted_value": "11"
+    },
+    {
+      "key": "roll_no_row_10",
+      "predicted_value": "State of Domicile"
+    },
+    {
+      "key": "504375_row_10",
+      "predicted_value": "Telangana"
+    },
+    {
+      "key": "1_row_11",
+      "predicted_value": "12"
+    },
+    {
+      "key": "roll_no_row_11",
+      "predicted_value": "Blood Group"
+    },
+    {
+      "key": "504375_row_11",
+      "predicted_value": "B+"
+    },
+    {
+      "key": "1_row_12",
+      "predicted_value": "13"
+    },
+    {
+      "key": "roll_no_row_12",
+      "predicted_value": "Father's Name"
+    },
+    {
+      "key": "504375_row_12",
+      "predicted_value": "Rajesh Dutta"
+    },
+    {
+      "key": "1_row_13",
+      "predicted_value": "14"
+    },
+    {
+      "key": "roll_no_row_13",
+      "predicted_value": "Mother's Name"
+    },
+    {
+      "key": "504375_row_13",
+      "predicted_value": "Sumita Dutta"
+    },
+    {
+      "key": "1_row_14",
+      "predicted_value": "15"
+    },
+    {
+      "key": "roll_no_row_14",
+      "predicted_value": "Date of Admission to the Course"
+    },
+    {
+      "key": "504375_row_14",
+      "predicted_value": "06-06-2022"
+    },
+    {
+      "key": "1_row_15",
+      "predicted_value": "16"
+    },
+    {
+      "key": "roll_no_row_15",
+      "predicted_value": "CGPA or Marks obtained"
+    },
+    {
+      "key": "504375_row_15",
+      "predicted_value": "6,44"
+    },
+    {
+      "key": "1_row_16",
+      "predicted_value": "17"
+    },
+    {
+      "key": "roll_no_row_16",
+      "predicted_value": "Division obtained"
+    },
+    {
+      "key": "504375_row_16",
+      "predicted_value": "Second"
+    },
+    {
+      "key": "1_row_17",
+      "predicted_value": "18"
+    },
+    {
+      "key": "roll_no_row_17",
+      "predicted_value": "Date of declaration of result by the CE's Office"
+    },
+    {
+      "key": "504375_row_17",
+      "predicted_value": "03-12-2024"
+    },
+    {
+      "key": "1_row_18",
+      "predicted_value": "19"
+    },
+    {
+      "key": "roll_no_row_18",
+      "predicted_value": "Month and Year of award"
+    },
+    {
+      "key": "504375_row_18",
+      "predicted_value": "May 2025"
+    }
+  ]
+}

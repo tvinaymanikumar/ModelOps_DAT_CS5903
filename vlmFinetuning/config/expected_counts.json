@@ -1,0 +1,27 @@
+{
+  "_note": "The agreed split. prepare_data.py compares the files you put in dataset/ with these numbers and marks every cell ok or !expected; with --strict a difference stops it.",
+  "forms": {
+    "train_docs": 454,
+    "tilts_per_train_doc": 2,
+    "train_images": 1362,
+    "validation_docs": 57,
+    "test_docs": 57,
+    "benchmark_docs": 25
+  },
+  "cheques": {
+    "train_docs": 70,
+    "tilts_per_train_doc": 1,
+    "train_images": 140,
+    "validation_docs": 9,
+    "test_docs": 8,
+    "benchmark_docs": 25
+  },
+  "funsd": {
+    "train_docs": 45,
+    "tilts_per_train_doc": 2,
+    "train_images": 135,
+    "validation_docs": 5,
+    "test_docs": 5,
+    "benchmark_docs": 26
+  }
+}

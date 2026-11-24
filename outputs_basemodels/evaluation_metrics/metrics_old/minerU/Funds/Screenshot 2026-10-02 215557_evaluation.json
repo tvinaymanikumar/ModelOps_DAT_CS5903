@@ -1,0 +1,169 @@
+{
+  "file": "Screenshot 2026-10-02 215557.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "PROJECT CODE": "PNRM",
+    "DATE": "April 30, 1985",
+    "PROJECT NAME": "PALL MALL Regular Menthol",
+    "PROJECT LEADER": "J. F. Anders",
+    "WORK REQUESTED BY": "R. S. Sprinkle, III",
+    "PROJECT OBJECTIVE": "To develop a nonfilter menthol cigarette delivering 21-24 mg \"tar\" as a menthol companion to PALL MALL Famous Cigarettes. Cigarette dimensions: 84 x 24.9 mm circum-ference.",
+    "OTHER PERSONNEL ASSIGNED": "E. P. Barbee"
+  },
+  "predictions_flattened": {
+    "cigarette_dimensions": "84 x 24.9 mm circum",
+    "unparsed_text_line_1": "PROJECT CODE",
+    "unparsed_text_line_2": "PNRM",
+    "unparsed_text_line_3": "DATE April 30, 1985",
+    "unparsed_text_line_4": "PROJECT NAME",
+    "unparsed_text_line_5": "PALL MALL Regular Menthol",
+    "unparsed_text_line_6": "PROJECT LEADER",
+    "unparsed_text_line_7": "J. F. Anders",
+    "unparsed_text_line_8": "WORK REQUESTED BY",
+    "unparsed_text_line_9": "R. S. Sprinkle, III",
+    "unparsed_text_line_10": "PROJECT OBJECTIVE",
+    "unparsed_text_line_11": "To develop a nonfilter menthol cigarette",
+    "unparsed_text_line_12": "delivering 21-24 mg \"tar\" as a menthol",
+    "unparsed_text_line_13": "companion to PALL MALL Famous Cigarettes.",
+    "unparsed_text_line_14": "ference.",
+    "unparsed_text_line_15": "OTHER PERSONNEL ASSIGNED",
+    "unparsed_text_line_16": "E.P.Barbee"
+  },
+  "evaluation": {
+    "mode": "auto",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 7,
+      "total_prediction_fields": 17,
+      "matched_key_count": 0,
+      "correct_fields": 0,
+      "field_level_extraction_accuracy_pct": 0.0,
+      "matched_field_value_exact_match_pct": 0.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 0,
+      "false_positive": 17,
+      "false_negative": 7,
+      "precision_pct": 0.0,
+      "recall_pct": 0.0,
+      "f1_pct": 0.0,
+      "anls_pct": 0.0,
+      "anls_fields_scored": 7,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {}
+    },
+    "incorrect_values": [],
+    "key_match_methods": {}
+  },
+  "missing_from_predictions": [
+    {
+      "key": "PROJECT CODE",
+      "ground_truth_value": "PNRM"
+    },
+    {
+      "key": "DATE",
+      "ground_truth_value": "April 30, 1985"
+    },
+    {
+      "key": "PROJECT NAME",
+      "ground_truth_value": "PALL MALL Regular Menthol"
+    },
+    {
+      "key": "PROJECT LEADER",
+      "ground_truth_value": "J. F. Anders"
+    },
+    {
+      "key": "WORK REQUESTED BY",
+      "ground_truth_value": "R. S. Sprinkle, III"
+    },
+    {
+      "key": "PROJECT OBJECTIVE",
+      "ground_truth_value": "To develop a nonfilter menthol cigarette delivering 21-24 mg \"tar\" as a menthol companion to PALL MALL Famous Cigarettes. Cigarette dimensions: 84 x 24.9 mm circum-ference."
+    },
+    {
+      "key": "OTHER PERSONNEL ASSIGNED",
+      "ground_truth_value": "E. P. Barbee"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "cigarette_dimensions",
+      "predicted_value": "84 x 24.9 mm circum"
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "PROJECT CODE"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "PNRM"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "DATE April 30, 1985"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "PROJECT NAME"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "PALL MALL Regular Menthol"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "PROJECT LEADER"
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "J. F. Anders"
+    },
+    {
+      "key": "unparsed_text_line_8",
+      "predicted_value": "WORK REQUESTED BY"
+    },
+    {
+      "key": "unparsed_text_line_9",
+      "predicted_value": "R. S. Sprinkle, III"
+    },
+    {
+      "key": "unparsed_text_line_10",
+      "predicted_value": "PROJECT OBJECTIVE"
+    },
+    {
+      "key": "unparsed_text_line_11",
+      "predicted_value": "To develop a nonfilter menthol cigarette"
+    },
+    {
+      "key": "unparsed_text_line_12",
+      "predicted_value": "delivering 21-24 mg \"tar\" as a menthol"
+    },
+    {
+      "key": "unparsed_text_line_13",
+      "predicted_value": "companion to PALL MALL Famous Cigarettes."
+    },
+    {
+      "key": "unparsed_text_line_14",
+      "predicted_value": "ference."
+    },
+    {
+      "key": "unparsed_text_line_15",
+      "predicted_value": "OTHER PERSONNEL ASSIGNED"
+    },
+    {
+      "key": "unparsed_text_line_16",
+      "predicted_value": "E.P.Barbee"
+    }
+  ]
+}

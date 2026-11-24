@@ -1,0 +1,197 @@
+{
+  "file": "3.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Personal Information.Full Name": "MOUMITA ROY",
+    "Personal Information.Place Birth": "Kolkata",
+    "Personal Information.Birth of Date": "22/11/2008",
+    "Personal Information.Full Address": "Flat 9B, Ujjwala Apartments, Salt Lake Sector V, Kolkata",
+    "Personal Information.Nationality": "Indian",
+    "Personal Information.City/Country": "Kolkata, India",
+    "Personal Information.Gender": "Female",
+    "Personal Information.Email": "moumita.roy@gmail.com",
+    "Personal Information.Phone Number": "+91-9831122334",
+    "Type Of Membership.Regular (3 month)": "Yes",
+    "Type Of Membership.Gold (6 month)": "No",
+    "Type Of Membership.Platinum (12 month)": "No"
+  },
+  "predictions_flattened": {
+    "document_title": "Personal Information",
+    "place_birth": "kolkata",
+    "birth_of_date": "22/11/2008",
+    "full_address": "Flat 93, Ujjwala, Afarootments, Saltlake Section V, kalyana",
+    "nationality": "Indian",
+    "city_country": "\\( \\left\\{ \\begin{array}{ll} \\text{Kolkata, India} & \\text{;} \\end{array}\\right. \\)",
+    "gander": "Female",
+    "email": "mounita.noay@gmail.com",
+    "document_title_2": "Type Of Membership",
+    "document_title_3": "Term & Condition",
+    "unparsed_text_line_1": "#",
+    "unparsed_text_line_2": "Membership Form",
+    "unparsed_text_line_3": "Fradel and Spies Fitness",
+    "unparsed_text_line_4": "Full Name MOUVITA ROY",
+    "unparsed_text_line_5": "Phone Number \\( + {91} - {98311022334} \\)",
+    "unparsed_text_line_6": "*Choose your type of membership",
+    "unparsed_text_line_7": "Regular (3 month)",
+    "unparsed_text_line_8": "Gold (6 month)",
+    "unparsed_text_line_9": "Platinum (12 month)",
+    "unparsed_text_line_10": "This membership is valid",
+    "unparsed_text_line_11": "Membership includes the facilities available",
+    "unparsed_text_line_12": "Membership is not automatic"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 12,
+      "total_prediction_fields": 22,
+      "matched_key_count": 7,
+      "correct_fields": 4,
+      "field_level_extraction_accuracy_pct": 33.33,
+      "matched_field_value_exact_match_pct": 57.14,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 4,
+      "false_positive": 18,
+      "false_negative": 8,
+      "precision_pct": 18.18,
+      "recall_pct": 33.33,
+      "f1_pct": 23.53,
+      "anls_pct": 47.26,
+      "anls_fields_scored": 12,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "leaf_normalized_exact": 6,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Personal Information.Full Address",
+        "predicted_key": "full_address",
+        "ground_truth_value": "Flat 9B, Ujjwala Apartments, Salt Lake Sector V, Kolkata",
+        "predicted_value": "Flat 93, Ujjwala, Afarootments, Saltlake Section V, kalyana",
+        "normalized_ground_truth_value": "flat9b,ujjwalaapartments,saltlakesectorv,kolkata",
+        "normalized_predicted_value": "flat93,ujjwala,afarootments,saltlakesectionv,kalyana",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.City/Country",
+        "predicted_key": "city_country",
+        "ground_truth_value": "Kolkata, India",
+        "predicted_value": "\\( \\left\\{ \\begin{array}{ll} \\text{Kolkata, India} & \\text{;} \\end{array}\\right. \\)",
+        "normalized_ground_truth_value": "kolkata,india",
+        "normalized_predicted_value": "\\(\\left\\{\\begin{array}{ll}\\text{kolkata,india}&\\text{;}\\end{array}\\right.\\)",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Personal Information.Email",
+        "predicted_key": "email",
+        "ground_truth_value": "moumita.roy@gmail.com",
+        "predicted_value": "mounita.noay@gmail.com",
+        "normalized_ground_truth_value": "moumita.roy@gmail.com",
+        "normalized_predicted_value": "mounita.noay@gmail.com",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "leaf_normalized_exact": 6,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Personal Information.Full Name",
+      "ground_truth_value": "MOUMITA ROY"
+    },
+    {
+      "key": "Personal Information.Phone Number",
+      "ground_truth_value": "+91-9831122334"
+    },
+    {
+      "key": "Type Of Membership.Regular (3 month)",
+      "ground_truth_value": "Yes"
+    },
+    {
+      "key": "Type Of Membership.Gold (6 month)",
+      "ground_truth_value": "No"
+    },
+    {
+      "key": "Type Of Membership.Platinum (12 month)",
+      "ground_truth_value": "No"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "Personal Information"
+    },
+    {
+      "key": "document_title_2",
+      "predicted_value": "Type Of Membership"
+    },
+    {
+      "key": "document_title_3",
+      "predicted_value": "Term & Condition"
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "#"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "Membership Form"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "Fradel and Spies Fitness"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "Full Name MOUVITA ROY"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "Phone Number \\( + {91} - {98311022334} \\)"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "*Choose your type of membership"
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "Regular (3 month)"
+    },
+    {
+      "key": "unparsed_text_line_8",
+      "predicted_value": "Gold (6 month)"
+    },
+    {
+      "key": "unparsed_text_line_9",
+      "predicted_value": "Platinum (12 month)"
+    },
+    {
+      "key": "unparsed_text_line_10",
+      "predicted_value": "This membership is valid"
+    },
+    {
+      "key": "unparsed_text_line_11",
+      "predicted_value": "Membership includes the facilities available"
+    },
+    {
+      "key": "unparsed_text_line_12",
+      "predicted_value": "Membership is not automatic"
+    }
+  ]
+}

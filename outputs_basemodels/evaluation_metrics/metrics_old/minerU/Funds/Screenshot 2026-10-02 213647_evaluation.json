@@ -1,0 +1,127 @@
+{
+  "file": "Screenshot 2026-10-02 213647.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "TO": "JACK REILLY",
+    "TELECOPY NO": "212/545-3297",
+    "FROM": "JIM DALEY",
+    "#": "392",
+    "DATE": "JANUARY 31, 1997",
+    "TIME": "",
+    "SHB Client Matter No.": "LORL45048",
+    "Pages transmitted including cover sheet": "3",
+    "Special Instructions": "",
+    "If you experience any problems, please call extension": "2100"
+  },
+  "predictions_flattened": {
+    "to": "JACK REILLY",
+    "telecopy_no": "212/545-3297",
+    "from": "JIM DALEY",
+    "date": "JANUARY 31,1997",
+    "time": "",
+    "shb_client_matter_no": "",
+    "lori": "45048",
+    "pages_transmitted_including_cover_sheet": "",
+    "special_instructions": "",
+    "operator": "List",
+    "unparsed_text_line_1": "#: 392",
+    "unparsed_text_line_2": "3",
+    "unparsed_text_line_3": "ORIGINAL DOCUMENT WILL FOLLOW VIA FEDERAL EXPRESS.",
+    "unparsed_text_line_4": "If you experience any problems, please call extension 4000"
+  },
+  "evaluation": {
+    "mode": "auto",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 10,
+      "total_prediction_fields": 14,
+      "matched_key_count": 7,
+      "correct_fields": 6,
+      "field_level_extraction_accuracy_pct": 60.0,
+      "matched_field_value_exact_match_pct": 85.71,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 4,
+      "false_positive": 6,
+      "false_negative": 4,
+      "precision_pct": 40.0,
+      "recall_pct": 50.0,
+      "f1_pct": 44.44,
+      "anls_pct": 50.0,
+      "anls_fields_scored": 8,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 7
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Pages transmitted including cover sheet",
+        "predicted_key": "pages_transmitted_including_cover_sheet",
+        "ground_truth_value": "3",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "3",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 7
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "#",
+      "ground_truth_value": "392"
+    },
+    {
+      "key": "SHB Client Matter No.",
+      "ground_truth_value": "LORL45048"
+    },
+    {
+      "key": "If you experience any problems, please call extension",
+      "ground_truth_value": "2100"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "shb_client_matter_no",
+      "predicted_value": ""
+    },
+    {
+      "key": "lori",
+      "predicted_value": "45048"
+    },
+    {
+      "key": "operator",
+      "predicted_value": "List"
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "#: 392"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "3"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "ORIGINAL DOCUMENT WILL FOLLOW VIA FEDERAL EXPRESS."
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "If you experience any problems, please call extension 4000"
+    }
+  ]
+}

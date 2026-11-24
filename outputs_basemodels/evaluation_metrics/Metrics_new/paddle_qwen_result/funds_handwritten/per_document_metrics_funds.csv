@@ -1,0 +1,27 @@
+﻿combined_kv_precision_pct,combined_kv_recall_pct,combined_kv_f1_pct,normalized_edit_distance_similarity_pct,strict_form_accuracy_pct,strict_form_correct,ground_truth_fields,prediction_fields,matched_key_pairs,missing_keys,extra_keys,incorrect_values,tp,fp,fn,file,status,prediction_file
+83.33,71.43,76.92,81.4,0.0,False,7,6,6,1,0,1,5,1,2,Screenshot 2026-10-02 213637.json,ok,Screenshot 2026-10-02 213637.json
+60.0,60.0,60.0,69.18,0.0,False,10,10,10,0,0,4,6,4,4,Screenshot 2026-10-02 213647.json,ok,Screenshot 2026-10-02 213647.json
+82.35,87.5,84.85,90.03,0.0,False,16,17,16,0,1,2,14,3,2,Screenshot 2026-10-02 213723.json,ok,Screenshot 2026-10-02 213723.json
+100.0,100.0,100.0,98.56,100.0,True,8,8,8,0,0,0,8,0,0,Screenshot 2026-10-02 213822.json,ok,Screenshot 2026-10-02 213822.json
+88.24,88.24,88.24,85.1,0.0,False,17,17,17,0,0,2,15,2,2,Screenshot 2026-10-02 214917.json,ok,Screenshot 2026-10-02 214917.json
+100.0,100.0,100.0,99.63,100.0,True,5,5,5,0,0,0,5,0,0,Screenshot 2026-10-02 214931.json,ok,Screenshot 2026-10-02 214931.json
+66.67,66.67,66.67,98.89,0.0,False,6,6,6,0,0,2,4,2,2,Screenshot 2026-10-02 215047.json,ok,Screenshot 2026-10-02 215047.json
+100.0,100.0,100.0,99.63,100.0,True,6,6,6,0,0,0,6,0,0,Screenshot 2026-10-02 215103.json,ok,Screenshot 2026-10-02 215103.json
+100.0,100.0,100.0,97.78,100.0,True,5,5,5,0,0,0,5,0,0,Screenshot 2026-10-02 215121.json,ok,Screenshot 2026-10-02 215121.json
+87.5,77.78,82.35,75.94,0.0,False,9,8,8,1,0,1,7,1,2,Screenshot 2026-10-02 215141.json,ok,Screenshot 2026-10-02 215141.json
+100.0,100.0,100.0,100.0,100.0,True,5,5,5,0,0,0,5,0,0,Screenshot 2026-10-02 215213.json,ok,Screenshot 2026-10-02 215213.json
+100.0,100.0,100.0,99.77,100.0,True,8,8,8,0,0,0,8,0,0,Screenshot 2026-10-02 215239.json,ok,Screenshot 2026-10-02 215239.json
+85.71,85.71,85.71,99.8,0.0,False,7,7,7,0,0,1,6,1,1,Screenshot 2026-10-02 215250.json,ok,Screenshot 2026-10-02 215250.json
+22.22,25.0,23.53,48.58,0.0,False,8,9,8,0,1,6,2,7,6,Screenshot 2026-10-02 215341.json,ok,Screenshot 2026-10-02 215341.json
+100.0,100.0,100.0,99.5,100.0,True,11,11,11,0,0,0,11,0,0,Screenshot 2026-10-02 215359.json,ok,Screenshot 2026-10-02 215359.json
+100.0,100.0,100.0,100.0,100.0,True,6,6,6,0,0,0,6,0,0,Screenshot 2026-10-02 215426.json,ok,Screenshot 2026-10-02 215426.json
+93.75,93.75,93.75,87.73,0.0,False,16,16,16,0,0,1,15,1,1,Screenshot 2026-10-02 215455.json,ok,Screenshot 2026-10-02 215455.json
+100.0,100.0,100.0,100.0,100.0,True,6,6,6,0,0,0,6,0,0,Screenshot 2026-10-02 215533.json,ok,Screenshot 2026-10-02 215533.json
+80.0,80.0,80.0,99.77,0.0,False,5,5,5,0,0,1,4,1,1,Screenshot 2026-10-02 215548.json,ok,Screenshot 2026-10-02 215548.json
+75.0,85.71,80.0,78.31,0.0,False,7,8,7,0,1,1,6,2,1,Screenshot 2026-10-02 215557.json,ok,Screenshot 2026-10-02 215557.json
+100.0,100.0,100.0,90.22,100.0,True,5,5,5,0,0,0,5,0,0,Screenshot 2026-10-02 215609.json,ok,Screenshot 2026-10-02 215609.json
+22.22,25.0,23.53,46.81,0.0,False,8,9,8,0,1,6,2,7,6,Screenshot 2026-10-02 215642.json,ok,Screenshot 2026-10-02 215642.json
+26.47,26.47,26.47,36.56,0.0,False,34,34,34,0,0,25,9,25,25,Screenshot 2026-10-02 215912.json,ok,Screenshot 2026-10-02 215912.json
+100.0,100.0,100.0,99.6,0.0,False,6,6,6,0,0,0,6,0,0,Screenshot 2026-10-02 215930.json,ok,Screenshot 2026-10-02 215930.json
+100.0,100.0,100.0,99.8,0.0,False,7,7,7,0,0,0,7,0,0,Screenshot 2026-10-02 215944.json,ok,Screenshot 2026-10-02 215944.json
+100.0,100.0,100.0,98.64,100.0,True,8,8,8,0,0,0,8,0,0,Screenshot 2026-10-02 220032.json,ok,Screenshot 2026-10-02 220032.json

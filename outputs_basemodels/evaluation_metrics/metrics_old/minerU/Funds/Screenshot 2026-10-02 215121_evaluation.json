@@ -1,0 +1,72 @@
+{
+  "file": "Screenshot 2026-10-02 215121.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "DESCRIPTION": "VICEROY Rich Lights 100's 20's Label",
+    "BRAND(S)": "VICEROY Rich Lights",
+    "DESIGN NO.": "81-257",
+    "UPC NO.": "272972",
+    "MATERIAL NO.": "50-034A"
+  },
+  "predictions_flattened": {},
+  "evaluation": {
+    "mode": "auto",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 5,
+      "total_prediction_fields": 0,
+      "matched_key_count": 0,
+      "correct_fields": 0,
+      "field_level_extraction_accuracy_pct": 0.0,
+      "matched_field_value_exact_match_pct": 0.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 5,
+      "precision_pct": 0.0,
+      "recall_pct": 0.0,
+      "f1_pct": 0.0,
+      "anls_pct": 0.0,
+      "anls_fields_scored": 5,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {}
+    },
+    "incorrect_values": [],
+    "key_match_methods": {}
+  },
+  "missing_from_predictions": [
+    {
+      "key": "DESCRIPTION",
+      "ground_truth_value": "VICEROY Rich Lights 100's 20's Label"
+    },
+    {
+      "key": "BRAND(S)",
+      "ground_truth_value": "VICEROY Rich Lights"
+    },
+    {
+      "key": "DESIGN NO.",
+      "ground_truth_value": "81-257"
+    },
+    {
+      "key": "UPC NO.",
+      "ground_truth_value": "272972"
+    },
+    {
+      "key": "MATERIAL NO.",
+      "ground_truth_value": "50-034A"
+    }
+  ],
+  "extra_in_predictions": []
+}

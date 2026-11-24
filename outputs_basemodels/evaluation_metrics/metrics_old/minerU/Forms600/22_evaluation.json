@@ -1,0 +1,610 @@
+{
+  "file": "22.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "Train No. & Name": "",
+    "Date of Journey": "18-06-2025",
+    "Class": "SL",
+    "No. of Berth/Seats": "2",
+    "Station From": "Pune",
+    "To": "Patna",
+    "Boarding at": "Pune",
+    "Reservation Upto": "Patna",
+    "Passenger 1.Name in Block Letters (not more than 15 Characters)": "AMIT PATEL",
+    "Passenger 1.Gender(M/F)": "M",
+    "Passenger 1.Age": "20",
+    "Passenger 1.Concession/Travel Authority No": "TRV-2025-4",
+    "Passenger 1.Berth Choice Lower/Upper": "Middle",
+    "Passenger 1.Veg/Non-Veg.for Rajdhani Shatabi Exp Only": "Non-Veg",
+    "Passenger 2.Name in Block Letters (not more than 15 Characters)": "DEEPAK REDDY",
+    "Passenger 2.Gender(M/F)": "M",
+    "Passenger 2.Age": "20",
+    "Passenger 2.Concession/Travel Authority No": "TRV-2025-7",
+    "Passenger 2.Berth Choice Lower/Upper": "Side Upper",
+    "Passenger 2.Veg/Non-Veg.for Rajdhani Shatabi Exp Only": "Non-Veg",
+    "Childern below 5 years (Fo whom ticket is not to be issued).Name in block letters children": "",
+    "Childern below 5 years (Fo whom ticket is not to be issued).Gender M/F children": "",
+    "Childern below 5 years (Fo whom ticket is not to be issued).Age children": "",
+    "Onward/Return Journey Details.Train No. & Name": "12621 Tamil Nadu Express",
+    "Onward/Return Journey Details.Date of Journey": "18-06-2025",
+    "Onward/Return Journey Details.Class": "SL",
+    "Onward/Return Journey Details.No. of Berths/Seats": "",
+    "Onward/Return Journey Details.Station From": "Pune",
+    "Onward/Return Journey Details.To": "Patna",
+    "Onward/Return Journey Details.Name of Applicant": "Priyabrata Chakraborty",
+    "Onward/Return Journey Details.Full Address": "Flat 8A, Ramakrishna Nagar, Near Ramakrishna Mission, Golpark, Kolkata, West Bengal - 700029",
+    "Onward/Return Journey Details.Signature of the Applicant/Representative": "",
+    "Onward/Return Journey Details.Tel /Mob.No. if any": "+91-9831456789",
+    "Onward/Return Journey Details.Date": "31-05-2025",
+    "Onward/Return Journey Details.Time": "05:29",
+    "For Official Use Only.S.No. Requisition": "REQ-2025-83061",
+    "For Official Use Only.PNR No": "5702367000",
+    "For Official Use Only.Berth /Seat No": "",
+    "For Official Use Only.Amount Collected": "728",
+    "For Official Use Only.Signature of Reservation Clerk": ""
+  },
+  "predictions_flattened": {
+    "com": "744/FHET (Rev)",
+    "train_no_name": "12621 Tamil Nadu Express Date of Journey: 18-06-2025 Class: SL",
+    "date_of_journey": "",
+    "class": "",
+    "no_of_berth_seats": "",
+    "station_from": "",
+    "to": "",
+    "boarding_at": "Pune",
+    "reservation_upto": "Fatna",
+    "s_no_row_1": "1.",
+    "name_in_block_letters_not_more_than_15_characters_row_1": "AMIT PATEL",
+    "gen_der_of_m_f_row_1": "M",
+    "age_row_1": "20",
+    "concession_travel_authority_no_row_1": "TRV-2025A",
+    "birth_choice_lower_lower_row_1": "Middle",
+    "veg_non_veg_for_haemag_statute_exp_only_row_1": "Non-Veg",
+    "s_no_row_2": "2.",
+    "name_in_block_letters_not_more_than_15_characters_row_2": "DEEPAK REDDY",
+    "gen_der_of_m_f_row_2": "M",
+    "age_row_2": "20",
+    "concession_travel_authority_no_row_2": "TRV-2025A",
+    "birth_choice_lower_lower_row_2": "Side Up",
+    "veg_non_veg_for_haemag_statute_exp_only_row_2": "Non-Veg",
+    "s_no_row_3": "3.",
+    "name_in_block_letters_not_more_than_15_characters_row_3": "",
+    "gen_der_of_m_f_row_3": "",
+    "age_row_3": "",
+    "concession_travel_authority_no_row_3": "",
+    "birth_choice_lower_lower_row_3": "",
+    "veg_non_veg_for_haemag_statute_exp_only_row_3": "",
+    "s_no_row_4": "4.",
+    "name_in_block_letters_not_more_than_15_characters_row_4": "",
+    "gen_der_of_m_f_row_4": "",
+    "age_row_4": "",
+    "concession_travel_authority_no_row_4": "",
+    "birth_choice_lower_lower_row_4": "",
+    "veg_non_veg_for_haemag_statute_exp_only_row_4": "",
+    "s_no_row_5": "5.",
+    "name_in_block_letters_not_more_than_15_characters_row_5": "",
+    "gen_der_of_m_f_row_5": "",
+    "age_row_5": "",
+    "concession_travel_authority_no_row_5": "",
+    "birth_choice_lower_lower_row_5": "",
+    "veg_non_veg_for_haemag_statute_exp_only_row_5": "",
+    "s_no_row_6": "6.",
+    "name_in_block_letters_not_more_than_15_characters_row_6": "",
+    "gen_der_of_m_f_row_6": "",
+    "age_row_6": "",
+    "concession_travel_authority_no_row_6": "",
+    "birth_choice_lower_lower_row_6": "",
+    "veg_non_veg_for_haemag_statute_exp_only_row_6": "",
+    "document_title": "Onward/Return Journey Details",
+    "no_of_berths_seats": "Station From Punc To: Patha",
+    "name_of_applicant": "Priyabrata Cha Kna bhoty",
+    "full_address": "Flat 5H2Kanikobishna Nagop",
+    "kakata_host_bongai_f": "00029",
+    "tel_mob_no_if_any": "+91-9831456789 Date: 31-5-2025 Time: 05:20",
+    "document_title_2": "For Official Use Only",
+    "requieh_2005_008_3064_pnr_no_202361064bert_seal_no": "Amount Collected: A28 Signature of Reservier Clerk",
+    "maximum_permissible_passengers_are_6_per_requisition": "",
+    "one_person_can_give_one_requisition_form_at_a_time": "",
+    "please_check_your_ticket_balance_amount_before_leaving_the_window": "",
+    "forms_not_properly_filled_or_illegible_shall_not_be_entertained": "",
+    "choice_is_subject_to_availability": "",
+    "passengers_booked_on_single_ticket_may_or_may_not_get_compact_accommodation_in_the_upgraded_class": "",
+    "unparsed_text_line_1": "South Central Railway",
+    "unparsed_text_line_2": "RESERVATION/CANCELLATION REQUISITION FROM",
+    "unparsed_text_line_3": "If you are a Medical Practitioner, Please Tick (v) in Box (you could be of help in an Emergency) If you want Sr. Citizen concession, please write Yes/No in box if Yes, Please carry a proof of age during the journey to avoid inconvenience of penal charting under extant Railway Rules). If you want to apply for a public transport ticket, please write Yes/No in box if this option is not exercise, full fare paying passengers may be upgraded automatically)",
+    "unparsed_text_line_4": "Nape Rapa Kipishma Niayi - Gjol Park",
+    "unparsed_text_line_5": "Signature of the Applicant /",
+    "unparsed_text_line_6": "Representative",
+    "unparsed_text_line_7": "7. Pregnant women travelling alone may submit certificate from a Registered Medical Practitioner to be considered for lower berth separately earmarked.",
+    "unparsed_text_line_8": "4"
+  },
+  "evaluation": {
+    "mode": "schemafree",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 40,
+      "total_prediction_fields": 73,
+      "matched_key_count": 14,
+      "correct_fields": 3,
+      "field_level_extraction_accuracy_pct": 7.5,
+      "matched_field_value_exact_match_pct": 21.43,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 3,
+      "false_positive": 35,
+      "false_negative": 29,
+      "precision_pct": 7.89,
+      "recall_pct": 9.38,
+      "f1_pct": 8.57,
+      "anls_pct": 19.55,
+      "anls_fields_scored": 32,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 6,
+        "leaf_normalized_exact": 2,
+        "fuzzy_lexical_leaf_fallback": 6
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "Date of Journey",
+        "predicted_key": "date_of_journey",
+        "ground_truth_value": "18-06-2025",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "18-06-2025",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Class",
+        "predicted_key": "class",
+        "ground_truth_value": "SL",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "sl",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Station From",
+        "predicted_key": "station_from",
+        "ground_truth_value": "Pune",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "pune",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "To",
+        "predicted_key": "to",
+        "ground_truth_value": "Patna",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "patna",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Reservation Upto",
+        "predicted_key": "reservation_upto",
+        "ground_truth_value": "Patna",
+        "predicted_value": "Fatna",
+        "normalized_ground_truth_value": "patna",
+        "normalized_predicted_value": "fatna",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Onward/Return Journey Details.Name of Applicant",
+        "predicted_key": "name_of_applicant",
+        "ground_truth_value": "Priyabrata Chakraborty",
+        "predicted_value": "Priyabrata Cha Kna bhoty",
+        "normalized_ground_truth_value": "priyabratachakraborty",
+        "normalized_predicted_value": "priyabratachaknabhoty",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Onward/Return Journey Details.Full Address",
+        "predicted_key": "full_address",
+        "ground_truth_value": "Flat 8A, Ramakrishna Nagar, Near Ramakrishna Mission, Golpark, Kolkata, West Bengal - 700029",
+        "predicted_value": "Flat 5H2Kanikobishna Nagop",
+        "normalized_ground_truth_value": "flat8a,ramakrishnanagar,nearramakrishnamission,golpark,kolkata,westbengal-700029",
+        "normalized_predicted_value": "flat5h2kanikobishnanagop",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Passenger 1.Concession/Travel Authority No",
+        "predicted_key": "concession_travel_authority_no_row_1",
+        "ground_truth_value": "TRV-2025-4",
+        "predicted_value": "TRV-2025A",
+        "normalized_ground_truth_value": "trv-2025-4",
+        "normalized_predicted_value": "trv-2025a",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Passenger 2.Concession/Travel Authority No",
+        "predicted_key": "concession_travel_authority_no_row_2",
+        "ground_truth_value": "TRV-2025-7",
+        "predicted_value": "TRV-2025A",
+        "normalized_ground_truth_value": "trv-2025-7",
+        "normalized_predicted_value": "trv-2025a",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Onward/Return Journey Details.No. of Berths/Seats",
+        "predicted_key": "no_of_berths_seats",
+        "ground_truth_value": "",
+        "predicted_value": "Station From Punc To: Patha",
+        "normalized_ground_truth_value": "",
+        "normalized_predicted_value": "stationfrompuncto:patha",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "No. of Berth/Seats",
+        "predicted_key": "no_of_berth_seats",
+        "ground_truth_value": "2",
+        "predicted_value": "",
+        "normalized_ground_truth_value": "2",
+        "normalized_predicted_value": "",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 6,
+      "leaf_normalized_exact": 2,
+      "fuzzy_lexical_leaf_fallback": 6
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Train No. & Name",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Passenger 1.Gender(M/F)",
+      "ground_truth_value": "M"
+    },
+    {
+      "key": "Passenger 1.Age",
+      "ground_truth_value": "20"
+    },
+    {
+      "key": "Passenger 1.Berth Choice Lower/Upper",
+      "ground_truth_value": "Middle"
+    },
+    {
+      "key": "Passenger 1.Veg/Non-Veg.for Rajdhani Shatabi Exp Only",
+      "ground_truth_value": "Non-Veg"
+    },
+    {
+      "key": "Passenger 2.Gender(M/F)",
+      "ground_truth_value": "M"
+    },
+    {
+      "key": "Passenger 2.Age",
+      "ground_truth_value": "20"
+    },
+    {
+      "key": "Passenger 2.Berth Choice Lower/Upper",
+      "ground_truth_value": "Side Upper"
+    },
+    {
+      "key": "Passenger 2.Veg/Non-Veg.for Rajdhani Shatabi Exp Only",
+      "ground_truth_value": "Non-Veg"
+    },
+    {
+      "key": "Childern below 5 years (Fo whom ticket is not to be issued).Name in block letters children",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Childern below 5 years (Fo whom ticket is not to be issued).Gender M/F children",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Childern below 5 years (Fo whom ticket is not to be issued).Age children",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Onward/Return Journey Details.Train No. & Name",
+      "ground_truth_value": "12621 Tamil Nadu Express"
+    },
+    {
+      "key": "Onward/Return Journey Details.Date of Journey",
+      "ground_truth_value": "18-06-2025"
+    },
+    {
+      "key": "Onward/Return Journey Details.Class",
+      "ground_truth_value": "SL"
+    },
+    {
+      "key": "Onward/Return Journey Details.Station From",
+      "ground_truth_value": "Pune"
+    },
+    {
+      "key": "Onward/Return Journey Details.To",
+      "ground_truth_value": "Patna"
+    },
+    {
+      "key": "Onward/Return Journey Details.Signature of the Applicant/Representative",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Onward/Return Journey Details.Tel /Mob.No. if any",
+      "ground_truth_value": "+91-9831456789"
+    },
+    {
+      "key": "Onward/Return Journey Details.Date",
+      "ground_truth_value": "31-05-2025"
+    },
+    {
+      "key": "Onward/Return Journey Details.Time",
+      "ground_truth_value": "05:29"
+    },
+    {
+      "key": "For Official Use Only.S.No. Requisition",
+      "ground_truth_value": "REQ-2025-83061"
+    },
+    {
+      "key": "For Official Use Only.PNR No",
+      "ground_truth_value": "5702367000"
+    },
+    {
+      "key": "For Official Use Only.Berth /Seat No",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "For Official Use Only.Amount Collected",
+      "ground_truth_value": "728"
+    },
+    {
+      "key": "For Official Use Only.Signature of Reservation Clerk",
+      "ground_truth_value": ""
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "com",
+      "predicted_value": "744/FHET (Rev)"
+    },
+    {
+      "key": "train_no_name",
+      "predicted_value": "12621 Tamil Nadu Express Date of Journey: 18-06-2025 Class: SL"
+    },
+    {
+      "key": "s_no_row_1",
+      "predicted_value": "1."
+    },
+    {
+      "key": "gen_der_of_m_f_row_1",
+      "predicted_value": "M"
+    },
+    {
+      "key": "age_row_1",
+      "predicted_value": "20"
+    },
+    {
+      "key": "birth_choice_lower_lower_row_1",
+      "predicted_value": "Middle"
+    },
+    {
+      "key": "veg_non_veg_for_haemag_statute_exp_only_row_1",
+      "predicted_value": "Non-Veg"
+    },
+    {
+      "key": "s_no_row_2",
+      "predicted_value": "2."
+    },
+    {
+      "key": "gen_der_of_m_f_row_2",
+      "predicted_value": "M"
+    },
+    {
+      "key": "age_row_2",
+      "predicted_value": "20"
+    },
+    {
+      "key": "birth_choice_lower_lower_row_2",
+      "predicted_value": "Side Up"
+    },
+    {
+      "key": "veg_non_veg_for_haemag_statute_exp_only_row_2",
+      "predicted_value": "Non-Veg"
+    },
+    {
+      "key": "s_no_row_3",
+      "predicted_value": "3."
+    },
+    {
+      "key": "name_in_block_letters_not_more_than_15_characters_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "gen_der_of_m_f_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "age_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "concession_travel_authority_no_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "birth_choice_lower_lower_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "veg_non_veg_for_haemag_statute_exp_only_row_3",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_row_4",
+      "predicted_value": "4."
+    },
+    {
+      "key": "name_in_block_letters_not_more_than_15_characters_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "gen_der_of_m_f_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "age_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "concession_travel_authority_no_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "birth_choice_lower_lower_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "veg_non_veg_for_haemag_statute_exp_only_row_4",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_row_5",
+      "predicted_value": "5."
+    },
+    {
+      "key": "name_in_block_letters_not_more_than_15_characters_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "gen_der_of_m_f_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "age_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "concession_travel_authority_no_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "birth_choice_lower_lower_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "veg_non_veg_for_haemag_statute_exp_only_row_5",
+      "predicted_value": ""
+    },
+    {
+      "key": "s_no_row_6",
+      "predicted_value": "6."
+    },
+    {
+      "key": "name_in_block_letters_not_more_than_15_characters_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "gen_der_of_m_f_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "age_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "concession_travel_authority_no_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "birth_choice_lower_lower_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "veg_non_veg_for_haemag_statute_exp_only_row_6",
+      "predicted_value": ""
+    },
+    {
+      "key": "document_title",
+      "predicted_value": "Onward/Return Journey Details"
+    },
+    {
+      "key": "kakata_host_bongai_f",
+      "predicted_value": "00029"
+    },
+    {
+      "key": "tel_mob_no_if_any",
+      "predicted_value": "+91-9831456789 Date: 31-5-2025 Time: 05:20"
+    },
+    {
+      "key": "document_title_2",
+      "predicted_value": "For Official Use Only"
+    },
+    {
+      "key": "requieh_2005_008_3064_pnr_no_202361064bert_seal_no",
+      "predicted_value": "Amount Collected: A28 Signature of Reservier Clerk"
+    },
+    {
+      "key": "maximum_permissible_passengers_are_6_per_requisition",
+      "predicted_value": ""
+    },
+    {
+      "key": "one_person_can_give_one_requisition_form_at_a_time",
+      "predicted_value": ""
+    },
+    {
+      "key": "please_check_your_ticket_balance_amount_before_leaving_the_window",
+      "predicted_value": ""
+    },
+    {
+      "key": "forms_not_properly_filled_or_illegible_shall_not_be_entertained",
+      "predicted_value": ""
+    },
+    {
+      "key": "choice_is_subject_to_availability",
+      "predicted_value": ""
+    },
+    {
+      "key": "passengers_booked_on_single_ticket_may_or_may_not_get_compact_accommodation_in_the_upgraded_class",
+      "predicted_value": ""
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "South Central Railway"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "RESERVATION/CANCELLATION REQUISITION FROM"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "If you are a Medical Practitioner, Please Tick (v) in Box (you could be of help in an Emergency) If you want Sr. Citizen concession, please write Yes/No in box if Yes, Please carry a proof of age during the journey to avoid inconvenience of penal charting under extant Railway Rules). If you want to apply for a public transport ticket, please write Yes/No in box if this option is not exercise, full fare paying passengers may be upgraded automatically)"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "Nape Rapa Kipishma Niayi - Gjol Park"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "Signature of the Applicant /"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "Representative"
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "7. Pregnant women travelling alone may submit certificate from a Registered Medical Practitioner to be considered for lower berth separately earmarked."
+    },
+    {
+      "key": "unparsed_text_line_8",
+      "predicted_value": "4"
+    }
+  ]
+}

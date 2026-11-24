@@ -1,0 +1,249 @@
+{
+  "file": "Screenshot 2026-10-02 215455.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "FROM": "M. BORSINI",
+    "TO": "VINCE LOSITO",
+    "CC": "T. BAYLIES, L. GIORDANO, V. LINDSLEY, J. SCHNEFF, S. RAPISARLDI, N. DISCENZA, E. LUNDBERG",
+    "HEADER": "HARLEY-DAVIDSON DTS CPNS",
+    "BRANDS(S) APPLICABLE": "HARLEY-DAVIDSON",
+    "MEDIA": "COUPON",
+    "ISSUE FREQUENCY/YEAR": "OCT - DEC",
+    "SPACE/COLOR": "",
+    "COUPON ISSUE DATE": "10/11/93",
+    "COUPON EXPIRATION DATE": "6/30/94",
+    "CIRCULATION": "2,852,100 - 47,200",
+    "GEOGRAPHICAL AREA(S)": "NATIONAL",
+    "COUPON VALUE": "$.50",
+    "PACK AND OR/CARTON": "PACK",
+    "ADVERTISING CREATIVE THEME": "",
+    "DATE INITIATED": "8/06/93"
+  },
+  "predictions_flattened": {
+    "from": "M. BORSINI",
+    "to": "VINCE LOSITO",
+    "cc": "T. BAYLIES, L. GIORDANO, V. LINDSLEY, J. SCHNEFF, S. RAPISARLDI, N. DISCEMIA, L. WNDEEG",
+    "document_title": "HARLEY-DAVIDSON DTS CPNS",
+    "unparsed_text_line_1": "BRANDS(S) APPLICABLE",
+    "unparsed_text_line_2": "HARLEY-DAVIDSON",
+    "unparsed_text_line_3": "MEDIA",
+    "unparsed_text_line_4": "COUPON",
+    "unparsed_text_line_5": "ISSUE FREQUENCY/YEAR",
+    "unparsed_text_line_6": "OCT-DEC",
+    "unparsed_text_line_7": "SPACE/COLOR",
+    "unparsed_text_line_8": "COUPON ISSUE DATE",
+    "unparsed_text_line_9": "10/11/93",
+    "unparsed_text_line_10": "COUPON EXPIRATION DATE",
+    "unparsed_text_line_11": "6/30/94",
+    "unparsed_text_line_12": "CIRCULATION",
+    "unparsed_text_line_13": "2,852,100 47,200",
+    "unparsed_text_line_14": "GEOGRAPHICAL AREA(S)",
+    "unparsed_text_line_15": "NATIONAL",
+    "unparsed_text_line_16": "COUPON VALUE",
+    "unparsed_text_line_17": "\\$50",
+    "unparsed_text_line_18": "PACK AND OR/CARTON",
+    "unparsed_text_line_19": "PACK",
+    "unparsed_text_line_20": "ADVERTISING CREATIVE THEMES",
+    "unparsed_text_line_21": "SIGNATURE OF INITIATOR",
+    "unparsed_text_line_22": "DATE INITIATED"
+  },
+  "evaluation": {
+    "mode": "auto",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 16,
+      "total_prediction_fields": 26,
+      "matched_key_count": 3,
+      "correct_fields": 2,
+      "field_level_extraction_accuracy_pct": 12.5,
+      "matched_field_value_exact_match_pct": 66.67,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 2,
+      "false_positive": 24,
+      "false_negative": 12,
+      "precision_pct": 7.69,
+      "recall_pct": 14.29,
+      "f1_pct": 10.0,
+      "anls_pct": 20.77,
+      "anls_fields_scored": 14,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 3
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "CC",
+        "predicted_key": "cc",
+        "ground_truth_value": "T. BAYLIES, L. GIORDANO, V. LINDSLEY, J. SCHNEFF, S. RAPISARLDI, N. DISCENZA, E. LUNDBERG",
+        "predicted_value": "T. BAYLIES, L. GIORDANO, V. LINDSLEY, J. SCHNEFF, S. RAPISARLDI, N. DISCEMIA, L. WNDEEG",
+        "normalized_ground_truth_value": "t.baylies,l.giordano,v.lindsley,j.schneff,s.rapisarldi,n.discenza,e.lundberg",
+        "normalized_predicted_value": "t.baylies,l.giordano,v.lindsley,j.schneff,s.rapisarldi,n.discemia,l.wndeeg",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 3
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "HEADER",
+      "ground_truth_value": "HARLEY-DAVIDSON DTS CPNS"
+    },
+    {
+      "key": "BRANDS(S) APPLICABLE",
+      "ground_truth_value": "HARLEY-DAVIDSON"
+    },
+    {
+      "key": "MEDIA",
+      "ground_truth_value": "COUPON"
+    },
+    {
+      "key": "ISSUE FREQUENCY/YEAR",
+      "ground_truth_value": "OCT - DEC"
+    },
+    {
+      "key": "SPACE/COLOR",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "COUPON ISSUE DATE",
+      "ground_truth_value": "10/11/93"
+    },
+    {
+      "key": "COUPON EXPIRATION DATE",
+      "ground_truth_value": "6/30/94"
+    },
+    {
+      "key": "CIRCULATION",
+      "ground_truth_value": "2,852,100 - 47,200"
+    },
+    {
+      "key": "GEOGRAPHICAL AREA(S)",
+      "ground_truth_value": "NATIONAL"
+    },
+    {
+      "key": "COUPON VALUE",
+      "ground_truth_value": "$.50"
+    },
+    {
+      "key": "PACK AND OR/CARTON",
+      "ground_truth_value": "PACK"
+    },
+    {
+      "key": "ADVERTISING CREATIVE THEME",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "DATE INITIATED",
+      "ground_truth_value": "8/06/93"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "document_title",
+      "predicted_value": "HARLEY-DAVIDSON DTS CPNS"
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "BRANDS(S) APPLICABLE"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "HARLEY-DAVIDSON"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "MEDIA"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "COUPON"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "ISSUE FREQUENCY/YEAR"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "OCT-DEC"
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "SPACE/COLOR"
+    },
+    {
+      "key": "unparsed_text_line_8",
+      "predicted_value": "COUPON ISSUE DATE"
+    },
+    {
+      "key": "unparsed_text_line_9",
+      "predicted_value": "10/11/93"
+    },
+    {
+      "key": "unparsed_text_line_10",
+      "predicted_value": "COUPON EXPIRATION DATE"
+    },
+    {
+      "key": "unparsed_text_line_11",
+      "predicted_value": "6/30/94"
+    },
+    {
+      "key": "unparsed_text_line_12",
+      "predicted_value": "CIRCULATION"
+    },
+    {
+      "key": "unparsed_text_line_13",
+      "predicted_value": "2,852,100 47,200"
+    },
+    {
+      "key": "unparsed_text_line_14",
+      "predicted_value": "GEOGRAPHICAL AREA(S)"
+    },
+    {
+      "key": "unparsed_text_line_15",
+      "predicted_value": "NATIONAL"
+    },
+    {
+      "key": "unparsed_text_line_16",
+      "predicted_value": "COUPON VALUE"
+    },
+    {
+      "key": "unparsed_text_line_17",
+      "predicted_value": "\\$50"
+    },
+    {
+      "key": "unparsed_text_line_18",
+      "predicted_value": "PACK AND OR/CARTON"
+    },
+    {
+      "key": "unparsed_text_line_19",
+      "predicted_value": "PACK"
+    },
+    {
+      "key": "unparsed_text_line_20",
+      "predicted_value": "ADVERTISING CREATIVE THEMES"
+    },
+    {
+      "key": "unparsed_text_line_21",
+      "predicted_value": "SIGNATURE OF INITIATOR"
+    },
+    {
+      "key": "unparsed_text_line_22",
+      "predicted_value": "DATE INITIATED"
+    }
+  ]
+}

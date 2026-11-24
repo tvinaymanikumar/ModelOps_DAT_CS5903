@@ -1,0 +1,222 @@
+{
+  "file": "Screenshot 2026-10-02 213723.json",
+  "status": "ok",
+  "prediction_error": null,
+  "ground_truth_flattened": {
+    "From": "Lynnette Stevens",
+    "To": "Kelli Scruggs",
+    "CC": "Vincent Losito, Don Kisling, George Baroody, S. Tesh, C. Hill",
+    "Brand(s) Applicable": "Newport Parent, Lights, & 120's",
+    "Media Type": "Direct Mail",
+    "Media Name": "Competitive 21 - 34 years",
+    "* Issue Frequency / Year": "",
+    "* Space / Color": "",
+    "Coupon Issue Date": "4/14/00",
+    "Coupon Expiration Date": "9/30/00",
+    "Circulation (#)": "APPROX. 600,000",
+    "Geographical Area(s)": "Tiers II & IV AR,AZ,AK,CA,CO,FL,ID,IA,CT,ME,MASS,MN,MT,NE,NV,NM,NY,ND,OK,OR,RI,SD,UT,WA,D.C.,WY",
+    "Coupon Value": "$1.50 OFF",
+    "Pack and / or Carton?": "PACK",
+    "* Advertising Creative Title": "",
+    "Date Initiated": "21-Jan-00"
+  },
+  "predictions_flattened": {
+    "from": "Lynnette Stevens",
+    "to": "Kelli Scruggs",
+    "cc": "Vincent Losito George Barodyo",
+    "circulation_approx_600": "000",
+    "geographical_area_s_tiers_ii_iv_nv_nm_ny_nd_ok_or_r": "1,SD,UT,W.A.D.C.WY",
+    "coupon_value_s1": "50 OFF",
+    "unparsed_text_line_1": "Don Kisling",
+    "unparsed_text_line_2": "S.Tech C.Niil",
+    "unparsed_text_line_3": "Brand(s) Applicable Newport Parent, Lights. & 120's",
+    "unparsed_text_line_4": "Media Type Direct Mail",
+    "unparsed_text_line_5": "Media Name Competitive 21-34 years",
+    "unparsed_text_line_6": "\\* Issue Frequency / Year",
+    "unparsed_text_line_7": "\\*Space/Color",
+    "unparsed_text_line_8": "Coupon Issue Date 4/14/00",
+    "unparsed_text_line_9": "Coupon Expiration Date 9/30/00",
+    "unparsed_text_line_10": "AR.AZ.AK.CA.CO.FLID.IA.CT.ME.MASS.MN.MT.NE",
+    "unparsed_text_line_11": "Pack and / or Carton?",
+    "unparsed_text_line_12": "\\*Advertising Creative Title",
+    "unparsed_text_line_13": "Signature of Initiator",
+    "unparsed_text_line_14": "Date Initiated"
+  },
+  "evaluation": {
+    "mode": "auto",
+    "normalization": {
+      "keys": "case-insensitive; whitespace/punctuation normalized; nested parent prefixes ignored when unique leaf labels match; common aliases used",
+      "values": "Unicode NFKC, lowercase, all whitespace removed; punctuation preserved",
+      "semantic_key_matching": true,
+      "semantic_key_threshold": 0.8,
+      "semantic_backend": "lexical fallback; review unmatched/different key labels",
+      "anls_threshold_tau": 0.5,
+      "single_choice_options": "when the ground truth defines one positive option in a binary option group, a matching selected-option prediction may be evaluated as Yes/No values"
+    },
+    "metrics": {
+      "total_ground_truth_fields": 16,
+      "total_prediction_fields": 20,
+      "matched_key_count": 4,
+      "correct_fields": 2,
+      "field_level_extraction_accuracy_pct": 12.5,
+      "matched_field_value_exact_match_pct": 50.0,
+      "document_exact_match": false,
+      "document_exact_match_pct": 0.0,
+      "true_positive": 2,
+      "false_positive": 18,
+      "false_negative": 11,
+      "precision_pct": 10.0,
+      "recall_pct": 15.38,
+      "f1_pct": 12.12,
+      "anls_pct": 20.19,
+      "anls_fields_scored": 13,
+      "semantic_similarity_pct": null,
+      "semantic_similarity_fields_scored": 0,
+      "document_type_classification": null,
+      "key_match_methods": {
+        "normalized_exact": 3,
+        "fuzzy_lexical_leaf_fallback": 1
+      }
+    },
+    "incorrect_values": [
+      {
+        "ground_truth_key": "CC",
+        "predicted_key": "cc",
+        "ground_truth_value": "Vincent Losito, Don Kisling, George Baroody, S. Tesh, C. Hill",
+        "predicted_value": "Vincent Losito George Barodyo",
+        "normalized_ground_truth_value": "vincentlosito,donkisling,georgebaroody,s.tesh,c.hill",
+        "normalized_predicted_value": "vincentlositogeorgebarodyo",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      },
+      {
+        "ground_truth_key": "Coupon Value",
+        "predicted_key": "coupon_value_s1",
+        "ground_truth_value": "$1.50 OFF",
+        "predicted_value": "50 OFF",
+        "normalized_ground_truth_value": "$1.50off",
+        "normalized_predicted_value": "50off",
+        "reason": "values differ after case-insensitive and whitespace-insensitive normalization"
+      }
+    ],
+    "key_match_methods": {
+      "normalized_exact": 3,
+      "fuzzy_lexical_leaf_fallback": 1
+    }
+  },
+  "missing_from_predictions": [
+    {
+      "key": "Brand(s) Applicable",
+      "ground_truth_value": "Newport Parent, Lights, & 120's"
+    },
+    {
+      "key": "Media Type",
+      "ground_truth_value": "Direct Mail"
+    },
+    {
+      "key": "Media Name",
+      "ground_truth_value": "Competitive 21 - 34 years"
+    },
+    {
+      "key": "* Issue Frequency / Year",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "* Space / Color",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Coupon Issue Date",
+      "ground_truth_value": "4/14/00"
+    },
+    {
+      "key": "Coupon Expiration Date",
+      "ground_truth_value": "9/30/00"
+    },
+    {
+      "key": "Circulation (#)",
+      "ground_truth_value": "APPROX. 600,000"
+    },
+    {
+      "key": "Geographical Area(s)",
+      "ground_truth_value": "Tiers II & IV AR,AZ,AK,CA,CO,FL,ID,IA,CT,ME,MASS,MN,MT,NE,NV,NM,NY,ND,OK,OR,RI,SD,UT,WA,D.C.,WY"
+    },
+    {
+      "key": "Pack and / or Carton?",
+      "ground_truth_value": "PACK"
+    },
+    {
+      "key": "* Advertising Creative Title",
+      "ground_truth_value": ""
+    },
+    {
+      "key": "Date Initiated",
+      "ground_truth_value": "21-Jan-00"
+    }
+  ],
+  "extra_in_predictions": [
+    {
+      "key": "circulation_approx_600",
+      "predicted_value": "000"
+    },
+    {
+      "key": "geographical_area_s_tiers_ii_iv_nv_nm_ny_nd_ok_or_r",
+      "predicted_value": "1,SD,UT,W.A.D.C.WY"
+    },
+    {
+      "key": "unparsed_text_line_1",
+      "predicted_value": "Don Kisling"
+    },
+    {
+      "key": "unparsed_text_line_2",
+      "predicted_value": "S.Tech C.Niil"
+    },
+    {
+      "key": "unparsed_text_line_3",
+      "predicted_value": "Brand(s) Applicable Newport Parent, Lights. & 120's"
+    },
+    {
+      "key": "unparsed_text_line_4",
+      "predicted_value": "Media Type Direct Mail"
+    },
+    {
+      "key": "unparsed_text_line_5",
+      "predicted_value": "Media Name Competitive 21-34 years"
+    },
+    {
+      "key": "unparsed_text_line_6",
+      "predicted_value": "\\* Issue Frequency / Year"
+    },
+    {
+      "key": "unparsed_text_line_7",
+      "predicted_value": "\\*Space/Color"
+    },
+    {
+      "key": "unparsed_text_line_8",
+      "predicted_value": "Coupon Issue Date 4/14/00"
+    },
+    {
+      "key": "unparsed_text_line_9",
+      "predicted_value": "Coupon Expiration Date 9/30/00"
+    },
+    {
+      "key": "unparsed_text_line_10",
+      "predicted_value": "AR.AZ.AK.CA.CO.FLID.IA.CT.ME.MASS.MN.MT.NE"
+    },
+    {
+      "key": "unparsed_text_line_11",
+      "predicted_value": "Pack and / or Carton?"
+    },
+    {
+      "key": "unparsed_text_line_12",
+      "predicted_value": "\\*Advertising Creative Title"
+    },
+    {
+      "key": "unparsed_text_line_13",
+      "predicted_value": "Signature of Initiator"
+    },
+    {
+      "key": "unparsed_text_line_14",
+      "predicted_value": "Date Initiated"
+    }
+  ]
+}
